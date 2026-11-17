@@ -1,0 +1,1630 @@
+{
+  "extName": {
+    "message": "Read Later Local"
+  },
+  "extDescription": {
+    "message": "Save pages to read later. Everything stays on your computer: no account, no servers."
+  },
+  "actionTitle": {
+    "message": "Last saved (Read Later Local)"
+  },
+  "commandSave": {
+    "message": "Save the current page"
+  },
+  "menuSaveLink": {
+    "message": "Save link to read later"
+  },
+  "menuSavePage": {
+    "message": "Save page to read later"
+  },
+  "saved": {
+    "message": "Saved"
+  },
+  "undo": {
+    "message": "Undo"
+  },
+  "alreadySaved": {
+    "message": "Already saved"
+  },
+  "cantSave": {
+    "message": "This page can't be saved"
+  },
+  "saveRemoved": {
+    "message": "Removed"
+  },
+  "recent": {
+    "message": "Last saved"
+  },
+  "viewAll": {
+    "message": "View all"
+  },
+  "export": {
+    "message": "Export CSV"
+  },
+  "import": {
+    "message": "Import"
+  },
+  "open": {
+    "message": "Open"
+  },
+  "archive": {
+    "message": "Archive"
+  },
+  "unarchive": {
+    "message": "Move to unread"
+  },
+  "delete": {
+    "message": "Delete"
+  },
+  "deleted": {
+    "message": "Moved to the trash"
+  },
+  "archived": {
+    "message": "Archived"
+  },
+  "movedToUnread": {
+    "message": "Moved to unread"
+  },
+  "emptyRecentTitle": {
+    "message": "Save your first page"
+  },
+  "emptyRecentBody": {
+    "message": "Click the toolbar button on any page to keep it here."
+  },
+  "searchPlaceholder": {
+    "message": "Search titles, URLs, notes or text"
+  },
+  "filterUnread": {
+    "message": "Unread"
+  },
+  "filterArchive": {
+    "message": "Archived"
+  },
+  "filterAll": {
+    "message": "All"
+  },
+  "gridView": {
+    "message": "Grid view"
+  },
+  "listView": {
+    "message": "List view"
+  },
+  "loadingMore": {
+    "message": "Loading more…"
+  },
+  "noResults": {
+    "message": "Nothing matches your search."
+  },
+  "emptyListTitle": {
+    "message": "Nothing here yet"
+  },
+  "emptyListBody": {
+    "message": "Save pages with the toolbar button or import a CSV backup."
+  },
+  "importChoose": {
+    "message": "Choose a CSV file to import"
+  },
+  "importing": {
+    "message": "Importing…"
+  },
+  "importResult": {
+    "message": "$ADDED$ imported, $DUP$ already saved, $BAD$ invalid",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "dup": {
+        "content": "$2"
+      },
+      "bad": {
+        "content": "$3"
+      }
+    }
+  },
+  "importError": {
+    "message": "That file couldn't be read. Check it's a CSV with a url column."
+  },
+  "exportDone": {
+    "message": "$COUNT$ items exported",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount": {
+    "message": "$COUNT$ items",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "filterFavorite": {
+    "message": "Favorites"
+  },
+  "favorite": {
+    "message": "Add to favorites"
+  },
+  "unfavorite": {
+    "message": "Remove from favorites"
+  },
+  "addedToFavorites": {
+    "message": "Added to favorites"
+  },
+  "removedFromFavorites": {
+    "message": "Removed from favorites"
+  },
+  "editTags": {
+    "message": "Tags"
+  },
+  "tagsPlaceholder": {
+    "message": "css, linux, someday"
+  },
+  "tagsHelp": {
+    "message": "Separate with commas. Enter saves, Esc cancels."
+  },
+  "tagsSaved": {
+    "message": "Tags saved"
+  },
+  "reader": {
+    "message": "Read offline"
+  },
+  "openOriginal": {
+    "message": "Open original page"
+  },
+  "dataPage": {
+    "message": "Data and backups"
+  },
+  "exportCsv": {
+    "message": "CSV (Pocket compatible)"
+  },
+  "exportHtml": {
+    "message": "HTML bookmarks (any browser)"
+  },
+  "exportFull": {
+    "message": "Full backup (.json.gz)"
+  },
+  "shortcuts": {
+    "message": "Keyboard shortcuts"
+  },
+  "kbSearch": {
+    "message": "Search (supports tag:name)"
+  },
+  "kbMove": {
+    "message": "Move through the list"
+  },
+  "kbOpen": {
+    "message": "Open the page"
+  },
+  "kbReader": {
+    "message": "Open the reader"
+  },
+  "kbArchive": {
+    "message": "Archive / move to unread"
+  },
+  "kbFavorite": {
+    "message": "Favorite"
+  },
+  "kbTags": {
+    "message": "Edit tags"
+  },
+  "kbDelete": {
+    "message": "Delete (with undo)"
+  },
+  "kbHelp": {
+    "message": "Show this help"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "readerBack": {
+    "message": "View all"
+  },
+  "readerSettings": {
+    "message": "Reading settings"
+  },
+  "theme": {
+    "message": "Theme"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "themeSepia": {
+    "message": "Sepia"
+  },
+  "themeSystem": {
+    "message": "System"
+  },
+  "fontSize": {
+    "message": "Text size"
+  },
+  "width": {
+    "message": "Column width"
+  },
+  "widthNarrow": {
+    "message": "Narrow"
+  },
+  "widthMedium": {
+    "message": "Medium"
+  },
+  "widthWide": {
+    "message": "Wide"
+  },
+  "font": {
+    "message": "Font"
+  },
+  "fontSerif": {
+    "message": "Serif"
+  },
+  "fontSans": {
+    "message": "Sans serif"
+  },
+  "readingTime": {
+    "message": "$MIN$ min read",
+    "placeholders": {
+      "min": {
+        "content": "$1"
+      }
+    }
+  },
+  "noArticle": {
+    "message": "This item has no saved article."
+  },
+  "storageTitle": {
+    "message": "Storage used"
+  },
+  "statItems": {
+    "message": "Items"
+  },
+  "statArticles": {
+    "message": "Saved articles"
+  },
+  "statThumbs": {
+    "message": "Thumbnails"
+  },
+  "statFavicons": {
+    "message": "Site icons"
+  },
+  "statTotal": {
+    "message": "Total on disk (approx.)"
+  },
+  "freeSpace": {
+    "message": "Delete articles of archived items"
+  },
+  "freeSpaceHelp": {
+    "message": "Frees space: removes the saved text of archived items. The links stay."
+  },
+  "freedArticles": {
+    "message": "$N$ articles deleted",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupTitle": {
+    "message": "Automatic backups"
+  },
+  "backupEnable": {
+    "message": "Make automatic backups"
+  },
+  "backupHelp": {
+    "message": "Saves a full backup (items, tags, favorites, thumbnails and articles) to Downloads/ReadLaterLocal. Checked when Firefox starts and when you save something."
+  },
+  "backupFrequency": {
+    "message": "Frequency"
+  },
+  "daily": {
+    "message": "Daily"
+  },
+  "weekly": {
+    "message": "Weekly"
+  },
+  "monthly": {
+    "message": "Monthly"
+  },
+  "backupKeep": {
+    "message": "Backups to keep"
+  },
+  "backupNow": {
+    "message": "Back up now"
+  },
+  "backupLast": {
+    "message": "Last backup: $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupNever": {
+    "message": "No backup made yet"
+  },
+  "backupDone": {
+    "message": "Backup saved to Downloads/$FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupFailed": {
+    "message": "The backup couldn't be made."
+  },
+  "exportTitle": {
+    "message": "Export"
+  },
+  "exportHelp": {
+    "message": "CSV and bookmarks only hold the links. The full backup also holds articles and thumbnails."
+  },
+  "importTitle": {
+    "message": "Import"
+  },
+  "importHelp": {
+    "message": "A Pocket or Read Later Local CSV, or a full backup (.json.gz). It never deletes or overwrites what you have."
+  },
+  "chooseFile": {
+    "message": "Choose file"
+  },
+  "fetchTitle": {
+    "message": "Background download"
+  },
+  "fetchHelp": {
+    "message": "You can also download everything now, faster, while this tab stays open:"
+  },
+  "fetchPending": {
+    "message": "$N$ items pending",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchStart": {
+    "message": "Download articles"
+  },
+  "fetchRetry": {
+    "message": "Include ones that failed before"
+  },
+  "fetchCancel": {
+    "message": "Cancel"
+  },
+  "fetchProgress": {
+    "message": "$DONE$ of $TOTAL$ · $OK$ with article · $PARTIAL$ without article · $FAILED$ failed",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "ok": {
+        "content": "$3"
+      },
+      "partial": {
+        "content": "$4"
+      },
+      "failed": {
+        "content": "$5"
+      }
+    }
+  },
+  "fetchKeepOpen": {
+    "message": "Keep this tab open while it downloads."
+  },
+  "fetchDenied": {
+    "message": "Without that permission they can't be downloaded."
+  },
+  "fetchFinished": {
+    "message": "Finished."
+  },
+  "revokePermission": {
+    "message": "Remove website access permission"
+  },
+  "permissionRevoked": {
+    "message": "Permission removed"
+  },
+  "dangerTitle": {
+    "message": "Delete everything"
+  },
+  "dangerHelp": {
+    "message": "Deletes items, articles, thumbnails and icons. This can't be undone: export a backup first."
+  },
+  "deleteAll": {
+    "message": "Delete all data"
+  },
+  "confirmDeleteAll": {
+    "message": "Are you sure? $N$ items will be deleted and this can't be undone.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allDeleted": {
+    "message": "Data deleted"
+  },
+  "exportMenu": {
+    "message": "Export"
+  },
+  "commandShowList": {
+    "message": "Show last saved"
+  },
+  "seeRecent": {
+    "message": "See last saved"
+  },
+  "languageTitle": {
+    "message": "Language"
+  },
+  "languageHelp": {
+    "message": "Extension language. “Automatic” follows Firefox's language, or English if the extension doesn't have it."
+  },
+  "languageAuto": {
+    "message": "Automatic (Firefox language)"
+  },
+  "pageActionTitle": {
+    "message": "Save to read later"
+  },
+  "saveThisPage": {
+    "message": "Save this page"
+  },
+  "menuSaveCurrent": {
+    "message": "Save this page"
+  },
+  "fetchingArticle": {
+    "message": "Downloading the article…"
+  },
+  "fetchArticle": {
+    "message": "Download article"
+  },
+  "articleFailed": {
+    "message": "The article couldn't be extracted from this page. You can open it on the web."
+  },
+  "articleNeedsPermission": {
+    "message": "This item has no saved text yet. To download it, Firefox will ask for permission to access websites (you can remove it in Data and backups)."
+  },
+  "surprise": {
+    "message": "Surprise me"
+  },
+  "surpriseNone": {
+    "message": "Nothing to open with these filters."
+  },
+  "select": {
+    "message": "Select"
+  },
+  "selectAll": {
+    "message": "Select all ($N$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectedCount": {
+    "message": "$N$ selected",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "apply": {
+    "message": "Apply"
+  },
+  "kindAll": {
+    "message": "All types"
+  },
+  "kindArticle": {
+    "message": "Articles"
+  },
+  "kindVideo": {
+    "message": "Videos"
+  },
+  "kindImage": {
+    "message": "Images"
+  },
+  "kindOther": {
+    "message": "Other"
+  },
+  "collectionAll": {
+    "message": "All collections"
+  },
+  "collectionNone": {
+    "message": "No collection"
+  },
+  "collectionNew": {
+    "message": "New collection…"
+  },
+  "collectionNamePrompt": {
+    "message": "Collection name"
+  },
+  "orderNewest": {
+    "message": "Newest first"
+  },
+  "orderOldest": {
+    "message": "Oldest first"
+  },
+  "shortReads": {
+    "message": "Short (<5 min)"
+  },
+  "tabTags": {
+    "message": "Tags"
+  },
+  "tabSites": {
+    "message": "Sites"
+  },
+  "showMore": {
+    "message": "Show more"
+  },
+  "showLess": {
+    "message": "Show less"
+  },
+  "minutes": {
+    "message": "$N$ min",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "more": {
+    "message": "More actions"
+  },
+  "editNote": {
+    "message": "Personal note"
+  },
+  "notePlaceholder": {
+    "message": "Why did you save it?"
+  },
+  "noteHelp": {
+    "message": "Ctrl+Enter saves, Esc cancels."
+  },
+  "noteSaved": {
+    "message": "Note saved"
+  },
+  "moveToCollection": {
+    "message": "Move to collection"
+  },
+  "movedToCollection": {
+    "message": "Moved to $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "removedFromCollection": {
+    "message": "Removed from the collection"
+  },
+  "copyLink": {
+    "message": "Copy link"
+  },
+  "linkCopied": {
+    "message": "Link copied"
+  },
+  "suggested": {
+    "message": "Suggested:"
+  },
+  "bulkArchive": {
+    "message": "Archive"
+  },
+  "bulkUnread": {
+    "message": "Unread"
+  },
+  "bulkFavorite": {
+    "message": "Favorite"
+  },
+  "bulkTag": {
+    "message": "Tag…"
+  },
+  "bulkCollection": {
+    "message": "Collection…"
+  },
+  "bulkDelete": {
+    "message": "Delete"
+  },
+  "bulkDone": {
+    "message": "$N$ items updated",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted": {
+    "message": "$N$ items moved to the trash",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle": {
+    "message": "Add tags to $N$ items",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allow": {
+    "message": "Allow"
+  },
+  "notNow": {
+    "message": "Not now"
+  },
+  "bgFetchAsk": {
+    "message": "$N$ items have no text, real title or thumbnail. Turn on background download? Firefox will ask for permission to access websites.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchProgress": {
+    "message": "Downloading in the background: $DONE$ of $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "bgFetchEnable": {
+    "message": "Turn on background download (Firefox will ask for permission to access websites)"
+  },
+  "bgFetchHelp": {
+    "message": "Slowly downloads the text, real title and thumbnail of items that don't have them (imported ones, for example). So as not to slow Firefox down, it only works while “View all” or this page is open, one item at a time."
+  },
+  "kbNote": {
+    "message": "Personal note"
+  },
+  "kbCollection": {
+    "message": "Move to collection"
+  },
+  "kbSelect": {
+    "message": "Select (Shift+click: a range)"
+  },
+  "appearanceTitle": {
+    "message": "Appearance"
+  },
+  "themeHelp": {
+    "message": "Applies to the whole extension, the reader too."
+  },
+  "badgeEnable": {
+    "message": "Show the number of unread items on the toolbar button"
+  },
+  "collectionsTitle": {
+    "message": "Collections"
+  },
+  "collectionsHelp": {
+    "message": "Like folders: each item can be in one collection only."
+  },
+  "collectionsEmpty": {
+    "message": "No collections yet."
+  },
+  "addCollection": {
+    "message": "Create collection"
+  },
+  "collectionDeleted": {
+    "message": "Collection deleted (its items are kept)"
+  },
+  "rename": {
+    "message": "Rename"
+  },
+  "rulesTitle": {
+    "message": "Automatic rules"
+  },
+  "rulesHelp": {
+    "message": "Applied when saving or importing. They never remove tags or change a collection already chosen."
+  },
+  "rulesEmpty": {
+    "message": "No rules yet."
+  },
+  "ruleIf": {
+    "message": "If"
+  },
+  "ruleFieldSite": {
+    "message": "the site is"
+  },
+  "ruleFieldUrl": {
+    "message": "the URL contains"
+  },
+  "ruleFieldTitle": {
+    "message": "the title contains"
+  },
+  "ruleValue": {
+    "message": "Value"
+  },
+  "ruleThen": {
+    "message": "→"
+  },
+  "ruleAddTags": {
+    "message": "tags"
+  },
+  "ruleCollection": {
+    "message": "Move to the collection"
+  },
+  "ruleFavorite": {
+    "message": "Add to favorites"
+  },
+  "addRule": {
+    "message": "Add rule"
+  },
+  "applyRulesNow": {
+    "message": "Apply to existing items"
+  },
+  "rulesApplied": {
+    "message": "$N$ items updated",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchActivate": {
+    "message": "Turn on"
+  },
+  "iconStyleTitle": {
+    "message": "Toolbar icons"
+  },
+  "iconStyleHelp": {
+    "message": "The button with the counter and the address-bar icon."
+  },
+  "iconStyleBookmark": {
+    "message": "Bookmark"
+  },
+  "iconStyleBook": {
+    "message": "Book"
+  },
+  "iconStyleMinimal": {
+    "message": "Subtle"
+  },
+  "iconStyleLegend": {
+    "message": "In each: toolbar button · page not saved · page already saved."
+  },
+  "ruleTitlePlaceholder": {
+    "message": "a word"
+  },
+  "ruleErrSiteEmpty": {
+    "message": "Type a website, for example youtube.com"
+  },
+  "ruleErrTextEmpty": {
+    "message": "Type the text it must contain"
+  },
+  "ruleErrSite": {
+    "message": "That doesn't look like a valid website. Type just the domain, for example youtube.com or en.wikipedia.org"
+  },
+  "ruleErrUrlSpaces": {
+    "message": "An address can't contain spaces"
+  },
+  "cleanupTitle": {
+    "message": "Automatic cleanup"
+  },
+  "cleanupHelp": {
+    "message": "Moves to the trash whatever matches each active rule. The trash keeps only the title and address (text, thumbnail, tags and note are deleted to free space); items can be restored from there for 30 days. It runs when Firefox, “View all” or this page opens."
+  },
+  "cleanupEmpty": {
+    "message": "No cleanup rules yet."
+  },
+  "addCleanup": {
+    "message": "Add cleanup rule"
+  },
+  "runCleanupNow": {
+    "message": "Clean up now"
+  },
+  "openTrash": {
+    "message": "Open the trash"
+  },
+  "cleanupMove": {
+    "message": "Move to the trash"
+  },
+  "cleanupScope": {
+    "message": "Which items"
+  },
+  "cleanupScopeCollection": {
+    "message": "those in the collection"
+  },
+  "cleanupScopeTag": {
+    "message": "those tagged"
+  },
+  "cleanupScopeSite": {
+    "message": "those from the site"
+  },
+  "cleanupScopeAll": {
+    "message": "all items"
+  },
+  "chooseCollection": {
+    "message": "Choose a collection"
+  },
+  "cleanupTagPlaceholder": {
+    "message": "tag"
+  },
+  "cleanupStatus": {
+    "message": "Status"
+  },
+  "cleanupStatusAny": {
+    "message": "in any status"
+  },
+  "cleanupStatusUnread": {
+    "message": "unread only"
+  },
+  "cleanupStatusArchive": {
+    "message": "archived only"
+  },
+  "cleanupOlderThan": {
+    "message": "more than"
+  },
+  "cleanupAgo": {
+    "message": "old"
+  },
+  "cleanupAmount": {
+    "message": "Amount"
+  },
+  "cleanupUnit": {
+    "message": "Unit"
+  },
+  "unit_day": {
+    "message": "days"
+  },
+  "unit_day1": {
+    "message": "day"
+  },
+  "unit_week": {
+    "message": "weeks"
+  },
+  "unit_week1": {
+    "message": "week"
+  },
+  "unit_month": {
+    "message": "months"
+  },
+  "unit_month1": {
+    "message": "month"
+  },
+  "unit_year": {
+    "message": "years"
+  },
+  "unit_year1": {
+    "message": "year"
+  },
+  "cleanupActive": {
+    "message": "Active"
+  },
+  "cleanupAffects": {
+    "message": "If you turn it on, it would move $N$ items to the trash right now.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffectsActive": {
+    "message": "To change it, turn it off first."
+  },
+  "cleanupIncomplete": {
+    "message": "Complete the rule to be able to turn it on."
+  },
+  "cleanupActivate": {
+    "message": "Turn on"
+  },
+  "cleanupConfirm": {
+    "message": "Turning it on moves $N$ items to the trash now. Only their title and address are kept there, for 30 days.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone": {
+    "message": "$N$ items moved to the trash by automatic cleanup",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupRan": {
+    "message": "Cleanup done: $N$ moved to the trash, $M$ deleted for good",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "m": {
+        "content": "$2"
+      }
+    }
+  },
+  "filterTrash": {
+    "message": "Trash"
+  },
+  "trashInfo": {
+    "message": "This is what you deleted or automatic cleanup removed. Only the title and address are kept; a restored item comes back as unread and dated today (cleanup rules count from then). They're deleted for good after 30 days."
+  },
+  "emptyTrash": {
+    "message": "Empty trash"
+  },
+  "emptyTrashConfirm": {
+    "message": "$N$ items will be deleted from the trash for good.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDeletedOn": {
+    "message": "trashed on $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft": {
+    "message": "deleted in $N$ days",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashToday": {
+    "message": "deleted today"
+  },
+  "restore": {
+    "message": "Restore"
+  },
+  "deleteForever": {
+    "message": "Delete for good"
+  },
+  "trashRestored": {
+    "message": "Restored to “Unread”, dated today"
+  },
+  "trashEmpty": {
+    "message": "The trash is empty"
+  },
+  "trashEmptyBody": {
+    "message": "What you delete and what automatic cleanup removes will show up here."
+  },
+  "expireSet": {
+    "message": "Delete automatically…"
+  },
+  "expireChange": {
+    "message": "Change automatic deletion…"
+  },
+  "expireNever": {
+    "message": "Don't delete automatically"
+  },
+  "expireHelp": {
+    "message": "After that time it goes to the trash, where its title and address are kept for 30 more days."
+  },
+  "expire1d": {
+    "message": "In 1 day"
+  },
+  "expire1w": {
+    "message": "In 1 week"
+  },
+  "expire1m": {
+    "message": "In 1 month"
+  },
+  "expire3m": {
+    "message": "In 3 months"
+  },
+  "expire6m": {
+    "message": "In 6 months"
+  },
+  "expire1y": {
+    "message": "In 1 year"
+  },
+  "expireScheduled": {
+    "message": "It goes to the trash on $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireCancelled": {
+    "message": "Automatic deletion cancelled"
+  },
+  "expiresOn": {
+    "message": "Goes to the trash on $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle": {
+    "message": "Delete $N$ items automatically",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkExpire": {
+    "message": "Delete in…"
+  },
+  "kbExpire": {
+    "message": "Delete automatically…"
+  },
+  "collectionFilterBy": {
+    "message": "Show only this collection"
+  },
+  "shortReadsHelp": {
+    "message": "Shows only reads under 5 minutes (those whose text has been downloaded)."
+  },
+  "thumbSmall": {
+    "message": "Small thumbnails"
+  },
+  "thumbMedium": {
+    "message": "Medium thumbnails"
+  },
+  "thumbLarge": {
+    "message": "Large thumbnails"
+  },
+  "matchInText": {
+    "message": "in the text"
+  },
+  "matchInTextTitle": {
+    "message": "The search matches the article text"
+  },
+  "readerWithImages": {
+    "message": "Read offline (with pictures)"
+  },
+  "hlCount": {
+    "message": "$N$ highlights",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "statImages": {
+    "message": "Offline pictures"
+  },
+  "statTexts": {
+    "message": "Searchable text"
+  },
+  "exportWithImages": {
+    "message": "Include offline pictures in the full backup"
+  },
+  "exportWithImagesHelp": {
+    "message": "They can make the file much bigger. Automatic backups never include them."
+  },
+  "imagesTitle": {
+    "message": "Offline pictures"
+  },
+  "imagesHelp": {
+    "message": "Also keeps the pictures of articles to see them in the reader offline. They're deleted automatically when an item is archived. In the reader, the picture button saves or deletes them for one article."
+  },
+  "imagesEnable": {
+    "message": "Save the pictures of new articles (Firefox will ask for permission to access websites)"
+  },
+  "imagesWarning": {
+    "message": "They take much more space than text: an article with photos usually needs 0.5–3 MB, against about 10–30 KB as text only."
+  },
+  "imagesUsage": {
+    "message": "Now: $N$ pictures, $SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesClear": {
+    "message": "Delete all pictures"
+  },
+  "imagesClearConfirm": {
+    "message": "Every offline picture will be deleted. Articles and their text stay."
+  },
+  "imagesCleared": {
+    "message": "Pictures deleted"
+  },
+  "imagesEnabledToast": {
+    "message": "From now on the pictures of new articles will be saved"
+  },
+  "imagesOffTitle": {
+    "message": "Save pictures offline (takes more space)"
+  },
+  "imagesOnTitle": {
+    "message": "Pictures saved offline ($SIZE$). Click to delete them",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesArchived": {
+    "message": "Archived items don't keep pictures: they're deleted when archiving"
+  },
+  "imagesSaving": {
+    "message": "Saving pictures…"
+  },
+  "imagesProgress": {
+    "message": "Saving pictures: $DONE$ of $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved": {
+    "message": "$N$ pictures saved ($SIZE$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSavedSome": {
+    "message": "$N$ of $TOTAL$ pictures saved ($SIZE$); the rest couldn't be downloaded",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      }
+    }
+  },
+  "imagesNone": {
+    "message": "This article has no pictures"
+  },
+  "imagesFailed": {
+    "message": "No picture could be downloaded"
+  },
+  "imagesRemoved": {
+    "message": "Offline pictures deleted"
+  },
+  "archivedImagesGone": {
+    "message": "Archived (its offline pictures were deleted)"
+  },
+  "print": {
+    "message": "Print or save as PDF"
+  },
+  "hlPanel": {
+    "message": "Highlights and notes"
+  },
+  "hlHint": {
+    "message": "Turn on highlighter mode (marker button or H key) and any text you select gets highlighted with the colour chosen here or in Aa. Without it, selecting shows a “Highlight” button."
+  },
+  "hlEmpty": {
+    "message": "No highlights in this article yet."
+  },
+  "hlExport": {
+    "message": "Copy all as Markdown"
+  },
+  "hlExported": {
+    "message": "Highlights copied to the clipboard"
+  },
+  "hlColor_yellow": {
+    "message": "Yellow"
+  },
+  "hlColor_green": {
+    "message": "Green"
+  },
+  "hlColor_blue": {
+    "message": "Blue"
+  },
+  "hlColor_pink": {
+    "message": "Pink"
+  },
+  "hlAddNote": {
+    "message": "Add note"
+  },
+  "hlEditNote": {
+    "message": "Edit note"
+  },
+  "hlCopy": {
+    "message": "Copy text"
+  },
+  "hlCopied": {
+    "message": "Text copied"
+  },
+  "hlDelete": {
+    "message": "Remove highlight"
+  },
+  "hlDeleted": {
+    "message": "Highlight removed"
+  },
+  "hlNotePlaceholder": {
+    "message": "Write your note…"
+  },
+  "hlGoTo": {
+    "message": "Go to the highlight"
+  },
+  "hlLost": {
+    "message": "Not found in the article's current text"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "repairPending": {
+    "message": "$N$ articles were saved with strange characters (� instead of accents).",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairStart": {
+    "message": "Download them again"
+  },
+  "repairProgress": {
+    "message": "Repairing: $DONE$ of $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairDone": {
+    "message": "$N$ articles repaired",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairReader": {
+    "message": "This article was saved with strange characters (� instead of accents). Downloading it again fixes it; your highlights are kept."
+  },
+  "repairReaderBtn": {
+    "message": "Download again"
+  },
+  "hlColorLabel": {
+    "message": "Highlight colour"
+  },
+  "hlDo": {
+    "message": "Highlight"
+  },
+  "hlDoTitle": {
+    "message": "Highlight (H key). Change the colour in Aa or in the highlights panel"
+  },
+  "hlModeTitle": {
+    "message": "Highlighter mode: selecting text highlights it straight away (H key)"
+  },
+  "hlModeOn": {
+    "message": "Highlighter mode on: select text to highlight it"
+  },
+  "hlModeOff": {
+    "message": "Highlighter mode off"
+  },
+  "sidebarTitle": {
+    "message": "Read Later Local"
+  },
+  "commandSidebar": {
+    "message": "Open or close the sidebar"
+  },
+  "menuSidebar": {
+    "message": "Sidebar"
+  },
+  "sidebarHint": {
+    "message": "Click: open here · Ctrl+click: new tab"
+  },
+  "emailSend": {
+    "message": "Send by email"
+  },
+  "emailAttach": {
+    "message": "Attached: the saved article, {file}"
+  },
+  "emailFileSaved": {
+    "message": "A new email was opened. Attach the file “$FILE$” (its folder opens once it's saved).",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "emailLinkOnly": {
+    "message": "A new email was opened with the link (this article has no saved text)"
+  },
+  "triage": {
+    "message": "Cleanup mode"
+  },
+  "triageTitle": {
+    "message": "Go through items one at a time: keep, archive or delete (R key)"
+  },
+  "triageKeep": {
+    "message": "Keep"
+  },
+  "triageProgress": {
+    "message": "$N$ of $TOTAL$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "triageNothing": {
+    "message": "No items with these filters"
+  },
+  "triageDone": {
+    "message": "All done"
+  },
+  "triageSummary": {
+    "message": "Kept: $KEPT$ · Archived: $ARCHIVED$ · Deleted: $DELETED$",
+    "placeholders": {
+      "kept": {
+        "content": "$1"
+      },
+      "archived": {
+        "content": "$2"
+      },
+      "deleted": {
+        "content": "$3"
+      }
+    }
+  },
+  "menuSaveClose": {
+    "message": "Save and close the tab"
+  },
+  "menuSaveAllTabs": {
+    "message": "Save all tabs in the window"
+  },
+  "menuSaveTabs": {
+    "message": "Save to read later"
+  },
+  "listenTitle": {
+    "message": "Listen to the article"
+  },
+  "ttsPlay": {
+    "message": "Play"
+  },
+  "ttsPause": {
+    "message": "Pause"
+  },
+  "ttsPrev": {
+    "message": "Previous paragraph"
+  },
+  "ttsNext": {
+    "message": "Next paragraph"
+  },
+  "ttsStop": {
+    "message": "Stop listening"
+  },
+  "ttsSpeed": {
+    "message": "Speed"
+  },
+  "ttsVoice": {
+    "message": "Voice"
+  },
+  "ttsNoVoices": {
+    "message": "Firefox found no voices on this computer. In Windows: Settings → Time & language → Speech."
+  },
+  "copyMarkdown": {
+    "message": "Copy as Markdown"
+  },
+  "markdownCopied": {
+    "message": "Link copied as Markdown"
+  },
+  "saveMarkdown": {
+    "message": "Save as Markdown (Obsidian…)"
+  },
+  "markdownSaved": {
+    "message": "Saved as $FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportMarkdown": {
+    "message": "Markdown (list of links)"
+  },
+  "autoArchive": {
+    "message": "Archive when I reach the end"
+  },
+  "finishedArchived": {
+    "message": "Finished: archived"
+  },
+  "finishedArchivedImages": {
+    "message": "Finished: archived (its offline pictures were deleted)"
+  },
+  "ttsError": {
+    "message": "The article couldn’t be read aloud. Check the sound and the voices installed in the system."
+  },
+  "exportDone_one": {
+    "message": "$COUNT$ item exported",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount_one": {
+    "message": "$COUNT$ item",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "freedArticles_one": {
+    "message": "$N$ article deleted",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchPending_one": {
+    "message": "$N$ item pending",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmDeleteAll_one": {
+    "message": "Are you sure? $N$ item will be deleted and this can't be undone.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDone_one": {
+    "message": "$N$ item updated",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted_one": {
+    "message": "$N$ item moved to the trash",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle_one": {
+    "message": "Add tags to $N$ item",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchAsk_one": {
+    "message": "$N$ item has no text, real title or thumbnail. Turn on background download? Firefox will ask for permission to access websites.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "rulesApplied_one": {
+    "message": "$N$ item updated",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffects_one": {
+    "message": "If you turn it on, it would move $N$ item to the trash right now.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupConfirm_one": {
+    "message": "Turning it on moves $N$ item to the trash now. Only its title and address are kept there, for 30 days.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone_one": {
+    "message": "$N$ item moved to the trash by automatic cleanup",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "emptyTrashConfirm_one": {
+    "message": "$N$ item will be deleted from the trash for good.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft_one": {
+    "message": "deleted in $N$ day",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle_one": {
+    "message": "Delete $N$ item automatically",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "hlCount_one": {
+    "message": "$N$ highlight",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesUsage_one": {
+    "message": "Now: $N$ picture, $SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved_one": {
+    "message": "$N$ picture saved ($SIZE$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairPending_one": {
+    "message": "$N$ article was saved with strange characters (� instead of accents).",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairDone_one": {
+    "message": "$N$ article repaired",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  }
+}

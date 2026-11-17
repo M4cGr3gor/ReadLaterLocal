@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Preview</title>
+  <script type="module">
+    // Loads a real extension page (popup or list) on top of the fake browser API.
+    await import('/dev/mock-browser.js');
+    const page = new URLSearchParams(location.search).get('page') || 'popup';
+    const base = document.createElement('base');
+    base.href = `/src/${page}/`;
+    document.head.prepend(base);
+    const html = await (await fetch(`${page}.html`)).text();
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    for (const l of doc.querySelectorAll('link')) document.head.append(l);
+    for (const sc of doc.querySelectorAll('script:not([type="module"])')) {
+      await new Promise(r => { const n = document.createElement('script'); n.src = sc.getAttribute('src'); n.onload = r; document.head.append(n); });
+    }
+    document.body.innerHTML = doc.body.innerHTML;
+    if (page === 'popup' && !new URLSearchParams(location.search).get('bare')) document.body.style.cssText = 'outline:1px solid #ccc;margin:20px;';
+    await import(`/src/${page}/${page}.js`);
+  </script>
+</head>
+<body></body>
+</html>

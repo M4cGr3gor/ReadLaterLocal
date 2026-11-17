@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Read Later Local</title>
+  <link rel="icon" href="../icons/icon.svg">
+  <link rel="stylesheet" href="../lib/base.css">
+  <link rel="stylesheet" href="reader.css">
+  <script type="module" src="reader.js"></script>
+</head>
+<body>
+  <header class="bar">
+    <a id="back" class="bar-btn" href="../list/list.html"><span data-i18n="readerBack"></span></a>
+    <span class="spacer"></span>
+    <a id="original" class="bar-btn" target="_blank" rel="noopener noreferrer"><span data-i18n="openOriginal"></span></a>
+    <button id="hl-mode" class="icon-btn" type="button" aria-pressed="false" data-i18n-title="hlModeTitle"></button>
+    <button id="hl-toggle" class="icon-btn hl-toggle" type="button" aria-expanded="false" data-i18n-title="hlPanel"><span id="hl-count" class="mini-count" hidden></span></button>
+    <button id="listen" class="icon-btn" type="button" aria-pressed="false" data-i18n-title="listenTitle" hidden></button>
+    <button id="images" class="icon-btn" type="button" aria-pressed="false" hidden></button>
+    <button id="fav" class="icon-btn" type="button"></button>
+    <button id="archive" class="icon-btn" type="button"></button>
+    <div class="menu-wrap">
+      <button id="more" class="icon-btn" type="button" aria-haspopup="true" aria-expanded="false" data-i18n-title="more"></button>
+      <div id="more-menu" class="panel more-menu" role="menu" hidden>
+        <button id="print" type="button" role="menuitem"><span data-i18n="print"></span></button>
+        <button id="email" type="button" role="menuitem"><span data-i18n="emailSend"></span></button>
+        <button id="copy-md" type="button" role="menuitem"><span data-i18n="copyMarkdown"></span></button>
+        <button id="save-md" type="button" role="menuitem"><span data-i18n="saveMarkdown"></span></button>
+      </div>
+    </div>
+    <div class="menu-wrap">
+      <button id="settings" class="bar-btn" type="button" aria-haspopup="true" aria-expanded="false" data-i18n-title="readerSettings">Aa</button>
+      <div id="panel" class="panel" hidden>
+        <div class="row-label" data-i18n="theme"></div>
+        <div class="seg" data-pref="theme">
+          <button type="button" data-value="light" data-i18n="themeLight"></button>
+          <button type="button" data-value="sepia" data-i18n="themeSepia"></button>
+          <button type="button" data-value="dark" data-i18n="themeDark"></button>
+          <button type="button" data-value="system" data-i18n="themeSystem"></button>
+        </div>
+        <div class="row-label" data-i18n="fontSize"></div>
+        <div class="seg">
+          <button type="button" id="smaller" aria-label="-">A−</button>
+          <span id="size-out" class="size-out"></span>
+          <button type="button" id="bigger" aria-label="+">A+</button>
+        </div>
+        <div class="row-label" data-i18n="font"></div>
+        <div class="seg" data-pref="font">
+          <button type="button" data-value="serif" data-i18n="fontSerif"></button>
+          <button type="button" data-value="sans" data-i18n="fontSans"></button>
+        </div>
+        <div class="row-label" data-i18n="hlColorLabel"></div>
+        <div class="seg swatches" data-pref="hlColor">
+          <button type="button" class="swatch hl-yellow" data-value="yellow" data-i18n-title="hlColor_yellow"></button>
+          <button type="button" class="swatch hl-green" data-value="green" data-i18n-title="hlColor_green"></button>
+          <button type="button" class="swatch hl-blue" data-value="blue" data-i18n-title="hlColor_blue"></button>
+          <button type="button" class="swatch hl-pink" data-value="pink" data-i18n-title="hlColor_pink"></button>
+        </div>
+        <div class="row-label" data-i18n="width"></div>
+        <div class="seg" data-pref="width">
+          <button type="button" data-value="narrow" data-i18n="widthNarrow"></button>
+          <button type="button" data-value="medium" data-i18n="widthMedium"></button>
+          <button type="button" data-value="wide" data-i18n="widthWide"></button>
+        </div>
+        <label class="check-row"><input id="auto-archive" type="checkbox"> <span data-i18n="autoArchive"></span></label>
+      </div>
+    </div>
+    <div class="read-progress" aria-hidden="true"><div id="read-progress"></div></div>
+  </header>
+  <main id="page" class="page">
+    <header class="head">
+      <div id="print-url" class="print-url"></div>
+      <div id="site" class="site"></div>
+      <h1 id="title"></h1>
+      <div id="meta" class="meta"></div>
+    </header>
+    <div id="repair-note" class="repair-note" hidden>
+      <span data-i18n="repairReader"></span>
+      <button id="repair-btn" class="fetch-btn primary" type="button" data-i18n="repairReaderBtn"></button>
+    </div>
+    <article id="content" class="content"></article>
+    <p id="missing" class="missing" hidden data-i18n="noArticle"></p>
+    <div id="fetch-box" class="fetch-box" hidden>
+      <p id="fetch-msg"></p>
+      <div class="fetch-actions">
+        <button id="fetch-btn" class="fetch-btn primary" type="button" data-i18n="fetchArticle"></button>
+        <a id="fetch-web" class="fetch-btn" target="_blank" rel="noopener noreferrer" data-i18n="openOriginal"></a>
+      </div>
+    </div>
+  </main>
+  <aside id="hl-panel" class="hl-panel" hidden>
+    <header class="hl-panel-head">
+      <strong data-i18n="hlPanel"></strong>
+      <button class="hl-close icon-btn" type="button" data-i18n-title="close">×</button>
+    </header>
+    <p class="hl-hint" data-i18n="hlHint"></p>
+    <div class="hl-color-row"><span data-i18n="hlColorLabel"></span><span class="seg swatches" data-pref="hlColor">
+      <button type="button" class="swatch hl-yellow" data-value="yellow" data-i18n-title="hlColor_yellow"></button>
+      <button type="button" class="swatch hl-green" data-value="green" data-i18n-title="hlColor_green"></button>
+      <button type="button" class="swatch hl-blue" data-value="blue" data-i18n-title="hlColor_blue"></button>
+      <button type="button" class="swatch hl-pink" data-value="pink" data-i18n-title="hlColor_pink"></button>
+    </span></div>
+    <ul class="hl-list"></ul>
+    <button class="hl-export fetch-btn" type="button" data-i18n="hlExport"></button>
+  </aside>
+  <div id="tts-bar" class="tts-bar" hidden>
+    <button id="tts-prev" class="icon-btn" type="button" data-i18n-title="ttsPrev"></button>
+    <button id="tts-play" class="icon-btn tts-play" type="button"></button>
+    <button id="tts-next" class="icon-btn" type="button" data-i18n-title="ttsNext"></button>
+    <select id="tts-rate" data-i18n-title="ttsSpeed"></select>
+    <select id="tts-voice" data-i18n-title="ttsVoice"></select>
+    <button id="tts-stop" class="icon-btn" type="button" data-i18n-title="ttsStop"></button>
+  </div>
+  <div id="toasts" class="toast-area"></div>
+</body>
+</html>

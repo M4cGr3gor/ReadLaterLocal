@@ -1,0 +1,1464 @@
+{
+  "extName": {
+    "message": "Read Later Local"
+  },
+  "extDescription": {
+    "message": "Zapisuj strony, aby przeczytać je później. Wszystko zostaje na Twoim komputerze: bez konta, bez serwerów."
+  },
+  "actionTitle": {
+    "message": "Ostatnio zapisane (Read Later Local)"
+  },
+  "commandSave": {
+    "message": "Zapisz bieżącą stronę"
+  },
+  "menuSaveLink": {
+    "message": "Zapisz link na później"
+  },
+  "menuSavePage": {
+    "message": "Zapisz stronę na później"
+  },
+  "saved": {
+    "message": "Zapisano"
+  },
+  "undo": {
+    "message": "Cofnij"
+  },
+  "alreadySaved": {
+    "message": "Już zapisano"
+  },
+  "cantSave": {
+    "message": "Tej strony nie można zapisać"
+  },
+  "saveRemoved": {
+    "message": "Usunięto"
+  },
+  "recent": {
+    "message": "Ostatnio zapisane"
+  },
+  "viewAll": {
+    "message": "Zobacz wszystko"
+  },
+  "export": {
+    "message": "Eksportuj CSV"
+  },
+  "import": {
+    "message": "Importuj"
+  },
+  "open": {
+    "message": "Otwórz"
+  },
+  "archive": {
+    "message": "Archiwizuj"
+  },
+  "unarchive": {
+    "message": "Przenieś do nieprzeczytanych"
+  },
+  "delete": {
+    "message": "Usuń"
+  },
+  "deleted": {
+    "message": "Przeniesiono do kosza"
+  },
+  "archived": {
+    "message": "Zarchiwizowano"
+  },
+  "movedToUnread": {
+    "message": "Przeniesiono do nieprzeczytanych"
+  },
+  "emptyRecentTitle": {
+    "message": "Zapisz swoją pierwszą stronę"
+  },
+  "emptyRecentBody": {
+    "message": "Kliknij przycisk na pasku narzędzi na dowolnej stronie, aby ją tu zachować."
+  },
+  "searchPlaceholder": {
+    "message": "Szukaj w tytułach, adresach, notatkach lub tekście"
+  },
+  "filterUnread": {
+    "message": "Nieprzeczytane"
+  },
+  "filterArchive": {
+    "message": "Zarchiwizowane"
+  },
+  "filterAll": {
+    "message": "Wszystkie"
+  },
+  "gridView": {
+    "message": "Widok siatki"
+  },
+  "listView": {
+    "message": "Widok listy"
+  },
+  "loadingMore": {
+    "message": "Wczytywanie…"
+  },
+  "noResults": {
+    "message": "Nic nie pasuje do wyszukiwania."
+  },
+  "emptyListTitle": {
+    "message": "Jeszcze nic tu nie ma"
+  },
+  "emptyListBody": {
+    "message": "Zapisuj strony przyciskiem na pasku narzędzi lub zaimportuj kopię CSV."
+  },
+  "importChoose": {
+    "message": "Wybierz plik CSV do importu"
+  },
+  "importing": {
+    "message": "Importowanie…"
+  },
+  "importResult": {
+    "message": "Zaimportowano: $ADDED$, już zapisane: $DUP$, nieprawidłowe: $BAD$",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "dup": {
+        "content": "$2"
+      },
+      "bad": {
+        "content": "$3"
+      }
+    }
+  },
+  "importError": {
+    "message": "Nie udało się odczytać pliku. Sprawdź, czy to CSV z kolumną url."
+  },
+  "exportDone": {
+    "message": "Wyeksportowano elementy: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount": {
+    "message": "Elementy: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "filterFavorite": {
+    "message": "Ulubione"
+  },
+  "favorite": {
+    "message": "Dodaj do ulubionych"
+  },
+  "unfavorite": {
+    "message": "Usuń z ulubionych"
+  },
+  "addedToFavorites": {
+    "message": "Dodano do ulubionych"
+  },
+  "removedFromFavorites": {
+    "message": "Usunięto z ulubionych"
+  },
+  "editTags": {
+    "message": "Tagi"
+  },
+  "tagsPlaceholder": {
+    "message": "css, linux, kiedyś"
+  },
+  "tagsHelp": {
+    "message": "Oddziel przecinkami. Enter zapisuje, Esc anuluje."
+  },
+  "tagsSaved": {
+    "message": "Zapisano tagi"
+  },
+  "reader": {
+    "message": "Czytaj offline"
+  },
+  "openOriginal": {
+    "message": "Otwórz oryginalną stronę"
+  },
+  "dataPage": {
+    "message": "Dane i kopie zapasowe"
+  },
+  "exportCsv": {
+    "message": "CSV (zgodny z Pocket)"
+  },
+  "exportHtml": {
+    "message": "Zakładki HTML (dowolna przeglądarka)"
+  },
+  "exportFull": {
+    "message": "Pełna kopia zapasowa (.json.gz)"
+  },
+  "shortcuts": {
+    "message": "Skróty klawiaturowe"
+  },
+  "kbSearch": {
+    "message": "Szukaj (obsługuje tag:nazwa)"
+  },
+  "kbMove": {
+    "message": "Poruszanie się po liście"
+  },
+  "kbOpen": {
+    "message": "Otwórz stronę"
+  },
+  "kbReader": {
+    "message": "Otwórz czytnik"
+  },
+  "kbArchive": {
+    "message": "Archiwizuj / przenieś do nieprzeczytanych"
+  },
+  "kbFavorite": {
+    "message": "Ulubione"
+  },
+  "kbTags": {
+    "message": "Edytuj tagi"
+  },
+  "kbDelete": {
+    "message": "Usuń (z cofnięciem)"
+  },
+  "kbHelp": {
+    "message": "Pokaż tę pomoc"
+  },
+  "close": {
+    "message": "Zamknij"
+  },
+  "readerBack": {
+    "message": "Zobacz wszystko"
+  },
+  "readerSettings": {
+    "message": "Ustawienia czytania"
+  },
+  "theme": {
+    "message": "Motyw"
+  },
+  "themeLight": {
+    "message": "Jasny"
+  },
+  "themeDark": {
+    "message": "Ciemny"
+  },
+  "themeSepia": {
+    "message": "Sepia"
+  },
+  "themeSystem": {
+    "message": "Systemowy"
+  },
+  "fontSize": {
+    "message": "Rozmiar tekstu"
+  },
+  "width": {
+    "message": "Szerokość kolumny"
+  },
+  "widthNarrow": {
+    "message": "Wąska"
+  },
+  "widthMedium": {
+    "message": "Średnia"
+  },
+  "widthWide": {
+    "message": "Szeroka"
+  },
+  "font": {
+    "message": "Czcionka"
+  },
+  "fontSerif": {
+    "message": "Szeryfowa"
+  },
+  "fontSans": {
+    "message": "Bezszeryfowa"
+  },
+  "readingTime": {
+    "message": "$MIN$ min czytania",
+    "placeholders": {
+      "min": {
+        "content": "$1"
+      }
+    }
+  },
+  "noArticle": {
+    "message": "Ten element nie ma zapisanego artykułu."
+  },
+  "storageTitle": {
+    "message": "Zajęte miejsce"
+  },
+  "statItems": {
+    "message": "Elementy"
+  },
+  "statArticles": {
+    "message": "Zapisane artykuły"
+  },
+  "statThumbs": {
+    "message": "Miniatury"
+  },
+  "statFavicons": {
+    "message": "Ikony stron"
+  },
+  "statTotal": {
+    "message": "Razem na dysku (ok.)"
+  },
+  "freeSpace": {
+    "message": "Usuń artykuły zarchiwizowanych elementów"
+  },
+  "freeSpaceHelp": {
+    "message": "Zwalnia miejsce: usuwa zapisany tekst zarchiwizowanych elementów. Linki zostają."
+  },
+  "freedArticles": {
+    "message": "Usunięto artykuły: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupTitle": {
+    "message": "Automatyczne kopie zapasowe"
+  },
+  "backupEnable": {
+    "message": "Twórz automatyczne kopie zapasowe"
+  },
+  "backupHelp": {
+    "message": "Zapisuje pełną kopię (elementy, tagi, ulubione, miniatury i artykuły) w Pobrane/ReadLaterLocal. Sprawdzane przy starcie Firefoksa i przy każdym zapisie."
+  },
+  "backupFrequency": {
+    "message": "Częstotliwość"
+  },
+  "daily": {
+    "message": "Codziennie"
+  },
+  "weekly": {
+    "message": "Co tydzień"
+  },
+  "monthly": {
+    "message": "Co miesiąc"
+  },
+  "backupKeep": {
+    "message": "Liczba przechowywanych kopii"
+  },
+  "backupNow": {
+    "message": "Utwórz kopię teraz"
+  },
+  "backupLast": {
+    "message": "Ostatnia kopia: $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupNever": {
+    "message": "Nie utworzono jeszcze kopii"
+  },
+  "backupDone": {
+    "message": "Kopię zapisano w Pobrane/$FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupFailed": {
+    "message": "Nie udało się utworzyć kopii."
+  },
+  "exportTitle": {
+    "message": "Eksport"
+  },
+  "exportHelp": {
+    "message": "CSV i zakładki zawierają tylko linki. Pełna kopia zawiera też artykuły i miniatury."
+  },
+  "importTitle": {
+    "message": "Import"
+  },
+  "importHelp": {
+    "message": "Plik CSV z Pocket lub Read Later Local albo pełna kopia (.json.gz). Nigdy nie usuwa ani nie nadpisuje tego, co masz."
+  },
+  "chooseFile": {
+    "message": "Wybierz plik"
+  },
+  "fetchTitle": {
+    "message": "Pobieranie w tle"
+  },
+  "fetchHelp": {
+    "message": "Możesz też pobrać wszystko teraz, szybciej, dopóki ta karta jest otwarta:"
+  },
+  "fetchPending": {
+    "message": "Oczekujące elementy: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchStart": {
+    "message": "Pobierz artykuły"
+  },
+  "fetchRetry": {
+    "message": "Uwzględnij te, które wcześniej się nie udały"
+  },
+  "fetchCancel": {
+    "message": "Anuluj"
+  },
+  "fetchProgress": {
+    "message": "$DONE$ z $TOTAL$ · z artykułem: $OK$ · bez artykułu: $PARTIAL$ · błędy: $FAILED$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "ok": {
+        "content": "$3"
+      },
+      "partial": {
+        "content": "$4"
+      },
+      "failed": {
+        "content": "$5"
+      }
+    }
+  },
+  "fetchKeepOpen": {
+    "message": "Nie zamykaj tej karty podczas pobierania."
+  },
+  "fetchDenied": {
+    "message": "Bez tego uprawnienia nie da się ich pobrać."
+  },
+  "fetchFinished": {
+    "message": "Gotowe."
+  },
+  "revokePermission": {
+    "message": "Usuń uprawnienie dostępu do stron"
+  },
+  "permissionRevoked": {
+    "message": "Usunięto uprawnienie"
+  },
+  "dangerTitle": {
+    "message": "Usuń wszystko"
+  },
+  "dangerHelp": {
+    "message": "Usuwa elementy, artykuły, miniatury i ikony. Tego nie można cofnąć: najpierw wyeksportuj kopię."
+  },
+  "deleteAll": {
+    "message": "Usuń wszystkie dane"
+  },
+  "confirmDeleteAll": {
+    "message": "Na pewno? Zostanie usuniętych elementów: $N$. Tego nie można cofnąć.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allDeleted": {
+    "message": "Dane usunięte"
+  },
+  "exportMenu": {
+    "message": "Eksportuj"
+  },
+  "commandShowList": {
+    "message": "Pokaż ostatnio zapisane"
+  },
+  "seeRecent": {
+    "message": "Zobacz ostatnio zapisane"
+  },
+  "languageTitle": {
+    "message": "Język"
+  },
+  "languageHelp": {
+    "message": "Język rozszerzenia. „Automatyczny” to język Firefoksa, a jeśli rozszerzenie go nie ma, angielski."
+  },
+  "languageAuto": {
+    "message": "Automatyczny (język Firefoksa)"
+  },
+  "pageActionTitle": {
+    "message": "Zapisz na później"
+  },
+  "saveThisPage": {
+    "message": "Zapisz tę stronę"
+  },
+  "menuSaveCurrent": {
+    "message": "Zapisz tę stronę"
+  },
+  "fetchingArticle": {
+    "message": "Pobieranie artykułu…"
+  },
+  "fetchArticle": {
+    "message": "Pobierz artykuł"
+  },
+  "articleFailed": {
+    "message": "Nie udało się wyodrębnić artykułu z tej strony. Możesz otworzyć ją w sieci."
+  },
+  "articleNeedsPermission": {
+    "message": "Ten element nie ma jeszcze zapisanego tekstu. Aby go pobrać, Firefox poprosi o uprawnienie dostępu do stron (możesz je usunąć w Dane i kopie zapasowe)."
+  },
+  "surprise": {
+    "message": "Zaskocz mnie"
+  },
+  "surpriseNone": {
+    "message": "Nie ma nic do otwarcia z tymi filtrami."
+  },
+  "select": {
+    "message": "Zaznacz"
+  },
+  "selectAll": {
+    "message": "Zaznacz wszystko ($N$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectedCount": {
+    "message": "Zaznaczone: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Anuluj"
+  },
+  "apply": {
+    "message": "Zastosuj"
+  },
+  "kindAll": {
+    "message": "Wszystkie typy"
+  },
+  "kindArticle": {
+    "message": "Artykuły"
+  },
+  "kindVideo": {
+    "message": "Filmy"
+  },
+  "kindImage": {
+    "message": "Obrazy"
+  },
+  "kindOther": {
+    "message": "Inne"
+  },
+  "collectionAll": {
+    "message": "Wszystkie kolekcje"
+  },
+  "collectionNone": {
+    "message": "Bez kolekcji"
+  },
+  "collectionNew": {
+    "message": "Nowa kolekcja…"
+  },
+  "collectionNamePrompt": {
+    "message": "Nazwa kolekcji"
+  },
+  "orderNewest": {
+    "message": "Najpierw najnowsze"
+  },
+  "orderOldest": {
+    "message": "Najpierw najstarsze"
+  },
+  "shortReads": {
+    "message": "Krótkie (<5 min)"
+  },
+  "tabTags": {
+    "message": "Tagi"
+  },
+  "tabSites": {
+    "message": "Strony"
+  },
+  "showMore": {
+    "message": "Pokaż więcej"
+  },
+  "showLess": {
+    "message": "Pokaż mniej"
+  },
+  "minutes": {
+    "message": "$N$ min",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "more": {
+    "message": "Więcej działań"
+  },
+  "editNote": {
+    "message": "Osobista notatka"
+  },
+  "notePlaceholder": {
+    "message": "Dlaczego to zapisałeś?"
+  },
+  "noteHelp": {
+    "message": "Ctrl+Enter zapisuje, Esc anuluje."
+  },
+  "noteSaved": {
+    "message": "Zapisano notatkę"
+  },
+  "moveToCollection": {
+    "message": "Przenieś do kolekcji"
+  },
+  "movedToCollection": {
+    "message": "Przeniesiono do: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "removedFromCollection": {
+    "message": "Usunięto z kolekcji"
+  },
+  "copyLink": {
+    "message": "Kopiuj link"
+  },
+  "linkCopied": {
+    "message": "Skopiowano link"
+  },
+  "suggested": {
+    "message": "Sugerowane:"
+  },
+  "bulkArchive": {
+    "message": "Archiwizuj"
+  },
+  "bulkUnread": {
+    "message": "Nieprzeczytane"
+  },
+  "bulkFavorite": {
+    "message": "Ulubione"
+  },
+  "bulkTag": {
+    "message": "Tag…"
+  },
+  "bulkCollection": {
+    "message": "Kolekcja…"
+  },
+  "bulkDelete": {
+    "message": "Usuń"
+  },
+  "bulkDone": {
+    "message": "Zaktualizowano elementy: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted": {
+    "message": "Przeniesiono do kosza elementy: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle": {
+    "message": "Dodaj tagi do elementów: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allow": {
+    "message": "Zezwól"
+  },
+  "notNow": {
+    "message": "Nie teraz"
+  },
+  "bgFetchAsk": {
+    "message": "Elementy bez tekstu, prawdziwego tytułu lub miniatury: $N$. Włączyć pobieranie w tle? Firefox poprosi o uprawnienie dostępu do stron.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchProgress": {
+    "message": "Pobieranie w tle: $DONE$ z $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "bgFetchEnable": {
+    "message": "Włącz pobieranie w tle (Firefox poprosi o uprawnienie dostępu do stron)"
+  },
+  "bgFetchHelp": {
+    "message": "Powoli pobiera tekst, prawdziwy tytuł i miniaturę elementów, które ich nie mają (np. zaimportowanych). Aby nie spowalniać Firefoksa, działa tylko wtedy, gdy otwarta jest strona „Zobacz wszystko” lub ta strona, po jednym elemencie."
+  },
+  "kbNote": {
+    "message": "Osobista notatka"
+  },
+  "kbCollection": {
+    "message": "Przenieś do kolekcji"
+  },
+  "kbSelect": {
+    "message": "Zaznacz (Shift+kliknięcie: zakres)"
+  },
+  "appearanceTitle": {
+    "message": "Wygląd"
+  },
+  "themeHelp": {
+    "message": "Dotyczy całego rozszerzenia, także czytnika."
+  },
+  "badgeEnable": {
+    "message": "Pokazuj liczbę nieprzeczytanych na przycisku paska narzędzi"
+  },
+  "collectionsTitle": {
+    "message": "Kolekcje"
+  },
+  "collectionsHelp": {
+    "message": "Jak foldery: każdy element może być tylko w jednej kolekcji."
+  },
+  "collectionsEmpty": {
+    "message": "Brak kolekcji."
+  },
+  "addCollection": {
+    "message": "Utwórz kolekcję"
+  },
+  "collectionDeleted": {
+    "message": "Usunięto kolekcję (jej elementy zostają)"
+  },
+  "rename": {
+    "message": "Zmień nazwę"
+  },
+  "rulesTitle": {
+    "message": "Reguły automatyczne"
+  },
+  "rulesHelp": {
+    "message": "Stosowane przy zapisie lub imporcie. Nigdy nie usuwają tagów ani nie zmieniają już wybranej kolekcji."
+  },
+  "rulesEmpty": {
+    "message": "Brak reguł."
+  },
+  "ruleIf": {
+    "message": "Jeśli"
+  },
+  "ruleFieldSite": {
+    "message": "strona to"
+  },
+  "ruleFieldUrl": {
+    "message": "adres zawiera"
+  },
+  "ruleFieldTitle": {
+    "message": "tytuł zawiera"
+  },
+  "ruleValue": {
+    "message": "Wartość"
+  },
+  "ruleThen": {
+    "message": "→"
+  },
+  "ruleAddTags": {
+    "message": "tagi"
+  },
+  "ruleCollection": {
+    "message": "Przenieś do kolekcji"
+  },
+  "ruleFavorite": {
+    "message": "Dodaj do ulubionych"
+  },
+  "addRule": {
+    "message": "Dodaj regułę"
+  },
+  "applyRulesNow": {
+    "message": "Zastosuj do istniejących elementów"
+  },
+  "rulesApplied": {
+    "message": "Zaktualizowano elementy: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchActivate": {
+    "message": "Włącz"
+  },
+  "iconStyleTitle": {
+    "message": "Ikony paska narzędzi"
+  },
+  "iconStyleHelp": {
+    "message": "Przycisk z licznikiem i ikona na pasku adresu."
+  },
+  "iconStyleBookmark": {
+    "message": "Zakładka"
+  },
+  "iconStyleBook": {
+    "message": "Książka"
+  },
+  "iconStyleMinimal": {
+    "message": "Dyskretny"
+  },
+  "iconStyleLegend": {
+    "message": "W każdym: przycisk paska · strona niezapisana · strona już zapisana."
+  },
+  "ruleTitlePlaceholder": {
+    "message": "słowo"
+  },
+  "ruleErrSiteEmpty": {
+    "message": "Wpisz stronę, na przykład youtube.com"
+  },
+  "ruleErrTextEmpty": {
+    "message": "Wpisz tekst, który ma zawierać"
+  },
+  "ruleErrSite": {
+    "message": "To nie wygląda na poprawną stronę. Wpisz tylko domenę, na przykład youtube.com lub pl.wikipedia.org"
+  },
+  "ruleErrUrlSpaces": {
+    "message": "Adres nie może zawierać spacji"
+  },
+  "cleanupTitle": {
+    "message": "Automatyczne porządki"
+  },
+  "cleanupHelp": {
+    "message": "Przenosi do kosza to, co pasuje do każdej aktywnej reguły. Kosz zachowuje tylko tytuł i adres (tekst, miniatura, tagi i notatka są usuwane, by zwolnić miejsce); elementy można stamtąd przywrócić przez 30 dni. Działa przy otwarciu Firefoksa, strony „Zobacz wszystko” lub tej strony."
+  },
+  "cleanupEmpty": {
+    "message": "Brak reguł porządkowania."
+  },
+  "addCleanup": {
+    "message": "Dodaj regułę porządkowania"
+  },
+  "runCleanupNow": {
+    "message": "Uporządkuj teraz"
+  },
+  "openTrash": {
+    "message": "Otwórz kosz"
+  },
+  "cleanupMove": {
+    "message": "Przenieś do kosza"
+  },
+  "cleanupScope": {
+    "message": "Które elementy"
+  },
+  "cleanupScopeCollection": {
+    "message": "z kolekcji"
+  },
+  "cleanupScopeTag": {
+    "message": "z tagiem"
+  },
+  "cleanupScopeSite": {
+    "message": "ze strony"
+  },
+  "cleanupScopeAll": {
+    "message": "wszystkie elementy"
+  },
+  "chooseCollection": {
+    "message": "Wybierz kolekcję"
+  },
+  "cleanupTagPlaceholder": {
+    "message": "tag"
+  },
+  "cleanupStatus": {
+    "message": "Stan"
+  },
+  "cleanupStatusAny": {
+    "message": "w dowolnym stanie"
+  },
+  "cleanupStatusUnread": {
+    "message": "tylko nieprzeczytane"
+  },
+  "cleanupStatusArchive": {
+    "message": "tylko zarchiwizowane"
+  },
+  "cleanupOlderThan": {
+    "message": "zapisane ponad"
+  },
+  "cleanupAgo": {
+    "message": "temu"
+  },
+  "cleanupAmount": {
+    "message": "Ilość"
+  },
+  "cleanupUnit": {
+    "message": "Jednostka"
+  },
+  "unit_day": {
+    "message": "dni"
+  },
+  "unit_day1": {
+    "message": "dzień"
+  },
+  "unit_week": {
+    "message": "tyg."
+  },
+  "unit_week1": {
+    "message": "tydzień"
+  },
+  "unit_month": {
+    "message": "mies."
+  },
+  "unit_month1": {
+    "message": "miesiąc"
+  },
+  "unit_year": {
+    "message": "lat(a)"
+  },
+  "unit_year1": {
+    "message": "rok"
+  },
+  "cleanupActive": {
+    "message": "Aktywna"
+  },
+  "cleanupAffects": {
+    "message": "Po włączeniu przeniosłaby teraz do kosza elementy: $N$.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffectsActive": {
+    "message": "Aby ją zmienić, najpierw ją wyłącz."
+  },
+  "cleanupIncomplete": {
+    "message": "Uzupełnij regułę, aby móc ją włączyć."
+  },
+  "cleanupActivate": {
+    "message": "Włącz"
+  },
+  "cleanupConfirm": {
+    "message": "Włączenie przeniesie teraz do kosza elementy: $N$. Zostaną tam tylko tytuł i adres, przez 30 dni.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone": {
+    "message": "Automatyczne porządki przeniosły do kosza elementy: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupRan": {
+    "message": "Uporządkowano: do kosza $N$, trwale usunięto $M$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "m": {
+        "content": "$2"
+      }
+    }
+  },
+  "filterTrash": {
+    "message": "Kosz"
+  },
+  "trashInfo": {
+    "message": "Tu jest to, co usunąłeś lub co usunęły automatyczne porządki. Zachowane są tylko tytuł i adres; przywrócony element wraca jako nieprzeczytany z dzisiejszą datą (reguły porządkowania liczą od tej chwili). Po 30 dniach są usuwane na zawsze."
+  },
+  "emptyTrash": {
+    "message": "Opróżnij kosz"
+  },
+  "emptyTrashConfirm": {
+    "message": "Elementy zostaną trwale usunięte z kosza: $N$.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDeletedOn": {
+    "message": "usunięto $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft": {
+    "message": "zniknie za $N$ dni",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashToday": {
+    "message": "zniknie dzisiaj"
+  },
+  "restore": {
+    "message": "Przywróć"
+  },
+  "deleteForever": {
+    "message": "Usuń na zawsze"
+  },
+  "trashRestored": {
+    "message": "Przywrócono do „Nieprzeczytane” z dzisiejszą datą"
+  },
+  "trashEmpty": {
+    "message": "Kosz jest pusty"
+  },
+  "trashEmptyBody": {
+    "message": "Pojawi się tu to, co usuniesz, i to, co usuną automatyczne porządki."
+  },
+  "expireSet": {
+    "message": "Usuń automatycznie…"
+  },
+  "expireChange": {
+    "message": "Zmień automatyczne usuwanie…"
+  },
+  "expireNever": {
+    "message": "Nie usuwaj automatycznie"
+  },
+  "expireHelp": {
+    "message": "Po tym czasie trafi do kosza, gdzie tytuł i adres zostaną jeszcze przez 30 dni."
+  },
+  "expire1d": {
+    "message": "Za 1 dzień"
+  },
+  "expire1w": {
+    "message": "Za 1 tydzień"
+  },
+  "expire1m": {
+    "message": "Za 1 miesiąc"
+  },
+  "expire3m": {
+    "message": "Za 3 miesiące"
+  },
+  "expire6m": {
+    "message": "Za 6 miesięcy"
+  },
+  "expire1y": {
+    "message": "Za 1 rok"
+  },
+  "expireScheduled": {
+    "message": "Trafi do kosza $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireCancelled": {
+    "message": "Anulowano automatyczne usuwanie"
+  },
+  "expiresOn": {
+    "message": "Trafi do kosza $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle": {
+    "message": "Usuń automatycznie elementy: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkExpire": {
+    "message": "Usuń za…"
+  },
+  "kbExpire": {
+    "message": "Usuń automatycznie…"
+  },
+  "collectionFilterBy": {
+    "message": "Pokaż tylko tę kolekcję"
+  },
+  "shortReadsHelp": {
+    "message": "Pokazuje tylko teksty na mniej niż 5 minut (te, których tekst został pobrany)."
+  },
+  "thumbSmall": {
+    "message": "Małe miniatury"
+  },
+  "thumbMedium": {
+    "message": "Średnie miniatury"
+  },
+  "thumbLarge": {
+    "message": "Duże miniatury"
+  },
+  "matchInText": {
+    "message": "w tekście"
+  },
+  "matchInTextTitle": {
+    "message": "Wyszukiwanie pasuje do tekstu artykułu"
+  },
+  "readerWithImages": {
+    "message": "Czytaj offline (z obrazami)"
+  },
+  "hlCount": {
+    "message": "Zakreślenia: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "statImages": {
+    "message": "Obrazy offline"
+  },
+  "statTexts": {
+    "message": "Tekst do wyszukiwania"
+  },
+  "exportWithImages": {
+    "message": "Dołącz obrazy offline do pełnej kopii"
+  },
+  "exportWithImagesHelp": {
+    "message": "Mogą znacznie powiększyć plik. Automatyczne kopie nigdy ich nie zawierają."
+  },
+  "imagesTitle": {
+    "message": "Obrazy offline"
+  },
+  "imagesHelp": {
+    "message": "Zachowuje także obrazy z artykułów, aby oglądać je offline w czytniku. Są usuwane automatycznie po zarchiwizowaniu elementu. W czytniku przycisk obrazów zapisuje je lub usuwa dla jednego artykułu."
+  },
+  "imagesEnable": {
+    "message": "Zapisuj obrazy nowych artykułów (Firefox poprosi o uprawnienie dostępu do stron)"
+  },
+  "imagesWarning": {
+    "message": "Zajmują dużo więcej miejsca niż tekst: artykuł ze zdjęciami to zwykle 0,5–3 MB, a sam tekst ok. 10–30 KB."
+  },
+  "imagesUsage": {
+    "message": "Teraz: obrazy: $N$, $SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesClear": {
+    "message": "Usuń wszystkie obrazy"
+  },
+  "imagesClearConfirm": {
+    "message": "Wszystkie obrazy offline zostaną usunięte. Artykuły i ich tekst zostają."
+  },
+  "imagesCleared": {
+    "message": "Usunięto obrazy"
+  },
+  "imagesEnabledToast": {
+    "message": "Od teraz obrazy nowych artykułów będą zapisywane"
+  },
+  "imagesOffTitle": {
+    "message": "Zapisz obrazy offline (zajmuje więcej miejsca)"
+  },
+  "imagesOnTitle": {
+    "message": "Obrazy zapisane offline ($SIZE$). Kliknij, aby je usunąć",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesArchived": {
+    "message": "Zarchiwizowane elementy nie przechowują obrazów: są usuwane przy archiwizacji"
+  },
+  "imagesSaving": {
+    "message": "Zapisywanie obrazów…"
+  },
+  "imagesProgress": {
+    "message": "Zapisywanie obrazów: $DONE$ z $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved": {
+    "message": "Zapisano obrazy: $N$ ($SIZE$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSavedSome": {
+    "message": "Zapisano $N$ z $TOTAL$ obrazów ($SIZE$); pozostałych nie udało się pobrać",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      }
+    }
+  },
+  "imagesNone": {
+    "message": "Ten artykuł nie ma obrazów"
+  },
+  "imagesFailed": {
+    "message": "Nie udało się pobrać żadnego obrazu"
+  },
+  "imagesRemoved": {
+    "message": "Usunięto obrazy offline"
+  },
+  "archivedImagesGone": {
+    "message": "Zarchiwizowano (jego obrazy offline zostały usunięte)"
+  },
+  "print": {
+    "message": "Drukuj lub zapisz jako PDF"
+  },
+  "hlPanel": {
+    "message": "Zakreślenia i notatki"
+  },
+  "hlHint": {
+    "message": "Włącz tryb zakreślacza (przycisk zakreślacza lub klawisz H), a każdy zaznaczony tekst zostanie zakreślony kolorem wybranym tutaj lub w Aa. Bez niego zaznaczenie pokazuje przycisk „Zakreśl”."
+  },
+  "hlEmpty": {
+    "message": "W tym artykule nie ma jeszcze zakreśleń."
+  },
+  "hlExport": {
+    "message": "Kopiuj wszystko jako Markdown"
+  },
+  "hlExported": {
+    "message": "Zakreślenia skopiowano do schowka"
+  },
+  "hlColor_yellow": {
+    "message": "Żółty"
+  },
+  "hlColor_green": {
+    "message": "Zielony"
+  },
+  "hlColor_blue": {
+    "message": "Niebieski"
+  },
+  "hlColor_pink": {
+    "message": "Różowy"
+  },
+  "hlAddNote": {
+    "message": "Dodaj notatkę"
+  },
+  "hlEditNote": {
+    "message": "Edytuj notatkę"
+  },
+  "hlCopy": {
+    "message": "Kopiuj tekst"
+  },
+  "hlCopied": {
+    "message": "Skopiowano tekst"
+  },
+  "hlDelete": {
+    "message": "Usuń zakreślenie"
+  },
+  "hlDeleted": {
+    "message": "Usunięto zakreślenie"
+  },
+  "hlNotePlaceholder": {
+    "message": "Napisz notatkę…"
+  },
+  "hlGoTo": {
+    "message": "Przejdź do zakreślenia"
+  },
+  "hlLost": {
+    "message": "Nie znaleziono w obecnym tekście artykułu"
+  },
+  "save": {
+    "message": "Zapisz"
+  },
+  "repairPending": {
+    "message": "Artykuły zapisane z dziwnymi znakami (� zamiast polskich liter): $N$.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairStart": {
+    "message": "Pobierz je ponownie"
+  },
+  "repairProgress": {
+    "message": "Naprawianie: $DONE$ z $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairDone": {
+    "message": "Naprawiono artykuły: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairReader": {
+    "message": "Ten artykuł zapisano z dziwnymi znakami (� zamiast polskich liter). Ponowne pobranie to naprawi; Twoje zakreślenia zostaną zachowane."
+  },
+  "repairReaderBtn": {
+    "message": "Pobierz ponownie"
+  },
+  "hlColorLabel": {
+    "message": "Kolor zakreślenia"
+  },
+  "hlDo": {
+    "message": "Zakreśl"
+  },
+  "hlDoTitle": {
+    "message": "Zakreśl (klawisz H). Kolor zmienisz w Aa lub w panelu zakreśleń"
+  },
+  "hlModeTitle": {
+    "message": "Tryb zakreślacza: zaznaczony tekst jest od razu zakreślany (klawisz H)"
+  },
+  "hlModeOn": {
+    "message": "Tryb zakreślacza włączony: zaznacz tekst, aby go zakreślić"
+  },
+  "hlModeOff": {
+    "message": "Tryb zakreślacza wyłączony"
+  },
+  "sidebarTitle": {
+    "message": "Read Later Local"
+  },
+  "commandSidebar": {
+    "message": "Otwórz lub zamknij panel boczny"
+  },
+  "menuSidebar": {
+    "message": "Panel boczny"
+  },
+  "sidebarHint": {
+    "message": "Kliknięcie: otwórz tutaj · Ctrl+kliknięcie: nowa karta"
+  },
+  "emailSend": {
+    "message": "Wyślij e-mailem"
+  },
+  "emailAttach": {
+    "message": "W załączniku: zapisany artykuł, {file}"
+  },
+  "emailFileSaved": {
+    "message": "Otwarto nową wiadomość. Dołącz plik „$FILE$” (jego folder otworzy się po zapisaniu).",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "emailLinkOnly": {
+    "message": "Otwarto nową wiadomość z linkiem (ten artykuł nie ma zapisanego tekstu)"
+  },
+  "triage": {
+    "message": "Tryb porządków"
+  },
+  "triageTitle": {
+    "message": "Przeglądaj elementy po kolei: zachowaj, archiwizuj lub usuń (klawisz R)"
+  },
+  "triageKeep": {
+    "message": "Zachowaj"
+  },
+  "triageProgress": {
+    "message": "$N$ z $TOTAL$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "triageNothing": {
+    "message": "Brak elementów z tymi filtrami"
+  },
+  "triageDone": {
+    "message": "Wszystko gotowe"
+  },
+  "triageSummary": {
+    "message": "Zachowane: $KEPT$ · Zarchiwizowane: $ARCHIVED$ · Usunięte: $DELETED$",
+    "placeholders": {
+      "kept": {
+        "content": "$1"
+      },
+      "archived": {
+        "content": "$2"
+      },
+      "deleted": {
+        "content": "$3"
+      }
+    }
+  },
+  "menuSaveClose": {
+    "message": "Zapisz i zamknij kartę"
+  },
+  "menuSaveAllTabs": {
+    "message": "Zapisz wszystkie karty okna"
+  },
+  "menuSaveTabs": {
+    "message": "Zapisz na później"
+  },
+  "listenTitle": {
+    "message": "Posłuchaj artykułu"
+  },
+  "ttsPlay": {
+    "message": "Odtwórz"
+  },
+  "ttsPause": {
+    "message": "Wstrzymaj"
+  },
+  "ttsPrev": {
+    "message": "Poprzedni akapit"
+  },
+  "ttsNext": {
+    "message": "Następny akapit"
+  },
+  "ttsStop": {
+    "message": "Przestań słuchać"
+  },
+  "ttsSpeed": {
+    "message": "Prędkość"
+  },
+  "ttsVoice": {
+    "message": "Głos"
+  },
+  "ttsNoVoices": {
+    "message": "Firefox nie znalazł głosów na tym komputerze. W Windows: Ustawienia → Czas i język → Mowa."
+  },
+  "copyMarkdown": {
+    "message": "Kopiuj jako Markdown"
+  },
+  "markdownCopied": {
+    "message": "Skopiowano link jako Markdown"
+  },
+  "saveMarkdown": {
+    "message": "Zapisz jako Markdown (Obsidian…)"
+  },
+  "markdownSaved": {
+    "message": "Zapisano jako $FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportMarkdown": {
+    "message": "Markdown (lista linków)"
+  },
+  "autoArchive": {
+    "message": "Archiwizuj po dotarciu do końca"
+  },
+  "finishedArchived": {
+    "message": "Przeczytane: zarchiwizowano"
+  },
+  "finishedArchivedImages": {
+    "message": "Przeczytane: zarchiwizowano (jego obrazy offline zostały usunięte)"
+  },
+  "ttsError": {
+    "message": "Nie udało się odczytać artykułu na głos. Sprawdź dźwięk i głosy zainstalowane w systemie."
+  },
+  "trashDaysLeft_one": {
+    "message": "zniknie za $N$ dzień",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  }
+}

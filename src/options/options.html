@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="dataPage">Read Later Local</title>
+  <link rel="icon" href="../icons/icon.svg">
+  <link rel="stylesheet" href="../lib/base.css">
+  <link rel="stylesheet" href="options.css">
+  <script type="module" src="options.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="brand"><img src="../icons/icon.svg" alt="" width="24" height="24"><span data-i18n="extName"></span> · <span data-i18n="dataPage"></span></div>
+    <a class="btn" href="../list/list.html" data-i18n="viewAll"></a>
+  </header>
+  <main class="wrap">
+    <section class="card">
+      <h2 data-i18n="languageTitle"></h2>
+      <p class="help" data-i18n="languageHelp"></p>
+      <div class="row">
+        <select id="language" aria-label="Idioma / Language">
+          <option value="auto" data-i18n="languageAuto"></option>
+        </select>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="appearanceTitle"></h2>
+      <div class="row">
+        <label><span data-i18n="theme"></span>
+          <select id="theme">
+            <option value="system" data-i18n="themeSystem"></option>
+            <option value="light" data-i18n="themeLight"></option>
+            <option value="dark" data-i18n="themeDark"></option>
+            <option value="sepia" data-i18n="themeSepia"></option>
+          </select>
+        </label>
+      </div>
+      <p class="help" data-i18n="themeHelp"></p>
+      <label class="check"><input id="badge" type="checkbox"> <span data-i18n="badgeEnable"></span></label>
+      <h3 data-i18n="iconStyleTitle"></h3>
+      <p class="help" data-i18n="iconStyleHelp"></p>
+      <div id="icon-styles" class="icon-styles" role="radiogroup" data-i18n-title="iconStyleTitle">
+        <label class="icon-style"><input type="radio" name="icon-style" value="bookmark">
+          <span class="previews"><img src="../icons/icon.svg" alt=""><img src="../icons/save.svg" alt=""><img src="../icons/saved.svg" alt=""></span>
+          <span data-i18n="iconStyleBookmark"></span></label>
+        <label class="icon-style"><input type="radio" name="icon-style" value="book">
+          <span class="previews"><img src="../icons/book-toolbar.svg" alt=""><img src="../icons/book-save.svg" alt=""><img src="../icons/book-saved.svg" alt=""></span>
+          <span data-i18n="iconStyleBook"></span></label>
+        <label class="icon-style"><input type="radio" name="icon-style" value="minimal">
+          <span class="previews"><img src="../icons/minimal-toolbar.svg" alt=""><img src="../icons/minimal-save.svg" alt=""><img src="../icons/minimal-saved.svg" alt=""></span>
+          <span data-i18n="iconStyleMinimal"></span></label>
+      </div>
+      <p class="help small" data-i18n="iconStyleLegend"></p>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="storageTitle"></h2>
+      <table class="stats">
+        <tr><th data-i18n="statItems"></th><td id="st-items"></td><td></td></tr>
+        <tr><th data-i18n="statArticles"></th><td id="st-articles"></td><td id="st-articles-b"></td></tr>
+        <tr><th data-i18n="statThumbs"></th><td id="st-thumbs"></td><td id="st-thumbs-b"></td></tr>
+        <tr><th data-i18n="statFavicons"></th><td id="st-favicons"></td><td id="st-favicons-b"></td></tr>
+        <tr><th data-i18n="statImages"></th><td id="st-images"></td><td id="st-images-b"></td></tr>
+        <tr><th data-i18n="statTexts"></th><td id="st-texts"></td><td id="st-texts-b"></td></tr>
+        <tr class="total"><th data-i18n="statTotal"></th><td></td><td id="st-total"></td></tr>
+      </table>
+      <div class="row">
+        <button id="free" class="btn" type="button" data-i18n="freeSpace"></button>
+        <span class="help" data-i18n="freeSpaceHelp"></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="backupTitle"></h2>
+      <label class="check"><input id="bk-enabled" type="checkbox"> <span data-i18n="backupEnable"></span></label>
+      <p class="help" data-i18n="backupHelp"></p>
+      <div class="row">
+        <label><span data-i18n="backupFrequency"></span>
+          <select id="bk-frequency">
+            <option value="daily" data-i18n="daily"></option>
+            <option value="weekly" data-i18n="weekly"></option>
+            <option value="monthly" data-i18n="monthly"></option>
+          </select>
+        </label>
+        <label><span data-i18n="backupKeep"></span>
+          <input id="bk-keep" type="number" min="1" max="20" step="1">
+        </label>
+      </div>
+      <div class="row">
+        <button id="bk-now" class="btn" type="button" data-i18n="backupNow"></button>
+        <span id="bk-last" class="help"></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="exportTitle"></h2>
+      <p class="help" data-i18n="exportHelp"></p>
+      <div class="row">
+        <button class="btn" type="button" data-export="csv" data-i18n="exportCsv"></button>
+        <button class="btn" type="button" data-export="html" data-i18n="exportHtml"></button>
+        <button class="btn" type="button" data-export="md" data-i18n="exportMarkdown"></button>
+        <button class="btn" type="button" data-export="full" data-i18n="exportFull"></button>
+      </div>
+      <label class="check spaced"><input id="export-images" type="checkbox"> <span data-i18n="exportWithImages"></span></label>
+      <p class="help small" data-i18n="exportWithImagesHelp"></p>
+      <h2 data-i18n="importTitle"></h2>
+      <p class="help" data-i18n="importHelp"></p>
+      <div class="row">
+        <button id="import" class="btn" type="button" data-i18n="chooseFile"></button>
+        <input id="file" type="file" hidden>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="fetchTitle"></h2>
+      <p class="help" data-i18n="bgFetchHelp"></p>
+      <label class="check"><input id="bg-fetch" type="checkbox"> <span data-i18n="bgFetchEnable"></span></label>
+      <p class="help" data-i18n="fetchHelp"></p>
+      <p id="fetch-pending"></p>
+      <label class="check"><input id="fetch-retry" type="checkbox"> <span data-i18n="fetchRetry"></span></label>
+      <div class="row">
+        <button id="fetch-start" class="btn primary" type="button" data-i18n="fetchStart"></button>
+        <button id="fetch-cancel" class="btn" type="button" data-i18n="fetchCancel" hidden></button>
+        <button id="revoke" class="link" type="button" data-i18n="revokePermission" hidden></button>
+      </div>
+      <div id="repair-box" class="row" hidden>
+        <span id="repair-text" class="help"></span>
+        <button id="repair" class="btn" type="button" data-i18n="repairStart"></button>
+      </div>
+      <div id="fetch-progress" hidden>
+        <progress id="fetch-bar" max="1" value="0"></progress>
+        <p id="fetch-text" class="help"></p>
+        <p class="help" data-i18n="fetchKeepOpen"></p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="imagesTitle"></h2>
+      <p class="help" data-i18n="imagesHelp"></p>
+      <label class="check"><input id="offline-images" type="checkbox"> <span data-i18n="imagesEnable"></span></label>
+      <p class="warn" data-i18n="imagesWarning"></p>
+      <div class="row">
+        <span id="images-usage" class="help"></span>
+        <button id="images-clear" class="btn danger" type="button" data-i18n="imagesClear"></button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="collectionsTitle"></h2>
+      <p class="help" data-i18n="collectionsHelp"></p>
+      <ul id="collections" class="plain-list"></ul>
+      <div class="row">
+        <input id="new-collection" type="text" maxlength="60" data-i18n-placeholder="collectionNamePrompt">
+        <button id="add-collection" class="btn" type="button" data-i18n="addCollection"></button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="rulesTitle"></h2>
+      <p class="help" data-i18n="rulesHelp"></p>
+      <ul id="rules" class="plain-list rules"></ul>
+      <div class="row">
+        <button id="add-rule" class="btn" type="button" data-i18n="addRule"></button>
+        <button id="apply-rules" class="btn" type="button" data-i18n="applyRulesNow"></button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="cleanupTitle"></h2>
+      <p class="help" data-i18n="cleanupHelp"></p>
+      <ul id="cleanup" class="plain-list rules"></ul>
+      <div class="row">
+        <button id="add-cleanup" class="btn" type="button" data-i18n="addCleanup"></button>
+        <button id="run-cleanup" class="btn" type="button" data-i18n="runCleanupNow"></button>
+        <a class="link" href="../list/list.html#trash" data-i18n="openTrash"></a>
+      </div>
+    </section>
+
+    <section class="card danger">
+      <h2 data-i18n="dangerTitle"></h2>
+      <p class="help" data-i18n="dangerHelp"></p>
+      <button id="wipe" class="btn danger" type="button" data-i18n="deleteAll"></button>
+    </section>
+  </main>
+  <dialog id="confirm" class="dialog">
+    <p id="confirm-text"></p>
+    <form method="dialog" class="row">
+      <button class="btn" value="cancel" data-i18n="fetchCancel"></button>
+      <button class="btn danger" value="ok" data-i18n="deleteAll"></button>
+    </form>
+  </dialog>
+  <div id="toasts" class="toast-area"></div>
+</body>
+</html>

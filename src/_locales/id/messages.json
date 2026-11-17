@@ -1,0 +1,1456 @@
+{
+  "extName": {
+    "message": "Read Later Local"
+  },
+  "extDescription": {
+    "message": "Simpan halaman untuk dibaca nanti. Semuanya tetap di komputer Anda: tanpa akun, tanpa server."
+  },
+  "actionTitle": {
+    "message": "Terakhir disimpan (Read Later Local)"
+  },
+  "commandSave": {
+    "message": "Simpan halaman ini"
+  },
+  "menuSaveLink": {
+    "message": "Simpan tautan untuk dibaca nanti"
+  },
+  "menuSavePage": {
+    "message": "Simpan halaman untuk dibaca nanti"
+  },
+  "saved": {
+    "message": "Tersimpan"
+  },
+  "undo": {
+    "message": "Urungkan"
+  },
+  "alreadySaved": {
+    "message": "Sudah tersimpan"
+  },
+  "cantSave": {
+    "message": "Halaman ini tidak dapat disimpan"
+  },
+  "saveRemoved": {
+    "message": "Dihapus"
+  },
+  "recent": {
+    "message": "Terakhir disimpan"
+  },
+  "viewAll": {
+    "message": "Lihat semua"
+  },
+  "export": {
+    "message": "Ekspor CSV"
+  },
+  "import": {
+    "message": "Impor"
+  },
+  "open": {
+    "message": "Buka"
+  },
+  "archive": {
+    "message": "Arsipkan"
+  },
+  "unarchive": {
+    "message": "Pindahkan ke belum dibaca"
+  },
+  "delete": {
+    "message": "Hapus"
+  },
+  "deleted": {
+    "message": "Dipindahkan ke tempat sampah"
+  },
+  "archived": {
+    "message": "Diarsipkan"
+  },
+  "movedToUnread": {
+    "message": "Dipindahkan ke belum dibaca"
+  },
+  "emptyRecentTitle": {
+    "message": "Simpan halaman pertama Anda"
+  },
+  "emptyRecentBody": {
+    "message": "Klik tombol di bilah alat pada halaman mana pun untuk menyimpannya di sini."
+  },
+  "searchPlaceholder": {
+    "message": "Cari judul, URL, catatan, atau teks"
+  },
+  "filterUnread": {
+    "message": "Belum dibaca"
+  },
+  "filterArchive": {
+    "message": "Diarsipkan"
+  },
+  "filterAll": {
+    "message": "Semua"
+  },
+  "gridView": {
+    "message": "Tampilan kisi"
+  },
+  "listView": {
+    "message": "Tampilan daftar"
+  },
+  "loadingMore": {
+    "message": "Memuat lagi…"
+  },
+  "noResults": {
+    "message": "Tidak ada yang cocok dengan pencarian Anda."
+  },
+  "emptyListTitle": {
+    "message": "Belum ada apa-apa di sini"
+  },
+  "emptyListBody": {
+    "message": "Simpan halaman dengan tombol di bilah alat atau impor cadangan CSV."
+  },
+  "importChoose": {
+    "message": "Pilih file CSV untuk diimpor"
+  },
+  "importing": {
+    "message": "Mengimpor…"
+  },
+  "importResult": {
+    "message": "$ADDED$ diimpor, $DUP$ sudah tersimpan, $BAD$ tidak valid",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "dup": {
+        "content": "$2"
+      },
+      "bad": {
+        "content": "$3"
+      }
+    }
+  },
+  "importError": {
+    "message": "File tidak dapat dibaca. Pastikan itu CSV dengan kolom url."
+  },
+  "exportDone": {
+    "message": "$COUNT$ item diekspor",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount": {
+    "message": "$COUNT$ item",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "filterFavorite": {
+    "message": "Favorit"
+  },
+  "favorite": {
+    "message": "Tambahkan ke favorit"
+  },
+  "unfavorite": {
+    "message": "Hapus dari favorit"
+  },
+  "addedToFavorites": {
+    "message": "Ditambahkan ke favorit"
+  },
+  "removedFromFavorites": {
+    "message": "Dihapus dari favorit"
+  },
+  "editTags": {
+    "message": "Tag"
+  },
+  "tagsPlaceholder": {
+    "message": "css, linux, kapan-kapan"
+  },
+  "tagsHelp": {
+    "message": "Pisahkan dengan koma. Enter menyimpan, Esc membatalkan."
+  },
+  "tagsSaved": {
+    "message": "Tag disimpan"
+  },
+  "reader": {
+    "message": "Baca offline"
+  },
+  "openOriginal": {
+    "message": "Buka halaman asli"
+  },
+  "dataPage": {
+    "message": "Data dan cadangan"
+  },
+  "exportCsv": {
+    "message": "CSV (kompatibel dengan Pocket)"
+  },
+  "exportHtml": {
+    "message": "Markah HTML (browser apa pun)"
+  },
+  "exportFull": {
+    "message": "Cadangan lengkap (.json.gz)"
+  },
+  "shortcuts": {
+    "message": "Pintasan keyboard"
+  },
+  "kbSearch": {
+    "message": "Cari (mendukung tag:nama)"
+  },
+  "kbMove": {
+    "message": "Bergerak di daftar"
+  },
+  "kbOpen": {
+    "message": "Buka halaman"
+  },
+  "kbReader": {
+    "message": "Buka pembaca"
+  },
+  "kbArchive": {
+    "message": "Arsipkan / pindahkan ke belum dibaca"
+  },
+  "kbFavorite": {
+    "message": "Favorit"
+  },
+  "kbTags": {
+    "message": "Edit tag"
+  },
+  "kbDelete": {
+    "message": "Hapus (bisa diurungkan)"
+  },
+  "kbHelp": {
+    "message": "Tampilkan bantuan ini"
+  },
+  "close": {
+    "message": "Tutup"
+  },
+  "readerBack": {
+    "message": "Lihat semua"
+  },
+  "readerSettings": {
+    "message": "Pengaturan baca"
+  },
+  "theme": {
+    "message": "Tema"
+  },
+  "themeLight": {
+    "message": "Terang"
+  },
+  "themeDark": {
+    "message": "Gelap"
+  },
+  "themeSepia": {
+    "message": "Sepia"
+  },
+  "themeSystem": {
+    "message": "Sistem"
+  },
+  "fontSize": {
+    "message": "Ukuran teks"
+  },
+  "width": {
+    "message": "Lebar kolom"
+  },
+  "widthNarrow": {
+    "message": "Sempit"
+  },
+  "widthMedium": {
+    "message": "Sedang"
+  },
+  "widthWide": {
+    "message": "Lebar"
+  },
+  "font": {
+    "message": "Huruf"
+  },
+  "fontSerif": {
+    "message": "Serif"
+  },
+  "fontSans": {
+    "message": "Sans serif"
+  },
+  "readingTime": {
+    "message": "$MIN$ mnt baca",
+    "placeholders": {
+      "min": {
+        "content": "$1"
+      }
+    }
+  },
+  "noArticle": {
+    "message": "Item ini tidak memiliki artikel tersimpan."
+  },
+  "storageTitle": {
+    "message": "Ruang terpakai"
+  },
+  "statItems": {
+    "message": "Item"
+  },
+  "statArticles": {
+    "message": "Artikel tersimpan"
+  },
+  "statThumbs": {
+    "message": "Gambar mini"
+  },
+  "statFavicons": {
+    "message": "Ikon situs"
+  },
+  "statTotal": {
+    "message": "Total di disk (perkiraan)"
+  },
+  "freeSpace": {
+    "message": "Hapus artikel dari item yang diarsipkan"
+  },
+  "freeSpaceHelp": {
+    "message": "Mengosongkan ruang: menghapus teks tersimpan dari item yang diarsipkan. Tautannya tetap ada."
+  },
+  "freedArticles": {
+    "message": "$N$ artikel dihapus",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupTitle": {
+    "message": "Cadangan otomatis"
+  },
+  "backupEnable": {
+    "message": "Buat cadangan otomatis"
+  },
+  "backupHelp": {
+    "message": "Menyimpan cadangan lengkap (item, tag, favorit, gambar mini, dan artikel) ke Unduhan/ReadLaterLocal. Diperiksa saat Firefox dimulai dan saat Anda menyimpan sesuatu."
+  },
+  "backupFrequency": {
+    "message": "Frekuensi"
+  },
+  "daily": {
+    "message": "Harian"
+  },
+  "weekly": {
+    "message": "Mingguan"
+  },
+  "monthly": {
+    "message": "Bulanan"
+  },
+  "backupKeep": {
+    "message": "Jumlah cadangan yang disimpan"
+  },
+  "backupNow": {
+    "message": "Cadangkan sekarang"
+  },
+  "backupLast": {
+    "message": "Cadangan terakhir: $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupNever": {
+    "message": "Belum ada cadangan"
+  },
+  "backupDone": {
+    "message": "Cadangan disimpan di Unduhan/$FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupFailed": {
+    "message": "Cadangan tidak dapat dibuat."
+  },
+  "exportTitle": {
+    "message": "Ekspor"
+  },
+  "exportHelp": {
+    "message": "CSV dan markah hanya berisi tautan. Cadangan lengkap juga berisi artikel dan gambar mini."
+  },
+  "importTitle": {
+    "message": "Impor"
+  },
+  "importHelp": {
+    "message": "CSV dari Pocket atau Read Later Local, atau cadangan lengkap (.json.gz). Tidak pernah menghapus atau menimpa data yang sudah ada."
+  },
+  "chooseFile": {
+    "message": "Pilih file"
+  },
+  "fetchTitle": {
+    "message": "Unduhan di latar belakang"
+  },
+  "fetchHelp": {
+    "message": "Anda juga dapat mengunduh semuanya sekarang, lebih cepat, selama tab ini tetap terbuka:"
+  },
+  "fetchPending": {
+    "message": "$N$ item tertunda",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchStart": {
+    "message": "Unduh artikel"
+  },
+  "fetchRetry": {
+    "message": "Sertakan yang sebelumnya gagal"
+  },
+  "fetchCancel": {
+    "message": "Batal"
+  },
+  "fetchProgress": {
+    "message": "$DONE$ dari $TOTAL$ · $OK$ dengan artikel · $PARTIAL$ tanpa artikel · $FAILED$ gagal",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "ok": {
+        "content": "$3"
+      },
+      "partial": {
+        "content": "$4"
+      },
+      "failed": {
+        "content": "$5"
+      }
+    }
+  },
+  "fetchKeepOpen": {
+    "message": "Biarkan tab ini terbuka selama mengunduh."
+  },
+  "fetchDenied": {
+    "message": "Tanpa izin itu, item tidak dapat diunduh."
+  },
+  "fetchFinished": {
+    "message": "Selesai."
+  },
+  "revokePermission": {
+    "message": "Hapus izin akses ke situs web"
+  },
+  "permissionRevoked": {
+    "message": "Izin dihapus"
+  },
+  "dangerTitle": {
+    "message": "Hapus semuanya"
+  },
+  "dangerHelp": {
+    "message": "Menghapus item, artikel, gambar mini, dan ikon. Ini tidak dapat diurungkan: ekspor cadangan terlebih dahulu."
+  },
+  "deleteAll": {
+    "message": "Hapus semua data"
+  },
+  "confirmDeleteAll": {
+    "message": "Anda yakin? $N$ item akan dihapus dan ini tidak dapat diurungkan.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allDeleted": {
+    "message": "Data dihapus"
+  },
+  "exportMenu": {
+    "message": "Ekspor"
+  },
+  "commandShowList": {
+    "message": "Tampilkan yang terakhir disimpan"
+  },
+  "seeRecent": {
+    "message": "Lihat yang terakhir disimpan"
+  },
+  "languageTitle": {
+    "message": "Bahasa"
+  },
+  "languageHelp": {
+    "message": "Bahasa ekstensi. “Otomatis” mengikuti bahasa Firefox, atau bahasa Inggris jika ekstensi tidak memilikinya."
+  },
+  "languageAuto": {
+    "message": "Otomatis (bahasa Firefox)"
+  },
+  "pageActionTitle": {
+    "message": "Simpan untuk dibaca nanti"
+  },
+  "saveThisPage": {
+    "message": "Simpan halaman ini"
+  },
+  "menuSaveCurrent": {
+    "message": "Simpan halaman ini"
+  },
+  "fetchingArticle": {
+    "message": "Mengunduh artikel…"
+  },
+  "fetchArticle": {
+    "message": "Unduh artikel"
+  },
+  "articleFailed": {
+    "message": "Artikel tidak dapat diambil dari halaman ini. Anda dapat membukanya di web."
+  },
+  "articleNeedsPermission": {
+    "message": "Item ini belum memiliki teks tersimpan. Untuk mengunduhnya, Firefox akan meminta izin mengakses situs web (Anda dapat menghapusnya di Data dan cadangan)."
+  },
+  "surprise": {
+    "message": "Kejutkan saya"
+  },
+  "surpriseNone": {
+    "message": "Tidak ada yang bisa dibuka dengan filter ini."
+  },
+  "select": {
+    "message": "Pilih"
+  },
+  "selectAll": {
+    "message": "Pilih semua ($N$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectedCount": {
+    "message": "$N$ dipilih",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "apply": {
+    "message": "Terapkan"
+  },
+  "kindAll": {
+    "message": "Semua jenis"
+  },
+  "kindArticle": {
+    "message": "Artikel"
+  },
+  "kindVideo": {
+    "message": "Video"
+  },
+  "kindImage": {
+    "message": "Gambar"
+  },
+  "kindOther": {
+    "message": "Lainnya"
+  },
+  "collectionAll": {
+    "message": "Semua koleksi"
+  },
+  "collectionNone": {
+    "message": "Tanpa koleksi"
+  },
+  "collectionNew": {
+    "message": "Koleksi baru…"
+  },
+  "collectionNamePrompt": {
+    "message": "Nama koleksi"
+  },
+  "orderNewest": {
+    "message": "Terbaru dulu"
+  },
+  "orderOldest": {
+    "message": "Terlama dulu"
+  },
+  "shortReads": {
+    "message": "Pendek (<5 mnt)"
+  },
+  "tabTags": {
+    "message": "Tag"
+  },
+  "tabSites": {
+    "message": "Situs"
+  },
+  "showMore": {
+    "message": "Tampilkan lebih banyak"
+  },
+  "showLess": {
+    "message": "Tampilkan lebih sedikit"
+  },
+  "minutes": {
+    "message": "$N$ mnt",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "more": {
+    "message": "Tindakan lainnya"
+  },
+  "editNote": {
+    "message": "Catatan pribadi"
+  },
+  "notePlaceholder": {
+    "message": "Mengapa Anda menyimpannya?"
+  },
+  "noteHelp": {
+    "message": "Ctrl+Enter menyimpan, Esc membatalkan."
+  },
+  "noteSaved": {
+    "message": "Catatan disimpan"
+  },
+  "moveToCollection": {
+    "message": "Pindahkan ke koleksi"
+  },
+  "movedToCollection": {
+    "message": "Dipindahkan ke $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "removedFromCollection": {
+    "message": "Dihapus dari koleksi"
+  },
+  "copyLink": {
+    "message": "Salin tautan"
+  },
+  "linkCopied": {
+    "message": "Tautan disalin"
+  },
+  "suggested": {
+    "message": "Saran:"
+  },
+  "bulkArchive": {
+    "message": "Arsipkan"
+  },
+  "bulkUnread": {
+    "message": "Belum dibaca"
+  },
+  "bulkFavorite": {
+    "message": "Favorit"
+  },
+  "bulkTag": {
+    "message": "Tag…"
+  },
+  "bulkCollection": {
+    "message": "Koleksi…"
+  },
+  "bulkDelete": {
+    "message": "Hapus"
+  },
+  "bulkDone": {
+    "message": "$N$ item diperbarui",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted": {
+    "message": "$N$ item dipindahkan ke tempat sampah",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle": {
+    "message": "Tambahkan tag ke $N$ item",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allow": {
+    "message": "Izinkan"
+  },
+  "notNow": {
+    "message": "Jangan sekarang"
+  },
+  "bgFetchAsk": {
+    "message": "$N$ item tidak memiliki teks, judul asli, atau gambar mini. Aktifkan unduhan di latar belakang? Firefox akan meminta izin mengakses situs web.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchProgress": {
+    "message": "Mengunduh di latar belakang: $DONE$ dari $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "bgFetchEnable": {
+    "message": "Aktifkan unduhan di latar belakang (Firefox akan meminta izin mengakses situs web)"
+  },
+  "bgFetchHelp": {
+    "message": "Perlahan mengunduh teks, judul asli, dan gambar mini untuk item yang belum memilikinya (misalnya item yang diimpor). Agar Firefox tidak melambat, ini hanya berjalan saat “Lihat semua” atau halaman ini terbuka, satu item setiap kali."
+  },
+  "kbNote": {
+    "message": "Catatan pribadi"
+  },
+  "kbCollection": {
+    "message": "Pindahkan ke koleksi"
+  },
+  "kbSelect": {
+    "message": "Pilih (Shift+klik: rentang)"
+  },
+  "appearanceTitle": {
+    "message": "Tampilan"
+  },
+  "themeHelp": {
+    "message": "Berlaku untuk seluruh ekstensi, termasuk pembaca."
+  },
+  "badgeEnable": {
+    "message": "Tampilkan jumlah item belum dibaca di tombol bilah alat"
+  },
+  "collectionsTitle": {
+    "message": "Koleksi"
+  },
+  "collectionsHelp": {
+    "message": "Seperti folder: setiap item hanya bisa berada di satu koleksi."
+  },
+  "collectionsEmpty": {
+    "message": "Belum ada koleksi."
+  },
+  "addCollection": {
+    "message": "Buat koleksi"
+  },
+  "collectionDeleted": {
+    "message": "Koleksi dihapus (itemnya tetap ada)"
+  },
+  "rename": {
+    "message": "Ganti nama"
+  },
+  "rulesTitle": {
+    "message": "Aturan otomatis"
+  },
+  "rulesHelp": {
+    "message": "Diterapkan saat menyimpan atau mengimpor. Tidak pernah menghapus tag atau mengubah koleksi yang sudah dipilih."
+  },
+  "rulesEmpty": {
+    "message": "Belum ada aturan."
+  },
+  "ruleIf": {
+    "message": "Jika"
+  },
+  "ruleFieldSite": {
+    "message": "situsnya adalah"
+  },
+  "ruleFieldUrl": {
+    "message": "URL berisi"
+  },
+  "ruleFieldTitle": {
+    "message": "judul berisi"
+  },
+  "ruleValue": {
+    "message": "Nilai"
+  },
+  "ruleThen": {
+    "message": "→"
+  },
+  "ruleAddTags": {
+    "message": "tag"
+  },
+  "ruleCollection": {
+    "message": "Pindahkan ke koleksi"
+  },
+  "ruleFavorite": {
+    "message": "Tambahkan ke favorit"
+  },
+  "addRule": {
+    "message": "Tambah aturan"
+  },
+  "applyRulesNow": {
+    "message": "Terapkan ke item yang ada"
+  },
+  "rulesApplied": {
+    "message": "$N$ item diperbarui",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchActivate": {
+    "message": "Aktifkan"
+  },
+  "iconStyleTitle": {
+    "message": "Ikon bilah alat"
+  },
+  "iconStyleHelp": {
+    "message": "Tombol dengan penghitung dan ikon di bilah alamat."
+  },
+  "iconStyleBookmark": {
+    "message": "Penanda"
+  },
+  "iconStyleBook": {
+    "message": "Buku"
+  },
+  "iconStyleMinimal": {
+    "message": "Sederhana"
+  },
+  "iconStyleLegend": {
+    "message": "Pada masing-masing: tombol bilah alat · halaman belum disimpan · halaman sudah disimpan."
+  },
+  "ruleTitlePlaceholder": {
+    "message": "satu kata"
+  },
+  "ruleErrSiteEmpty": {
+    "message": "Ketik situs web, misalnya youtube.com"
+  },
+  "ruleErrTextEmpty": {
+    "message": "Ketik teks yang harus ada"
+  },
+  "ruleErrSite": {
+    "message": "Itu tampaknya bukan situs web yang valid. Ketik domainnya saja, misalnya youtube.com atau id.wikipedia.org"
+  },
+  "ruleErrUrlSpaces": {
+    "message": "Alamat tidak boleh berisi spasi"
+  },
+  "cleanupTitle": {
+    "message": "Pembersihan otomatis"
+  },
+  "cleanupHelp": {
+    "message": "Memindahkan ke tempat sampah apa pun yang cocok dengan setiap aturan aktif. Tempat sampah hanya menyimpan judul dan alamat (teks, gambar mini, tag, dan catatan dihapus untuk mengosongkan ruang); item dapat dipulihkan dari sana selama 30 hari. Berjalan saat Firefox, “Lihat semua”, atau halaman ini dibuka."
+  },
+  "cleanupEmpty": {
+    "message": "Belum ada aturan pembersihan."
+  },
+  "addCleanup": {
+    "message": "Tambah aturan pembersihan"
+  },
+  "runCleanupNow": {
+    "message": "Bersihkan sekarang"
+  },
+  "openTrash": {
+    "message": "Buka tempat sampah"
+  },
+  "cleanupMove": {
+    "message": "Pindahkan ke tempat sampah"
+  },
+  "cleanupScope": {
+    "message": "Item mana"
+  },
+  "cleanupScopeCollection": {
+    "message": "yang ada di koleksi"
+  },
+  "cleanupScopeTag": {
+    "message": "yang bertag"
+  },
+  "cleanupScopeSite": {
+    "message": "yang dari situs"
+  },
+  "cleanupScopeAll": {
+    "message": "semua item"
+  },
+  "chooseCollection": {
+    "message": "Pilih koleksi"
+  },
+  "cleanupTagPlaceholder": {
+    "message": "tag"
+  },
+  "cleanupStatus": {
+    "message": "Status"
+  },
+  "cleanupStatusAny": {
+    "message": "dengan status apa pun"
+  },
+  "cleanupStatusUnread": {
+    "message": "hanya yang belum dibaca"
+  },
+  "cleanupStatusArchive": {
+    "message": "hanya yang diarsipkan"
+  },
+  "cleanupOlderThan": {
+    "message": "disimpan lebih dari"
+  },
+  "cleanupAgo": {
+    "message": "yang lalu"
+  },
+  "cleanupAmount": {
+    "message": "Jumlah"
+  },
+  "cleanupUnit": {
+    "message": "Satuan"
+  },
+  "unit_day": {
+    "message": "hari"
+  },
+  "unit_day1": {
+    "message": "hari"
+  },
+  "unit_week": {
+    "message": "minggu"
+  },
+  "unit_week1": {
+    "message": "minggu"
+  },
+  "unit_month": {
+    "message": "bulan"
+  },
+  "unit_month1": {
+    "message": "bulan"
+  },
+  "unit_year": {
+    "message": "tahun"
+  },
+  "unit_year1": {
+    "message": "tahun"
+  },
+  "cleanupActive": {
+    "message": "Aktif"
+  },
+  "cleanupAffects": {
+    "message": "Jika diaktifkan, aturan ini akan memindahkan $N$ item ke tempat sampah sekarang.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffectsActive": {
+    "message": "Untuk mengubahnya, nonaktifkan dulu."
+  },
+  "cleanupIncomplete": {
+    "message": "Lengkapi aturan agar bisa diaktifkan."
+  },
+  "cleanupActivate": {
+    "message": "Aktifkan"
+  },
+  "cleanupConfirm": {
+    "message": "Mengaktifkannya akan memindahkan $N$ item ke tempat sampah sekarang. Di sana hanya judul dan alamatnya yang disimpan, selama 30 hari.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone": {
+    "message": "$N$ item dipindahkan ke tempat sampah oleh pembersihan otomatis",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupRan": {
+    "message": "Pembersihan selesai: $N$ ke tempat sampah, $M$ dihapus permanen",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "m": {
+        "content": "$2"
+      }
+    }
+  },
+  "filterTrash": {
+    "message": "Tempat sampah"
+  },
+  "trashInfo": {
+    "message": "Ini adalah yang Anda hapus atau yang dihapus pembersihan otomatis. Hanya judul dan alamat yang disimpan; item yang dipulihkan kembali sebagai belum dibaca dengan tanggal hari ini (aturan pembersihan menghitung dari situ). Item dihapus permanen setelah 30 hari."
+  },
+  "emptyTrash": {
+    "message": "Kosongkan tempat sampah"
+  },
+  "emptyTrashConfirm": {
+    "message": "$N$ item akan dihapus permanen dari tempat sampah.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDeletedOn": {
+    "message": "dihapus pada $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft": {
+    "message": "dihapus dalam $N$ hari",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashToday": {
+    "message": "dihapus hari ini"
+  },
+  "restore": {
+    "message": "Pulihkan"
+  },
+  "deleteForever": {
+    "message": "Hapus permanen"
+  },
+  "trashRestored": {
+    "message": "Dipulihkan ke “Belum dibaca” dengan tanggal hari ini"
+  },
+  "trashEmpty": {
+    "message": "Tempat sampah kosong"
+  },
+  "trashEmptyBody": {
+    "message": "Yang Anda hapus dan yang dihapus pembersihan otomatis akan muncul di sini."
+  },
+  "expireSet": {
+    "message": "Hapus otomatis…"
+  },
+  "expireChange": {
+    "message": "Ubah penghapusan otomatis…"
+  },
+  "expireNever": {
+    "message": "Jangan hapus otomatis"
+  },
+  "expireHelp": {
+    "message": "Setelah waktu itu, item masuk ke tempat sampah, tempat judul dan alamatnya disimpan 30 hari lagi."
+  },
+  "expire1d": {
+    "message": "Dalam 1 hari"
+  },
+  "expire1w": {
+    "message": "Dalam 1 minggu"
+  },
+  "expire1m": {
+    "message": "Dalam 1 bulan"
+  },
+  "expire3m": {
+    "message": "Dalam 3 bulan"
+  },
+  "expire6m": {
+    "message": "Dalam 6 bulan"
+  },
+  "expire1y": {
+    "message": "Dalam 1 tahun"
+  },
+  "expireScheduled": {
+    "message": "Masuk ke tempat sampah pada $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireCancelled": {
+    "message": "Penghapusan otomatis dibatalkan"
+  },
+  "expiresOn": {
+    "message": "Masuk ke tempat sampah pada $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle": {
+    "message": "Hapus otomatis $N$ item",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkExpire": {
+    "message": "Hapus dalam…"
+  },
+  "kbExpire": {
+    "message": "Hapus otomatis…"
+  },
+  "collectionFilterBy": {
+    "message": "Tampilkan hanya koleksi ini"
+  },
+  "shortReadsHelp": {
+    "message": "Hanya menampilkan bacaan di bawah 5 menit (yang teksnya sudah diunduh)."
+  },
+  "thumbSmall": {
+    "message": "Gambar mini kecil"
+  },
+  "thumbMedium": {
+    "message": "Gambar mini sedang"
+  },
+  "thumbLarge": {
+    "message": "Gambar mini besar"
+  },
+  "matchInText": {
+    "message": "di teks"
+  },
+  "matchInTextTitle": {
+    "message": "Pencarian cocok dengan teks artikel"
+  },
+  "readerWithImages": {
+    "message": "Baca offline (dengan gambar)"
+  },
+  "hlCount": {
+    "message": "$N$ sorotan",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "statImages": {
+    "message": "Gambar offline"
+  },
+  "statTexts": {
+    "message": "Teks yang dapat dicari"
+  },
+  "exportWithImages": {
+    "message": "Sertakan gambar offline dalam cadangan lengkap"
+  },
+  "exportWithImagesHelp": {
+    "message": "Gambar bisa membuat file jauh lebih besar. Cadangan otomatis tidak pernah menyertakannya."
+  },
+  "imagesTitle": {
+    "message": "Gambar offline"
+  },
+  "imagesHelp": {
+    "message": "Juga menyimpan gambar artikel agar bisa dilihat offline di pembaca. Gambar dihapus otomatis saat item diarsipkan. Di pembaca, tombol gambar menyimpan atau menghapusnya untuk satu artikel."
+  },
+  "imagesEnable": {
+    "message": "Simpan gambar artikel baru (Firefox akan meminta izin mengakses situs web)"
+  },
+  "imagesWarning": {
+    "message": "Gambar memakan ruang jauh lebih besar daripada teks: artikel dengan foto biasanya perlu 0,5–3 MB, dibandingkan sekitar 10–30 KB jika hanya teks."
+  },
+  "imagesUsage": {
+    "message": "Saat ini: $N$ gambar, $SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesClear": {
+    "message": "Hapus semua gambar"
+  },
+  "imagesClearConfirm": {
+    "message": "Semua gambar offline akan dihapus. Artikel dan teksnya tetap ada."
+  },
+  "imagesCleared": {
+    "message": "Gambar dihapus"
+  },
+  "imagesEnabledToast": {
+    "message": "Mulai sekarang gambar artikel baru akan disimpan"
+  },
+  "imagesOffTitle": {
+    "message": "Simpan gambar offline (memakan lebih banyak ruang)"
+  },
+  "imagesOnTitle": {
+    "message": "Gambar tersimpan offline ($SIZE$). Klik untuk menghapusnya",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesArchived": {
+    "message": "Item yang diarsipkan tidak menyimpan gambar: gambar dihapus saat diarsipkan"
+  },
+  "imagesSaving": {
+    "message": "Menyimpan gambar…"
+  },
+  "imagesProgress": {
+    "message": "Menyimpan gambar: $DONE$ dari $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved": {
+    "message": "$N$ gambar disimpan ($SIZE$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSavedSome": {
+    "message": "$N$ dari $TOTAL$ gambar disimpan ($SIZE$); sisanya tidak dapat diunduh",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      }
+    }
+  },
+  "imagesNone": {
+    "message": "Artikel ini tidak memiliki gambar"
+  },
+  "imagesFailed": {
+    "message": "Tidak ada gambar yang dapat diunduh"
+  },
+  "imagesRemoved": {
+    "message": "Gambar offline dihapus"
+  },
+  "archivedImagesGone": {
+    "message": "Diarsipkan (gambar offline-nya dihapus)"
+  },
+  "print": {
+    "message": "Cetak atau simpan sebagai PDF"
+  },
+  "hlPanel": {
+    "message": "Sorotan dan catatan"
+  },
+  "hlHint": {
+    "message": "Aktifkan mode stabilo (tombol stabilo atau tombol H) dan teks apa pun yang Anda pilih akan disorot dengan warna yang dipilih di sini atau di Aa. Tanpa mode itu, memilih teks menampilkan tombol “Sorot”."
+  },
+  "hlEmpty": {
+    "message": "Belum ada sorotan di artikel ini."
+  },
+  "hlExport": {
+    "message": "Salin semua sebagai Markdown"
+  },
+  "hlExported": {
+    "message": "Sorotan disalin ke papan klip"
+  },
+  "hlColor_yellow": {
+    "message": "Kuning"
+  },
+  "hlColor_green": {
+    "message": "Hijau"
+  },
+  "hlColor_blue": {
+    "message": "Biru"
+  },
+  "hlColor_pink": {
+    "message": "Merah muda"
+  },
+  "hlAddNote": {
+    "message": "Tambah catatan"
+  },
+  "hlEditNote": {
+    "message": "Edit catatan"
+  },
+  "hlCopy": {
+    "message": "Salin teks"
+  },
+  "hlCopied": {
+    "message": "Teks disalin"
+  },
+  "hlDelete": {
+    "message": "Hapus sorotan"
+  },
+  "hlDeleted": {
+    "message": "Sorotan dihapus"
+  },
+  "hlNotePlaceholder": {
+    "message": "Tulis catatan Anda…"
+  },
+  "hlGoTo": {
+    "message": "Pergi ke sorotan"
+  },
+  "hlLost": {
+    "message": "Tidak ditemukan di teks artikel saat ini"
+  },
+  "save": {
+    "message": "Simpan"
+  },
+  "repairPending": {
+    "message": "$N$ artikel tersimpan dengan karakter aneh (� sebagai ganti huruf beraksen).",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairStart": {
+    "message": "Unduh ulang"
+  },
+  "repairProgress": {
+    "message": "Memperbaiki: $DONE$ dari $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairDone": {
+    "message": "$N$ artikel diperbaiki",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairReader": {
+    "message": "Artikel ini tersimpan dengan karakter aneh (� sebagai ganti huruf beraksen). Mengunduh ulang akan memperbaikinya; sorotan Anda tetap ada."
+  },
+  "repairReaderBtn": {
+    "message": "Unduh ulang"
+  },
+  "hlColorLabel": {
+    "message": "Warna sorotan"
+  },
+  "hlDo": {
+    "message": "Sorot"
+  },
+  "hlDoTitle": {
+    "message": "Sorot (tombol H). Ubah warna di Aa atau di panel sorotan"
+  },
+  "hlModeTitle": {
+    "message": "Mode stabilo: memilih teks langsung menyorotnya (tombol H)"
+  },
+  "hlModeOn": {
+    "message": "Mode stabilo aktif: pilih teks untuk menyorotnya"
+  },
+  "hlModeOff": {
+    "message": "Mode stabilo nonaktif"
+  },
+  "sidebarTitle": {
+    "message": "Read Later Local"
+  },
+  "commandSidebar": {
+    "message": "Buka atau tutup bilah samping"
+  },
+  "menuSidebar": {
+    "message": "Bilah samping"
+  },
+  "sidebarHint": {
+    "message": "Klik: buka di sini · Ctrl+klik: tab baru"
+  },
+  "emailSend": {
+    "message": "Kirim lewat email"
+  },
+  "emailAttach": {
+    "message": "Terlampir: artikel tersimpan, {file}"
+  },
+  "emailFileSaved": {
+    "message": "Email baru telah dibuka. Lampirkan file “$FILE$” (foldernya terbuka setelah tersimpan).",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "emailLinkOnly": {
+    "message": "Email baru telah dibuka dengan tautan (artikel ini tidak memiliki teks tersimpan)"
+  },
+  "triage": {
+    "message": "Mode beres-beres"
+  },
+  "triageTitle": {
+    "message": "Tinjau item satu per satu: simpan, arsipkan, atau hapus (tombol R)"
+  },
+  "triageKeep": {
+    "message": "Simpan"
+  },
+  "triageProgress": {
+    "message": "$N$ dari $TOTAL$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "triageNothing": {
+    "message": "Tidak ada item dengan filter ini"
+  },
+  "triageDone": {
+    "message": "Semua selesai"
+  },
+  "triageSummary": {
+    "message": "Disimpan: $KEPT$ · Diarsipkan: $ARCHIVED$ · Dihapus: $DELETED$",
+    "placeholders": {
+      "kept": {
+        "content": "$1"
+      },
+      "archived": {
+        "content": "$2"
+      },
+      "deleted": {
+        "content": "$3"
+      }
+    }
+  },
+  "menuSaveClose": {
+    "message": "Simpan dan tutup tab"
+  },
+  "menuSaveAllTabs": {
+    "message": "Simpan semua tab di jendela"
+  },
+  "menuSaveTabs": {
+    "message": "Simpan untuk dibaca nanti"
+  },
+  "listenTitle": {
+    "message": "Dengarkan artikel"
+  },
+  "ttsPlay": {
+    "message": "Putar"
+  },
+  "ttsPause": {
+    "message": "Jeda"
+  },
+  "ttsPrev": {
+    "message": "Paragraf sebelumnya"
+  },
+  "ttsNext": {
+    "message": "Paragraf berikutnya"
+  },
+  "ttsStop": {
+    "message": "Berhenti mendengarkan"
+  },
+  "ttsSpeed": {
+    "message": "Kecepatan"
+  },
+  "ttsVoice": {
+    "message": "Suara"
+  },
+  "ttsNoVoices": {
+    "message": "Firefox tidak menemukan suara di komputer ini. Di Windows: Pengaturan → Waktu & bahasa → Ucapan."
+  },
+  "copyMarkdown": {
+    "message": "Salin sebagai Markdown"
+  },
+  "markdownCopied": {
+    "message": "Tautan disalin sebagai Markdown"
+  },
+  "saveMarkdown": {
+    "message": "Simpan sebagai Markdown (Obsidian…)"
+  },
+  "markdownSaved": {
+    "message": "Disimpan sebagai $FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportMarkdown": {
+    "message": "Markdown (daftar tautan)"
+  },
+  "autoArchive": {
+    "message": "Arsipkan saat sampai di akhir"
+  },
+  "finishedArchived": {
+    "message": "Selesai: diarsipkan"
+  },
+  "finishedArchivedImages": {
+    "message": "Selesai: diarsipkan (gambar offline-nya dihapus)"
+  },
+  "ttsError": {
+    "message": "Artikel tidak dapat dibacakan. Periksa suara dan suara pembaca yang terpasang di sistem."
+  }
+}

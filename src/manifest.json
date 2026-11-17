@@ -1,0 +1,85 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "short_name": "Read Later",
+  "version": "1.10.2",
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "unlimitedStorage",
+    "menus",
+    "scripting",
+    "downloads",
+    "tabs"
+  ],
+  "optional_host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "__MSG_actionTitle__",
+    "default_popup": "popup/popup.html?mode=list",
+    "default_icon": "icons/icon.svg"
+  },
+  "page_action": {
+    "default_title": "__MSG_pageActionTitle__",
+    "default_popup": "popup/popup.html?mode=save",
+    "default_icon": "icons/save.svg",
+    "show_matches": [
+      "http://*/*",
+      "https://*/*"
+    ]
+  },
+  "sidebar_action": {
+    "default_title": "__MSG_sidebarTitle__",
+    "default_panel": "sidebar/sidebar.html",
+    "default_icon": "icons/icon.svg",
+    "open_at_install": false
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  },
+  "commands": {
+    "_execute_page_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+S"
+      },
+      "description": "__MSG_commandSave__"
+    },
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+L"
+      },
+      "description": "__MSG_commandShowList__"
+    },
+    "_execute_sidebar_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+B"
+      },
+      "description": "__MSG_commandSidebar__"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "type": "module"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "read-later-local@local-addon",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  }
+}

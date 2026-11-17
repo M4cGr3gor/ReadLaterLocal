@@ -1,0 +1,1456 @@
+{
+  "extName": {
+    "message": "Read Later Local"
+  },
+  "extDescription": {
+    "message": "ページを保存してあとで読めます。すべてお使いのコンピューターに保存され、アカウントもサーバーも不要です。"
+  },
+  "actionTitle": {
+    "message": "最近保存したもの (Read Later Local)"
+  },
+  "commandSave": {
+    "message": "現在のページを保存"
+  },
+  "menuSaveLink": {
+    "message": "リンクをあとで読むために保存"
+  },
+  "menuSavePage": {
+    "message": "ページをあとで読むために保存"
+  },
+  "saved": {
+    "message": "保存しました"
+  },
+  "undo": {
+    "message": "元に戻す"
+  },
+  "alreadySaved": {
+    "message": "保存済み"
+  },
+  "cantSave": {
+    "message": "このページは保存できません"
+  },
+  "saveRemoved": {
+    "message": "削除しました"
+  },
+  "recent": {
+    "message": "最近保存したもの"
+  },
+  "viewAll": {
+    "message": "すべて表示"
+  },
+  "export": {
+    "message": "CSV をエクスポート"
+  },
+  "import": {
+    "message": "インポート"
+  },
+  "open": {
+    "message": "開く"
+  },
+  "archive": {
+    "message": "アーカイブ"
+  },
+  "unarchive": {
+    "message": "未読に戻す"
+  },
+  "delete": {
+    "message": "削除"
+  },
+  "deleted": {
+    "message": "ごみ箱に移動しました"
+  },
+  "archived": {
+    "message": "アーカイブしました"
+  },
+  "movedToUnread": {
+    "message": "未読に戻しました"
+  },
+  "emptyRecentTitle": {
+    "message": "最初のページを保存しましょう"
+  },
+  "emptyRecentBody": {
+    "message": "どのページでもツールバーのボタンをクリックすると、ここに保存されます。"
+  },
+  "searchPlaceholder": {
+    "message": "タイトル、URL、メモ、本文を検索"
+  },
+  "filterUnread": {
+    "message": "未読"
+  },
+  "filterArchive": {
+    "message": "アーカイブ済み"
+  },
+  "filterAll": {
+    "message": "すべて"
+  },
+  "gridView": {
+    "message": "グリッド表示"
+  },
+  "listView": {
+    "message": "リスト表示"
+  },
+  "loadingMore": {
+    "message": "読み込み中…"
+  },
+  "noResults": {
+    "message": "検索に一致するものはありません。"
+  },
+  "emptyListTitle": {
+    "message": "まだ何もありません"
+  },
+  "emptyListBody": {
+    "message": "ツールバーのボタンでページを保存するか、CSV バックアップをインポートしてください。"
+  },
+  "importChoose": {
+    "message": "インポートする CSV ファイルを選択"
+  },
+  "importing": {
+    "message": "インポート中…"
+  },
+  "importResult": {
+    "message": "インポート: $ADDED$ 件、保存済み: $DUP$ 件、無効: $BAD$ 件",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "dup": {
+        "content": "$2"
+      },
+      "bad": {
+        "content": "$3"
+      }
+    }
+  },
+  "importError": {
+    "message": "ファイルを読み込めませんでした。url 列のある CSV か確認してください。"
+  },
+  "exportDone": {
+    "message": "$COUNT$ 件をエクスポートしました",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount": {
+    "message": "$COUNT$ 件",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "filterFavorite": {
+    "message": "お気に入り"
+  },
+  "favorite": {
+    "message": "お気に入りに追加"
+  },
+  "unfavorite": {
+    "message": "お気に入りから削除"
+  },
+  "addedToFavorites": {
+    "message": "お気に入りに追加しました"
+  },
+  "removedFromFavorites": {
+    "message": "お気に入りから削除しました"
+  },
+  "editTags": {
+    "message": "タグ"
+  },
+  "tagsPlaceholder": {
+    "message": "css, linux, いつか"
+  },
+  "tagsHelp": {
+    "message": "カンマで区切ります。Enter で保存、Esc でキャンセル。"
+  },
+  "tagsSaved": {
+    "message": "タグを保存しました"
+  },
+  "reader": {
+    "message": "オフラインで読む"
+  },
+  "openOriginal": {
+    "message": "元のページを開く"
+  },
+  "dataPage": {
+    "message": "データとバックアップ"
+  },
+  "exportCsv": {
+    "message": "CSV (Pocket 互換)"
+  },
+  "exportHtml": {
+    "message": "HTML ブックマーク (どのブラウザーでも可)"
+  },
+  "exportFull": {
+    "message": "完全バックアップ (.json.gz)"
+  },
+  "shortcuts": {
+    "message": "キーボードショートカット"
+  },
+  "kbSearch": {
+    "message": "検索 (tag:名前 に対応)"
+  },
+  "kbMove": {
+    "message": "リスト内を移動"
+  },
+  "kbOpen": {
+    "message": "ページを開く"
+  },
+  "kbReader": {
+    "message": "リーダーを開く"
+  },
+  "kbArchive": {
+    "message": "アーカイブ / 未読に戻す"
+  },
+  "kbFavorite": {
+    "message": "お気に入り"
+  },
+  "kbTags": {
+    "message": "タグを編集"
+  },
+  "kbDelete": {
+    "message": "削除 (元に戻せます)"
+  },
+  "kbHelp": {
+    "message": "このヘルプを表示"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "readerBack": {
+    "message": "すべて表示"
+  },
+  "readerSettings": {
+    "message": "表示設定"
+  },
+  "theme": {
+    "message": "テーマ"
+  },
+  "themeLight": {
+    "message": "ライト"
+  },
+  "themeDark": {
+    "message": "ダーク"
+  },
+  "themeSepia": {
+    "message": "セピア"
+  },
+  "themeSystem": {
+    "message": "システム"
+  },
+  "fontSize": {
+    "message": "文字サイズ"
+  },
+  "width": {
+    "message": "列の幅"
+  },
+  "widthNarrow": {
+    "message": "狭い"
+  },
+  "widthMedium": {
+    "message": "標準"
+  },
+  "widthWide": {
+    "message": "広い"
+  },
+  "font": {
+    "message": "フォント"
+  },
+  "fontSerif": {
+    "message": "明朝体"
+  },
+  "fontSans": {
+    "message": "ゴシック体"
+  },
+  "readingTime": {
+    "message": "$MIN$ 分で読めます",
+    "placeholders": {
+      "min": {
+        "content": "$1"
+      }
+    }
+  },
+  "noArticle": {
+    "message": "この項目には保存された記事がありません。"
+  },
+  "storageTitle": {
+    "message": "使用容量"
+  },
+  "statItems": {
+    "message": "項目"
+  },
+  "statArticles": {
+    "message": "保存した記事"
+  },
+  "statThumbs": {
+    "message": "サムネイル"
+  },
+  "statFavicons": {
+    "message": "サイトのアイコン"
+  },
+  "statTotal": {
+    "message": "ディスク上の合計 (概算)"
+  },
+  "freeSpace": {
+    "message": "アーカイブ済み項目の記事を削除"
+  },
+  "freeSpaceHelp": {
+    "message": "容量を空けます: アーカイブ済み項目の保存テキストを削除します。リンクは残ります。"
+  },
+  "freedArticles": {
+    "message": "$N$ 件の記事を削除しました",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupTitle": {
+    "message": "自動バックアップ"
+  },
+  "backupEnable": {
+    "message": "自動バックアップを作成する"
+  },
+  "backupHelp": {
+    "message": "完全バックアップ (項目、タグ、お気に入り、サムネイル、記事) を ダウンロード/ReadLaterLocal に保存します。Firefox の起動時と何かを保存したときに確認します。"
+  },
+  "backupFrequency": {
+    "message": "頻度"
+  },
+  "daily": {
+    "message": "毎日"
+  },
+  "weekly": {
+    "message": "毎週"
+  },
+  "monthly": {
+    "message": "毎月"
+  },
+  "backupKeep": {
+    "message": "保持するバックアップ数"
+  },
+  "backupNow": {
+    "message": "今すぐバックアップ"
+  },
+  "backupLast": {
+    "message": "最後のバックアップ: $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupNever": {
+    "message": "まだバックアップはありません"
+  },
+  "backupDone": {
+    "message": "バックアップを ダウンロード/$FILE$ に保存しました",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupFailed": {
+    "message": "バックアップを作成できませんでした。"
+  },
+  "exportTitle": {
+    "message": "エクスポート"
+  },
+  "exportHelp": {
+    "message": "CSV とブックマークにはリンクだけが含まれます。完全バックアップには記事とサムネイルも含まれます。"
+  },
+  "importTitle": {
+    "message": "インポート"
+  },
+  "importHelp": {
+    "message": "Pocket または Read Later Local の CSV、もしくは完全バックアップ (.json.gz)。既存のデータを削除したり上書きしたりすることはありません。"
+  },
+  "chooseFile": {
+    "message": "ファイルを選択"
+  },
+  "fetchTitle": {
+    "message": "バックグラウンドでのダウンロード"
+  },
+  "fetchHelp": {
+    "message": "このタブを開いている間なら、今すぐすべてをより速くダウンロードすることもできます:"
+  },
+  "fetchPending": {
+    "message": "未取得: $N$ 件",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchStart": {
+    "message": "記事をダウンロード"
+  },
+  "fetchRetry": {
+    "message": "以前失敗したものも含める"
+  },
+  "fetchCancel": {
+    "message": "キャンセル"
+  },
+  "fetchProgress": {
+    "message": "$DONE$ / $TOTAL$ · 記事あり $OK$ · 記事なし $PARTIAL$ · 失敗 $FAILED$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "ok": {
+        "content": "$3"
+      },
+      "partial": {
+        "content": "$4"
+      },
+      "failed": {
+        "content": "$5"
+      }
+    }
+  },
+  "fetchKeepOpen": {
+    "message": "ダウンロード中はこのタブを開いたままにしてください。"
+  },
+  "fetchDenied": {
+    "message": "その許可がないとダウンロードできません。"
+  },
+  "fetchFinished": {
+    "message": "完了しました。"
+  },
+  "revokePermission": {
+    "message": "ウェブサイトへのアクセス許可を取り消す"
+  },
+  "permissionRevoked": {
+    "message": "許可を取り消しました"
+  },
+  "dangerTitle": {
+    "message": "すべて削除"
+  },
+  "dangerHelp": {
+    "message": "項目、記事、サムネイル、アイコンを削除します。元に戻せないので、先にバックアップをエクスポートしてください。"
+  },
+  "deleteAll": {
+    "message": "すべてのデータを削除"
+  },
+  "confirmDeleteAll": {
+    "message": "よろしいですか? $N$ 件が削除され、元に戻せません。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allDeleted": {
+    "message": "データを削除しました"
+  },
+  "exportMenu": {
+    "message": "エクスポート"
+  },
+  "commandShowList": {
+    "message": "最近保存したものを表示"
+  },
+  "seeRecent": {
+    "message": "最近保存したものを見る"
+  },
+  "languageTitle": {
+    "message": "言語"
+  },
+  "languageHelp": {
+    "message": "拡張機能の言語。「自動」は Firefox の言語に従い、拡張機能にその言語がない場合は英語になります。"
+  },
+  "languageAuto": {
+    "message": "自動 (Firefox の言語)"
+  },
+  "pageActionTitle": {
+    "message": "あとで読むために保存"
+  },
+  "saveThisPage": {
+    "message": "このページを保存"
+  },
+  "menuSaveCurrent": {
+    "message": "このページを保存"
+  },
+  "fetchingArticle": {
+    "message": "記事をダウンロード中…"
+  },
+  "fetchArticle": {
+    "message": "記事をダウンロード"
+  },
+  "articleFailed": {
+    "message": "このページから記事を抽出できませんでした。ウェブで開くことができます。"
+  },
+  "articleNeedsPermission": {
+    "message": "この項目にはまだ保存されたテキストがありません。ダウンロードするには、Firefox がウェブサイトへのアクセス許可を求めます (「データとバックアップ」で取り消せます)。"
+  },
+  "surprise": {
+    "message": "おまかせで開く"
+  },
+  "surpriseNone": {
+    "message": "このフィルターでは開けるものがありません。"
+  },
+  "select": {
+    "message": "選択"
+  },
+  "selectAll": {
+    "message": "すべて選択 ($N$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectedCount": {
+    "message": "$N$ 件選択中",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "キャンセル"
+  },
+  "apply": {
+    "message": "適用"
+  },
+  "kindAll": {
+    "message": "すべての種類"
+  },
+  "kindArticle": {
+    "message": "記事"
+  },
+  "kindVideo": {
+    "message": "動画"
+  },
+  "kindImage": {
+    "message": "画像"
+  },
+  "kindOther": {
+    "message": "その他"
+  },
+  "collectionAll": {
+    "message": "すべてのコレクション"
+  },
+  "collectionNone": {
+    "message": "コレクションなし"
+  },
+  "collectionNew": {
+    "message": "新しいコレクション…"
+  },
+  "collectionNamePrompt": {
+    "message": "コレクション名"
+  },
+  "orderNewest": {
+    "message": "新しい順"
+  },
+  "orderOldest": {
+    "message": "古い順"
+  },
+  "shortReads": {
+    "message": "短い (5 分未満)"
+  },
+  "tabTags": {
+    "message": "タグ"
+  },
+  "tabSites": {
+    "message": "サイト"
+  },
+  "showMore": {
+    "message": "もっと見る"
+  },
+  "showLess": {
+    "message": "表示を減らす"
+  },
+  "minutes": {
+    "message": "$N$ 分",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "more": {
+    "message": "その他の操作"
+  },
+  "editNote": {
+    "message": "個人メモ"
+  },
+  "notePlaceholder": {
+    "message": "保存した理由は?"
+  },
+  "noteHelp": {
+    "message": "Ctrl+Enter で保存、Esc でキャンセル。"
+  },
+  "noteSaved": {
+    "message": "メモを保存しました"
+  },
+  "moveToCollection": {
+    "message": "コレクションに移動"
+  },
+  "movedToCollection": {
+    "message": "$NAME$ に移動しました",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "removedFromCollection": {
+    "message": "コレクションから外しました"
+  },
+  "copyLink": {
+    "message": "リンクをコピー"
+  },
+  "linkCopied": {
+    "message": "リンクをコピーしました"
+  },
+  "suggested": {
+    "message": "候補:"
+  },
+  "bulkArchive": {
+    "message": "アーカイブ"
+  },
+  "bulkUnread": {
+    "message": "未読"
+  },
+  "bulkFavorite": {
+    "message": "お気に入り"
+  },
+  "bulkTag": {
+    "message": "タグ…"
+  },
+  "bulkCollection": {
+    "message": "コレクション…"
+  },
+  "bulkDelete": {
+    "message": "削除"
+  },
+  "bulkDone": {
+    "message": "$N$ 件を更新しました",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted": {
+    "message": "$N$ 件をごみ箱に移動しました",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle": {
+    "message": "$N$ 件にタグを追加",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allow": {
+    "message": "許可"
+  },
+  "notNow": {
+    "message": "今はしない"
+  },
+  "bgFetchAsk": {
+    "message": "$N$ 件にテキスト、正しいタイトル、またはサムネイルがありません。バックグラウンドでのダウンロードを有効にしますか? Firefox がウェブサイトへのアクセス許可を求めます。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchProgress": {
+    "message": "バックグラウンドでダウンロード中: $DONE$ / $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "bgFetchEnable": {
+    "message": "バックグラウンドでのダウンロードを有効にする (Firefox がウェブサイトへのアクセス許可を求めます)"
+  },
+  "bgFetchHelp": {
+    "message": "テキスト、正しいタイトル、サムネイルがない項目 (インポートしたものなど) について、それらを少しずつダウンロードします。Firefox を重くしないよう、「すべて表示」またはこのページが開いている間だけ、1 件ずつ動作します。"
+  },
+  "kbNote": {
+    "message": "個人メモ"
+  },
+  "kbCollection": {
+    "message": "コレクションに移動"
+  },
+  "kbSelect": {
+    "message": "選択 (Shift+クリック: 範囲)"
+  },
+  "appearanceTitle": {
+    "message": "外観"
+  },
+  "themeHelp": {
+    "message": "リーダーを含む拡張機能全体に適用されます。"
+  },
+  "badgeEnable": {
+    "message": "ツールバーのボタンに未読の数を表示する"
+  },
+  "collectionsTitle": {
+    "message": "コレクション"
+  },
+  "collectionsHelp": {
+    "message": "フォルダーのようなものです。各項目は 1 つのコレクションにだけ入れられます。"
+  },
+  "collectionsEmpty": {
+    "message": "コレクションはまだありません。"
+  },
+  "addCollection": {
+    "message": "コレクションを作成"
+  },
+  "collectionDeleted": {
+    "message": "コレクションを削除しました (項目は残ります)"
+  },
+  "rename": {
+    "message": "名前を変更"
+  },
+  "rulesTitle": {
+    "message": "自動ルール"
+  },
+  "rulesHelp": {
+    "message": "保存時やインポート時に適用されます。タグを削除したり、すでに選んだコレクションを変更したりすることはありません。"
+  },
+  "rulesEmpty": {
+    "message": "ルールはまだありません。"
+  },
+  "ruleIf": {
+    "message": "条件"
+  },
+  "ruleFieldSite": {
+    "message": "サイトが次と一致"
+  },
+  "ruleFieldUrl": {
+    "message": "URL が次を含む"
+  },
+  "ruleFieldTitle": {
+    "message": "タイトルが次を含む"
+  },
+  "ruleValue": {
+    "message": "値"
+  },
+  "ruleThen": {
+    "message": "→"
+  },
+  "ruleAddTags": {
+    "message": "タグ"
+  },
+  "ruleCollection": {
+    "message": "コレクションに移動"
+  },
+  "ruleFavorite": {
+    "message": "お気に入りに追加"
+  },
+  "addRule": {
+    "message": "ルールを追加"
+  },
+  "applyRulesNow": {
+    "message": "既存の項目に適用"
+  },
+  "rulesApplied": {
+    "message": "$N$ 件を更新しました",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchActivate": {
+    "message": "有効にする"
+  },
+  "iconStyleTitle": {
+    "message": "ツールバーのアイコン"
+  },
+  "iconStyleHelp": {
+    "message": "カウンター付きのボタンとアドレスバーのアイコン。"
+  },
+  "iconStyleBookmark": {
+    "message": "しおり"
+  },
+  "iconStyleBook": {
+    "message": "本"
+  },
+  "iconStyleMinimal": {
+    "message": "控えめ"
+  },
+  "iconStyleLegend": {
+    "message": "それぞれ: ツールバーのボタン · 未保存のページ · 保存済みのページ。"
+  },
+  "ruleTitlePlaceholder": {
+    "message": "単語"
+  },
+  "ruleErrSiteEmpty": {
+    "message": "サイトを入力してください (例: youtube.com)"
+  },
+  "ruleErrTextEmpty": {
+    "message": "含めるテキストを入力してください"
+  },
+  "ruleErrSite": {
+    "message": "有効なサイトではないようです。ドメインだけを入力してください (例: youtube.com、ja.wikipedia.org)"
+  },
+  "ruleErrUrlSpaces": {
+    "message": "アドレスに空白は使えません"
+  },
+  "cleanupTitle": {
+    "message": "自動整理"
+  },
+  "cleanupHelp": {
+    "message": "有効なルールに一致するものをごみ箱に移動します。ごみ箱にはタイトルとアドレスだけが残り (容量を空けるため、本文、サムネイル、タグ、メモは削除されます)、30 日間は元に戻せます。Firefox、「すべて表示」、またはこのページを開いたときに実行されます。"
+  },
+  "cleanupEmpty": {
+    "message": "整理ルールはまだありません。"
+  },
+  "addCleanup": {
+    "message": "整理ルールを追加"
+  },
+  "runCleanupNow": {
+    "message": "今すぐ整理"
+  },
+  "openTrash": {
+    "message": "ごみ箱を開く"
+  },
+  "cleanupMove": {
+    "message": "ごみ箱に移動:"
+  },
+  "cleanupScope": {
+    "message": "対象"
+  },
+  "cleanupScopeCollection": {
+    "message": "次のコレクションの項目"
+  },
+  "cleanupScopeTag": {
+    "message": "次のタグの項目"
+  },
+  "cleanupScopeSite": {
+    "message": "次のサイトの項目"
+  },
+  "cleanupScopeAll": {
+    "message": "すべての項目"
+  },
+  "chooseCollection": {
+    "message": "コレクションを選択"
+  },
+  "cleanupTagPlaceholder": {
+    "message": "タグ"
+  },
+  "cleanupStatus": {
+    "message": "状態"
+  },
+  "cleanupStatusAny": {
+    "message": "状態を問わず"
+  },
+  "cleanupStatusUnread": {
+    "message": "未読のみ"
+  },
+  "cleanupStatusArchive": {
+    "message": "アーカイブ済みのみ"
+  },
+  "cleanupOlderThan": {
+    "message": "保存から"
+  },
+  "cleanupAgo": {
+    "message": "以上経過したもの"
+  },
+  "cleanupAmount": {
+    "message": "数"
+  },
+  "cleanupUnit": {
+    "message": "単位"
+  },
+  "unit_day": {
+    "message": "日"
+  },
+  "unit_day1": {
+    "message": "日"
+  },
+  "unit_week": {
+    "message": "週間"
+  },
+  "unit_week1": {
+    "message": "週間"
+  },
+  "unit_month": {
+    "message": "か月"
+  },
+  "unit_month1": {
+    "message": "か月"
+  },
+  "unit_year": {
+    "message": "年"
+  },
+  "unit_year1": {
+    "message": "年"
+  },
+  "cleanupActive": {
+    "message": "有効"
+  },
+  "cleanupAffects": {
+    "message": "有効にすると、今すぐ $N$ 件がごみ箱に移動します。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffectsActive": {
+    "message": "変更するには、先に無効にしてください。"
+  },
+  "cleanupIncomplete": {
+    "message": "有効にするにはルールを完成させてください。"
+  },
+  "cleanupActivate": {
+    "message": "有効にする"
+  },
+  "cleanupConfirm": {
+    "message": "有効にすると、今すぐ $N$ 件がごみ箱に移動します。そこではタイトルとアドレスだけが 30 日間保存されます。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone": {
+    "message": "自動整理で $N$ 件をごみ箱に移動しました",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupRan": {
+    "message": "整理しました: ごみ箱へ $N$ 件、完全に削除 $M$ 件",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "m": {
+        "content": "$2"
+      }
+    }
+  },
+  "filterTrash": {
+    "message": "ごみ箱"
+  },
+  "trashInfo": {
+    "message": "削除したものや自動整理で取り除かれたものです。タイトルとアドレスだけが保存されます。元に戻した項目は今日の日付で未読に戻ります (整理ルールはそこから数えます)。30 日後に完全に削除されます。"
+  },
+  "emptyTrash": {
+    "message": "ごみ箱を空にする"
+  },
+  "emptyTrashConfirm": {
+    "message": "ごみ箱から $N$ 件が完全に削除されます。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDeletedOn": {
+    "message": "$DATE$ に削除",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft": {
+    "message": "あと $N$ 日で消去",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashToday": {
+    "message": "今日消去"
+  },
+  "restore": {
+    "message": "元に戻す"
+  },
+  "deleteForever": {
+    "message": "完全に削除"
+  },
+  "trashRestored": {
+    "message": "今日の日付で「未読」に戻しました"
+  },
+  "trashEmpty": {
+    "message": "ごみ箱は空です"
+  },
+  "trashEmptyBody": {
+    "message": "削除したものや自動整理で取り除かれたものがここに表示されます。"
+  },
+  "expireSet": {
+    "message": "自動で削除…"
+  },
+  "expireChange": {
+    "message": "自動削除を変更…"
+  },
+  "expireNever": {
+    "message": "自動で削除しない"
+  },
+  "expireHelp": {
+    "message": "期限が来るとごみ箱に移動し、そこでタイトルとアドレスがさらに 30 日間保存されます。"
+  },
+  "expire1d": {
+    "message": "1 日後"
+  },
+  "expire1w": {
+    "message": "1 週間後"
+  },
+  "expire1m": {
+    "message": "1 か月後"
+  },
+  "expire3m": {
+    "message": "3 か月後"
+  },
+  "expire6m": {
+    "message": "6 か月後"
+  },
+  "expire1y": {
+    "message": "1 年後"
+  },
+  "expireScheduled": {
+    "message": "$DATE$ にごみ箱へ移動します",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireCancelled": {
+    "message": "自動削除を取り消しました"
+  },
+  "expiresOn": {
+    "message": "$DATE$ にごみ箱へ",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle": {
+    "message": "$N$ 件を自動で削除",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkExpire": {
+    "message": "次の期間後に削除…"
+  },
+  "kbExpire": {
+    "message": "自動で削除…"
+  },
+  "collectionFilterBy": {
+    "message": "このコレクションだけを表示"
+  },
+  "shortReadsHelp": {
+    "message": "5 分未満で読めるもの (本文をダウンロード済みのもの) だけを表示します。"
+  },
+  "thumbSmall": {
+    "message": "小さいサムネイル"
+  },
+  "thumbMedium": {
+    "message": "中くらいのサムネイル"
+  },
+  "thumbLarge": {
+    "message": "大きいサムネイル"
+  },
+  "matchInText": {
+    "message": "本文内"
+  },
+  "matchInTextTitle": {
+    "message": "記事の本文が検索に一致しました"
+  },
+  "readerWithImages": {
+    "message": "オフラインで読む (画像付き)"
+  },
+  "hlCount": {
+    "message": "ハイライト $N$ 件",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "statImages": {
+    "message": "オフライン画像"
+  },
+  "statTexts": {
+    "message": "検索用テキスト"
+  },
+  "exportWithImages": {
+    "message": "完全バックアップにオフライン画像を含める"
+  },
+  "exportWithImagesHelp": {
+    "message": "ファイルがかなり大きくなることがあります。自動バックアップには含まれません。"
+  },
+  "imagesTitle": {
+    "message": "オフライン画像"
+  },
+  "imagesHelp": {
+    "message": "記事の画像も保存して、リーダーでオフラインでも表示できるようにします。項目をアーカイブすると自動的に削除されます。リーダーの画像ボタンで、記事ごとに保存または削除できます。"
+  },
+  "imagesEnable": {
+    "message": "新しい記事の画像を保存する (Firefox がウェブサイトへのアクセス許可を求めます)"
+  },
+  "imagesWarning": {
+    "message": "テキストよりずっと容量を使います: 写真のある記事は通常 0.5–3 MB、テキストのみなら約 10–30 KB です。"
+  },
+  "imagesUsage": {
+    "message": "現在: 画像 $N$ 枚、$SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesClear": {
+    "message": "すべての画像を削除"
+  },
+  "imagesClearConfirm": {
+    "message": "すべてのオフライン画像が削除されます。記事とその本文は残ります。"
+  },
+  "imagesCleared": {
+    "message": "画像を削除しました"
+  },
+  "imagesEnabledToast": {
+    "message": "今後、新しい記事の画像を保存します"
+  },
+  "imagesOffTitle": {
+    "message": "画像をオフライン保存 (容量を多く使います)"
+  },
+  "imagesOnTitle": {
+    "message": "画像をオフライン保存済み ($SIZE$)。クリックで削除",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesArchived": {
+    "message": "アーカイブ済みの項目は画像を保持しません: アーカイブ時に削除されます"
+  },
+  "imagesSaving": {
+    "message": "画像を保存中…"
+  },
+  "imagesProgress": {
+    "message": "画像を保存中: $DONE$ / $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved": {
+    "message": "画像を $N$ 枚保存しました ($SIZE$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSavedSome": {
+    "message": "$TOTAL$ 枚中 $N$ 枚の画像を保存しました ($SIZE$)。残りはダウンロードできませんでした",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      }
+    }
+  },
+  "imagesNone": {
+    "message": "この記事には画像がありません"
+  },
+  "imagesFailed": {
+    "message": "画像を 1 枚もダウンロードできませんでした"
+  },
+  "imagesRemoved": {
+    "message": "オフライン画像を削除しました"
+  },
+  "archivedImagesGone": {
+    "message": "アーカイブしました (オフライン画像は削除されました)"
+  },
+  "print": {
+    "message": "印刷または PDF として保存"
+  },
+  "hlPanel": {
+    "message": "ハイライトとメモ"
+  },
+  "hlHint": {
+    "message": "マーカーモードをオン (マーカーボタンまたは H キー) にすると、選択したテキストがここまたは Aa で選んだ色でハイライトされます。オフのときは、選択すると「ハイライト」ボタンが表示されます。"
+  },
+  "hlEmpty": {
+    "message": "この記事にはまだハイライトがありません。"
+  },
+  "hlExport": {
+    "message": "すべて Markdown でコピー"
+  },
+  "hlExported": {
+    "message": "ハイライトをクリップボードにコピーしました"
+  },
+  "hlColor_yellow": {
+    "message": "黄"
+  },
+  "hlColor_green": {
+    "message": "緑"
+  },
+  "hlColor_blue": {
+    "message": "青"
+  },
+  "hlColor_pink": {
+    "message": "ピンク"
+  },
+  "hlAddNote": {
+    "message": "メモを追加"
+  },
+  "hlEditNote": {
+    "message": "メモを編集"
+  },
+  "hlCopy": {
+    "message": "テキストをコピー"
+  },
+  "hlCopied": {
+    "message": "テキストをコピーしました"
+  },
+  "hlDelete": {
+    "message": "ハイライトを削除"
+  },
+  "hlDeleted": {
+    "message": "ハイライトを削除しました"
+  },
+  "hlNotePlaceholder": {
+    "message": "メモを入力…"
+  },
+  "hlGoTo": {
+    "message": "ハイライトへ移動"
+  },
+  "hlLost": {
+    "message": "記事の現在の本文に見つかりません"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "repairPending": {
+    "message": "$N$ 件の記事が文字化け (文字の代わりに �) した状態で保存されています。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairStart": {
+    "message": "もう一度ダウンロード"
+  },
+  "repairProgress": {
+    "message": "修復中: $DONE$ / $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairDone": {
+    "message": "$N$ 件の記事を修復しました",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairReader": {
+    "message": "この記事は文字化け (文字の代わりに �) した状態で保存されています。もう一度ダウンロードすると直ります。ハイライトはそのまま残ります。"
+  },
+  "repairReaderBtn": {
+    "message": "もう一度ダウンロード"
+  },
+  "hlColorLabel": {
+    "message": "ハイライトの色"
+  },
+  "hlDo": {
+    "message": "ハイライト"
+  },
+  "hlDoTitle": {
+    "message": "ハイライト (H キー)。色は Aa またはハイライトパネルで変更できます"
+  },
+  "hlModeTitle": {
+    "message": "マーカーモード: テキストを選択するとすぐにハイライトします (H キー)"
+  },
+  "hlModeOn": {
+    "message": "マーカーモード オン: テキストを選択してハイライト"
+  },
+  "hlModeOff": {
+    "message": "マーカーモード オフ"
+  },
+  "sidebarTitle": {
+    "message": "Read Later Local"
+  },
+  "commandSidebar": {
+    "message": "サイドバーを開く/閉じる"
+  },
+  "menuSidebar": {
+    "message": "サイドバー"
+  },
+  "sidebarHint": {
+    "message": "クリック: ここで開く · Ctrl+クリック: 新しいタブ"
+  },
+  "emailSend": {
+    "message": "メールで送信"
+  },
+  "emailAttach": {
+    "message": "添付: 保存した記事 {file}"
+  },
+  "emailFileSaved": {
+    "message": "新しいメールを開きました。ファイル「$FILE$」を添付してください (保存されるとフォルダーが開きます)。",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "emailLinkOnly": {
+    "message": "リンク付きの新しいメールを開きました (この記事には保存されたテキストがありません)"
+  },
+  "triage": {
+    "message": "整理モード"
+  },
+  "triageTitle": {
+    "message": "項目を 1 件ずつ確認: 残す、アーカイブ、削除 (R キー)"
+  },
+  "triageKeep": {
+    "message": "残す"
+  },
+  "triageProgress": {
+    "message": "$N$ / $TOTAL$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "triageNothing": {
+    "message": "このフィルターに一致する項目はありません"
+  },
+  "triageDone": {
+    "message": "完了しました"
+  },
+  "triageSummary": {
+    "message": "残した: $KEPT$ · アーカイブ: $ARCHIVED$ · 削除: $DELETED$",
+    "placeholders": {
+      "kept": {
+        "content": "$1"
+      },
+      "archived": {
+        "content": "$2"
+      },
+      "deleted": {
+        "content": "$3"
+      }
+    }
+  },
+  "menuSaveClose": {
+    "message": "保存してタブを閉じる"
+  },
+  "menuSaveAllTabs": {
+    "message": "ウィンドウのすべてのタブを保存"
+  },
+  "menuSaveTabs": {
+    "message": "あとで読むために保存"
+  },
+  "listenTitle": {
+    "message": "記事を聞く"
+  },
+  "ttsPlay": {
+    "message": "再生"
+  },
+  "ttsPause": {
+    "message": "一時停止"
+  },
+  "ttsPrev": {
+    "message": "前の段落"
+  },
+  "ttsNext": {
+    "message": "次の段落"
+  },
+  "ttsStop": {
+    "message": "読み上げを停止"
+  },
+  "ttsSpeed": {
+    "message": "速度"
+  },
+  "ttsVoice": {
+    "message": "音声"
+  },
+  "ttsNoVoices": {
+    "message": "このコンピューターで音声が見つかりません。Windows では: 設定 → 時刻と言語 → 音声認識。"
+  },
+  "copyMarkdown": {
+    "message": "Markdown としてコピー"
+  },
+  "markdownCopied": {
+    "message": "リンクを Markdown としてコピーしました"
+  },
+  "saveMarkdown": {
+    "message": "Markdown として保存 (Obsidian…)"
+  },
+  "markdownSaved": {
+    "message": "$FILE$ として保存しました",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportMarkdown": {
+    "message": "Markdown (リンクの一覧)"
+  },
+  "autoArchive": {
+    "message": "最後まで読んだらアーカイブ"
+  },
+  "finishedArchived": {
+    "message": "読了: アーカイブしました"
+  },
+  "finishedArchivedImages": {
+    "message": "読了: アーカイブしました (オフライン画像は削除されました)"
+  },
+  "ttsError": {
+    "message": "記事を読み上げられませんでした。サウンドとシステムにインストールされている音声を確認してください。"
+  }
+}

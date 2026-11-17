@@ -1,0 +1,1456 @@
+{
+  "extName": {
+    "message": "Read Later Local"
+  },
+  "extDescription": {
+    "message": "儲存網頁，稍後閱讀。所有內容都留在你的電腦上：不需要帳號，也沒有伺服器。"
+  },
+  "actionTitle": {
+    "message": "最近儲存 (Read Later Local)"
+  },
+  "commandSave": {
+    "message": "儲存目前的頁面"
+  },
+  "menuSaveLink": {
+    "message": "儲存連結，稍後閱讀"
+  },
+  "menuSavePage": {
+    "message": "儲存頁面，稍後閱讀"
+  },
+  "saved": {
+    "message": "已儲存"
+  },
+  "undo": {
+    "message": "復原"
+  },
+  "alreadySaved": {
+    "message": "已經儲存過"
+  },
+  "cantSave": {
+    "message": "無法儲存此頁面"
+  },
+  "saveRemoved": {
+    "message": "已移除"
+  },
+  "recent": {
+    "message": "最近儲存"
+  },
+  "viewAll": {
+    "message": "檢視全部"
+  },
+  "export": {
+    "message": "匯出 CSV"
+  },
+  "import": {
+    "message": "匯入"
+  },
+  "open": {
+    "message": "開啟"
+  },
+  "archive": {
+    "message": "封存"
+  },
+  "unarchive": {
+    "message": "移回未讀"
+  },
+  "delete": {
+    "message": "刪除"
+  },
+  "deleted": {
+    "message": "已移到垃圾桶"
+  },
+  "archived": {
+    "message": "已封存"
+  },
+  "movedToUnread": {
+    "message": "已移回未讀"
+  },
+  "emptyRecentTitle": {
+    "message": "儲存你的第一個頁面"
+  },
+  "emptyRecentBody": {
+    "message": "在任何頁面點擊工具列按鈕，就能保存到這裡。"
+  },
+  "searchPlaceholder": {
+    "message": "搜尋標題、網址、筆記或內文"
+  },
+  "filterUnread": {
+    "message": "未讀"
+  },
+  "filterArchive": {
+    "message": "已封存"
+  },
+  "filterAll": {
+    "message": "全部"
+  },
+  "gridView": {
+    "message": "格狀檢視"
+  },
+  "listView": {
+    "message": "清單檢視"
+  },
+  "loadingMore": {
+    "message": "正在載入…"
+  },
+  "noResults": {
+    "message": "找不到符合的內容。"
+  },
+  "emptyListTitle": {
+    "message": "這裡還沒有東西"
+  },
+  "emptyListBody": {
+    "message": "用工具列按鈕儲存頁面，或匯入 CSV 備份。"
+  },
+  "importChoose": {
+    "message": "選擇要匯入的 CSV 檔案"
+  },
+  "importing": {
+    "message": "正在匯入…"
+  },
+  "importResult": {
+    "message": "已匯入 $ADDED$ 筆，$DUP$ 筆已存在，$BAD$ 筆無效",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "dup": {
+        "content": "$2"
+      },
+      "bad": {
+        "content": "$3"
+      }
+    }
+  },
+  "importError": {
+    "message": "無法讀取此檔案。請確認它是含有 url 欄位的 CSV 檔。"
+  },
+  "exportDone": {
+    "message": "已匯出 $COUNT$ 筆項目",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount": {
+    "message": "$COUNT$ 筆項目",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "filterFavorite": {
+    "message": "最愛"
+  },
+  "favorite": {
+    "message": "加入最愛"
+  },
+  "unfavorite": {
+    "message": "從最愛移除"
+  },
+  "addedToFavorites": {
+    "message": "已加入最愛"
+  },
+  "removedFromFavorites": {
+    "message": "已從最愛移除"
+  },
+  "editTags": {
+    "message": "標籤"
+  },
+  "tagsPlaceholder": {
+    "message": "css, linux, 有空再看"
+  },
+  "tagsHelp": {
+    "message": "以逗號分隔。Enter 儲存，Esc 取消。"
+  },
+  "tagsSaved": {
+    "message": "標籤已儲存"
+  },
+  "reader": {
+    "message": "離線閱讀"
+  },
+  "openOriginal": {
+    "message": "開啟原始頁面"
+  },
+  "dataPage": {
+    "message": "資料與備份"
+  },
+  "exportCsv": {
+    "message": "CSV（相容 Pocket）"
+  },
+  "exportHtml": {
+    "message": "HTML 書籤（任何瀏覽器）"
+  },
+  "exportFull": {
+    "message": "完整備份 (.json.gz)"
+  },
+  "shortcuts": {
+    "message": "鍵盤快速鍵"
+  },
+  "kbSearch": {
+    "message": "搜尋（支援 tag:名稱）"
+  },
+  "kbMove": {
+    "message": "在清單中移動"
+  },
+  "kbOpen": {
+    "message": "開啟頁面"
+  },
+  "kbReader": {
+    "message": "開啟閱讀器"
+  },
+  "kbArchive": {
+    "message": "封存 / 移回未讀"
+  },
+  "kbFavorite": {
+    "message": "最愛"
+  },
+  "kbTags": {
+    "message": "編輯標籤"
+  },
+  "kbDelete": {
+    "message": "刪除（可復原）"
+  },
+  "kbHelp": {
+    "message": "顯示此說明"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "readerBack": {
+    "message": "檢視全部"
+  },
+  "readerSettings": {
+    "message": "閱讀設定"
+  },
+  "theme": {
+    "message": "佈景主題"
+  },
+  "themeLight": {
+    "message": "淺色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "themeSepia": {
+    "message": "復古"
+  },
+  "themeSystem": {
+    "message": "跟隨系統"
+  },
+  "fontSize": {
+    "message": "文字大小"
+  },
+  "width": {
+    "message": "欄寬"
+  },
+  "widthNarrow": {
+    "message": "窄"
+  },
+  "widthMedium": {
+    "message": "中"
+  },
+  "widthWide": {
+    "message": "寬"
+  },
+  "font": {
+    "message": "字型"
+  },
+  "fontSerif": {
+    "message": "襯線體"
+  },
+  "fontSans": {
+    "message": "無襯線體"
+  },
+  "readingTime": {
+    "message": "約 $MIN$ 分鐘讀完",
+    "placeholders": {
+      "min": {
+        "content": "$1"
+      }
+    }
+  },
+  "noArticle": {
+    "message": "此項目沒有儲存的文章。"
+  },
+  "storageTitle": {
+    "message": "已用空間"
+  },
+  "statItems": {
+    "message": "項目"
+  },
+  "statArticles": {
+    "message": "已儲存的文章"
+  },
+  "statThumbs": {
+    "message": "縮圖"
+  },
+  "statFavicons": {
+    "message": "網站圖示"
+  },
+  "statTotal": {
+    "message": "磁碟總用量（約）"
+  },
+  "freeSpace": {
+    "message": "刪除已封存項目的文章"
+  },
+  "freeSpaceHelp": {
+    "message": "釋放空間：刪除已封存項目所儲存的內文。連結會保留。"
+  },
+  "freedArticles": {
+    "message": "已刪除 $N$ 篇文章",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupTitle": {
+    "message": "自動備份"
+  },
+  "backupEnable": {
+    "message": "自動備份"
+  },
+  "backupHelp": {
+    "message": "將完整備份（項目、標籤、最愛、縮圖和文章）儲存到 下載/ReadLaterLocal。會在 Firefox 啟動時和你儲存內容時檢查。"
+  },
+  "backupFrequency": {
+    "message": "頻率"
+  },
+  "daily": {
+    "message": "每天"
+  },
+  "weekly": {
+    "message": "每週"
+  },
+  "monthly": {
+    "message": "每月"
+  },
+  "backupKeep": {
+    "message": "保留的備份數"
+  },
+  "backupNow": {
+    "message": "立即備份"
+  },
+  "backupLast": {
+    "message": "上次備份：$DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupNever": {
+    "message": "尚未備份"
+  },
+  "backupDone": {
+    "message": "備份已儲存到 下載/$FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupFailed": {
+    "message": "無法完成備份。"
+  },
+  "exportTitle": {
+    "message": "匯出"
+  },
+  "exportHelp": {
+    "message": "CSV 和書籤只包含連結。完整備份也包含文章和縮圖。"
+  },
+  "importTitle": {
+    "message": "匯入"
+  },
+  "importHelp": {
+    "message": "Pocket 或 Read Later Local 的 CSV 檔，或完整備份 (.json.gz)。絕不會刪除或覆寫你已有的內容。"
+  },
+  "chooseFile": {
+    "message": "選擇檔案"
+  },
+  "fetchTitle": {
+    "message": "背景下載"
+  },
+  "fetchHelp": {
+    "message": "只要這個分頁保持開啟，你也可以現在更快地下載全部內容："
+  },
+  "fetchPending": {
+    "message": "$N$ 筆項目待下載",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchStart": {
+    "message": "下載文章"
+  },
+  "fetchRetry": {
+    "message": "包含先前失敗的項目"
+  },
+  "fetchCancel": {
+    "message": "取消"
+  },
+  "fetchProgress": {
+    "message": "$DONE$ / $TOTAL$ · $OK$ 筆含文章 · $PARTIAL$ 筆無文章 · $FAILED$ 筆失敗",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "ok": {
+        "content": "$3"
+      },
+      "partial": {
+        "content": "$4"
+      },
+      "failed": {
+        "content": "$5"
+      }
+    }
+  },
+  "fetchKeepOpen": {
+    "message": "下載期間請保持此分頁開啟。"
+  },
+  "fetchDenied": {
+    "message": "沒有這項權限就無法下載。"
+  },
+  "fetchFinished": {
+    "message": "已完成。"
+  },
+  "revokePermission": {
+    "message": "移除存取網站的權限"
+  },
+  "permissionRevoked": {
+    "message": "已移除權限"
+  },
+  "dangerTitle": {
+    "message": "全部刪除"
+  },
+  "dangerHelp": {
+    "message": "刪除項目、文章、縮圖和圖示。此動作無法復原：請先匯出備份。"
+  },
+  "deleteAll": {
+    "message": "刪除所有資料"
+  },
+  "confirmDeleteAll": {
+    "message": "確定嗎？將刪除 $N$ 筆項目，而且無法復原。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allDeleted": {
+    "message": "資料已刪除"
+  },
+  "exportMenu": {
+    "message": "匯出"
+  },
+  "commandShowList": {
+    "message": "顯示最近儲存"
+  },
+  "seeRecent": {
+    "message": "查看最近儲存"
+  },
+  "languageTitle": {
+    "message": "語言"
+  },
+  "languageHelp": {
+    "message": "擴充套件的語言。「自動」會跟隨 Firefox 的語言；若擴充套件沒有該語言，則使用英文。"
+  },
+  "languageAuto": {
+    "message": "自動（Firefox 的語言）"
+  },
+  "pageActionTitle": {
+    "message": "儲存，稍後閱讀"
+  },
+  "saveThisPage": {
+    "message": "儲存此頁面"
+  },
+  "menuSaveCurrent": {
+    "message": "儲存此頁面"
+  },
+  "fetchingArticle": {
+    "message": "正在下載文章…"
+  },
+  "fetchArticle": {
+    "message": "下載文章"
+  },
+  "articleFailed": {
+    "message": "無法從此頁面擷取文章。你可以在網路上開啟它。"
+  },
+  "articleNeedsPermission": {
+    "message": "此項目還沒有儲存的內文。下載時 Firefox 會要求存取網站的權限（可在「資料與備份」中移除）。"
+  },
+  "surprise": {
+    "message": "隨機開啟"
+  },
+  "surpriseNone": {
+    "message": "目前的篩選條件下沒有可開啟的內容。"
+  },
+  "select": {
+    "message": "選取"
+  },
+  "selectAll": {
+    "message": "全選（$N$）",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectedCount": {
+    "message": "已選取 $N$ 筆",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "apply": {
+    "message": "套用"
+  },
+  "kindAll": {
+    "message": "所有類型"
+  },
+  "kindArticle": {
+    "message": "文章"
+  },
+  "kindVideo": {
+    "message": "影片"
+  },
+  "kindImage": {
+    "message": "圖片"
+  },
+  "kindOther": {
+    "message": "其他"
+  },
+  "collectionAll": {
+    "message": "所有集合"
+  },
+  "collectionNone": {
+    "message": "無集合"
+  },
+  "collectionNew": {
+    "message": "新增集合…"
+  },
+  "collectionNamePrompt": {
+    "message": "集合名稱"
+  },
+  "orderNewest": {
+    "message": "最新的在前"
+  },
+  "orderOldest": {
+    "message": "最舊的在前"
+  },
+  "shortReads": {
+    "message": "短篇（<5 分鐘）"
+  },
+  "tabTags": {
+    "message": "標籤"
+  },
+  "tabSites": {
+    "message": "網站"
+  },
+  "showMore": {
+    "message": "顯示更多"
+  },
+  "showLess": {
+    "message": "收合"
+  },
+  "minutes": {
+    "message": "$N$ 分鐘",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "more": {
+    "message": "更多動作"
+  },
+  "editNote": {
+    "message": "個人筆記"
+  },
+  "notePlaceholder": {
+    "message": "為什麼要儲存它？"
+  },
+  "noteHelp": {
+    "message": "Ctrl+Enter 儲存，Esc 取消。"
+  },
+  "noteSaved": {
+    "message": "筆記已儲存"
+  },
+  "moveToCollection": {
+    "message": "移到集合"
+  },
+  "movedToCollection": {
+    "message": "已移到 $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "removedFromCollection": {
+    "message": "已從集合移除"
+  },
+  "copyLink": {
+    "message": "複製連結"
+  },
+  "linkCopied": {
+    "message": "已複製連結"
+  },
+  "suggested": {
+    "message": "建議："
+  },
+  "bulkArchive": {
+    "message": "封存"
+  },
+  "bulkUnread": {
+    "message": "未讀"
+  },
+  "bulkFavorite": {
+    "message": "最愛"
+  },
+  "bulkTag": {
+    "message": "標籤…"
+  },
+  "bulkCollection": {
+    "message": "集合…"
+  },
+  "bulkDelete": {
+    "message": "刪除"
+  },
+  "bulkDone": {
+    "message": "已更新 $N$ 筆項目",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted": {
+    "message": "已將 $N$ 筆項目移到垃圾桶",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle": {
+    "message": "為 $N$ 筆項目加上標籤",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allow": {
+    "message": "允許"
+  },
+  "notNow": {
+    "message": "稍後再說"
+  },
+  "bgFetchAsk": {
+    "message": "有 $N$ 筆項目缺少內文、真正的標題或縮圖。要開啟背景下載嗎？Firefox 會要求存取網站的權限。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchProgress": {
+    "message": "背景下載中：$DONE$ / $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "bgFetchEnable": {
+    "message": "開啟背景下載（Firefox 會要求存取網站的權限）"
+  },
+  "bgFetchHelp": {
+    "message": "為缺少內文、真正標題和縮圖的項目（例如匯入的項目）慢慢下載這些內容。為了不拖慢 Firefox，只有在「檢視全部」或此頁面開啟時才會執行，一次一筆。"
+  },
+  "kbNote": {
+    "message": "個人筆記"
+  },
+  "kbCollection": {
+    "message": "移到集合"
+  },
+  "kbSelect": {
+    "message": "選取（Shift+點擊：範圍）"
+  },
+  "appearanceTitle": {
+    "message": "外觀"
+  },
+  "themeHelp": {
+    "message": "套用到整個擴充套件，包括閱讀器。"
+  },
+  "badgeEnable": {
+    "message": "在工具列按鈕上顯示未讀數量"
+  },
+  "collectionsTitle": {
+    "message": "集合"
+  },
+  "collectionsHelp": {
+    "message": "就像資料夾：每個項目只能屬於一個集合。"
+  },
+  "collectionsEmpty": {
+    "message": "還沒有集合。"
+  },
+  "addCollection": {
+    "message": "建立集合"
+  },
+  "collectionDeleted": {
+    "message": "集合已刪除（其中的項目會保留）"
+  },
+  "rename": {
+    "message": "重新命名"
+  },
+  "rulesTitle": {
+    "message": "自動規則"
+  },
+  "rulesHelp": {
+    "message": "在儲存或匯入時套用。不會移除標籤，也不會變更已選擇的集合。"
+  },
+  "rulesEmpty": {
+    "message": "還沒有規則。"
+  },
+  "ruleIf": {
+    "message": "如果"
+  },
+  "ruleFieldSite": {
+    "message": "網站是"
+  },
+  "ruleFieldUrl": {
+    "message": "網址包含"
+  },
+  "ruleFieldTitle": {
+    "message": "標題包含"
+  },
+  "ruleValue": {
+    "message": "值"
+  },
+  "ruleThen": {
+    "message": "→"
+  },
+  "ruleAddTags": {
+    "message": "標籤"
+  },
+  "ruleCollection": {
+    "message": "移到集合"
+  },
+  "ruleFavorite": {
+    "message": "加入最愛"
+  },
+  "addRule": {
+    "message": "新增規則"
+  },
+  "applyRulesNow": {
+    "message": "套用到現有項目"
+  },
+  "rulesApplied": {
+    "message": "已更新 $N$ 筆項目",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchActivate": {
+    "message": "開啟"
+  },
+  "iconStyleTitle": {
+    "message": "工具列圖示"
+  },
+  "iconStyleHelp": {
+    "message": "帶有計數的按鈕和網址列中的圖示。"
+  },
+  "iconStyleBookmark": {
+    "message": "書籤"
+  },
+  "iconStyleBook": {
+    "message": "書本"
+  },
+  "iconStyleMinimal": {
+    "message": "低調"
+  },
+  "iconStyleLegend": {
+    "message": "每組依序為：工具列按鈕 · 尚未儲存的頁面 · 已儲存的頁面。"
+  },
+  "ruleTitlePlaceholder": {
+    "message": "一個詞"
+  },
+  "ruleErrSiteEmpty": {
+    "message": "請輸入網站，例如 youtube.com"
+  },
+  "ruleErrTextEmpty": {
+    "message": "請輸入必須包含的文字"
+  },
+  "ruleErrSite": {
+    "message": "這看起來不是有效的網站。只要輸入網域，例如 youtube.com 或 zh.wikipedia.org"
+  },
+  "ruleErrUrlSpaces": {
+    "message": "網址不能包含空格"
+  },
+  "cleanupTitle": {
+    "message": "自動清理"
+  },
+  "cleanupHelp": {
+    "message": "將符合各條啟用規則的內容移到垃圾桶。垃圾桶只保留標題和網址（內文、縮圖、標籤和筆記會被刪除以釋放空間）；30 天內可以從那裡還原。會在開啟 Firefox、「檢視全部」或此頁面時執行。"
+  },
+  "cleanupEmpty": {
+    "message": "還沒有清理規則。"
+  },
+  "addCleanup": {
+    "message": "新增清理規則"
+  },
+  "runCleanupNow": {
+    "message": "立即清理"
+  },
+  "openTrash": {
+    "message": "開啟垃圾桶"
+  },
+  "cleanupMove": {
+    "message": "移到垃圾桶："
+  },
+  "cleanupScope": {
+    "message": "哪些項目"
+  },
+  "cleanupScopeCollection": {
+    "message": "此集合中的"
+  },
+  "cleanupScopeTag": {
+    "message": "有此標籤的"
+  },
+  "cleanupScopeSite": {
+    "message": "來自此網站的"
+  },
+  "cleanupScopeAll": {
+    "message": "所有項目"
+  },
+  "chooseCollection": {
+    "message": "選擇集合"
+  },
+  "cleanupTagPlaceholder": {
+    "message": "標籤"
+  },
+  "cleanupStatus": {
+    "message": "狀態"
+  },
+  "cleanupStatusAny": {
+    "message": "任何狀態"
+  },
+  "cleanupStatusUnread": {
+    "message": "僅未讀"
+  },
+  "cleanupStatusArchive": {
+    "message": "僅已封存"
+  },
+  "cleanupOlderThan": {
+    "message": "儲存於"
+  },
+  "cleanupAgo": {
+    "message": "之前"
+  },
+  "cleanupAmount": {
+    "message": "數量"
+  },
+  "cleanupUnit": {
+    "message": "單位"
+  },
+  "unit_day": {
+    "message": "天"
+  },
+  "unit_day1": {
+    "message": "天"
+  },
+  "unit_week": {
+    "message": "週"
+  },
+  "unit_week1": {
+    "message": "週"
+  },
+  "unit_month": {
+    "message": "個月"
+  },
+  "unit_month1": {
+    "message": "個月"
+  },
+  "unit_year": {
+    "message": "年"
+  },
+  "unit_year1": {
+    "message": "年"
+  },
+  "cleanupActive": {
+    "message": "啟用"
+  },
+  "cleanupAffects": {
+    "message": "若啟用，現在會將 $N$ 筆項目移到垃圾桶。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffectsActive": {
+    "message": "要修改，請先停用。"
+  },
+  "cleanupIncomplete": {
+    "message": "請先完成規則才能啟用。"
+  },
+  "cleanupActivate": {
+    "message": "啟用"
+  },
+  "cleanupConfirm": {
+    "message": "啟用後會立即將 $N$ 筆項目移到垃圾桶。那裡只保留標題和網址 30 天。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone": {
+    "message": "自動清理已將 $N$ 筆項目移到垃圾桶",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupRan": {
+    "message": "清理完成：$N$ 筆移到垃圾桶，$M$ 筆已永久刪除",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "m": {
+        "content": "$2"
+      }
+    }
+  },
+  "filterTrash": {
+    "message": "垃圾桶"
+  },
+  "trashInfo": {
+    "message": "這裡是你刪除的或自動清理移除的內容。只保留標題和網址；還原的項目會以今天的日期回到未讀（清理規則從那時開始計算）。30 天後會永久刪除。"
+  },
+  "emptyTrash": {
+    "message": "清空垃圾桶"
+  },
+  "emptyTrashConfirm": {
+    "message": "將從垃圾桶永久刪除 $N$ 筆項目。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDeletedOn": {
+    "message": "刪除於 $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft": {
+    "message": "$N$ 天後清除",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashToday": {
+    "message": "今天清除"
+  },
+  "restore": {
+    "message": "還原"
+  },
+  "deleteForever": {
+    "message": "永久刪除"
+  },
+  "trashRestored": {
+    "message": "已還原到「未讀」，日期為今天"
+  },
+  "trashEmpty": {
+    "message": "垃圾桶是空的"
+  },
+  "trashEmptyBody": {
+    "message": "你刪除的內容和自動清理移除的內容會顯示在這裡。"
+  },
+  "expireSet": {
+    "message": "自動刪除…"
+  },
+  "expireChange": {
+    "message": "變更自動刪除…"
+  },
+  "expireNever": {
+    "message": "不要自動刪除"
+  },
+  "expireHelp": {
+    "message": "時間到後會移到垃圾桶，標題和網址會在那裡再保留 30 天。"
+  },
+  "expire1d": {
+    "message": "1 天後"
+  },
+  "expire1w": {
+    "message": "1 週後"
+  },
+  "expire1m": {
+    "message": "1 個月後"
+  },
+  "expire3m": {
+    "message": "3 個月後"
+  },
+  "expire6m": {
+    "message": "6 個月後"
+  },
+  "expire1y": {
+    "message": "1 年後"
+  },
+  "expireScheduled": {
+    "message": "將於 $DATE$ 移到垃圾桶",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireCancelled": {
+    "message": "已取消自動刪除"
+  },
+  "expiresOn": {
+    "message": "$DATE$ 移到垃圾桶",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle": {
+    "message": "自動刪除 $N$ 筆項目",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkExpire": {
+    "message": "多久後刪除…"
+  },
+  "kbExpire": {
+    "message": "自動刪除…"
+  },
+  "collectionFilterBy": {
+    "message": "只顯示此集合"
+  },
+  "shortReadsHelp": {
+    "message": "只顯示 5 分鐘內可讀完的內容（已下載內文的項目）。"
+  },
+  "thumbSmall": {
+    "message": "小縮圖"
+  },
+  "thumbMedium": {
+    "message": "中縮圖"
+  },
+  "thumbLarge": {
+    "message": "大縮圖"
+  },
+  "matchInText": {
+    "message": "在內文中"
+  },
+  "matchInTextTitle": {
+    "message": "搜尋符合文章內文"
+  },
+  "readerWithImages": {
+    "message": "離線閱讀（含圖片）"
+  },
+  "hlCount": {
+    "message": "$N$ 處螢光標記",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "statImages": {
+    "message": "離線圖片"
+  },
+  "statTexts": {
+    "message": "可搜尋的內文"
+  },
+  "exportWithImages": {
+    "message": "在完整備份中包含離線圖片"
+  },
+  "exportWithImagesHelp": {
+    "message": "圖片可能讓檔案大很多。自動備份從不包含圖片。"
+  },
+  "imagesTitle": {
+    "message": "離線圖片"
+  },
+  "imagesHelp": {
+    "message": "也會保存文章中的圖片，讓你在閱讀器中離線查看。項目封存時會自動刪除。在閱讀器中，圖片按鈕可為單篇文章儲存或刪除圖片。"
+  },
+  "imagesEnable": {
+    "message": "儲存新文章的圖片（Firefox 會要求存取網站的權限）"
+  },
+  "imagesWarning": {
+    "message": "圖片比文字佔用多得多：有照片的文章通常需要 0.5–3 MB，純文字只要約 10–30 KB。"
+  },
+  "imagesUsage": {
+    "message": "目前：$N$ 張圖片，$SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesClear": {
+    "message": "刪除所有圖片"
+  },
+  "imagesClearConfirm": {
+    "message": "將刪除所有離線圖片。文章及其內文會保留。"
+  },
+  "imagesCleared": {
+    "message": "圖片已刪除"
+  },
+  "imagesEnabledToast": {
+    "message": "從現在起會儲存新文章的圖片"
+  },
+  "imagesOffTitle": {
+    "message": "離線儲存圖片（佔用更多空間）"
+  },
+  "imagesOnTitle": {
+    "message": "圖片已離線儲存（$SIZE$）。點擊以刪除",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesArchived": {
+    "message": "已封存的項目不保留圖片：封存時會刪除"
+  },
+  "imagesSaving": {
+    "message": "正在儲存圖片…"
+  },
+  "imagesProgress": {
+    "message": "正在儲存圖片：$DONE$ / $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved": {
+    "message": "已儲存 $N$ 張圖片（$SIZE$）",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSavedSome": {
+    "message": "已儲存 $TOTAL$ 張中的 $N$ 張圖片（$SIZE$）；其餘無法下載",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      }
+    }
+  },
+  "imagesNone": {
+    "message": "這篇文章沒有圖片"
+  },
+  "imagesFailed": {
+    "message": "無法下載任何圖片"
+  },
+  "imagesRemoved": {
+    "message": "離線圖片已刪除"
+  },
+  "archivedImagesGone": {
+    "message": "已封存（其離線圖片已刪除）"
+  },
+  "print": {
+    "message": "列印或儲存為 PDF"
+  },
+  "hlPanel": {
+    "message": "螢光標記與筆記"
+  },
+  "hlHint": {
+    "message": "開啟螢光筆模式（螢光筆按鈕或 H 鍵）後，你選取的文字都會以這裡或 Aa 中選擇的顏色標記。未開啟時，選取文字會顯示「標記」按鈕。"
+  },
+  "hlEmpty": {
+    "message": "這篇文章還沒有螢光標記。"
+  },
+  "hlExport": {
+    "message": "全部複製為 Markdown"
+  },
+  "hlExported": {
+    "message": "螢光標記已複製到剪貼簿"
+  },
+  "hlColor_yellow": {
+    "message": "黃色"
+  },
+  "hlColor_green": {
+    "message": "綠色"
+  },
+  "hlColor_blue": {
+    "message": "藍色"
+  },
+  "hlColor_pink": {
+    "message": "粉紅色"
+  },
+  "hlAddNote": {
+    "message": "新增筆記"
+  },
+  "hlEditNote": {
+    "message": "編輯筆記"
+  },
+  "hlCopy": {
+    "message": "複製文字"
+  },
+  "hlCopied": {
+    "message": "已複製文字"
+  },
+  "hlDelete": {
+    "message": "移除螢光標記"
+  },
+  "hlDeleted": {
+    "message": "已移除螢光標記"
+  },
+  "hlNotePlaceholder": {
+    "message": "寫下你的筆記…"
+  },
+  "hlGoTo": {
+    "message": "跳到螢光標記"
+  },
+  "hlLost": {
+    "message": "在文章目前的內文中找不到"
+  },
+  "save": {
+    "message": "儲存"
+  },
+  "repairPending": {
+    "message": "有 $N$ 篇文章儲存時出現亂碼（字元顯示為 �）。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairStart": {
+    "message": "重新下載"
+  },
+  "repairProgress": {
+    "message": "正在修復：$DONE$ / $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairDone": {
+    "message": "已修復 $N$ 篇文章",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairReader": {
+    "message": "這篇文章儲存時出現亂碼（字元顯示為 �）。重新下載即可修正；你的螢光標記會保留。"
+  },
+  "repairReaderBtn": {
+    "message": "重新下載"
+  },
+  "hlColorLabel": {
+    "message": "螢光標記顏色"
+  },
+  "hlDo": {
+    "message": "標記"
+  },
+  "hlDoTitle": {
+    "message": "標記（H 鍵）。可在 Aa 或螢光標記面板中變更顏色"
+  },
+  "hlModeTitle": {
+    "message": "螢光筆模式：選取文字立即標記（H 鍵）"
+  },
+  "hlModeOn": {
+    "message": "螢光筆模式已開啟：選取文字即可標記"
+  },
+  "hlModeOff": {
+    "message": "螢光筆模式已關閉"
+  },
+  "sidebarTitle": {
+    "message": "Read Later Local"
+  },
+  "commandSidebar": {
+    "message": "開啟或關閉側邊欄"
+  },
+  "menuSidebar": {
+    "message": "側邊欄"
+  },
+  "sidebarHint": {
+    "message": "點擊：在此開啟 · Ctrl+點擊：新分頁"
+  },
+  "emailSend": {
+    "message": "以電子郵件傳送"
+  },
+  "emailAttach": {
+    "message": "附件：已儲存的文章 {file}"
+  },
+  "emailFileSaved": {
+    "message": "已開啟新郵件。請附加檔案「$FILE$」（儲存後會開啟所在資料夾）。",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "emailLinkOnly": {
+    "message": "已開啟含連結的新郵件（這篇文章沒有儲存的內文）"
+  },
+  "triage": {
+    "message": "整理模式"
+  },
+  "triageTitle": {
+    "message": "逐一檢視項目：保留、封存或刪除（R 鍵）"
+  },
+  "triageKeep": {
+    "message": "保留"
+  },
+  "triageProgress": {
+    "message": "$N$ / $TOTAL$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "triageNothing": {
+    "message": "目前的篩選條件下沒有項目"
+  },
+  "triageDone": {
+    "message": "全部完成"
+  },
+  "triageSummary": {
+    "message": "保留：$KEPT$ · 封存：$ARCHIVED$ · 刪除：$DELETED$",
+    "placeholders": {
+      "kept": {
+        "content": "$1"
+      },
+      "archived": {
+        "content": "$2"
+      },
+      "deleted": {
+        "content": "$3"
+      }
+    }
+  },
+  "menuSaveClose": {
+    "message": "儲存並關閉分頁"
+  },
+  "menuSaveAllTabs": {
+    "message": "儲存視窗中的所有分頁"
+  },
+  "menuSaveTabs": {
+    "message": "儲存，稍後閱讀"
+  },
+  "listenTitle": {
+    "message": "收聽文章"
+  },
+  "ttsPlay": {
+    "message": "播放"
+  },
+  "ttsPause": {
+    "message": "暫停"
+  },
+  "ttsPrev": {
+    "message": "上一段"
+  },
+  "ttsNext": {
+    "message": "下一段"
+  },
+  "ttsStop": {
+    "message": "停止收聽"
+  },
+  "ttsSpeed": {
+    "message": "語速"
+  },
+  "ttsVoice": {
+    "message": "語音"
+  },
+  "ttsNoVoices": {
+    "message": "Firefox 在這台電腦上找不到語音。在 Windows 中：設定 → 時間與語言 → 語音。"
+  },
+  "copyMarkdown": {
+    "message": "複製為 Markdown"
+  },
+  "markdownCopied": {
+    "message": "連結已複製為 Markdown"
+  },
+  "saveMarkdown": {
+    "message": "儲存為 Markdown（Obsidian…）"
+  },
+  "markdownSaved": {
+    "message": "已儲存為 $FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportMarkdown": {
+    "message": "Markdown（連結清單）"
+  },
+  "autoArchive": {
+    "message": "讀到結尾時封存"
+  },
+  "finishedArchived": {
+    "message": "已讀完：已封存"
+  },
+  "finishedArchivedImages": {
+    "message": "已讀完：已封存（其離線圖片已刪除）"
+  },
+  "ttsError": {
+    "message": "無法朗讀這篇文章。請檢查聲音和系統中安裝的語音。"
+  }
+}

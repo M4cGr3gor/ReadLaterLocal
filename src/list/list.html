@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="extName">Read Later Local</title>
+  <link rel="icon" href="../icons/icon.svg">
+  <link rel="stylesheet" href="../lib/base.css">
+  <link rel="stylesheet" href="list.css">
+  <script type="module" src="list.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <div class="brand"><img src="../icons/icon.svg" alt="" width="24" height="24"><span data-i18n="extName"></span></div>
+      <label class="search">
+        <span class="search-icon" id="search-icon"></span>
+        <input id="search" type="search" autocomplete="off" data-i18n-placeholder="searchPlaceholder">
+      </label>
+      <div class="top-actions">
+        <button id="surprise" class="btn" type="button"><span data-i18n="surprise"></span></button>
+        <button id="triage-btn" class="btn" type="button" data-i18n-title="triageTitle"><span data-i18n="triage"></span></button>
+        <button id="select-mode" class="btn" type="button" aria-pressed="false"><span data-i18n="select"></span></button>
+        <div class="menu-wrap">
+          <button id="export" class="btn" type="button" aria-haspopup="menu" aria-expanded="false"><span data-i18n="exportMenu"></span></button>
+          <div id="export-menu" class="menu" role="menu" hidden>
+            <button type="button" role="menuitem" data-export="csv" data-i18n="exportCsv"></button>
+            <button type="button" role="menuitem" data-export="html" data-i18n="exportHtml"></button>
+            <button type="button" role="menuitem" data-export="md" data-i18n="exportMarkdown"></button>
+            <button type="button" role="menuitem" data-export="full" data-i18n="exportFull"></button>
+          </div>
+        </div>
+        <button id="import" class="btn" type="button"><span data-i18n="import"></span></button>
+        <input id="file" type="file" hidden>
+        <button id="help" class="icon-btn" type="button" data-i18n-title="shortcuts"></button>
+        <button id="data" class="icon-btn" type="button" data-i18n-title="dataPage"></button>
+      </div>
+    </div>
+    <div class="top-inner filters-row">
+      <div class="filters" role="tablist">
+        <button class="chip" role="tab" data-status="unread"><span data-i18n="filterUnread"></span> <span class="count" data-count="unread"></span></button>
+        <button class="chip" role="tab" data-status="favorite"><span data-i18n="filterFavorite"></span> <span class="count" data-count="favorite"></span></button>
+        <button class="chip" role="tab" data-status="archive"><span data-i18n="filterArchive"></span> <span class="count" data-count="archive"></span></button>
+        <button class="chip" role="tab" data-status="all"><span data-i18n="filterAll"></span> <span class="count" data-count="all"></span></button>
+      </div>
+      <div class="refine">
+        <button id="short" class="chip toggle" type="button" aria-pressed="false" data-i18n="shortReads" data-i18n-title="shortReadsHelp"></button>
+        <select id="kind" data-i18n-title="kindAll">
+          <option value="" data-i18n="kindAll"></option>
+          <option value="article" data-i18n="kindArticle"></option>
+          <option value="video" data-i18n="kindVideo"></option>
+          <option value="image" data-i18n="kindImage"></option>
+          <option value="other" data-i18n="kindOther"></option>
+        </select>
+        <select id="collection" data-i18n-title="collectionAll"></select>
+        <select id="order" data-i18n-title="orderNewest">
+          <option value="newest" data-i18n="orderNewest"></option>
+          <option value="oldest" data-i18n="orderOldest"></option>
+        </select>
+        <div class="view-toggle">
+          <button id="view-grid" class="icon-btn" type="button" data-i18n-title="gridView"></button>
+          <button id="view-list" class="icon-btn" type="button" data-i18n-title="listView"></button>
+        </div>
+        <div class="view-toggle size-toggle" role="group">
+          <button class="icon-btn" type="button" data-size="s" data-i18n-title="thumbSmall"></button>
+          <button class="icon-btn" type="button" data-size="m" data-i18n-title="thumbMedium"></button>
+          <button class="icon-btn" type="button" data-size="l" data-i18n-title="thumbLarge"></button>
+        </div>
+        <button id="trash-btn" class="icon-btn trash-btn" type="button" aria-pressed="false" data-i18n-title="filterTrash"><span id="trash-count" class="mini-count" hidden></span></button>
+      </div>
+    </div>
+    <div class="top-inner facet-row">
+      <div class="facet-tabs">
+        <button id="tab-tags" class="facet-tab" type="button" data-i18n="tabTags"></button>
+        <button id="tab-sites" class="facet-tab" type="button" data-i18n="tabSites"></button>
+      </div>
+      <div id="facet-bar" class="facet-bar"></div>
+    </div>
+  </header>
+  <main class="content">
+    <div id="bg-ask" class="notice" hidden>
+      <span id="bg-ask-text"></span>
+      <span class="notice-actions">
+        <button id="bg-allow" class="btn primary" type="button" data-i18n="bgFetchActivate"></button>
+        <button id="bg-later" class="btn" type="button" data-i18n="notNow"></button>
+      </span>
+    </div>
+    <div id="trash-info" class="notice" hidden>
+      <span data-i18n="trashInfo"></span>
+      <span class="notice-actions">
+        <button id="empty-trash" class="btn danger" type="button" data-i18n="emptyTrash"></button>
+      </span>
+    </div>
+    <div id="import-hint" class="notice" hidden>
+      <span data-i18n="importHelp"></span>
+      <button id="import-hint-btn" class="btn primary" type="button" data-i18n="chooseFile"></button>
+    </div>
+    <ul id="items" class="items grid"></ul>
+    <div id="empty" class="empty" hidden>
+      <strong id="empty-title"></strong>
+      <p id="empty-body"></p>
+    </div>
+    <div id="sentinel" class="sentinel"><span id="loading" data-i18n="loadingMore" hidden></span></div>
+  </main>
+
+  <div id="bulk-bar" class="bulk-bar" hidden>
+    <span id="bulk-count" class="bulk-count"></span>
+    <button id="bulk-all" class="link" type="button"></button>
+    <span class="bulk-actions">
+      <button class="btn" type="button" data-bulk="archive" data-i18n="bulkArchive"></button>
+      <button class="btn" type="button" data-bulk="unread" data-i18n="bulkUnread"></button>
+      <button class="btn" type="button" data-bulk="favorite" data-i18n="bulkFavorite"></button>
+      <button class="btn" type="button" data-bulk="tag" data-i18n="bulkTag"></button>
+      <button class="btn" type="button" data-bulk="collection" data-i18n="bulkCollection"></button>
+      <button class="btn" type="button" data-bulk="expire" data-i18n="bulkExpire"></button>
+      <button class="btn danger" type="button" data-bulk="delete" data-i18n="bulkDelete"></button>
+    </span>
+    <button id="bulk-cancel" class="btn" type="button" data-i18n="cancel"></button>
+  </div>
+  <div id="bg-progress" class="bg-progress" hidden></div>
+
+  <div id="card-menu" class="menu card-menu" role="menu" hidden></div>
+
+  <dialog id="prompt" class="dialog">
+    <form method="dialog">
+      <h2 id="prompt-title"></h2>
+      <div id="prompt-body"></div>
+      <div class="dialog-actions">
+        <button class="btn" value="cancel" data-i18n="cancel"></button>
+        <button class="btn primary" value="ok" data-i18n="apply"></button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="triage" class="dialog triage">
+    <header class="triage-head">
+      <strong data-i18n="triage"></strong>
+      <span id="triage-progress" class="triage-progress"></span>
+      <button id="triage-close" class="icon-btn" type="button" data-i18n-title="close">×</button>
+    </header>
+    <div id="triage-card" class="triage-card"></div>
+    <div id="triage-actions" class="triage-actions">
+      <button class="btn" type="button" data-triage="keep"><span data-i18n="triageKeep"></span> <kbd>→</kbd></button>
+      <button class="btn" type="button" data-triage="archive"><span data-i18n="archive"></span> <kbd>A</kbd></button>
+      <button class="btn danger" type="button" data-triage="delete"><span data-i18n="delete"></span> <kbd>D</kbd></button>
+      <button id="triage-fav" class="btn" type="button" data-triage="favorite"><span data-i18n="bulkFavorite"></span> <kbd>F</kbd></button>
+    </div>
+    <footer class="triage-foot">
+      <button id="triage-undo" class="link" type="button"><span data-i18n="undo"></span> <kbd>Z</kbd></button>
+      <span class="spacer"></span>
+      <button id="triage-reader" class="link" type="button"><span data-i18n="reader"></span> <kbd>L</kbd></button>
+      <button id="triage-open" class="link" type="button"><span data-i18n="openOriginal"></span> <kbd>Enter</kbd></button>
+    </footer>
+  </dialog>
+
+  <dialog id="help-dialog" class="dialog">
+    <h2 data-i18n="shortcuts"></h2>
+    <dl class="shortcuts">
+      <dt><kbd>/</kbd></dt><dd data-i18n="kbSearch"></dd>
+      <dt><kbd>↑</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd></dt><dd data-i18n="kbMove"></dd>
+      <dt><kbd>Enter</kbd></dt><dd data-i18n="kbOpen"></dd>
+      <dt><kbd>L</kbd></dt><dd data-i18n="kbReader"></dd>
+      <dt><kbd>A</kbd></dt><dd data-i18n="kbArchive"></dd>
+      <dt><kbd>F</kbd></dt><dd data-i18n="kbFavorite"></dd>
+      <dt><kbd>T</kbd></dt><dd data-i18n="kbTags"></dd>
+      <dt><kbd>N</kbd></dt><dd data-i18n="kbNote"></dd>
+      <dt><kbd>C</kbd></dt><dd data-i18n="kbCollection"></dd>
+      <dt><kbd>B</kbd></dt><dd data-i18n="kbExpire"></dd>
+      <dt><kbd>E</kbd></dt><dd data-i18n="emailSend"></dd>
+      <dt><kbd>R</kbd></dt><dd data-i18n="triage"></dd>
+      <dt><kbd>X</kbd></dt><dd data-i18n="kbSelect"></dd>
+      <dt><kbd>Supr</kbd></dt><dd data-i18n="kbDelete"></dd>
+      <dt><kbd>?</kbd></dt><dd data-i18n="kbHelp"></dd>
+    </dl>
+    <form method="dialog"><button class="btn" data-i18n="close"></button></form>
+  </dialog>
+  <div id="toasts" class="toast-area"></div>
+</body>
+</html>

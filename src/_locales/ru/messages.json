@@ -1,0 +1,1456 @@
+{
+  "extName": {
+    "message": "Read Later Local"
+  },
+  "extDescription": {
+    "message": "Сохраняйте страницы, чтобы прочитать позже. Всё остаётся на вашем компьютере: без аккаунта и серверов."
+  },
+  "actionTitle": {
+    "message": "Последние сохранённые (Read Later Local)"
+  },
+  "commandSave": {
+    "message": "Сохранить текущую страницу"
+  },
+  "menuSaveLink": {
+    "message": "Сохранить ссылку, чтобы прочитать позже"
+  },
+  "menuSavePage": {
+    "message": "Сохранить страницу, чтобы прочитать позже"
+  },
+  "saved": {
+    "message": "Сохранено"
+  },
+  "undo": {
+    "message": "Отменить"
+  },
+  "alreadySaved": {
+    "message": "Уже сохранено"
+  },
+  "cantSave": {
+    "message": "Эту страницу нельзя сохранить"
+  },
+  "saveRemoved": {
+    "message": "Удалено"
+  },
+  "recent": {
+    "message": "Последние сохранённые"
+  },
+  "viewAll": {
+    "message": "Показать все"
+  },
+  "export": {
+    "message": "Экспорт в CSV"
+  },
+  "import": {
+    "message": "Импорт"
+  },
+  "open": {
+    "message": "Открыть"
+  },
+  "archive": {
+    "message": "В архив"
+  },
+  "unarchive": {
+    "message": "Вернуть в непрочитанные"
+  },
+  "delete": {
+    "message": "Удалить"
+  },
+  "deleted": {
+    "message": "Перемещено в корзину"
+  },
+  "archived": {
+    "message": "Перемещено в архив"
+  },
+  "movedToUnread": {
+    "message": "Возвращено в непрочитанные"
+  },
+  "emptyRecentTitle": {
+    "message": "Сохраните первую страницу"
+  },
+  "emptyRecentBody": {
+    "message": "Нажмите кнопку на панели инструментов на любой странице, чтобы сохранить её здесь."
+  },
+  "searchPlaceholder": {
+    "message": "Поиск по заголовкам, адресам, заметкам и тексту"
+  },
+  "filterUnread": {
+    "message": "Непрочитанные"
+  },
+  "filterArchive": {
+    "message": "Архив"
+  },
+  "filterAll": {
+    "message": "Все"
+  },
+  "gridView": {
+    "message": "Плитка"
+  },
+  "listView": {
+    "message": "Список"
+  },
+  "loadingMore": {
+    "message": "Загрузка…"
+  },
+  "noResults": {
+    "message": "Ничего не найдено."
+  },
+  "emptyListTitle": {
+    "message": "Здесь пока пусто"
+  },
+  "emptyListBody": {
+    "message": "Сохраняйте страницы кнопкой на панели инструментов или импортируйте резервную копию CSV."
+  },
+  "importChoose": {
+    "message": "Выберите CSV-файл для импорта"
+  },
+  "importing": {
+    "message": "Импорт…"
+  },
+  "importResult": {
+    "message": "Импортировано: $ADDED$, уже было: $DUP$, с ошибками: $BAD$",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "dup": {
+        "content": "$2"
+      },
+      "bad": {
+        "content": "$3"
+      }
+    }
+  },
+  "importError": {
+    "message": "Не удалось прочитать файл. Убедитесь, что это CSV со столбцом url."
+  },
+  "exportDone": {
+    "message": "Экспортировано элементов: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount": {
+    "message": "Элементов: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "filterFavorite": {
+    "message": "Избранное"
+  },
+  "favorite": {
+    "message": "Добавить в избранное"
+  },
+  "unfavorite": {
+    "message": "Убрать из избранного"
+  },
+  "addedToFavorites": {
+    "message": "Добавлено в избранное"
+  },
+  "removedFromFavorites": {
+    "message": "Убрано из избранного"
+  },
+  "editTags": {
+    "message": "Метки"
+  },
+  "tagsPlaceholder": {
+    "message": "css, linux, когда-нибудь"
+  },
+  "tagsHelp": {
+    "message": "Разделяйте запятыми. Enter — сохранить, Esc — отмена."
+  },
+  "tagsSaved": {
+    "message": "Метки сохранены"
+  },
+  "reader": {
+    "message": "Читать офлайн"
+  },
+  "openOriginal": {
+    "message": "Открыть исходную страницу"
+  },
+  "dataPage": {
+    "message": "Данные и резервные копии"
+  },
+  "exportCsv": {
+    "message": "CSV (совместим с Pocket)"
+  },
+  "exportHtml": {
+    "message": "HTML-закладки (любой браузер)"
+  },
+  "exportFull": {
+    "message": "Полная резервная копия (.json.gz)"
+  },
+  "shortcuts": {
+    "message": "Сочетания клавиш"
+  },
+  "kbSearch": {
+    "message": "Поиск (поддерживает tag:имя)"
+  },
+  "kbMove": {
+    "message": "Перемещение по списку"
+  },
+  "kbOpen": {
+    "message": "Открыть страницу"
+  },
+  "kbReader": {
+    "message": "Открыть в режиме чтения"
+  },
+  "kbArchive": {
+    "message": "В архив / в непрочитанные"
+  },
+  "kbFavorite": {
+    "message": "Избранное"
+  },
+  "kbTags": {
+    "message": "Изменить метки"
+  },
+  "kbDelete": {
+    "message": "Удалить (с отменой)"
+  },
+  "kbHelp": {
+    "message": "Показать эту справку"
+  },
+  "close": {
+    "message": "Закрыть"
+  },
+  "readerBack": {
+    "message": "Показать все"
+  },
+  "readerSettings": {
+    "message": "Настройки чтения"
+  },
+  "theme": {
+    "message": "Тема"
+  },
+  "themeLight": {
+    "message": "Светлая"
+  },
+  "themeDark": {
+    "message": "Тёмная"
+  },
+  "themeSepia": {
+    "message": "Сепия"
+  },
+  "themeSystem": {
+    "message": "Системная"
+  },
+  "fontSize": {
+    "message": "Размер текста"
+  },
+  "width": {
+    "message": "Ширина колонки"
+  },
+  "widthNarrow": {
+    "message": "Узкая"
+  },
+  "widthMedium": {
+    "message": "Средняя"
+  },
+  "widthWide": {
+    "message": "Широкая"
+  },
+  "font": {
+    "message": "Шрифт"
+  },
+  "fontSerif": {
+    "message": "С засечками"
+  },
+  "fontSans": {
+    "message": "Без засечек"
+  },
+  "readingTime": {
+    "message": "$MIN$ мин чтения",
+    "placeholders": {
+      "min": {
+        "content": "$1"
+      }
+    }
+  },
+  "noArticle": {
+    "message": "У этого элемента нет сохранённой статьи."
+  },
+  "storageTitle": {
+    "message": "Занятое место"
+  },
+  "statItems": {
+    "message": "Элементы"
+  },
+  "statArticles": {
+    "message": "Сохранённые статьи"
+  },
+  "statThumbs": {
+    "message": "Миниатюры"
+  },
+  "statFavicons": {
+    "message": "Значки сайтов"
+  },
+  "statTotal": {
+    "message": "Всего на диске (прибл.)"
+  },
+  "freeSpace": {
+    "message": "Удалить статьи архивных элементов"
+  },
+  "freeSpaceHelp": {
+    "message": "Освобождает место: удаляет сохранённый текст архивных элементов. Ссылки остаются."
+  },
+  "freedArticles": {
+    "message": "Удалено статей: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupTitle": {
+    "message": "Автоматические резервные копии"
+  },
+  "backupEnable": {
+    "message": "Делать автоматические резервные копии"
+  },
+  "backupHelp": {
+    "message": "Сохраняет полную копию (элементы, метки, избранное, миниатюры и статьи) в Загрузки/ReadLaterLocal. Проверяется при запуске Firefox и при каждом сохранении."
+  },
+  "backupFrequency": {
+    "message": "Частота"
+  },
+  "daily": {
+    "message": "Ежедневно"
+  },
+  "weekly": {
+    "message": "Еженедельно"
+  },
+  "monthly": {
+    "message": "Ежемесячно"
+  },
+  "backupKeep": {
+    "message": "Сколько копий хранить"
+  },
+  "backupNow": {
+    "message": "Создать копию сейчас"
+  },
+  "backupLast": {
+    "message": "Последняя копия: $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupNever": {
+    "message": "Копий ещё не было"
+  },
+  "backupDone": {
+    "message": "Копия сохранена в Загрузки/$FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupFailed": {
+    "message": "Не удалось создать резервную копию."
+  },
+  "exportTitle": {
+    "message": "Экспорт"
+  },
+  "exportHelp": {
+    "message": "CSV и закладки содержат только ссылки. Полная копия содержит также статьи и миниатюры."
+  },
+  "importTitle": {
+    "message": "Импорт"
+  },
+  "importHelp": {
+    "message": "CSV из Pocket или Read Later Local либо полная резервная копия (.json.gz). Существующие данные никогда не удаляются и не перезаписываются."
+  },
+  "chooseFile": {
+    "message": "Выбрать файл"
+  },
+  "fetchTitle": {
+    "message": "Фоновая загрузка"
+  },
+  "fetchHelp": {
+    "message": "Можно также загрузить всё сейчас, быстрее, пока эта вкладка открыта:"
+  },
+  "fetchPending": {
+    "message": "Ожидают загрузки: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchStart": {
+    "message": "Загрузить статьи"
+  },
+  "fetchRetry": {
+    "message": "Включая те, что раньше не удались"
+  },
+  "fetchCancel": {
+    "message": "Отмена"
+  },
+  "fetchProgress": {
+    "message": "$DONE$ из $TOTAL$ · со статьёй: $OK$ · без статьи: $PARTIAL$ · с ошибкой: $FAILED$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "ok": {
+        "content": "$3"
+      },
+      "partial": {
+        "content": "$4"
+      },
+      "failed": {
+        "content": "$5"
+      }
+    }
+  },
+  "fetchKeepOpen": {
+    "message": "Не закрывайте эту вкладку во время загрузки."
+  },
+  "fetchDenied": {
+    "message": "Без этого разрешения их нельзя загрузить."
+  },
+  "fetchFinished": {
+    "message": "Готово."
+  },
+  "revokePermission": {
+    "message": "Отозвать доступ к сайтам"
+  },
+  "permissionRevoked": {
+    "message": "Разрешение отозвано"
+  },
+  "dangerTitle": {
+    "message": "Удалить всё"
+  },
+  "dangerHelp": {
+    "message": "Удаляет элементы, статьи, миниатюры и значки. Это необратимо: сначала экспортируйте резервную копию."
+  },
+  "deleteAll": {
+    "message": "Удалить все данные"
+  },
+  "confirmDeleteAll": {
+    "message": "Вы уверены? Будет удалено элементов: $N$. Это необратимо.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allDeleted": {
+    "message": "Данные удалены"
+  },
+  "exportMenu": {
+    "message": "Экспорт"
+  },
+  "commandShowList": {
+    "message": "Показать последние сохранённые"
+  },
+  "seeRecent": {
+    "message": "Последние сохранённые"
+  },
+  "languageTitle": {
+    "message": "Язык"
+  },
+  "languageHelp": {
+    "message": "Язык расширения. «Автоматически» — язык Firefox, а если его нет в расширении, английский."
+  },
+  "languageAuto": {
+    "message": "Автоматически (язык Firefox)"
+  },
+  "pageActionTitle": {
+    "message": "Сохранить, чтобы прочитать позже"
+  },
+  "saveThisPage": {
+    "message": "Сохранить эту страницу"
+  },
+  "menuSaveCurrent": {
+    "message": "Сохранить эту страницу"
+  },
+  "fetchingArticle": {
+    "message": "Загрузка статьи…"
+  },
+  "fetchArticle": {
+    "message": "Загрузить статью"
+  },
+  "articleFailed": {
+    "message": "Не удалось извлечь статью с этой страницы. Её можно открыть в интернете."
+  },
+  "articleNeedsPermission": {
+    "message": "У этого элемента пока нет сохранённого текста. Для загрузки Firefox запросит доступ к сайтам (его можно отозвать в разделе «Данные и резервные копии»)."
+  },
+  "surprise": {
+    "message": "Удиви меня"
+  },
+  "surpriseNone": {
+    "message": "С этими фильтрами нечего открыть."
+  },
+  "select": {
+    "message": "Выбрать"
+  },
+  "selectAll": {
+    "message": "Выбрать все ($N$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectedCount": {
+    "message": "Выбрано: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Отмена"
+  },
+  "apply": {
+    "message": "Применить"
+  },
+  "kindAll": {
+    "message": "Все типы"
+  },
+  "kindArticle": {
+    "message": "Статьи"
+  },
+  "kindVideo": {
+    "message": "Видео"
+  },
+  "kindImage": {
+    "message": "Изображения"
+  },
+  "kindOther": {
+    "message": "Другое"
+  },
+  "collectionAll": {
+    "message": "Все коллекции"
+  },
+  "collectionNone": {
+    "message": "Без коллекции"
+  },
+  "collectionNew": {
+    "message": "Новая коллекция…"
+  },
+  "collectionNamePrompt": {
+    "message": "Название коллекции"
+  },
+  "orderNewest": {
+    "message": "Сначала новые"
+  },
+  "orderOldest": {
+    "message": "Сначала старые"
+  },
+  "shortReads": {
+    "message": "Короткие (<5 мин)"
+  },
+  "tabTags": {
+    "message": "Метки"
+  },
+  "tabSites": {
+    "message": "Сайты"
+  },
+  "showMore": {
+    "message": "Показать больше"
+  },
+  "showLess": {
+    "message": "Показать меньше"
+  },
+  "minutes": {
+    "message": "$N$ мин",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "more": {
+    "message": "Другие действия"
+  },
+  "editNote": {
+    "message": "Личная заметка"
+  },
+  "notePlaceholder": {
+    "message": "Зачем вы это сохранили?"
+  },
+  "noteHelp": {
+    "message": "Ctrl+Enter — сохранить, Esc — отмена."
+  },
+  "noteSaved": {
+    "message": "Заметка сохранена"
+  },
+  "moveToCollection": {
+    "message": "Переместить в коллекцию"
+  },
+  "movedToCollection": {
+    "message": "Перемещено в «$NAME$»",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "removedFromCollection": {
+    "message": "Убрано из коллекции"
+  },
+  "copyLink": {
+    "message": "Копировать ссылку"
+  },
+  "linkCopied": {
+    "message": "Ссылка скопирована"
+  },
+  "suggested": {
+    "message": "Предложения:"
+  },
+  "bulkArchive": {
+    "message": "В архив"
+  },
+  "bulkUnread": {
+    "message": "Непрочитанное"
+  },
+  "bulkFavorite": {
+    "message": "Избранное"
+  },
+  "bulkTag": {
+    "message": "Метка…"
+  },
+  "bulkCollection": {
+    "message": "Коллекция…"
+  },
+  "bulkDelete": {
+    "message": "Удалить"
+  },
+  "bulkDone": {
+    "message": "Обновлено элементов: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted": {
+    "message": "Перемещено в корзину: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle": {
+    "message": "Добавить метки к элементам ($N$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allow": {
+    "message": "Разрешить"
+  },
+  "notNow": {
+    "message": "Не сейчас"
+  },
+  "bgFetchAsk": {
+    "message": "Элементов без текста, настоящего заголовка или миниатюры: $N$. Включить фоновую загрузку? Firefox запросит доступ к сайтам.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchProgress": {
+    "message": "Фоновая загрузка: $DONE$ из $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "bgFetchEnable": {
+    "message": "Включить фоновую загрузку (Firefox запросит доступ к сайтам)"
+  },
+  "bgFetchHelp": {
+    "message": "Постепенно загружает текст, настоящий заголовок и миниатюру для элементов, у которых их нет (например, импортированных). Чтобы не замедлять Firefox, работает только пока открыта страница «Показать все» или эта страница, по одному элементу."
+  },
+  "kbNote": {
+    "message": "Личная заметка"
+  },
+  "kbCollection": {
+    "message": "Переместить в коллекцию"
+  },
+  "kbSelect": {
+    "message": "Выбрать (Shift+щелчок: диапазон)"
+  },
+  "appearanceTitle": {
+    "message": "Внешний вид"
+  },
+  "themeHelp": {
+    "message": "Применяется ко всему расширению, включая режим чтения."
+  },
+  "badgeEnable": {
+    "message": "Показывать число непрочитанных на кнопке панели инструментов"
+  },
+  "collectionsTitle": {
+    "message": "Коллекции"
+  },
+  "collectionsHelp": {
+    "message": "Как папки: каждый элемент может быть только в одной коллекции."
+  },
+  "collectionsEmpty": {
+    "message": "Коллекций пока нет."
+  },
+  "addCollection": {
+    "message": "Создать коллекцию"
+  },
+  "collectionDeleted": {
+    "message": "Коллекция удалена (её элементы сохранены)"
+  },
+  "rename": {
+    "message": "Переименовать"
+  },
+  "rulesTitle": {
+    "message": "Автоматические правила"
+  },
+  "rulesHelp": {
+    "message": "Применяются при сохранении или импорте. Никогда не удаляют метки и не меняют уже выбранную коллекцию."
+  },
+  "rulesEmpty": {
+    "message": "Правил пока нет."
+  },
+  "ruleIf": {
+    "message": "Если"
+  },
+  "ruleFieldSite": {
+    "message": "сайт —"
+  },
+  "ruleFieldUrl": {
+    "message": "адрес содержит"
+  },
+  "ruleFieldTitle": {
+    "message": "заголовок содержит"
+  },
+  "ruleValue": {
+    "message": "Значение"
+  },
+  "ruleThen": {
+    "message": "→"
+  },
+  "ruleAddTags": {
+    "message": "метки"
+  },
+  "ruleCollection": {
+    "message": "Переместить в коллекцию"
+  },
+  "ruleFavorite": {
+    "message": "Добавить в избранное"
+  },
+  "addRule": {
+    "message": "Добавить правило"
+  },
+  "applyRulesNow": {
+    "message": "Применить к существующим элементам"
+  },
+  "rulesApplied": {
+    "message": "Обновлено элементов: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchActivate": {
+    "message": "Включить"
+  },
+  "iconStyleTitle": {
+    "message": "Значки на панели инструментов"
+  },
+  "iconStyleHelp": {
+    "message": "Кнопка со счётчиком и значок в адресной строке."
+  },
+  "iconStyleBookmark": {
+    "message": "Закладка"
+  },
+  "iconStyleBook": {
+    "message": "Книга"
+  },
+  "iconStyleMinimal": {
+    "message": "Неброский"
+  },
+  "iconStyleLegend": {
+    "message": "В каждом: кнопка на панели · страница не сохранена · страница уже сохранена."
+  },
+  "ruleTitlePlaceholder": {
+    "message": "слово"
+  },
+  "ruleErrSiteEmpty": {
+    "message": "Введите сайт, например youtube.com"
+  },
+  "ruleErrTextEmpty": {
+    "message": "Введите текст, который должен содержаться"
+  },
+  "ruleErrSite": {
+    "message": "Это не похоже на адрес сайта. Введите только домен, например youtube.com или ru.wikipedia.org"
+  },
+  "ruleErrUrlSpaces": {
+    "message": "Адрес не может содержать пробелы"
+  },
+  "cleanupTitle": {
+    "message": "Автоматическая очистка"
+  },
+  "cleanupHelp": {
+    "message": "Перемещает в корзину всё, что подходит под активные правила. В корзине хранятся только заголовок и адрес (текст, миниатюра, метки и заметка удаляются, чтобы освободить место); оттуда элементы можно восстановить в течение 30 дней. Запускается при открытии Firefox, страницы «Показать все» или этой страницы."
+  },
+  "cleanupEmpty": {
+    "message": "Правил очистки пока нет."
+  },
+  "addCleanup": {
+    "message": "Добавить правило очистки"
+  },
+  "runCleanupNow": {
+    "message": "Очистить сейчас"
+  },
+  "openTrash": {
+    "message": "Открыть корзину"
+  },
+  "cleanupMove": {
+    "message": "Перемещать в корзину"
+  },
+  "cleanupScope": {
+    "message": "Какие элементы"
+  },
+  "cleanupScopeCollection": {
+    "message": "из коллекции"
+  },
+  "cleanupScopeTag": {
+    "message": "с меткой"
+  },
+  "cleanupScopeSite": {
+    "message": "с сайта"
+  },
+  "cleanupScopeAll": {
+    "message": "все элементы"
+  },
+  "chooseCollection": {
+    "message": "Выберите коллекцию"
+  },
+  "cleanupTagPlaceholder": {
+    "message": "метка"
+  },
+  "cleanupStatus": {
+    "message": "Состояние"
+  },
+  "cleanupStatusAny": {
+    "message": "в любом состоянии"
+  },
+  "cleanupStatusUnread": {
+    "message": "только непрочитанные"
+  },
+  "cleanupStatusArchive": {
+    "message": "только архивные"
+  },
+  "cleanupOlderThan": {
+    "message": "сохранённые более"
+  },
+  "cleanupAgo": {
+    "message": "назад"
+  },
+  "cleanupAmount": {
+    "message": "Количество"
+  },
+  "cleanupUnit": {
+    "message": "Единица"
+  },
+  "unit_day": {
+    "message": "дней"
+  },
+  "unit_day1": {
+    "message": "дня"
+  },
+  "unit_week": {
+    "message": "недель"
+  },
+  "unit_week1": {
+    "message": "недели"
+  },
+  "unit_month": {
+    "message": "месяцев"
+  },
+  "unit_month1": {
+    "message": "месяца"
+  },
+  "unit_year": {
+    "message": "лет"
+  },
+  "unit_year1": {
+    "message": "года"
+  },
+  "cleanupActive": {
+    "message": "Активно"
+  },
+  "cleanupAffects": {
+    "message": "Если включить его, сейчас в корзину будет перемещено элементов: $N$.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffectsActive": {
+    "message": "Чтобы изменить правило, сначала выключите его."
+  },
+  "cleanupIncomplete": {
+    "message": "Заполните правило, чтобы его можно было включить."
+  },
+  "cleanupActivate": {
+    "message": "Включить"
+  },
+  "cleanupConfirm": {
+    "message": "При включении в корзину сразу будет перемещено элементов: $N$. Там останутся только заголовок и адрес, на 30 дней.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone": {
+    "message": "Автоматическая очистка переместила в корзину элементов: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupRan": {
+    "message": "Очистка выполнена: в корзину — $N$, удалено навсегда — $M$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "m": {
+        "content": "$2"
+      }
+    }
+  },
+  "filterTrash": {
+    "message": "Корзина"
+  },
+  "trashInfo": {
+    "message": "Здесь то, что вы удалили или что убрала автоматическая очистка. Сохраняются только заголовок и адрес; восстановленный элемент возвращается в непрочитанные с сегодняшней датой (правила очистки считают от неё). Через 30 дней элементы удаляются навсегда."
+  },
+  "emptyTrash": {
+    "message": "Очистить корзину"
+  },
+  "emptyTrashConfirm": {
+    "message": "Из корзины навсегда будет удалено элементов: $N$.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDeletedOn": {
+    "message": "удалено $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft": {
+    "message": "исчезнет через $N$ дн.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashToday": {
+    "message": "исчезнет сегодня"
+  },
+  "restore": {
+    "message": "Восстановить"
+  },
+  "deleteForever": {
+    "message": "Удалить навсегда"
+  },
+  "trashRestored": {
+    "message": "Восстановлено в «Непрочитанные» с сегодняшней датой"
+  },
+  "trashEmpty": {
+    "message": "Корзина пуста"
+  },
+  "trashEmptyBody": {
+    "message": "Здесь появится то, что вы удалите, и то, что уберёт автоматическая очистка."
+  },
+  "expireSet": {
+    "message": "Удалить автоматически…"
+  },
+  "expireChange": {
+    "message": "Изменить автоудаление…"
+  },
+  "expireNever": {
+    "message": "Не удалять автоматически"
+  },
+  "expireHelp": {
+    "message": "По истечении срока элемент попадёт в корзину, где его заголовок и адрес хранятся ещё 30 дней."
+  },
+  "expire1d": {
+    "message": "Через 1 день"
+  },
+  "expire1w": {
+    "message": "Через 1 неделю"
+  },
+  "expire1m": {
+    "message": "Через 1 месяц"
+  },
+  "expire3m": {
+    "message": "Через 3 месяца"
+  },
+  "expire6m": {
+    "message": "Через 6 месяцев"
+  },
+  "expire1y": {
+    "message": "Через 1 год"
+  },
+  "expireScheduled": {
+    "message": "Попадёт в корзину $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireCancelled": {
+    "message": "Автоудаление отменено"
+  },
+  "expiresOn": {
+    "message": "Попадёт в корзину $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle": {
+    "message": "Автоматически удалить элементы ($N$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkExpire": {
+    "message": "Удалить через…"
+  },
+  "kbExpire": {
+    "message": "Удалить автоматически…"
+  },
+  "collectionFilterBy": {
+    "message": "Показать только эту коллекцию"
+  },
+  "shortReadsHelp": {
+    "message": "Показывает только тексты короче 5 минут (те, чей текст загружен)."
+  },
+  "thumbSmall": {
+    "message": "Маленькие миниатюры"
+  },
+  "thumbMedium": {
+    "message": "Средние миниатюры"
+  },
+  "thumbLarge": {
+    "message": "Большие миниатюры"
+  },
+  "matchInText": {
+    "message": "в тексте"
+  },
+  "matchInTextTitle": {
+    "message": "Совпадение найдено в тексте статьи"
+  },
+  "readerWithImages": {
+    "message": "Читать офлайн (с изображениями)"
+  },
+  "hlCount": {
+    "message": "Выделений: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "statImages": {
+    "message": "Изображения офлайн"
+  },
+  "statTexts": {
+    "message": "Текст для поиска"
+  },
+  "exportWithImages": {
+    "message": "Включить офлайн-изображения в полную копию"
+  },
+  "exportWithImagesHelp": {
+    "message": "Они могут сильно увеличить файл. Автоматические копии никогда их не содержат."
+  },
+  "imagesTitle": {
+    "message": "Изображения офлайн"
+  },
+  "imagesHelp": {
+    "message": "Сохраняет также изображения статей, чтобы видеть их офлайн в режиме чтения. Они удаляются автоматически при архивировании элемента. В режиме чтения кнопка изображений сохраняет или удаляет их для одной статьи."
+  },
+  "imagesEnable": {
+    "message": "Сохранять изображения новых статей (Firefox запросит доступ к сайтам)"
+  },
+  "imagesWarning": {
+    "message": "Они занимают гораздо больше места, чем текст: статья с фотографиями обычно занимает 0,5–3 МБ, а только текст — около 10–30 КБ."
+  },
+  "imagesUsage": {
+    "message": "Сейчас: изображений $N$, $SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesClear": {
+    "message": "Удалить все изображения"
+  },
+  "imagesClearConfirm": {
+    "message": "Все офлайн-изображения будут удалены. Статьи и их текст останутся."
+  },
+  "imagesCleared": {
+    "message": "Изображения удалены"
+  },
+  "imagesEnabledToast": {
+    "message": "Теперь изображения новых статей будут сохраняться"
+  },
+  "imagesOffTitle": {
+    "message": "Сохранить изображения офлайн (занимает больше места)"
+  },
+  "imagesOnTitle": {
+    "message": "Изображения сохранены офлайн ($SIZE$). Нажмите, чтобы удалить",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesArchived": {
+    "message": "Архивные элементы не хранят изображения: они удаляются при архивировании"
+  },
+  "imagesSaving": {
+    "message": "Сохранение изображений…"
+  },
+  "imagesProgress": {
+    "message": "Сохранение изображений: $DONE$ из $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved": {
+    "message": "Сохранено изображений: $N$ ($SIZE$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSavedSome": {
+    "message": "Сохранено $N$ из $TOTAL$ изображений ($SIZE$); остальные загрузить не удалось",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      }
+    }
+  },
+  "imagesNone": {
+    "message": "В этой статье нет изображений"
+  },
+  "imagesFailed": {
+    "message": "Не удалось загрузить ни одного изображения"
+  },
+  "imagesRemoved": {
+    "message": "Офлайн-изображения удалены"
+  },
+  "archivedImagesGone": {
+    "message": "В архиве (его офлайн-изображения удалены)"
+  },
+  "print": {
+    "message": "Печать или сохранение в PDF"
+  },
+  "hlPanel": {
+    "message": "Выделения и заметки"
+  },
+  "hlHint": {
+    "message": "Включите режим маркера (кнопка маркера или клавиша H), и любой выделенный текст будет отмечен цветом, выбранным здесь или в Aa. Без него при выделении появляется кнопка «Выделить»."
+  },
+  "hlEmpty": {
+    "message": "В этой статье пока нет выделений."
+  },
+  "hlExport": {
+    "message": "Скопировать всё в Markdown"
+  },
+  "hlExported": {
+    "message": "Выделения скопированы в буфер обмена"
+  },
+  "hlColor_yellow": {
+    "message": "Жёлтый"
+  },
+  "hlColor_green": {
+    "message": "Зелёный"
+  },
+  "hlColor_blue": {
+    "message": "Синий"
+  },
+  "hlColor_pink": {
+    "message": "Розовый"
+  },
+  "hlAddNote": {
+    "message": "Добавить заметку"
+  },
+  "hlEditNote": {
+    "message": "Изменить заметку"
+  },
+  "hlCopy": {
+    "message": "Копировать текст"
+  },
+  "hlCopied": {
+    "message": "Текст скопирован"
+  },
+  "hlDelete": {
+    "message": "Убрать выделение"
+  },
+  "hlDeleted": {
+    "message": "Выделение убрано"
+  },
+  "hlNotePlaceholder": {
+    "message": "Напишите заметку…"
+  },
+  "hlGoTo": {
+    "message": "Перейти к выделению"
+  },
+  "hlLost": {
+    "message": "Не найдено в текущем тексте статьи"
+  },
+  "save": {
+    "message": "Сохранить"
+  },
+  "repairPending": {
+    "message": "Статей, сохранённых со странными символами (� вместо букв): $N$.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairStart": {
+    "message": "Загрузить заново"
+  },
+  "repairProgress": {
+    "message": "Исправление: $DONE$ из $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairDone": {
+    "message": "Исправлено статей: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairReader": {
+    "message": "Эта статья сохранена со странными символами (� вместо букв). Повторная загрузка это исправит; ваши выделения сохранятся."
+  },
+  "repairReaderBtn": {
+    "message": "Загрузить заново"
+  },
+  "hlColorLabel": {
+    "message": "Цвет выделения"
+  },
+  "hlDo": {
+    "message": "Выделить"
+  },
+  "hlDoTitle": {
+    "message": "Выделить (клавиша H). Цвет меняется в Aa или на панели выделений"
+  },
+  "hlModeTitle": {
+    "message": "Режим маркера: выделенный текст сразу отмечается (клавиша H)"
+  },
+  "hlModeOn": {
+    "message": "Режим маркера включён: выделите текст, чтобы отметить его"
+  },
+  "hlModeOff": {
+    "message": "Режим маркера выключен"
+  },
+  "sidebarTitle": {
+    "message": "Read Later Local"
+  },
+  "commandSidebar": {
+    "message": "Открыть или закрыть боковую панель"
+  },
+  "menuSidebar": {
+    "message": "Боковая панель"
+  },
+  "sidebarHint": {
+    "message": "Щелчок: открыть здесь · Ctrl+щелчок: новая вкладка"
+  },
+  "emailSend": {
+    "message": "Отправить по почте"
+  },
+  "emailAttach": {
+    "message": "Во вложении: сохранённая статья, {file}"
+  },
+  "emailFileSaved": {
+    "message": "Открыто новое письмо. Прикрепите файл «$FILE$» (его папка откроется после сохранения).",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "emailLinkOnly": {
+    "message": "Открыто новое письмо со ссылкой (у этой статьи нет сохранённого текста)"
+  },
+  "triage": {
+    "message": "Режим разбора"
+  },
+  "triageTitle": {
+    "message": "Просмотреть элементы по одному: оставить, в архив или удалить (клавиша R)"
+  },
+  "triageKeep": {
+    "message": "Оставить"
+  },
+  "triageProgress": {
+    "message": "$N$ из $TOTAL$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "triageNothing": {
+    "message": "Нет элементов с этими фильтрами"
+  },
+  "triageDone": {
+    "message": "Всё разобрано"
+  },
+  "triageSummary": {
+    "message": "Оставлено: $KEPT$ · В архиве: $ARCHIVED$ · Удалено: $DELETED$",
+    "placeholders": {
+      "kept": {
+        "content": "$1"
+      },
+      "archived": {
+        "content": "$2"
+      },
+      "deleted": {
+        "content": "$3"
+      }
+    }
+  },
+  "menuSaveClose": {
+    "message": "Сохранить и закрыть вкладку"
+  },
+  "menuSaveAllTabs": {
+    "message": "Сохранить все вкладки окна"
+  },
+  "menuSaveTabs": {
+    "message": "Сохранить, чтобы прочитать позже"
+  },
+  "listenTitle": {
+    "message": "Слушать статью"
+  },
+  "ttsPlay": {
+    "message": "Воспроизвести"
+  },
+  "ttsPause": {
+    "message": "Пауза"
+  },
+  "ttsPrev": {
+    "message": "Предыдущий абзац"
+  },
+  "ttsNext": {
+    "message": "Следующий абзац"
+  },
+  "ttsStop": {
+    "message": "Остановить чтение вслух"
+  },
+  "ttsSpeed": {
+    "message": "Скорость"
+  },
+  "ttsVoice": {
+    "message": "Голос"
+  },
+  "ttsNoVoices": {
+    "message": "Firefox не нашёл голосов на этом компьютере. В Windows: Параметры → Время и язык → Речь."
+  },
+  "copyMarkdown": {
+    "message": "Копировать как Markdown"
+  },
+  "markdownCopied": {
+    "message": "Ссылка скопирована как Markdown"
+  },
+  "saveMarkdown": {
+    "message": "Сохранить как Markdown (Obsidian…)"
+  },
+  "markdownSaved": {
+    "message": "Сохранено как $FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportMarkdown": {
+    "message": "Markdown (список ссылок)"
+  },
+  "autoArchive": {
+    "message": "Архивировать, дочитав до конца"
+  },
+  "finishedArchived": {
+    "message": "Прочитано: в архиве"
+  },
+  "finishedArchivedImages": {
+    "message": "Прочитано: в архиве (его офлайн-изображения удалены)"
+  },
+  "ttsError": {
+    "message": "Не удалось прочитать статью вслух. Проверьте звук и голоса, установленные в системе."
+  }
+}

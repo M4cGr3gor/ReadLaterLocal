@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Stage</title>
+<!-- Dev only: lays out extension pages at 1280×800 for the store screenshots.
+     ?layout=popup  → the toolbar popup with a short text beside it
+     ?layout=sidebar&id=N → the sidebar next to an article -->
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 1280px; height: 800px; overflow: hidden; font-family: system-ui, "Segoe UI", sans-serif; }
+  body { background: linear-gradient(135deg, #EAF2FB 0%, #F6F1EA 100%); color: #1d2433; }
+  .popup { display: grid; grid-template-columns: 1fr 360px; align-items: center; gap: 72px; height: 100%; padding: 0 120px 0 130px; }
+  .popup h1 { font-size: 46px; line-height: 1.12; margin: 0 0 22px; letter-spacing: -0.5px; }
+  .popup p { font-size: 21px; line-height: 1.5; margin: 0 0 14px; color: #44506a; }
+  .popup .keys { margin-top: 28px; font-size: 17px; color: #44506a; }
+  kbd { display: inline-block; padding: 3px 8px; border: 1px solid #c9d2e0; border-bottom-width: 2px; border-radius: 6px; background: #fff; font: 600 15px system-ui, sans-serif; color: #1d2433; }
+  .frame { border-radius: 14px; overflow: hidden; background: #fff; box-shadow: 0 24px 60px rgba(25, 40, 70, .22), 0 2px 6px rgba(25, 40, 70, .12); }
+  .frame iframe { display: block; border: 0; width: 100%; height: 100%; }
+  .popup .frame { height: 570px; }
+  .keys li { margin: 8px 0; list-style: none; }
+  .keys ul { margin: 0; padding: 0; }
+  .split { display: flex; height: 100%; background: #fff; }
+  .split .side { width: 340px; border-right: 1px solid #d9dde4; }
+  .split .main { flex: 1; }
+  .split iframe { display: block; border: 0; width: 100%; height: 100%; }
+</style>
+</head>
+<body>
+<script type="module">
+  const q = new URLSearchParams(location.search);
+  const page = (name, extra = '') => `/dev/preview.html?page=${name}&lang=en&perm=1&bare=1${extra}`;
+  if (q.get('layout') === 'sidebar') {
+    document.body.innerHTML = `<div class="split">
+      <div class="side"><iframe src="${page('sidebar', '&url=' + encodeURIComponent('https://slowpages.blog/the-art-of-reading-slowly') + '&title=' + encodeURIComponent('The Art of Reading Slowly'))}"></iframe></div>
+      <div class="main"><iframe src="${page('reader', `&id=${q.get('id')}`)}"></iframe></div></div>`;
+  } else {
+    document.body.innerHTML = `<div class="popup">
+      <div>
+        <h1>Your reading list, one click away</h1>
+        <p>The toolbar button shows what you saved last, with the unread count on the icon.</p>
+        <p>Save the page you're on with the icon in the address bar, or right-click any link.</p>
+        <div class="keys"><ul>
+          <li><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> &nbsp;save the page</li>
+          <li><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd> &nbsp;last saved</li>
+          <li><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> &nbsp;sidebar</li></ul></div>
+      </div>
+      <div class="frame"><iframe src="${page('popup', '&mode=list&url=' + encodeURIComponent('https://slowpages.blog/the-art-of-reading-slowly') + '&title=' + encodeURIComponent('The Art of Reading Slowly'))}"></iframe></div></div>`;
+  }
+</script>
+</body>
+</html>

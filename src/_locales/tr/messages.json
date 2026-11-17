@@ -1,0 +1,1456 @@
+{
+  "extName": {
+    "message": "Read Later Local"
+  },
+  "extDescription": {
+    "message": "Sayfaları sonra okumak için kaydedin. Her şey bilgisayarınızda kalır: hesap yok, sunucu yok."
+  },
+  "actionTitle": {
+    "message": "Son kaydedilenler (Read Later Local)"
+  },
+  "commandSave": {
+    "message": "Geçerli sayfayı kaydet"
+  },
+  "menuSaveLink": {
+    "message": "Bağlantıyı sonra okumak için kaydet"
+  },
+  "menuSavePage": {
+    "message": "Sayfayı sonra okumak için kaydet"
+  },
+  "saved": {
+    "message": "Kaydedildi"
+  },
+  "undo": {
+    "message": "Geri al"
+  },
+  "alreadySaved": {
+    "message": "Zaten kayıtlı"
+  },
+  "cantSave": {
+    "message": "Bu sayfa kaydedilemiyor"
+  },
+  "saveRemoved": {
+    "message": "Kaldırıldı"
+  },
+  "recent": {
+    "message": "Son kaydedilenler"
+  },
+  "viewAll": {
+    "message": "Tümünü gör"
+  },
+  "export": {
+    "message": "CSV olarak dışa aktar"
+  },
+  "import": {
+    "message": "İçe aktar"
+  },
+  "open": {
+    "message": "Aç"
+  },
+  "archive": {
+    "message": "Arşivle"
+  },
+  "unarchive": {
+    "message": "Okunmamışlara taşı"
+  },
+  "delete": {
+    "message": "Sil"
+  },
+  "deleted": {
+    "message": "Çöp kutusuna taşındı"
+  },
+  "archived": {
+    "message": "Arşivlendi"
+  },
+  "movedToUnread": {
+    "message": "Okunmamışlara taşındı"
+  },
+  "emptyRecentTitle": {
+    "message": "İlk sayfanızı kaydedin"
+  },
+  "emptyRecentBody": {
+    "message": "Herhangi bir sayfayı burada tutmak için araç çubuğu düğmesine tıklayın."
+  },
+  "searchPlaceholder": {
+    "message": "Başlık, adres, not veya metinde ara"
+  },
+  "filterUnread": {
+    "message": "Okunmamış"
+  },
+  "filterArchive": {
+    "message": "Arşivlenmiş"
+  },
+  "filterAll": {
+    "message": "Tümü"
+  },
+  "gridView": {
+    "message": "Izgara görünümü"
+  },
+  "listView": {
+    "message": "Liste görünümü"
+  },
+  "loadingMore": {
+    "message": "Daha fazlası yükleniyor…"
+  },
+  "noResults": {
+    "message": "Aramanızla eşleşen bir şey yok."
+  },
+  "emptyListTitle": {
+    "message": "Henüz burada bir şey yok"
+  },
+  "emptyListBody": {
+    "message": "Sayfaları araç çubuğu düğmesiyle kaydedin veya bir CSV yedeği içe aktarın."
+  },
+  "importChoose": {
+    "message": "İçe aktarılacak bir CSV dosyası seçin"
+  },
+  "importing": {
+    "message": "İçe aktarılıyor…"
+  },
+  "importResult": {
+    "message": "$ADDED$ içe aktarıldı, $DUP$ zaten kayıtlı, $BAD$ geçersiz",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "dup": {
+        "content": "$2"
+      },
+      "bad": {
+        "content": "$3"
+      }
+    }
+  },
+  "importError": {
+    "message": "Dosya okunamadı. url sütunu olan bir CSV olduğundan emin olun."
+  },
+  "exportDone": {
+    "message": "$COUNT$ öğe dışa aktarıldı",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount": {
+    "message": "$COUNT$ öğe",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "filterFavorite": {
+    "message": "Favoriler"
+  },
+  "favorite": {
+    "message": "Favorilere ekle"
+  },
+  "unfavorite": {
+    "message": "Favorilerden çıkar"
+  },
+  "addedToFavorites": {
+    "message": "Favorilere eklendi"
+  },
+  "removedFromFavorites": {
+    "message": "Favorilerden çıkarıldı"
+  },
+  "editTags": {
+    "message": "Etiketler"
+  },
+  "tagsPlaceholder": {
+    "message": "css, linux, bir gün"
+  },
+  "tagsHelp": {
+    "message": "Virgülle ayırın. Enter kaydeder, Esc iptal eder."
+  },
+  "tagsSaved": {
+    "message": "Etiketler kaydedildi"
+  },
+  "reader": {
+    "message": "Çevrimdışı oku"
+  },
+  "openOriginal": {
+    "message": "Orijinal sayfayı aç"
+  },
+  "dataPage": {
+    "message": "Veriler ve yedekler"
+  },
+  "exportCsv": {
+    "message": "CSV (Pocket uyumlu)"
+  },
+  "exportHtml": {
+    "message": "HTML yer imleri (her tarayıcı)"
+  },
+  "exportFull": {
+    "message": "Tam yedek (.json.gz)"
+  },
+  "shortcuts": {
+    "message": "Klavye kısayolları"
+  },
+  "kbSearch": {
+    "message": "Ara (tag:ad desteklenir)"
+  },
+  "kbMove": {
+    "message": "Listede gezin"
+  },
+  "kbOpen": {
+    "message": "Sayfayı aç"
+  },
+  "kbReader": {
+    "message": "Okuyucuyu aç"
+  },
+  "kbArchive": {
+    "message": "Arşivle / okunmamışlara taşı"
+  },
+  "kbFavorite": {
+    "message": "Favori"
+  },
+  "kbTags": {
+    "message": "Etiketleri düzenle"
+  },
+  "kbDelete": {
+    "message": "Sil (geri alınabilir)"
+  },
+  "kbHelp": {
+    "message": "Bu yardımı göster"
+  },
+  "close": {
+    "message": "Kapat"
+  },
+  "readerBack": {
+    "message": "Tümünü gör"
+  },
+  "readerSettings": {
+    "message": "Okuma ayarları"
+  },
+  "theme": {
+    "message": "Tema"
+  },
+  "themeLight": {
+    "message": "Açık"
+  },
+  "themeDark": {
+    "message": "Koyu"
+  },
+  "themeSepia": {
+    "message": "Sepya"
+  },
+  "themeSystem": {
+    "message": "Sistem"
+  },
+  "fontSize": {
+    "message": "Metin boyutu"
+  },
+  "width": {
+    "message": "Sütun genişliği"
+  },
+  "widthNarrow": {
+    "message": "Dar"
+  },
+  "widthMedium": {
+    "message": "Orta"
+  },
+  "widthWide": {
+    "message": "Geniş"
+  },
+  "font": {
+    "message": "Yazı tipi"
+  },
+  "fontSerif": {
+    "message": "Tırnaklı"
+  },
+  "fontSans": {
+    "message": "Tırnaksız"
+  },
+  "readingTime": {
+    "message": "$MIN$ dk okuma",
+    "placeholders": {
+      "min": {
+        "content": "$1"
+      }
+    }
+  },
+  "noArticle": {
+    "message": "Bu öğenin kayıtlı makalesi yok."
+  },
+  "storageTitle": {
+    "message": "Kullanılan alan"
+  },
+  "statItems": {
+    "message": "Öğeler"
+  },
+  "statArticles": {
+    "message": "Kayıtlı makaleler"
+  },
+  "statThumbs": {
+    "message": "Küçük resimler"
+  },
+  "statFavicons": {
+    "message": "Site simgeleri"
+  },
+  "statTotal": {
+    "message": "Diskte toplam (yakl.)"
+  },
+  "freeSpace": {
+    "message": "Arşivlenmiş öğelerin makalelerini sil"
+  },
+  "freeSpaceHelp": {
+    "message": "Yer açar: arşivlenmiş öğelerin kayıtlı metnini kaldırır. Bağlantılar kalır."
+  },
+  "freedArticles": {
+    "message": "$N$ makale silindi",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupTitle": {
+    "message": "Otomatik yedekler"
+  },
+  "backupEnable": {
+    "message": "Otomatik yedek al"
+  },
+  "backupHelp": {
+    "message": "Tam bir yedeği (öğeler, etiketler, favoriler, küçük resimler ve makaleler) İndirilenler/ReadLaterLocal klasörüne kaydeder. Firefox açıldığında ve bir şey kaydettiğinizde kontrol edilir."
+  },
+  "backupFrequency": {
+    "message": "Sıklık"
+  },
+  "daily": {
+    "message": "Günlük"
+  },
+  "weekly": {
+    "message": "Haftalık"
+  },
+  "monthly": {
+    "message": "Aylık"
+  },
+  "backupKeep": {
+    "message": "Saklanacak yedek sayısı"
+  },
+  "backupNow": {
+    "message": "Şimdi yedekle"
+  },
+  "backupLast": {
+    "message": "Son yedek: $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupNever": {
+    "message": "Henüz yedek alınmadı"
+  },
+  "backupDone": {
+    "message": "Yedek İndirilenler/$FILE$ konumuna kaydedildi",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupFailed": {
+    "message": "Yedek alınamadı."
+  },
+  "exportTitle": {
+    "message": "Dışa aktar"
+  },
+  "exportHelp": {
+    "message": "CSV ve yer imleri yalnızca bağlantıları içerir. Tam yedek makaleleri ve küçük resimleri de içerir."
+  },
+  "importTitle": {
+    "message": "İçe aktar"
+  },
+  "importHelp": {
+    "message": "Pocket veya Read Later Local CSV dosyası ya da tam yedek (.json.gz). Var olanları asla silmez veya üzerine yazmaz."
+  },
+  "chooseFile": {
+    "message": "Dosya seç"
+  },
+  "fetchTitle": {
+    "message": "Arka planda indirme"
+  },
+  "fetchHelp": {
+    "message": "Bu sekme açık kaldığı sürece her şeyi şimdi, daha hızlı da indirebilirsiniz:"
+  },
+  "fetchPending": {
+    "message": "$N$ öğe bekliyor",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchStart": {
+    "message": "Makaleleri indir"
+  },
+  "fetchRetry": {
+    "message": "Daha önce başarısız olanları da dahil et"
+  },
+  "fetchCancel": {
+    "message": "İptal"
+  },
+  "fetchProgress": {
+    "message": "$DONE$ / $TOTAL$ · $OK$ makaleli · $PARTIAL$ makalesiz · $FAILED$ başarısız",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "ok": {
+        "content": "$3"
+      },
+      "partial": {
+        "content": "$4"
+      },
+      "failed": {
+        "content": "$5"
+      }
+    }
+  },
+  "fetchKeepOpen": {
+    "message": "İndirme sürerken bu sekmeyi açık tutun."
+  },
+  "fetchDenied": {
+    "message": "Bu izin olmadan indirilemezler."
+  },
+  "fetchFinished": {
+    "message": "Bitti."
+  },
+  "revokePermission": {
+    "message": "Web sitelerine erişim iznini kaldır"
+  },
+  "permissionRevoked": {
+    "message": "İzin kaldırıldı"
+  },
+  "dangerTitle": {
+    "message": "Her şeyi sil"
+  },
+  "dangerHelp": {
+    "message": "Öğeleri, makaleleri, küçük resimleri ve simgeleri siler. Geri alınamaz: önce bir yedek dışa aktarın."
+  },
+  "deleteAll": {
+    "message": "Tüm verileri sil"
+  },
+  "confirmDeleteAll": {
+    "message": "Emin misiniz? $N$ öğe silinecek ve bu geri alınamaz.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allDeleted": {
+    "message": "Veriler silindi"
+  },
+  "exportMenu": {
+    "message": "Dışa aktar"
+  },
+  "commandShowList": {
+    "message": "Son kaydedilenleri göster"
+  },
+  "seeRecent": {
+    "message": "Son kaydedilenleri gör"
+  },
+  "languageTitle": {
+    "message": "Dil"
+  },
+  "languageHelp": {
+    "message": "Eklentinin dili. “Otomatik”, Firefox’un dilini kullanır; eklentide o dil yoksa İngilizce gösterilir."
+  },
+  "languageAuto": {
+    "message": "Otomatik (Firefox’un dili)"
+  },
+  "pageActionTitle": {
+    "message": "Sonra okumak için kaydet"
+  },
+  "saveThisPage": {
+    "message": "Bu sayfayı kaydet"
+  },
+  "menuSaveCurrent": {
+    "message": "Bu sayfayı kaydet"
+  },
+  "fetchingArticle": {
+    "message": "Makale indiriliyor…"
+  },
+  "fetchArticle": {
+    "message": "Makaleyi indir"
+  },
+  "articleFailed": {
+    "message": "Bu sayfadan makale çıkarılamadı. Web’de açabilirsiniz."
+  },
+  "articleNeedsPermission": {
+    "message": "Bu öğenin henüz kayıtlı metni yok. İndirmek için Firefox web sitelerine erişim izni isteyecek (Veriler ve yedekler bölümünden kaldırabilirsiniz)."
+  },
+  "surprise": {
+    "message": "Beni şaşırt"
+  },
+  "surpriseNone": {
+    "message": "Bu filtrelerle açılacak bir şey yok."
+  },
+  "select": {
+    "message": "Seç"
+  },
+  "selectAll": {
+    "message": "Tümünü seç ($N$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectedCount": {
+    "message": "$N$ seçili",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "İptal"
+  },
+  "apply": {
+    "message": "Uygula"
+  },
+  "kindAll": {
+    "message": "Tüm türler"
+  },
+  "kindArticle": {
+    "message": "Makaleler"
+  },
+  "kindVideo": {
+    "message": "Videolar"
+  },
+  "kindImage": {
+    "message": "Görseller"
+  },
+  "kindOther": {
+    "message": "Diğer"
+  },
+  "collectionAll": {
+    "message": "Tüm koleksiyonlar"
+  },
+  "collectionNone": {
+    "message": "Koleksiyonsuz"
+  },
+  "collectionNew": {
+    "message": "Yeni koleksiyon…"
+  },
+  "collectionNamePrompt": {
+    "message": "Koleksiyon adı"
+  },
+  "orderNewest": {
+    "message": "Önce en yeni"
+  },
+  "orderOldest": {
+    "message": "Önce en eski"
+  },
+  "shortReads": {
+    "message": "Kısa (<5 dk)"
+  },
+  "tabTags": {
+    "message": "Etiketler"
+  },
+  "tabSites": {
+    "message": "Siteler"
+  },
+  "showMore": {
+    "message": "Daha fazla göster"
+  },
+  "showLess": {
+    "message": "Daha az göster"
+  },
+  "minutes": {
+    "message": "$N$ dk",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "more": {
+    "message": "Diğer işlemler"
+  },
+  "editNote": {
+    "message": "Kişisel not"
+  },
+  "notePlaceholder": {
+    "message": "Neden kaydettiniz?"
+  },
+  "noteHelp": {
+    "message": "Ctrl+Enter kaydeder, Esc iptal eder."
+  },
+  "noteSaved": {
+    "message": "Not kaydedildi"
+  },
+  "moveToCollection": {
+    "message": "Koleksiyona taşı"
+  },
+  "movedToCollection": {
+    "message": "$NAME$ koleksiyonuna taşındı",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "removedFromCollection": {
+    "message": "Koleksiyondan çıkarıldı"
+  },
+  "copyLink": {
+    "message": "Bağlantıyı kopyala"
+  },
+  "linkCopied": {
+    "message": "Bağlantı kopyalandı"
+  },
+  "suggested": {
+    "message": "Öneriler:"
+  },
+  "bulkArchive": {
+    "message": "Arşivle"
+  },
+  "bulkUnread": {
+    "message": "Okunmamış"
+  },
+  "bulkFavorite": {
+    "message": "Favori"
+  },
+  "bulkTag": {
+    "message": "Etiket…"
+  },
+  "bulkCollection": {
+    "message": "Koleksiyon…"
+  },
+  "bulkDelete": {
+    "message": "Sil"
+  },
+  "bulkDone": {
+    "message": "$N$ öğe güncellendi",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted": {
+    "message": "$N$ öğe çöp kutusuna taşındı",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle": {
+    "message": "$N$ öğeye etiket ekle",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allow": {
+    "message": "İzin ver"
+  },
+  "notNow": {
+    "message": "Şimdi değil"
+  },
+  "bgFetchAsk": {
+    "message": "$N$ öğenin metni, gerçek başlığı veya küçük resmi yok. Arka planda indirme açılsın mı? Firefox web sitelerine erişim izni isteyecek.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchProgress": {
+    "message": "Arka planda indiriliyor: $DONE$ / $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "bgFetchEnable": {
+    "message": "Arka planda indirmeyi aç (Firefox web sitelerine erişim izni isteyecek)"
+  },
+  "bgFetchHelp": {
+    "message": "Metni, gerçek başlığı ve küçük resmi olmayan öğeler (örneğin içe aktarılanlar) için bunları yavaş yavaş indirir. Firefox’u yavaşlatmamak için yalnızca “Tümünü gör” veya bu sayfa açıkken, her seferinde bir öğe olarak çalışır."
+  },
+  "kbNote": {
+    "message": "Kişisel not"
+  },
+  "kbCollection": {
+    "message": "Koleksiyona taşı"
+  },
+  "kbSelect": {
+    "message": "Seç (Shift+tık: aralık)"
+  },
+  "appearanceTitle": {
+    "message": "Görünüm"
+  },
+  "themeHelp": {
+    "message": "Okuyucu dahil tüm eklentiye uygulanır."
+  },
+  "badgeEnable": {
+    "message": "Okunmamış öğe sayısını araç çubuğu düğmesinde göster"
+  },
+  "collectionsTitle": {
+    "message": "Koleksiyonlar"
+  },
+  "collectionsHelp": {
+    "message": "Klasörler gibi: her öğe yalnızca bir koleksiyonda olabilir."
+  },
+  "collectionsEmpty": {
+    "message": "Henüz koleksiyon yok."
+  },
+  "addCollection": {
+    "message": "Koleksiyon oluştur"
+  },
+  "collectionDeleted": {
+    "message": "Koleksiyon silindi (öğeleri korunur)"
+  },
+  "rename": {
+    "message": "Yeniden adlandır"
+  },
+  "rulesTitle": {
+    "message": "Otomatik kurallar"
+  },
+  "rulesHelp": {
+    "message": "Kaydederken veya içe aktarırken uygulanır. Asla etiket kaldırmaz veya önceden seçilmiş bir koleksiyonu değiştirmez."
+  },
+  "rulesEmpty": {
+    "message": "Henüz kural yok."
+  },
+  "ruleIf": {
+    "message": "Eğer"
+  },
+  "ruleFieldSite": {
+    "message": "site şu ise"
+  },
+  "ruleFieldUrl": {
+    "message": "adres şunu içeriyorsa"
+  },
+  "ruleFieldTitle": {
+    "message": "başlık şunu içeriyorsa"
+  },
+  "ruleValue": {
+    "message": "Değer"
+  },
+  "ruleThen": {
+    "message": "→"
+  },
+  "ruleAddTags": {
+    "message": "etiketler"
+  },
+  "ruleCollection": {
+    "message": "Koleksiyona taşı"
+  },
+  "ruleFavorite": {
+    "message": "Favorilere ekle"
+  },
+  "addRule": {
+    "message": "Kural ekle"
+  },
+  "applyRulesNow": {
+    "message": "Mevcut öğelere uygula"
+  },
+  "rulesApplied": {
+    "message": "$N$ öğe güncellendi",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchActivate": {
+    "message": "Aç"
+  },
+  "iconStyleTitle": {
+    "message": "Araç çubuğu simgeleri"
+  },
+  "iconStyleHelp": {
+    "message": "Sayaçlı düğme ve adres çubuğundaki simge."
+  },
+  "iconStyleBookmark": {
+    "message": "Yer imi"
+  },
+  "iconStyleBook": {
+    "message": "Kitap"
+  },
+  "iconStyleMinimal": {
+    "message": "Sade"
+  },
+  "iconStyleLegend": {
+    "message": "Her birinde: araç çubuğu düğmesi · kaydedilmemiş sayfa · kayıtlı sayfa."
+  },
+  "ruleTitlePlaceholder": {
+    "message": "bir kelime"
+  },
+  "ruleErrSiteEmpty": {
+    "message": "Bir site yazın, örneğin youtube.com"
+  },
+  "ruleErrTextEmpty": {
+    "message": "İçermesi gereken metni yazın"
+  },
+  "ruleErrSite": {
+    "message": "Bu geçerli bir site gibi görünmüyor. Yalnızca alan adını yazın, örneğin youtube.com veya tr.wikipedia.org"
+  },
+  "ruleErrUrlSpaces": {
+    "message": "Bir adres boşluk içeremez"
+  },
+  "cleanupTitle": {
+    "message": "Otomatik temizlik"
+  },
+  "cleanupHelp": {
+    "message": "Etkin her kurala uyanları çöp kutusuna taşır. Çöp kutusu yalnızca başlığı ve adresi tutar (yer açmak için metin, küçük resim, etiketler ve not silinir); öğeler oradan 30 gün boyunca geri yüklenebilir. Firefox, “Tümünü gör” veya bu sayfa açıldığında çalışır."
+  },
+  "cleanupEmpty": {
+    "message": "Henüz temizlik kuralı yok."
+  },
+  "addCleanup": {
+    "message": "Temizlik kuralı ekle"
+  },
+  "runCleanupNow": {
+    "message": "Şimdi temizle"
+  },
+  "openTrash": {
+    "message": "Çöp kutusunu aç"
+  },
+  "cleanupMove": {
+    "message": "Çöp kutusuna taşı"
+  },
+  "cleanupScope": {
+    "message": "Hangi öğeler"
+  },
+  "cleanupScopeCollection": {
+    "message": "şu koleksiyondakiler"
+  },
+  "cleanupScopeTag": {
+    "message": "şu etiketi taşıyanlar"
+  },
+  "cleanupScopeSite": {
+    "message": "şu sitedekiler"
+  },
+  "cleanupScopeAll": {
+    "message": "tüm öğeler"
+  },
+  "chooseCollection": {
+    "message": "Bir koleksiyon seçin"
+  },
+  "cleanupTagPlaceholder": {
+    "message": "etiket"
+  },
+  "cleanupStatus": {
+    "message": "Durum"
+  },
+  "cleanupStatusAny": {
+    "message": "her durumda"
+  },
+  "cleanupStatusUnread": {
+    "message": "yalnızca okunmamışlar"
+  },
+  "cleanupStatusArchive": {
+    "message": "yalnızca arşivlenmişler"
+  },
+  "cleanupOlderThan": {
+    "message": "kaydedileli en az"
+  },
+  "cleanupAgo": {
+    "message": "geçmiş olanlar"
+  },
+  "cleanupAmount": {
+    "message": "Miktar"
+  },
+  "cleanupUnit": {
+    "message": "Birim"
+  },
+  "unit_day": {
+    "message": "gün"
+  },
+  "unit_day1": {
+    "message": "gün"
+  },
+  "unit_week": {
+    "message": "hafta"
+  },
+  "unit_week1": {
+    "message": "hafta"
+  },
+  "unit_month": {
+    "message": "ay"
+  },
+  "unit_month1": {
+    "message": "ay"
+  },
+  "unit_year": {
+    "message": "yıl"
+  },
+  "unit_year1": {
+    "message": "yıl"
+  },
+  "cleanupActive": {
+    "message": "Etkin"
+  },
+  "cleanupAffects": {
+    "message": "Etkinleştirirseniz şu anda $N$ öğeyi çöp kutusuna taşır.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffectsActive": {
+    "message": "Değiştirmek için önce devre dışı bırakın."
+  },
+  "cleanupIncomplete": {
+    "message": "Etkinleştirebilmek için kuralı tamamlayın."
+  },
+  "cleanupActivate": {
+    "message": "Etkinleştir"
+  },
+  "cleanupConfirm": {
+    "message": "Etkinleştirmek şimdi $N$ öğeyi çöp kutusuna taşır. Orada yalnızca başlık ve adres 30 gün boyunca tutulur.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone": {
+    "message": "Otomatik temizlik $N$ öğeyi çöp kutusuna taşıdı",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupRan": {
+    "message": "Temizlik yapıldı: $N$ çöp kutusuna, $M$ kalıcı olarak silindi",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "m": {
+        "content": "$2"
+      }
+    }
+  },
+  "filterTrash": {
+    "message": "Çöp kutusu"
+  },
+  "trashInfo": {
+    "message": "Sildikleriniz veya otomatik temizliğin kaldırdıkları burada. Yalnızca başlık ve adres tutulur; geri yüklenen öğe bugünün tarihiyle okunmamış olarak döner (temizlik kuralları o andan itibaren sayar). 30 gün sonra kalıcı olarak silinirler."
+  },
+  "emptyTrash": {
+    "message": "Çöp kutusunu boşalt"
+  },
+  "emptyTrashConfirm": {
+    "message": "$N$ öğe çöp kutusundan kalıcı olarak silinecek.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDeletedOn": {
+    "message": "$DATE$ tarihinde silindi",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft": {
+    "message": "$N$ gün sonra silinecek",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashToday": {
+    "message": "bugün silinecek"
+  },
+  "restore": {
+    "message": "Geri yükle"
+  },
+  "deleteForever": {
+    "message": "Kalıcı olarak sil"
+  },
+  "trashRestored": {
+    "message": "Bugünün tarihiyle “Okunmamış” bölümüne geri yüklendi"
+  },
+  "trashEmpty": {
+    "message": "Çöp kutusu boş"
+  },
+  "trashEmptyBody": {
+    "message": "Sildikleriniz ve otomatik temizliğin kaldırdıkları burada görünecek."
+  },
+  "expireSet": {
+    "message": "Otomatik sil…"
+  },
+  "expireChange": {
+    "message": "Otomatik silmeyi değiştir…"
+  },
+  "expireNever": {
+    "message": "Otomatik silme"
+  },
+  "expireHelp": {
+    "message": "Bu süreden sonra çöp kutusuna gider; başlığı ve adresi orada 30 gün daha tutulur."
+  },
+  "expire1d": {
+    "message": "1 gün sonra"
+  },
+  "expire1w": {
+    "message": "1 hafta sonra"
+  },
+  "expire1m": {
+    "message": "1 ay sonra"
+  },
+  "expire3m": {
+    "message": "3 ay sonra"
+  },
+  "expire6m": {
+    "message": "6 ay sonra"
+  },
+  "expire1y": {
+    "message": "1 yıl sonra"
+  },
+  "expireScheduled": {
+    "message": "$DATE$ tarihinde çöp kutusuna gidecek",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireCancelled": {
+    "message": "Otomatik silme iptal edildi"
+  },
+  "expiresOn": {
+    "message": "$DATE$ tarihinde çöp kutusuna gider",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle": {
+    "message": "$N$ öğeyi otomatik sil",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkExpire": {
+    "message": "Şu süre sonra sil…"
+  },
+  "kbExpire": {
+    "message": "Otomatik sil…"
+  },
+  "collectionFilterBy": {
+    "message": "Yalnızca bu koleksiyonu göster"
+  },
+  "shortReadsHelp": {
+    "message": "Yalnızca 5 dakikadan kısa okumaları gösterir (metni indirilmiş olanlar)."
+  },
+  "thumbSmall": {
+    "message": "Küçük resimler: küçük"
+  },
+  "thumbMedium": {
+    "message": "Küçük resimler: orta"
+  },
+  "thumbLarge": {
+    "message": "Küçük resimler: büyük"
+  },
+  "matchInText": {
+    "message": "metinde"
+  },
+  "matchInTextTitle": {
+    "message": "Arama makalenin metniyle eşleşiyor"
+  },
+  "readerWithImages": {
+    "message": "Çevrimdışı oku (görsellerle)"
+  },
+  "hlCount": {
+    "message": "$N$ vurgu",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "statImages": {
+    "message": "Çevrimdışı görseller"
+  },
+  "statTexts": {
+    "message": "Aranabilir metin"
+  },
+  "exportWithImages": {
+    "message": "Çevrimdışı görselleri tam yedeğe dahil et"
+  },
+  "exportWithImagesHelp": {
+    "message": "Dosyayı çok büyütebilirler. Otomatik yedekler onları asla içermez."
+  },
+  "imagesTitle": {
+    "message": "Çevrimdışı görseller"
+  },
+  "imagesHelp": {
+    "message": "Makalelerin görsellerini de saklar, böylece okuyucuda çevrimdışı görebilirsiniz. Bir öğe arşivlendiğinde otomatik olarak silinirler. Okuyucuda görsel düğmesi bunları tek bir makale için kaydeder veya siler."
+  },
+  "imagesEnable": {
+    "message": "Yeni makalelerin görsellerini kaydet (Firefox web sitelerine erişim izni isteyecek)"
+  },
+  "imagesWarning": {
+    "message": "Metinden çok daha fazla yer kaplarlar: fotoğraflı bir makale genellikle 0,5–3 MB tutar, yalnızca metin ise yaklaşık 10–30 KB."
+  },
+  "imagesUsage": {
+    "message": "Şu anda: $N$ görsel, $SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesClear": {
+    "message": "Tüm görselleri sil"
+  },
+  "imagesClearConfirm": {
+    "message": "Tüm çevrimdışı görseller silinecek. Makaleler ve metinleri kalır."
+  },
+  "imagesCleared": {
+    "message": "Görseller silindi"
+  },
+  "imagesEnabledToast": {
+    "message": "Bundan sonra yeni makalelerin görselleri kaydedilecek"
+  },
+  "imagesOffTitle": {
+    "message": "Görselleri çevrimdışı kaydet (daha fazla yer kaplar)"
+  },
+  "imagesOnTitle": {
+    "message": "Görseller çevrimdışı kayıtlı ($SIZE$). Silmek için tıklayın",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesArchived": {
+    "message": "Arşivlenmiş öğeler görsel tutmaz: arşivlenirken silinirler"
+  },
+  "imagesSaving": {
+    "message": "Görseller kaydediliyor…"
+  },
+  "imagesProgress": {
+    "message": "Görseller kaydediliyor: $DONE$ / $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved": {
+    "message": "$N$ görsel kaydedildi ($SIZE$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSavedSome": {
+    "message": "$TOTAL$ görselden $N$ tanesi kaydedildi ($SIZE$); geri kalanı indirilemedi",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      }
+    }
+  },
+  "imagesNone": {
+    "message": "Bu makalede görsel yok"
+  },
+  "imagesFailed": {
+    "message": "Hiçbir görsel indirilemedi"
+  },
+  "imagesRemoved": {
+    "message": "Çevrimdışı görseller silindi"
+  },
+  "archivedImagesGone": {
+    "message": "Arşivlendi (çevrimdışı görselleri silindi)"
+  },
+  "print": {
+    "message": "Yazdır veya PDF olarak kaydet"
+  },
+  "hlPanel": {
+    "message": "Vurgular ve notlar"
+  },
+  "hlHint": {
+    "message": "Vurgulama modunu açın (vurgulayıcı düğmesi veya H tuşu); seçtiğiniz her metin burada veya Aa’da seçilen renkle vurgulanır. Bu mod kapalıyken seçim yapınca “Vurgula” düğmesi görünür."
+  },
+  "hlEmpty": {
+    "message": "Bu makalede henüz vurgu yok."
+  },
+  "hlExport": {
+    "message": "Tümünü Markdown olarak kopyala"
+  },
+  "hlExported": {
+    "message": "Vurgular panoya kopyalandı"
+  },
+  "hlColor_yellow": {
+    "message": "Sarı"
+  },
+  "hlColor_green": {
+    "message": "Yeşil"
+  },
+  "hlColor_blue": {
+    "message": "Mavi"
+  },
+  "hlColor_pink": {
+    "message": "Pembe"
+  },
+  "hlAddNote": {
+    "message": "Not ekle"
+  },
+  "hlEditNote": {
+    "message": "Notu düzenle"
+  },
+  "hlCopy": {
+    "message": "Metni kopyala"
+  },
+  "hlCopied": {
+    "message": "Metin kopyalandı"
+  },
+  "hlDelete": {
+    "message": "Vurguyu kaldır"
+  },
+  "hlDeleted": {
+    "message": "Vurgu kaldırıldı"
+  },
+  "hlNotePlaceholder": {
+    "message": "Notunuzu yazın…"
+  },
+  "hlGoTo": {
+    "message": "Vurguya git"
+  },
+  "hlLost": {
+    "message": "Makalenin güncel metninde bulunamadı"
+  },
+  "save": {
+    "message": "Kaydet"
+  },
+  "repairPending": {
+    "message": "$N$ makale garip karakterlerle kaydedildi (Türkçe harfler yerine �).",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairStart": {
+    "message": "Yeniden indir"
+  },
+  "repairProgress": {
+    "message": "Onarılıyor: $DONE$ / $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairDone": {
+    "message": "$N$ makale onarıldı",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairReader": {
+    "message": "Bu makale garip karakterlerle kaydedildi (Türkçe harfler yerine �). Yeniden indirmek bunu düzeltir; vurgularınız korunur."
+  },
+  "repairReaderBtn": {
+    "message": "Yeniden indir"
+  },
+  "hlColorLabel": {
+    "message": "Vurgu rengi"
+  },
+  "hlDo": {
+    "message": "Vurgula"
+  },
+  "hlDoTitle": {
+    "message": "Vurgula (H tuşu). Rengi Aa’dan veya vurgular panelinden değiştirin"
+  },
+  "hlModeTitle": {
+    "message": "Vurgulama modu: metin seçince hemen vurgulanır (H tuşu)"
+  },
+  "hlModeOn": {
+    "message": "Vurgulama modu açık: vurgulamak için metin seçin"
+  },
+  "hlModeOff": {
+    "message": "Vurgulama modu kapalı"
+  },
+  "sidebarTitle": {
+    "message": "Read Later Local"
+  },
+  "commandSidebar": {
+    "message": "Kenar çubuğunu aç veya kapat"
+  },
+  "menuSidebar": {
+    "message": "Kenar çubuğu"
+  },
+  "sidebarHint": {
+    "message": "Tık: burada aç · Ctrl+tık: yeni sekme"
+  },
+  "emailSend": {
+    "message": "E-postayla gönder"
+  },
+  "emailAttach": {
+    "message": "Ekte: kayıtlı makale, {file}"
+  },
+  "emailFileSaved": {
+    "message": "Yeni bir e-posta açıldı. “$FILE$” dosyasını ekleyin (kaydedildiğinde klasörü açılır).",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "emailLinkOnly": {
+    "message": "Bağlantıyla yeni bir e-posta açıldı (bu makalenin kayıtlı metni yok)"
+  },
+  "triage": {
+    "message": "Temizlik modu"
+  },
+  "triageTitle": {
+    "message": "Öğeleri tek tek gözden geçirin: tut, arşivle veya sil (R tuşu)"
+  },
+  "triageKeep": {
+    "message": "Tut"
+  },
+  "triageProgress": {
+    "message": "$N$ / $TOTAL$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "triageNothing": {
+    "message": "Bu filtrelerle öğe yok"
+  },
+  "triageDone": {
+    "message": "Hepsi bitti"
+  },
+  "triageSummary": {
+    "message": "Tutulan: $KEPT$ · Arşivlenen: $ARCHIVED$ · Silinen: $DELETED$",
+    "placeholders": {
+      "kept": {
+        "content": "$1"
+      },
+      "archived": {
+        "content": "$2"
+      },
+      "deleted": {
+        "content": "$3"
+      }
+    }
+  },
+  "menuSaveClose": {
+    "message": "Kaydet ve sekmeyi kapat"
+  },
+  "menuSaveAllTabs": {
+    "message": "Penceredeki tüm sekmeleri kaydet"
+  },
+  "menuSaveTabs": {
+    "message": "Sonra okumak için kaydet"
+  },
+  "listenTitle": {
+    "message": "Makaleyi dinle"
+  },
+  "ttsPlay": {
+    "message": "Oynat"
+  },
+  "ttsPause": {
+    "message": "Duraklat"
+  },
+  "ttsPrev": {
+    "message": "Önceki paragraf"
+  },
+  "ttsNext": {
+    "message": "Sonraki paragraf"
+  },
+  "ttsStop": {
+    "message": "Dinlemeyi durdur"
+  },
+  "ttsSpeed": {
+    "message": "Hız"
+  },
+  "ttsVoice": {
+    "message": "Ses"
+  },
+  "ttsNoVoices": {
+    "message": "Firefox bu bilgisayarda ses bulamadı. Windows’ta: Ayarlar → Saat ve dil → Konuşma."
+  },
+  "copyMarkdown": {
+    "message": "Markdown olarak kopyala"
+  },
+  "markdownCopied": {
+    "message": "Bağlantı Markdown olarak kopyalandı"
+  },
+  "saveMarkdown": {
+    "message": "Markdown olarak kaydet (Obsidian…)"
+  },
+  "markdownSaved": {
+    "message": "$FILE$ olarak kaydedildi",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportMarkdown": {
+    "message": "Markdown (bağlantı listesi)"
+  },
+  "autoArchive": {
+    "message": "Sona gelince arşivle"
+  },
+  "finishedArchived": {
+    "message": "Bitti: arşivlendi"
+  },
+  "finishedArchivedImages": {
+    "message": "Bitti: arşivlendi (çevrimdışı görselleri silindi)"
+  },
+  "ttsError": {
+    "message": "Makale sesli okunamadı. Sesi ve sistemde yüklü sesleri kontrol edin."
+  }
+}

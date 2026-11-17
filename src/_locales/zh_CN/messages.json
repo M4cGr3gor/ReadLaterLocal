@@ -1,0 +1,1456 @@
+{
+  "extName": {
+    "message": "Read Later Local"
+  },
+  "extDescription": {
+    "message": "保存网页，稍后阅读。所有内容都保存在你的电脑上：无需账号，没有服务器。"
+  },
+  "actionTitle": {
+    "message": "最近保存 (Read Later Local)"
+  },
+  "commandSave": {
+    "message": "保存当前页面"
+  },
+  "menuSaveLink": {
+    "message": "保存链接，稍后阅读"
+  },
+  "menuSavePage": {
+    "message": "保存页面，稍后阅读"
+  },
+  "saved": {
+    "message": "已保存"
+  },
+  "undo": {
+    "message": "撤销"
+  },
+  "alreadySaved": {
+    "message": "已经保存过"
+  },
+  "cantSave": {
+    "message": "无法保存此页面"
+  },
+  "saveRemoved": {
+    "message": "已移除"
+  },
+  "recent": {
+    "message": "最近保存"
+  },
+  "viewAll": {
+    "message": "查看全部"
+  },
+  "export": {
+    "message": "导出 CSV"
+  },
+  "import": {
+    "message": "导入"
+  },
+  "open": {
+    "message": "打开"
+  },
+  "archive": {
+    "message": "归档"
+  },
+  "unarchive": {
+    "message": "移回未读"
+  },
+  "delete": {
+    "message": "删除"
+  },
+  "deleted": {
+    "message": "已移到回收站"
+  },
+  "archived": {
+    "message": "已归档"
+  },
+  "movedToUnread": {
+    "message": "已移回未读"
+  },
+  "emptyRecentTitle": {
+    "message": "保存你的第一个页面"
+  },
+  "emptyRecentBody": {
+    "message": "在任意页面点击工具栏按钮，即可保存到这里。"
+  },
+  "searchPlaceholder": {
+    "message": "搜索标题、网址、备注或正文"
+  },
+  "filterUnread": {
+    "message": "未读"
+  },
+  "filterArchive": {
+    "message": "已归档"
+  },
+  "filterAll": {
+    "message": "全部"
+  },
+  "gridView": {
+    "message": "网格视图"
+  },
+  "listView": {
+    "message": "列表视图"
+  },
+  "loadingMore": {
+    "message": "正在加载…"
+  },
+  "noResults": {
+    "message": "没有符合搜索的内容。"
+  },
+  "emptyListTitle": {
+    "message": "这里还什么都没有"
+  },
+  "emptyListBody": {
+    "message": "用工具栏按钮保存页面，或导入 CSV 备份。"
+  },
+  "importChoose": {
+    "message": "选择要导入的 CSV 文件"
+  },
+  "importing": {
+    "message": "正在导入…"
+  },
+  "importResult": {
+    "message": "已导入 $ADDED$ 个，$DUP$ 个已存在，$BAD$ 个无效",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "dup": {
+        "content": "$2"
+      },
+      "bad": {
+        "content": "$3"
+      }
+    }
+  },
+  "importError": {
+    "message": "无法读取该文件。请确认它是包含 url 列的 CSV 文件。"
+  },
+  "exportDone": {
+    "message": "已导出 $COUNT$ 个条目",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount": {
+    "message": "$COUNT$ 个条目",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "filterFavorite": {
+    "message": "收藏"
+  },
+  "favorite": {
+    "message": "加入收藏"
+  },
+  "unfavorite": {
+    "message": "取消收藏"
+  },
+  "addedToFavorites": {
+    "message": "已加入收藏"
+  },
+  "removedFromFavorites": {
+    "message": "已取消收藏"
+  },
+  "editTags": {
+    "message": "标签"
+  },
+  "tagsPlaceholder": {
+    "message": "css, linux, 以后"
+  },
+  "tagsHelp": {
+    "message": "用逗号分隔。Enter 保存，Esc 取消。"
+  },
+  "tagsSaved": {
+    "message": "标签已保存"
+  },
+  "reader": {
+    "message": "离线阅读"
+  },
+  "openOriginal": {
+    "message": "打开原始页面"
+  },
+  "dataPage": {
+    "message": "数据与备份"
+  },
+  "exportCsv": {
+    "message": "CSV（兼容 Pocket）"
+  },
+  "exportHtml": {
+    "message": "HTML 书签（任何浏览器）"
+  },
+  "exportFull": {
+    "message": "完整备份 (.json.gz)"
+  },
+  "shortcuts": {
+    "message": "键盘快捷键"
+  },
+  "kbSearch": {
+    "message": "搜索（支持 tag:名称）"
+  },
+  "kbMove": {
+    "message": "在列表中移动"
+  },
+  "kbOpen": {
+    "message": "打开页面"
+  },
+  "kbReader": {
+    "message": "打开阅读器"
+  },
+  "kbArchive": {
+    "message": "归档 / 移回未读"
+  },
+  "kbFavorite": {
+    "message": "收藏"
+  },
+  "kbTags": {
+    "message": "编辑标签"
+  },
+  "kbDelete": {
+    "message": "删除（可撤销）"
+  },
+  "kbHelp": {
+    "message": "显示此帮助"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "readerBack": {
+    "message": "查看全部"
+  },
+  "readerSettings": {
+    "message": "阅读设置"
+  },
+  "theme": {
+    "message": "主题"
+  },
+  "themeLight": {
+    "message": "浅色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "themeSepia": {
+    "message": "护眼"
+  },
+  "themeSystem": {
+    "message": "跟随系统"
+  },
+  "fontSize": {
+    "message": "文字大小"
+  },
+  "width": {
+    "message": "栏宽"
+  },
+  "widthNarrow": {
+    "message": "窄"
+  },
+  "widthMedium": {
+    "message": "中"
+  },
+  "widthWide": {
+    "message": "宽"
+  },
+  "font": {
+    "message": "字体"
+  },
+  "fontSerif": {
+    "message": "衬线体"
+  },
+  "fontSans": {
+    "message": "无衬线体"
+  },
+  "readingTime": {
+    "message": "阅读约 $MIN$ 分钟",
+    "placeholders": {
+      "min": {
+        "content": "$1"
+      }
+    }
+  },
+  "noArticle": {
+    "message": "此条目没有保存的文章。"
+  },
+  "storageTitle": {
+    "message": "已用空间"
+  },
+  "statItems": {
+    "message": "条目"
+  },
+  "statArticles": {
+    "message": "已保存的文章"
+  },
+  "statThumbs": {
+    "message": "缩略图"
+  },
+  "statFavicons": {
+    "message": "网站图标"
+  },
+  "statTotal": {
+    "message": "磁盘总占用（约）"
+  },
+  "freeSpace": {
+    "message": "删除已归档条目的文章"
+  },
+  "freeSpaceHelp": {
+    "message": "释放空间：删除已归档条目保存的正文。链接会保留。"
+  },
+  "freedArticles": {
+    "message": "已删除 $N$ 篇文章",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupTitle": {
+    "message": "自动备份"
+  },
+  "backupEnable": {
+    "message": "自动备份"
+  },
+  "backupHelp": {
+    "message": "将完整备份（条目、标签、收藏、缩略图和文章）保存到 下载/ReadLaterLocal。在 Firefox 启动时和你保存内容时检查。"
+  },
+  "backupFrequency": {
+    "message": "频率"
+  },
+  "daily": {
+    "message": "每天"
+  },
+  "weekly": {
+    "message": "每周"
+  },
+  "monthly": {
+    "message": "每月"
+  },
+  "backupKeep": {
+    "message": "保留的备份数"
+  },
+  "backupNow": {
+    "message": "立即备份"
+  },
+  "backupLast": {
+    "message": "上次备份：$DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupNever": {
+    "message": "尚未备份"
+  },
+  "backupDone": {
+    "message": "备份已保存到 下载/$FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupFailed": {
+    "message": "无法完成备份。"
+  },
+  "exportTitle": {
+    "message": "导出"
+  },
+  "exportHelp": {
+    "message": "CSV 和书签只包含链接。完整备份还包含文章和缩略图。"
+  },
+  "importTitle": {
+    "message": "导入"
+  },
+  "importHelp": {
+    "message": "Pocket 或 Read Later Local 的 CSV 文件，或完整备份 (.json.gz)。绝不会删除或覆盖你已有的内容。"
+  },
+  "chooseFile": {
+    "message": "选择文件"
+  },
+  "fetchTitle": {
+    "message": "后台下载"
+  },
+  "fetchHelp": {
+    "message": "只要此标签页保持打开，你也可以现在更快地下载全部内容："
+  },
+  "fetchPending": {
+    "message": "$N$ 个条目待下载",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchStart": {
+    "message": "下载文章"
+  },
+  "fetchRetry": {
+    "message": "包括之前失败的"
+  },
+  "fetchCancel": {
+    "message": "取消"
+  },
+  "fetchProgress": {
+    "message": "$DONE$ / $TOTAL$ · $OK$ 个含文章 · $PARTIAL$ 个无文章 · $FAILED$ 个失败",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "ok": {
+        "content": "$3"
+      },
+      "partial": {
+        "content": "$4"
+      },
+      "failed": {
+        "content": "$5"
+      }
+    }
+  },
+  "fetchKeepOpen": {
+    "message": "下载期间请保持此标签页打开。"
+  },
+  "fetchDenied": {
+    "message": "没有该权限就无法下载。"
+  },
+  "fetchFinished": {
+    "message": "已完成。"
+  },
+  "revokePermission": {
+    "message": "移除访问网站的权限"
+  },
+  "permissionRevoked": {
+    "message": "权限已移除"
+  },
+  "dangerTitle": {
+    "message": "全部删除"
+  },
+  "dangerHelp": {
+    "message": "删除条目、文章、缩略图和图标。此操作无法撤销：请先导出备份。"
+  },
+  "deleteAll": {
+    "message": "删除所有数据"
+  },
+  "confirmDeleteAll": {
+    "message": "确定吗？将删除 $N$ 个条目，且无法撤销。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allDeleted": {
+    "message": "数据已删除"
+  },
+  "exportMenu": {
+    "message": "导出"
+  },
+  "commandShowList": {
+    "message": "显示最近保存"
+  },
+  "seeRecent": {
+    "message": "查看最近保存"
+  },
+  "languageTitle": {
+    "message": "语言"
+  },
+  "languageHelp": {
+    "message": "扩展的语言。“自动”跟随 Firefox 的语言；如果扩展没有该语言，则使用英语。"
+  },
+  "languageAuto": {
+    "message": "自动（Firefox 的语言）"
+  },
+  "pageActionTitle": {
+    "message": "保存，稍后阅读"
+  },
+  "saveThisPage": {
+    "message": "保存此页面"
+  },
+  "menuSaveCurrent": {
+    "message": "保存此页面"
+  },
+  "fetchingArticle": {
+    "message": "正在下载文章…"
+  },
+  "fetchArticle": {
+    "message": "下载文章"
+  },
+  "articleFailed": {
+    "message": "无法从此页面提取文章。你可以在网页上打开它。"
+  },
+  "articleNeedsPermission": {
+    "message": "此条目还没有保存的正文。下载时 Firefox 会请求访问网站的权限（可在“数据与备份”中移除）。"
+  },
+  "surprise": {
+    "message": "随便看看"
+  },
+  "surpriseNone": {
+    "message": "在当前筛选条件下没有可打开的内容。"
+  },
+  "select": {
+    "message": "选择"
+  },
+  "selectAll": {
+    "message": "全选（$N$）",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectedCount": {
+    "message": "已选择 $N$ 个",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "apply": {
+    "message": "应用"
+  },
+  "kindAll": {
+    "message": "所有类型"
+  },
+  "kindArticle": {
+    "message": "文章"
+  },
+  "kindVideo": {
+    "message": "视频"
+  },
+  "kindImage": {
+    "message": "图片"
+  },
+  "kindOther": {
+    "message": "其他"
+  },
+  "collectionAll": {
+    "message": "所有合集"
+  },
+  "collectionNone": {
+    "message": "无合集"
+  },
+  "collectionNew": {
+    "message": "新建合集…"
+  },
+  "collectionNamePrompt": {
+    "message": "合集名称"
+  },
+  "orderNewest": {
+    "message": "最新优先"
+  },
+  "orderOldest": {
+    "message": "最早优先"
+  },
+  "shortReads": {
+    "message": "短篇（<5 分钟）"
+  },
+  "tabTags": {
+    "message": "标签"
+  },
+  "tabSites": {
+    "message": "网站"
+  },
+  "showMore": {
+    "message": "显示更多"
+  },
+  "showLess": {
+    "message": "收起"
+  },
+  "minutes": {
+    "message": "$N$ 分钟",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "more": {
+    "message": "更多操作"
+  },
+  "editNote": {
+    "message": "个人备注"
+  },
+  "notePlaceholder": {
+    "message": "为什么保存它？"
+  },
+  "noteHelp": {
+    "message": "Ctrl+Enter 保存，Esc 取消。"
+  },
+  "noteSaved": {
+    "message": "备注已保存"
+  },
+  "moveToCollection": {
+    "message": "移到合集"
+  },
+  "movedToCollection": {
+    "message": "已移到 $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "removedFromCollection": {
+    "message": "已从合集中移除"
+  },
+  "copyLink": {
+    "message": "复制链接"
+  },
+  "linkCopied": {
+    "message": "链接已复制"
+  },
+  "suggested": {
+    "message": "建议："
+  },
+  "bulkArchive": {
+    "message": "归档"
+  },
+  "bulkUnread": {
+    "message": "未读"
+  },
+  "bulkFavorite": {
+    "message": "收藏"
+  },
+  "bulkTag": {
+    "message": "标签…"
+  },
+  "bulkCollection": {
+    "message": "合集…"
+  },
+  "bulkDelete": {
+    "message": "删除"
+  },
+  "bulkDone": {
+    "message": "已更新 $N$ 个条目",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted": {
+    "message": "已将 $N$ 个条目移到回收站",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle": {
+    "message": "为 $N$ 个条目添加标签",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allow": {
+    "message": "允许"
+  },
+  "notNow": {
+    "message": "以后再说"
+  },
+  "bgFetchAsk": {
+    "message": "有 $N$ 个条目缺少正文、真实标题或缩略图。要开启后台下载吗？Firefox 会请求访问网站的权限。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchProgress": {
+    "message": "正在后台下载：$DONE$ / $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "bgFetchEnable": {
+    "message": "开启后台下载（Firefox 会请求访问网站的权限）"
+  },
+  "bgFetchHelp": {
+    "message": "为缺少正文、真实标题和缩略图的条目（例如导入的条目）慢慢下载这些内容。为了不拖慢 Firefox，它只在“查看全部”或此页面打开时运行，每次一个条目。"
+  },
+  "kbNote": {
+    "message": "个人备注"
+  },
+  "kbCollection": {
+    "message": "移到合集"
+  },
+  "kbSelect": {
+    "message": "选择（Shift+点击：范围）"
+  },
+  "appearanceTitle": {
+    "message": "外观"
+  },
+  "themeHelp": {
+    "message": "应用于整个扩展，包括阅读器。"
+  },
+  "badgeEnable": {
+    "message": "在工具栏按钮上显示未读数量"
+  },
+  "collectionsTitle": {
+    "message": "合集"
+  },
+  "collectionsHelp": {
+    "message": "类似文件夹：每个条目只能属于一个合集。"
+  },
+  "collectionsEmpty": {
+    "message": "还没有合集。"
+  },
+  "addCollection": {
+    "message": "创建合集"
+  },
+  "collectionDeleted": {
+    "message": "合集已删除（其中的条目会保留）"
+  },
+  "rename": {
+    "message": "重命名"
+  },
+  "rulesTitle": {
+    "message": "自动规则"
+  },
+  "rulesHelp": {
+    "message": "在保存或导入时应用。它们不会移除标签，也不会更改已选择的合集。"
+  },
+  "rulesEmpty": {
+    "message": "还没有规则。"
+  },
+  "ruleIf": {
+    "message": "如果"
+  },
+  "ruleFieldSite": {
+    "message": "网站是"
+  },
+  "ruleFieldUrl": {
+    "message": "网址包含"
+  },
+  "ruleFieldTitle": {
+    "message": "标题包含"
+  },
+  "ruleValue": {
+    "message": "值"
+  },
+  "ruleThen": {
+    "message": "→"
+  },
+  "ruleAddTags": {
+    "message": "标签"
+  },
+  "ruleCollection": {
+    "message": "移到合集"
+  },
+  "ruleFavorite": {
+    "message": "加入收藏"
+  },
+  "addRule": {
+    "message": "添加规则"
+  },
+  "applyRulesNow": {
+    "message": "应用到现有条目"
+  },
+  "rulesApplied": {
+    "message": "已更新 $N$ 个条目",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchActivate": {
+    "message": "开启"
+  },
+  "iconStyleTitle": {
+    "message": "工具栏图标"
+  },
+  "iconStyleHelp": {
+    "message": "带计数的按钮和地址栏中的图标。"
+  },
+  "iconStyleBookmark": {
+    "message": "书签"
+  },
+  "iconStyleBook": {
+    "message": "书本"
+  },
+  "iconStyleMinimal": {
+    "message": "简约"
+  },
+  "iconStyleLegend": {
+    "message": "每组依次为：工具栏按钮 · 未保存的页面 · 已保存的页面。"
+  },
+  "ruleTitlePlaceholder": {
+    "message": "一个词"
+  },
+  "ruleErrSiteEmpty": {
+    "message": "请输入网站，例如 youtube.com"
+  },
+  "ruleErrTextEmpty": {
+    "message": "请输入必须包含的文字"
+  },
+  "ruleErrSite": {
+    "message": "这看起来不是有效的网站。只需输入域名，例如 youtube.com 或 zh.wikipedia.org"
+  },
+  "ruleErrUrlSpaces": {
+    "message": "网址不能包含空格"
+  },
+  "cleanupTitle": {
+    "message": "自动清理"
+  },
+  "cleanupHelp": {
+    "message": "将符合各条启用规则的内容移到回收站。回收站只保留标题和网址（正文、缩略图、标签和备注会被删除以释放空间）；30 天内可以从那里恢复。在打开 Firefox、“查看全部”或此页面时运行。"
+  },
+  "cleanupEmpty": {
+    "message": "还没有清理规则。"
+  },
+  "addCleanup": {
+    "message": "添加清理规则"
+  },
+  "runCleanupNow": {
+    "message": "立即清理"
+  },
+  "openTrash": {
+    "message": "打开回收站"
+  },
+  "cleanupMove": {
+    "message": "移到回收站："
+  },
+  "cleanupScope": {
+    "message": "哪些条目"
+  },
+  "cleanupScopeCollection": {
+    "message": "此合集中的"
+  },
+  "cleanupScopeTag": {
+    "message": "带此标签的"
+  },
+  "cleanupScopeSite": {
+    "message": "来自此网站的"
+  },
+  "cleanupScopeAll": {
+    "message": "所有条目"
+  },
+  "chooseCollection": {
+    "message": "选择合集"
+  },
+  "cleanupTagPlaceholder": {
+    "message": "标签"
+  },
+  "cleanupStatus": {
+    "message": "状态"
+  },
+  "cleanupStatusAny": {
+    "message": "任何状态"
+  },
+  "cleanupStatusUnread": {
+    "message": "仅未读"
+  },
+  "cleanupStatusArchive": {
+    "message": "仅已归档"
+  },
+  "cleanupOlderThan": {
+    "message": "保存于"
+  },
+  "cleanupAgo": {
+    "message": "之前"
+  },
+  "cleanupAmount": {
+    "message": "数量"
+  },
+  "cleanupUnit": {
+    "message": "单位"
+  },
+  "unit_day": {
+    "message": "天"
+  },
+  "unit_day1": {
+    "message": "天"
+  },
+  "unit_week": {
+    "message": "周"
+  },
+  "unit_week1": {
+    "message": "周"
+  },
+  "unit_month": {
+    "message": "个月"
+  },
+  "unit_month1": {
+    "message": "个月"
+  },
+  "unit_year": {
+    "message": "年"
+  },
+  "unit_year1": {
+    "message": "年"
+  },
+  "cleanupActive": {
+    "message": "启用"
+  },
+  "cleanupAffects": {
+    "message": "如果启用，现在会将 $N$ 个条目移到回收站。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffectsActive": {
+    "message": "要修改，请先停用。"
+  },
+  "cleanupIncomplete": {
+    "message": "请先完善规则才能启用。"
+  },
+  "cleanupActivate": {
+    "message": "启用"
+  },
+  "cleanupConfirm": {
+    "message": "启用后会立即将 $N$ 个条目移到回收站。那里只保留标题和网址，保留 30 天。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone": {
+    "message": "自动清理已将 $N$ 个条目移到回收站",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupRan": {
+    "message": "清理完成：$N$ 个移到回收站，$M$ 个已永久删除",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "m": {
+        "content": "$2"
+      }
+    }
+  },
+  "filterTrash": {
+    "message": "回收站"
+  },
+  "trashInfo": {
+    "message": "这里是你删除的或自动清理移除的内容。只保留标题和网址；恢复的条目会以今天的日期回到未读（清理规则从那时开始计算）。30 天后会被永久删除。"
+  },
+  "emptyTrash": {
+    "message": "清空回收站"
+  },
+  "emptyTrashConfirm": {
+    "message": "将从回收站永久删除 $N$ 个条目。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDeletedOn": {
+    "message": "删除于 $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft": {
+    "message": "$N$ 天后清除",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashToday": {
+    "message": "今天清除"
+  },
+  "restore": {
+    "message": "恢复"
+  },
+  "deleteForever": {
+    "message": "永久删除"
+  },
+  "trashRestored": {
+    "message": "已恢复到“未读”，日期为今天"
+  },
+  "trashEmpty": {
+    "message": "回收站是空的"
+  },
+  "trashEmptyBody": {
+    "message": "你删除的内容和自动清理移除的内容会显示在这里。"
+  },
+  "expireSet": {
+    "message": "自动删除…"
+  },
+  "expireChange": {
+    "message": "更改自动删除…"
+  },
+  "expireNever": {
+    "message": "不自动删除"
+  },
+  "expireHelp": {
+    "message": "到期后会移到回收站，标题和网址会在那里再保留 30 天。"
+  },
+  "expire1d": {
+    "message": "1 天后"
+  },
+  "expire1w": {
+    "message": "1 周后"
+  },
+  "expire1m": {
+    "message": "1 个月后"
+  },
+  "expire3m": {
+    "message": "3 个月后"
+  },
+  "expire6m": {
+    "message": "6 个月后"
+  },
+  "expire1y": {
+    "message": "1 年后"
+  },
+  "expireScheduled": {
+    "message": "将于 $DATE$ 移到回收站",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireCancelled": {
+    "message": "已取消自动删除"
+  },
+  "expiresOn": {
+    "message": "$DATE$ 移到回收站",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle": {
+    "message": "自动删除 $N$ 个条目",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkExpire": {
+    "message": "多久后删除…"
+  },
+  "kbExpire": {
+    "message": "自动删除…"
+  },
+  "collectionFilterBy": {
+    "message": "只显示此合集"
+  },
+  "shortReadsHelp": {
+    "message": "只显示 5 分钟以内能读完的内容（已下载正文的条目）。"
+  },
+  "thumbSmall": {
+    "message": "小缩略图"
+  },
+  "thumbMedium": {
+    "message": "中缩略图"
+  },
+  "thumbLarge": {
+    "message": "大缩略图"
+  },
+  "matchInText": {
+    "message": "在正文中"
+  },
+  "matchInTextTitle": {
+    "message": "搜索匹配了文章正文"
+  },
+  "readerWithImages": {
+    "message": "离线阅读（含图片）"
+  },
+  "hlCount": {
+    "message": "$N$ 处高亮",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "statImages": {
+    "message": "离线图片"
+  },
+  "statTexts": {
+    "message": "可搜索的正文"
+  },
+  "exportWithImages": {
+    "message": "在完整备份中包含离线图片"
+  },
+  "exportWithImagesHelp": {
+    "message": "它们可能让文件大很多。自动备份从不包含图片。"
+  },
+  "imagesTitle": {
+    "message": "离线图片"
+  },
+  "imagesHelp": {
+    "message": "同时保存文章中的图片，以便在阅读器中离线查看。条目归档时会自动删除。在阅读器中，图片按钮可为单篇文章保存或删除图片。"
+  },
+  "imagesEnable": {
+    "message": "保存新文章的图片（Firefox 会请求访问网站的权限）"
+  },
+  "imagesWarning": {
+    "message": "图片比文字占用多得多：带照片的文章通常需要 0.5–3 MB，而纯文字只要约 10–30 KB。"
+  },
+  "imagesUsage": {
+    "message": "当前：$N$ 张图片，$SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesClear": {
+    "message": "删除所有图片"
+  },
+  "imagesClearConfirm": {
+    "message": "将删除所有离线图片。文章及其正文会保留。"
+  },
+  "imagesCleared": {
+    "message": "图片已删除"
+  },
+  "imagesEnabledToast": {
+    "message": "从现在起会保存新文章的图片"
+  },
+  "imagesOffTitle": {
+    "message": "离线保存图片（占用更多空间）"
+  },
+  "imagesOnTitle": {
+    "message": "图片已离线保存（$SIZE$）。点击删除",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesArchived": {
+    "message": "已归档的条目不保留图片：归档时会删除"
+  },
+  "imagesSaving": {
+    "message": "正在保存图片…"
+  },
+  "imagesProgress": {
+    "message": "正在保存图片：$DONE$ / $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved": {
+    "message": "已保存 $N$ 张图片（$SIZE$）",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSavedSome": {
+    "message": "已保存 $TOTAL$ 张中的 $N$ 张图片（$SIZE$）；其余无法下载",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      }
+    }
+  },
+  "imagesNone": {
+    "message": "这篇文章没有图片"
+  },
+  "imagesFailed": {
+    "message": "没有任何图片能下载"
+  },
+  "imagesRemoved": {
+    "message": "离线图片已删除"
+  },
+  "archivedImagesGone": {
+    "message": "已归档（其离线图片已删除）"
+  },
+  "print": {
+    "message": "打印或保存为 PDF"
+  },
+  "hlPanel": {
+    "message": "高亮与笔记"
+  },
+  "hlHint": {
+    "message": "开启荧光笔模式（荧光笔按钮或 H 键）后，你选中的文字都会用这里或 Aa 中选择的颜色高亮。未开启时，选中文字会显示“高亮”按钮。"
+  },
+  "hlEmpty": {
+    "message": "这篇文章还没有高亮。"
+  },
+  "hlExport": {
+    "message": "全部复制为 Markdown"
+  },
+  "hlExported": {
+    "message": "高亮已复制到剪贴板"
+  },
+  "hlColor_yellow": {
+    "message": "黄色"
+  },
+  "hlColor_green": {
+    "message": "绿色"
+  },
+  "hlColor_blue": {
+    "message": "蓝色"
+  },
+  "hlColor_pink": {
+    "message": "粉色"
+  },
+  "hlAddNote": {
+    "message": "添加笔记"
+  },
+  "hlEditNote": {
+    "message": "编辑笔记"
+  },
+  "hlCopy": {
+    "message": "复制文字"
+  },
+  "hlCopied": {
+    "message": "文字已复制"
+  },
+  "hlDelete": {
+    "message": "移除高亮"
+  },
+  "hlDeleted": {
+    "message": "高亮已移除"
+  },
+  "hlNotePlaceholder": {
+    "message": "写下你的笔记…"
+  },
+  "hlGoTo": {
+    "message": "跳到高亮处"
+  },
+  "hlLost": {
+    "message": "在文章当前正文中找不到"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "repairPending": {
+    "message": "有 $N$ 篇文章保存时出现乱码（字符显示为 �）。",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairStart": {
+    "message": "重新下载"
+  },
+  "repairProgress": {
+    "message": "正在修复：$DONE$ / $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairDone": {
+    "message": "已修复 $N$ 篇文章",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairReader": {
+    "message": "这篇文章保存时出现乱码（字符显示为 �）。重新下载即可修复；你的高亮会保留。"
+  },
+  "repairReaderBtn": {
+    "message": "重新下载"
+  },
+  "hlColorLabel": {
+    "message": "高亮颜色"
+  },
+  "hlDo": {
+    "message": "高亮"
+  },
+  "hlDoTitle": {
+    "message": "高亮（H 键）。可在 Aa 或高亮面板中更改颜色"
+  },
+  "hlModeTitle": {
+    "message": "荧光笔模式：选中文字立即高亮（H 键）"
+  },
+  "hlModeOn": {
+    "message": "荧光笔模式已开启：选中文字即可高亮"
+  },
+  "hlModeOff": {
+    "message": "荧光笔模式已关闭"
+  },
+  "sidebarTitle": {
+    "message": "Read Later Local"
+  },
+  "commandSidebar": {
+    "message": "打开或关闭侧边栏"
+  },
+  "menuSidebar": {
+    "message": "侧边栏"
+  },
+  "sidebarHint": {
+    "message": "点击：在此打开 · Ctrl+点击：新标签页"
+  },
+  "emailSend": {
+    "message": "通过邮件发送"
+  },
+  "emailAttach": {
+    "message": "附件：已保存的文章 {file}"
+  },
+  "emailFileSaved": {
+    "message": "已打开新邮件。请附加文件“$FILE$”（保存后会打开所在文件夹）。",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "emailLinkOnly": {
+    "message": "已打开带链接的新邮件（这篇文章没有保存的正文）"
+  },
+  "triage": {
+    "message": "整理模式"
+  },
+  "triageTitle": {
+    "message": "逐个查看条目：保留、归档或删除（R 键）"
+  },
+  "triageKeep": {
+    "message": "保留"
+  },
+  "triageProgress": {
+    "message": "$N$ / $TOTAL$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "triageNothing": {
+    "message": "当前筛选条件下没有条目"
+  },
+  "triageDone": {
+    "message": "全部完成"
+  },
+  "triageSummary": {
+    "message": "保留：$KEPT$ · 归档：$ARCHIVED$ · 删除：$DELETED$",
+    "placeholders": {
+      "kept": {
+        "content": "$1"
+      },
+      "archived": {
+        "content": "$2"
+      },
+      "deleted": {
+        "content": "$3"
+      }
+    }
+  },
+  "menuSaveClose": {
+    "message": "保存并关闭标签页"
+  },
+  "menuSaveAllTabs": {
+    "message": "保存窗口中的所有标签页"
+  },
+  "menuSaveTabs": {
+    "message": "保存，稍后阅读"
+  },
+  "listenTitle": {
+    "message": "收听文章"
+  },
+  "ttsPlay": {
+    "message": "播放"
+  },
+  "ttsPause": {
+    "message": "暂停"
+  },
+  "ttsPrev": {
+    "message": "上一段"
+  },
+  "ttsNext": {
+    "message": "下一段"
+  },
+  "ttsStop": {
+    "message": "停止收听"
+  },
+  "ttsSpeed": {
+    "message": "语速"
+  },
+  "ttsVoice": {
+    "message": "语音"
+  },
+  "ttsNoVoices": {
+    "message": "Firefox 在这台电脑上找不到语音。在 Windows 中：设置 → 时间和语言 → 语音。"
+  },
+  "copyMarkdown": {
+    "message": "复制为 Markdown"
+  },
+  "markdownCopied": {
+    "message": "链接已复制为 Markdown"
+  },
+  "saveMarkdown": {
+    "message": "保存为 Markdown（Obsidian…）"
+  },
+  "markdownSaved": {
+    "message": "已保存为 $FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportMarkdown": {
+    "message": "Markdown（链接列表）"
+  },
+  "autoArchive": {
+    "message": "读到末尾时归档"
+  },
+  "finishedArchived": {
+    "message": "已读完：已归档"
+  },
+  "finishedArchivedImages": {
+    "message": "已读完：已归档（其离线图片已删除）"
+  },
+  "ttsError": {
+    "message": "无法朗读这篇文章。请检查声音和系统中安装的语音。"
+  }
+}

@@ -1,0 +1,1638 @@
+{
+  "extName": {
+    "message": "Read Later Local"
+  },
+  "extDescription": {
+    "message": "Salve páginas para ler depois. Tudo fica no seu computador: sem conta, sem servidores."
+  },
+  "actionTitle": {
+    "message": "Últimos salvos (Read Later Local)"
+  },
+  "commandSave": {
+    "message": "Salvar a página atual"
+  },
+  "menuSaveLink": {
+    "message": "Salvar link para ler depois"
+  },
+  "menuSavePage": {
+    "message": "Salvar página para ler depois"
+  },
+  "saved": {
+    "message": "Salvo"
+  },
+  "undo": {
+    "message": "Desfazer"
+  },
+  "alreadySaved": {
+    "message": "Já salvo"
+  },
+  "cantSave": {
+    "message": "Esta página não pode ser salva"
+  },
+  "saveRemoved": {
+    "message": "Removido"
+  },
+  "recent": {
+    "message": "Últimos salvos"
+  },
+  "viewAll": {
+    "message": "Ver tudo"
+  },
+  "export": {
+    "message": "Exportar CSV"
+  },
+  "import": {
+    "message": "Importar"
+  },
+  "open": {
+    "message": "Abrir"
+  },
+  "archive": {
+    "message": "Arquivar"
+  },
+  "unarchive": {
+    "message": "Mover para não lidos"
+  },
+  "delete": {
+    "message": "Excluir"
+  },
+  "deleted": {
+    "message": "Movido para a lixeira"
+  },
+  "archived": {
+    "message": "Arquivado"
+  },
+  "movedToUnread": {
+    "message": "Movido para não lidos"
+  },
+  "emptyRecentTitle": {
+    "message": "Salve sua primeira página"
+  },
+  "emptyRecentBody": {
+    "message": "Clique no botão da barra de ferramentas em qualquer página para guardá-la aqui."
+  },
+  "searchPlaceholder": {
+    "message": "Pesquisar títulos, URLs, notas ou texto"
+  },
+  "filterUnread": {
+    "message": "Não lidos"
+  },
+  "filterArchive": {
+    "message": "Arquivados"
+  },
+  "filterAll": {
+    "message": "Todos"
+  },
+  "gridView": {
+    "message": "Visualização em grade"
+  },
+  "listView": {
+    "message": "Visualização em lista"
+  },
+  "loadingMore": {
+    "message": "Carregando mais…"
+  },
+  "noResults": {
+    "message": "Nada corresponde à sua pesquisa."
+  },
+  "emptyListTitle": {
+    "message": "Nada aqui ainda"
+  },
+  "emptyListBody": {
+    "message": "Salve páginas com o botão da barra de ferramentas ou importe um backup CSV."
+  },
+  "importChoose": {
+    "message": "Escolha um arquivo CSV para importar"
+  },
+  "importing": {
+    "message": "Importando…"
+  },
+  "importResult": {
+    "message": "$ADDED$ importados, $DUP$ já salvos, $BAD$ inválidos",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "dup": {
+        "content": "$2"
+      },
+      "bad": {
+        "content": "$3"
+      }
+    }
+  },
+  "importError": {
+    "message": "Não foi possível ler o arquivo. Verifique se é um CSV com uma coluna url."
+  },
+  "exportDone": {
+    "message": "$COUNT$ itens exportados",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount": {
+    "message": "$COUNT$ itens",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "filterFavorite": {
+    "message": "Favoritos"
+  },
+  "favorite": {
+    "message": "Adicionar aos favoritos"
+  },
+  "unfavorite": {
+    "message": "Remover dos favoritos"
+  },
+  "addedToFavorites": {
+    "message": "Adicionado aos favoritos"
+  },
+  "removedFromFavorites": {
+    "message": "Removido dos favoritos"
+  },
+  "editTags": {
+    "message": "Etiquetas"
+  },
+  "tagsPlaceholder": {
+    "message": "css, linux, algum dia"
+  },
+  "tagsHelp": {
+    "message": "Separe com vírgulas. Enter salva, Esc cancela."
+  },
+  "tagsSaved": {
+    "message": "Etiquetas salvas"
+  },
+  "reader": {
+    "message": "Ler offline"
+  },
+  "openOriginal": {
+    "message": "Abrir a página original"
+  },
+  "dataPage": {
+    "message": "Dados e backups"
+  },
+  "exportCsv": {
+    "message": "CSV (compatível com Pocket)"
+  },
+  "exportHtml": {
+    "message": "Favoritos HTML (qualquer navegador)"
+  },
+  "exportFull": {
+    "message": "Backup completo (.json.gz)"
+  },
+  "shortcuts": {
+    "message": "Atalhos de teclado"
+  },
+  "kbSearch": {
+    "message": "Pesquisar (aceita tag:nome)"
+  },
+  "kbMove": {
+    "message": "Mover-se pela lista"
+  },
+  "kbOpen": {
+    "message": "Abrir a página"
+  },
+  "kbReader": {
+    "message": "Abrir o leitor"
+  },
+  "kbArchive": {
+    "message": "Arquivar / mover para não lidos"
+  },
+  "kbFavorite": {
+    "message": "Favorito"
+  },
+  "kbTags": {
+    "message": "Editar etiquetas"
+  },
+  "kbDelete": {
+    "message": "Excluir (com desfazer)"
+  },
+  "kbHelp": {
+    "message": "Mostrar esta ajuda"
+  },
+  "close": {
+    "message": "Fechar"
+  },
+  "readerBack": {
+    "message": "Ver tudo"
+  },
+  "readerSettings": {
+    "message": "Configurações de leitura"
+  },
+  "theme": {
+    "message": "Tema"
+  },
+  "themeLight": {
+    "message": "Claro"
+  },
+  "themeDark": {
+    "message": "Escuro"
+  },
+  "themeSepia": {
+    "message": "Sépia"
+  },
+  "themeSystem": {
+    "message": "Sistema"
+  },
+  "fontSize": {
+    "message": "Tamanho do texto"
+  },
+  "width": {
+    "message": "Largura da coluna"
+  },
+  "widthNarrow": {
+    "message": "Estreita"
+  },
+  "widthMedium": {
+    "message": "Média"
+  },
+  "widthWide": {
+    "message": "Larga"
+  },
+  "font": {
+    "message": "Fonte"
+  },
+  "fontSerif": {
+    "message": "Serifada"
+  },
+  "fontSans": {
+    "message": "Sem serifa"
+  },
+  "readingTime": {
+    "message": "$MIN$ min de leitura",
+    "placeholders": {
+      "min": {
+        "content": "$1"
+      }
+    }
+  },
+  "noArticle": {
+    "message": "Este item não tem artigo salvo."
+  },
+  "storageTitle": {
+    "message": "Espaço usado"
+  },
+  "statItems": {
+    "message": "Itens"
+  },
+  "statArticles": {
+    "message": "Artigos salvos"
+  },
+  "statThumbs": {
+    "message": "Miniaturas"
+  },
+  "statFavicons": {
+    "message": "Ícones de sites"
+  },
+  "statTotal": {
+    "message": "Total em disco (aprox.)"
+  },
+  "freeSpace": {
+    "message": "Excluir artigos dos itens arquivados"
+  },
+  "freeSpaceHelp": {
+    "message": "Libera espaço: remove o texto salvo dos itens arquivados. Os links permanecem."
+  },
+  "freedArticles": {
+    "message": "$N$ artigos excluídos",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupTitle": {
+    "message": "Backups automáticos"
+  },
+  "backupEnable": {
+    "message": "Fazer backups automáticos"
+  },
+  "backupHelp": {
+    "message": "Salva um backup completo (itens, etiquetas, favoritos, miniaturas e artigos) em Downloads/ReadLaterLocal. É verificado quando o Firefox inicia e quando você salva algo."
+  },
+  "backupFrequency": {
+    "message": "Frequência"
+  },
+  "daily": {
+    "message": "Diária"
+  },
+  "weekly": {
+    "message": "Semanal"
+  },
+  "monthly": {
+    "message": "Mensal"
+  },
+  "backupKeep": {
+    "message": "Backups a manter"
+  },
+  "backupNow": {
+    "message": "Fazer backup agora"
+  },
+  "backupLast": {
+    "message": "Último backup: $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupNever": {
+    "message": "Nenhum backup feito ainda"
+  },
+  "backupDone": {
+    "message": "Backup salvo em Downloads/$FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupFailed": {
+    "message": "Não foi possível fazer o backup."
+  },
+  "exportTitle": {
+    "message": "Exportar"
+  },
+  "exportHelp": {
+    "message": "O CSV e os favoritos têm apenas os links. O backup completo também inclui artigos e miniaturas."
+  },
+  "importTitle": {
+    "message": "Importar"
+  },
+  "importHelp": {
+    "message": "Um CSV do Pocket ou do Read Later Local, ou um backup completo (.json.gz). Nunca exclui nem sobrescreve o que você já tem."
+  },
+  "chooseFile": {
+    "message": "Escolher arquivo"
+  },
+  "fetchTitle": {
+    "message": "Download em segundo plano"
+  },
+  "fetchHelp": {
+    "message": "Você também pode baixar tudo agora, mais rápido, enquanto esta aba ficar aberta:"
+  },
+  "fetchPending": {
+    "message": "$N$ itens pendentes",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchStart": {
+    "message": "Baixar artigos"
+  },
+  "fetchRetry": {
+    "message": "Incluir os que falharam antes"
+  },
+  "fetchCancel": {
+    "message": "Cancelar"
+  },
+  "fetchProgress": {
+    "message": "$DONE$ de $TOTAL$ · $OK$ com artigo · $PARTIAL$ sem artigo · $FAILED$ com falha",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "ok": {
+        "content": "$3"
+      },
+      "partial": {
+        "content": "$4"
+      },
+      "failed": {
+        "content": "$5"
+      }
+    }
+  },
+  "fetchKeepOpen": {
+    "message": "Mantenha esta aba aberta durante o download."
+  },
+  "fetchDenied": {
+    "message": "Sem essa permissão eles não podem ser baixados."
+  },
+  "fetchFinished": {
+    "message": "Concluído."
+  },
+  "revokePermission": {
+    "message": "Remover permissão de acesso a sites"
+  },
+  "permissionRevoked": {
+    "message": "Permissão removida"
+  },
+  "dangerTitle": {
+    "message": "Apagar tudo"
+  },
+  "dangerHelp": {
+    "message": "Exclui itens, artigos, miniaturas e ícones. Isso não pode ser desfeito: exporte um backup antes."
+  },
+  "deleteAll": {
+    "message": "Excluir todos os dados"
+  },
+  "confirmDeleteAll": {
+    "message": "Tem certeza? $N$ itens serão excluídos e isso não pode ser desfeito.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allDeleted": {
+    "message": "Dados excluídos"
+  },
+  "exportMenu": {
+    "message": "Exportar"
+  },
+  "commandShowList": {
+    "message": "Mostrar últimos salvos"
+  },
+  "seeRecent": {
+    "message": "Ver últimos salvos"
+  },
+  "languageTitle": {
+    "message": "Idioma"
+  },
+  "languageHelp": {
+    "message": "Idioma da extensão. “Automático” segue o idioma do Firefox, ou inglês se a extensão não o tiver."
+  },
+  "languageAuto": {
+    "message": "Automático (idioma do Firefox)"
+  },
+  "pageActionTitle": {
+    "message": "Salvar para ler depois"
+  },
+  "saveThisPage": {
+    "message": "Salvar esta página"
+  },
+  "menuSaveCurrent": {
+    "message": "Salvar esta página"
+  },
+  "fetchingArticle": {
+    "message": "Baixando o artigo…"
+  },
+  "fetchArticle": {
+    "message": "Baixar artigo"
+  },
+  "articleFailed": {
+    "message": "Não foi possível extrair o artigo desta página. Você pode abri-lo na web."
+  },
+  "articleNeedsPermission": {
+    "message": "Este item ainda não tem texto salvo. Para baixá-lo, o Firefox vai pedir permissão para acessar sites (você pode removê-la em Dados e backups)."
+  },
+  "surprise": {
+    "message": "Me surpreenda"
+  },
+  "surpriseNone": {
+    "message": "Nada para abrir com esses filtros."
+  },
+  "select": {
+    "message": "Selecionar"
+  },
+  "selectAll": {
+    "message": "Selecionar tudo ($N$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectedCount": {
+    "message": "$N$ selecionados",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "apply": {
+    "message": "Aplicar"
+  },
+  "kindAll": {
+    "message": "Todos os tipos"
+  },
+  "kindArticle": {
+    "message": "Artigos"
+  },
+  "kindVideo": {
+    "message": "Vídeos"
+  },
+  "kindImage": {
+    "message": "Imagens"
+  },
+  "kindOther": {
+    "message": "Outros"
+  },
+  "collectionAll": {
+    "message": "Todas as coleções"
+  },
+  "collectionNone": {
+    "message": "Sem coleção"
+  },
+  "collectionNew": {
+    "message": "Nova coleção…"
+  },
+  "collectionNamePrompt": {
+    "message": "Nome da coleção"
+  },
+  "orderNewest": {
+    "message": "Mais recentes primeiro"
+  },
+  "orderOldest": {
+    "message": "Mais antigos primeiro"
+  },
+  "shortReads": {
+    "message": "Curtos (<5 min)"
+  },
+  "tabTags": {
+    "message": "Etiquetas"
+  },
+  "tabSites": {
+    "message": "Sites"
+  },
+  "showMore": {
+    "message": "Mostrar mais"
+  },
+  "showLess": {
+    "message": "Mostrar menos"
+  },
+  "minutes": {
+    "message": "$N$ min",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "more": {
+    "message": "Mais ações"
+  },
+  "editNote": {
+    "message": "Nota pessoal"
+  },
+  "notePlaceholder": {
+    "message": "Por que você salvou?"
+  },
+  "noteHelp": {
+    "message": "Ctrl+Enter salva, Esc cancela."
+  },
+  "noteSaved": {
+    "message": "Nota salva"
+  },
+  "moveToCollection": {
+    "message": "Mover para coleção"
+  },
+  "movedToCollection": {
+    "message": "Movido para $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "removedFromCollection": {
+    "message": "Removido da coleção"
+  },
+  "copyLink": {
+    "message": "Copiar link"
+  },
+  "linkCopied": {
+    "message": "Link copiado"
+  },
+  "suggested": {
+    "message": "Sugestões:"
+  },
+  "bulkArchive": {
+    "message": "Arquivar"
+  },
+  "bulkUnread": {
+    "message": "Não lido"
+  },
+  "bulkFavorite": {
+    "message": "Favorito"
+  },
+  "bulkTag": {
+    "message": "Etiqueta…"
+  },
+  "bulkCollection": {
+    "message": "Coleção…"
+  },
+  "bulkDelete": {
+    "message": "Excluir"
+  },
+  "bulkDone": {
+    "message": "$N$ itens atualizados",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted": {
+    "message": "$N$ itens movidos para a lixeira",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle": {
+    "message": "Adicionar etiquetas a $N$ itens",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allow": {
+    "message": "Permitir"
+  },
+  "notNow": {
+    "message": "Agora não"
+  },
+  "bgFetchAsk": {
+    "message": "$N$ itens não têm texto, título real ou miniatura. Ativar o download em segundo plano? O Firefox vai pedir permissão para acessar sites.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchProgress": {
+    "message": "Baixando em segundo plano: $DONE$ de $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "bgFetchEnable": {
+    "message": "Ativar o download em segundo plano (o Firefox vai pedir permissão para acessar sites)"
+  },
+  "bgFetchHelp": {
+    "message": "Baixa aos poucos o texto, o título real e a miniatura dos itens que não os têm (os importados, por exemplo). Para não deixar o Firefox lento, só funciona enquanto “Ver tudo” ou esta página estiver aberta, um item por vez."
+  },
+  "kbNote": {
+    "message": "Nota pessoal"
+  },
+  "kbCollection": {
+    "message": "Mover para coleção"
+  },
+  "kbSelect": {
+    "message": "Selecionar (Shift+clique: um intervalo)"
+  },
+  "appearanceTitle": {
+    "message": "Aparência"
+  },
+  "themeHelp": {
+    "message": "Vale para toda a extensão, inclusive o leitor."
+  },
+  "badgeEnable": {
+    "message": "Mostrar o número de não lidos no botão da barra de ferramentas"
+  },
+  "collectionsTitle": {
+    "message": "Coleções"
+  },
+  "collectionsHelp": {
+    "message": "Como pastas: cada item só pode estar em uma coleção."
+  },
+  "collectionsEmpty": {
+    "message": "Nenhuma coleção ainda."
+  },
+  "addCollection": {
+    "message": "Criar coleção"
+  },
+  "collectionDeleted": {
+    "message": "Coleção excluída (seus itens são mantidos)"
+  },
+  "rename": {
+    "message": "Renomear"
+  },
+  "rulesTitle": {
+    "message": "Regras automáticas"
+  },
+  "rulesHelp": {
+    "message": "Aplicadas ao salvar ou importar. Nunca removem etiquetas nem mudam uma coleção já escolhida."
+  },
+  "rulesEmpty": {
+    "message": "Nenhuma regra ainda."
+  },
+  "ruleIf": {
+    "message": "Se"
+  },
+  "ruleFieldSite": {
+    "message": "o site é"
+  },
+  "ruleFieldUrl": {
+    "message": "a URL contém"
+  },
+  "ruleFieldTitle": {
+    "message": "o título contém"
+  },
+  "ruleValue": {
+    "message": "Valor"
+  },
+  "ruleThen": {
+    "message": "→"
+  },
+  "ruleAddTags": {
+    "message": "etiquetas"
+  },
+  "ruleCollection": {
+    "message": "Mover para a coleção"
+  },
+  "ruleFavorite": {
+    "message": "Adicionar aos favoritos"
+  },
+  "addRule": {
+    "message": "Adicionar regra"
+  },
+  "applyRulesNow": {
+    "message": "Aplicar aos itens existentes"
+  },
+  "rulesApplied": {
+    "message": "$N$ itens atualizados",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchActivate": {
+    "message": "Ativar"
+  },
+  "iconStyleTitle": {
+    "message": "Ícones da barra de ferramentas"
+  },
+  "iconStyleHelp": {
+    "message": "O botão com o contador e o ícone da barra de endereços."
+  },
+  "iconStyleBookmark": {
+    "message": "Marcador"
+  },
+  "iconStyleBook": {
+    "message": "Livro"
+  },
+  "iconStyleMinimal": {
+    "message": "Discreto"
+  },
+  "iconStyleLegend": {
+    "message": "Em cada um: botão da barra · página não salva · página já salva."
+  },
+  "ruleTitlePlaceholder": {
+    "message": "uma palavra"
+  },
+  "ruleErrSiteEmpty": {
+    "message": "Digite um site, por exemplo youtube.com"
+  },
+  "ruleErrTextEmpty": {
+    "message": "Digite o texto que deve conter"
+  },
+  "ruleErrSite": {
+    "message": "Isso não parece um site válido. Digite só o domínio, por exemplo youtube.com ou pt.wikipedia.org"
+  },
+  "ruleErrUrlSpaces": {
+    "message": "Um endereço não pode ter espaços"
+  },
+  "cleanupTitle": {
+    "message": "Limpeza automática"
+  },
+  "cleanupHelp": {
+    "message": "Move para a lixeira o que corresponde a cada regra ativa. A lixeira guarda apenas o título e o endereço (texto, miniatura, etiquetas e nota são excluídos para liberar espaço); de lá os itens podem ser restaurados por 30 dias. É executada quando o Firefox, “Ver tudo” ou esta página abre."
+  },
+  "cleanupEmpty": {
+    "message": "Nenhuma regra de limpeza ainda."
+  },
+  "addCleanup": {
+    "message": "Adicionar regra de limpeza"
+  },
+  "runCleanupNow": {
+    "message": "Limpar agora"
+  },
+  "openTrash": {
+    "message": "Abrir a lixeira"
+  },
+  "cleanupMove": {
+    "message": "Mover para a lixeira"
+  },
+  "cleanupScope": {
+    "message": "Quais itens"
+  },
+  "cleanupScopeCollection": {
+    "message": "os da coleção"
+  },
+  "cleanupScopeTag": {
+    "message": "os com a etiqueta"
+  },
+  "cleanupScopeSite": {
+    "message": "os do site"
+  },
+  "cleanupScopeAll": {
+    "message": "todos os itens"
+  },
+  "chooseCollection": {
+    "message": "Escolha uma coleção"
+  },
+  "cleanupTagPlaceholder": {
+    "message": "etiqueta"
+  },
+  "cleanupStatus": {
+    "message": "Status"
+  },
+  "cleanupStatusAny": {
+    "message": "em qualquer status"
+  },
+  "cleanupStatusUnread": {
+    "message": "só não lidos"
+  },
+  "cleanupStatusArchive": {
+    "message": "só arquivados"
+  },
+  "cleanupOlderThan": {
+    "message": "há mais de"
+  },
+  "cleanupAgo": {
+    "message": "desde que foram salvos"
+  },
+  "cleanupAmount": {
+    "message": "Quantidade"
+  },
+  "cleanupUnit": {
+    "message": "Unidade"
+  },
+  "unit_day": {
+    "message": "dias"
+  },
+  "unit_day1": {
+    "message": "dia"
+  },
+  "unit_week": {
+    "message": "semanas"
+  },
+  "unit_week1": {
+    "message": "semana"
+  },
+  "unit_month": {
+    "message": "meses"
+  },
+  "unit_month1": {
+    "message": "mês"
+  },
+  "unit_year": {
+    "message": "anos"
+  },
+  "unit_year1": {
+    "message": "ano"
+  },
+  "cleanupActive": {
+    "message": "Ativa"
+  },
+  "cleanupAffects": {
+    "message": "Se você ativá-la, ela moveria agora $N$ itens para a lixeira.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffectsActive": {
+    "message": "Para alterá-la, desative-a primeiro."
+  },
+  "cleanupIncomplete": {
+    "message": "Complete a regra para poder ativá-la."
+  },
+  "cleanupActivate": {
+    "message": "Ativar"
+  },
+  "cleanupConfirm": {
+    "message": "Ao ativá-la, $N$ itens vão agora para a lixeira. Lá ficam só o título e o endereço, por 30 dias.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone": {
+    "message": "$N$ itens movidos para a lixeira pela limpeza automática",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupRan": {
+    "message": "Limpeza feita: $N$ para a lixeira, $M$ excluídos definitivamente",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "m": {
+        "content": "$2"
+      }
+    }
+  },
+  "filterTrash": {
+    "message": "Lixeira"
+  },
+  "trashInfo": {
+    "message": "Aqui está o que você excluiu ou o que a limpeza automática removeu. Só o título e o endereço são mantidos; um item restaurado volta como não lido com a data de hoje (as regras de limpeza contam a partir daí). Eles são excluídos definitivamente após 30 dias."
+  },
+  "emptyTrash": {
+    "message": "Esvaziar lixeira"
+  },
+  "emptyTrashConfirm": {
+    "message": "$N$ itens serão excluídos definitivamente da lixeira.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDeletedOn": {
+    "message": "excluído em $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft": {
+    "message": "excluído em $N$ dias",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashToday": {
+    "message": "excluído hoje"
+  },
+  "restore": {
+    "message": "Restaurar"
+  },
+  "deleteForever": {
+    "message": "Excluir definitivamente"
+  },
+  "trashRestored": {
+    "message": "Restaurado em “Não lidos” com a data de hoje"
+  },
+  "trashEmpty": {
+    "message": "A lixeira está vazia"
+  },
+  "trashEmptyBody": {
+    "message": "O que você excluir e o que a limpeza automática remover aparecerá aqui."
+  },
+  "expireSet": {
+    "message": "Excluir automaticamente…"
+  },
+  "expireChange": {
+    "message": "Alterar exclusão automática…"
+  },
+  "expireNever": {
+    "message": "Não excluir automaticamente"
+  },
+  "expireHelp": {
+    "message": "Depois desse tempo vai para a lixeira, onde o título e o endereço ficam mais 30 dias."
+  },
+  "expire1d": {
+    "message": "Em 1 dia"
+  },
+  "expire1w": {
+    "message": "Em 1 semana"
+  },
+  "expire1m": {
+    "message": "Em 1 mês"
+  },
+  "expire3m": {
+    "message": "Em 3 meses"
+  },
+  "expire6m": {
+    "message": "Em 6 meses"
+  },
+  "expire1y": {
+    "message": "Em 1 ano"
+  },
+  "expireScheduled": {
+    "message": "Vai para a lixeira em $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireCancelled": {
+    "message": "Exclusão automática cancelada"
+  },
+  "expiresOn": {
+    "message": "Vai para a lixeira em $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle": {
+    "message": "Excluir $N$ itens automaticamente",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkExpire": {
+    "message": "Excluir em…"
+  },
+  "kbExpire": {
+    "message": "Excluir automaticamente…"
+  },
+  "collectionFilterBy": {
+    "message": "Mostrar só esta coleção"
+  },
+  "shortReadsHelp": {
+    "message": "Mostra só leituras de menos de 5 minutos (aquelas cujo texto foi baixado)."
+  },
+  "thumbSmall": {
+    "message": "Miniaturas pequenas"
+  },
+  "thumbMedium": {
+    "message": "Miniaturas médias"
+  },
+  "thumbLarge": {
+    "message": "Miniaturas grandes"
+  },
+  "matchInText": {
+    "message": "no texto"
+  },
+  "matchInTextTitle": {
+    "message": "A pesquisa corresponde ao texto do artigo"
+  },
+  "readerWithImages": {
+    "message": "Ler offline (com imagens)"
+  },
+  "hlCount": {
+    "message": "$N$ destaques",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "statImages": {
+    "message": "Imagens offline"
+  },
+  "statTexts": {
+    "message": "Texto pesquisável"
+  },
+  "exportWithImages": {
+    "message": "Incluir imagens offline no backup completo"
+  },
+  "exportWithImagesHelp": {
+    "message": "Elas podem deixar o arquivo bem maior. Os backups automáticos nunca as incluem."
+  },
+  "imagesTitle": {
+    "message": "Imagens offline"
+  },
+  "imagesHelp": {
+    "message": "Também guarda as imagens dos artigos para vê-las offline no leitor. Elas são excluídas automaticamente quando um item é arquivado. No leitor, o botão de imagens as salva ou exclui para um artigo."
+  },
+  "imagesEnable": {
+    "message": "Salvar as imagens de novos artigos (o Firefox vai pedir permissão para acessar sites)"
+  },
+  "imagesWarning": {
+    "message": "Ocupam muito mais espaço que o texto: um artigo com fotos costuma precisar de 0,5–3 MB, contra cerca de 10–30 KB só com texto."
+  },
+  "imagesUsage": {
+    "message": "Agora: $N$ imagens, $SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesClear": {
+    "message": "Excluir todas as imagens"
+  },
+  "imagesClearConfirm": {
+    "message": "Todas as imagens offline serão excluídas. Os artigos e o texto deles permanecem."
+  },
+  "imagesCleared": {
+    "message": "Imagens excluídas"
+  },
+  "imagesEnabledToast": {
+    "message": "A partir de agora as imagens de novos artigos serão salvas"
+  },
+  "imagesOffTitle": {
+    "message": "Salvar imagens offline (ocupa mais espaço)"
+  },
+  "imagesOnTitle": {
+    "message": "Imagens salvas offline ($SIZE$). Clique para excluí-las",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesArchived": {
+    "message": "Itens arquivados não guardam imagens: elas são excluídas ao arquivar"
+  },
+  "imagesSaving": {
+    "message": "Salvando imagens…"
+  },
+  "imagesProgress": {
+    "message": "Salvando imagens: $DONE$ de $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved": {
+    "message": "$N$ imagens salvas ($SIZE$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSavedSome": {
+    "message": "$N$ de $TOTAL$ imagens salvas ($SIZE$); o resto não pôde ser baixado",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      }
+    }
+  },
+  "imagesNone": {
+    "message": "Este artigo não tem imagens"
+  },
+  "imagesFailed": {
+    "message": "Nenhuma imagem pôde ser baixada"
+  },
+  "imagesRemoved": {
+    "message": "Imagens offline excluídas"
+  },
+  "archivedImagesGone": {
+    "message": "Arquivado (as imagens offline dele foram excluídas)"
+  },
+  "print": {
+    "message": "Imprimir ou salvar como PDF"
+  },
+  "hlPanel": {
+    "message": "Destaques e notas"
+  },
+  "hlHint": {
+    "message": "Ative o modo marca-texto (botão do marca-texto ou tecla H) e todo texto que você selecionar será destacado com a cor escolhida aqui ou em Aa. Sem ele, selecionar mostra um botão “Destacar”."
+  },
+  "hlEmpty": {
+    "message": "Ainda não há destaques neste artigo."
+  },
+  "hlExport": {
+    "message": "Copiar tudo como Markdown"
+  },
+  "hlExported": {
+    "message": "Destaques copiados para a área de transferência"
+  },
+  "hlColor_yellow": {
+    "message": "Amarelo"
+  },
+  "hlColor_green": {
+    "message": "Verde"
+  },
+  "hlColor_blue": {
+    "message": "Azul"
+  },
+  "hlColor_pink": {
+    "message": "Rosa"
+  },
+  "hlAddNote": {
+    "message": "Adicionar nota"
+  },
+  "hlEditNote": {
+    "message": "Editar nota"
+  },
+  "hlCopy": {
+    "message": "Copiar texto"
+  },
+  "hlCopied": {
+    "message": "Texto copiado"
+  },
+  "hlDelete": {
+    "message": "Remover destaque"
+  },
+  "hlDeleted": {
+    "message": "Destaque removido"
+  },
+  "hlNotePlaceholder": {
+    "message": "Escreva sua nota…"
+  },
+  "hlGoTo": {
+    "message": "Ir para o destaque"
+  },
+  "hlLost": {
+    "message": "Não encontrado no texto atual do artigo"
+  },
+  "save": {
+    "message": "Salvar"
+  },
+  "repairPending": {
+    "message": "$N$ artigos foram salvos com caracteres estranhos (� no lugar de acentos).",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairStart": {
+    "message": "Baixá-los novamente"
+  },
+  "repairProgress": {
+    "message": "Reparando: $DONE$ de $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairDone": {
+    "message": "$N$ artigos reparados",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairReader": {
+    "message": "Este artigo foi salvo com caracteres estranhos (� no lugar de acentos). Baixá-lo novamente corrige isso; seus destaques são mantidos."
+  },
+  "repairReaderBtn": {
+    "message": "Baixar novamente"
+  },
+  "hlColorLabel": {
+    "message": "Cor do destaque"
+  },
+  "hlDo": {
+    "message": "Destacar"
+  },
+  "hlDoTitle": {
+    "message": "Destacar (tecla H). Mude a cor em Aa ou no painel de destaques"
+  },
+  "hlModeTitle": {
+    "message": "Modo marca-texto: selecionar texto o destaca na hora (tecla H)"
+  },
+  "hlModeOn": {
+    "message": "Modo marca-texto ativado: selecione texto para destacá-lo"
+  },
+  "hlModeOff": {
+    "message": "Modo marca-texto desativado"
+  },
+  "sidebarTitle": {
+    "message": "Read Later Local"
+  },
+  "commandSidebar": {
+    "message": "Abrir ou fechar o painel lateral"
+  },
+  "menuSidebar": {
+    "message": "Painel lateral"
+  },
+  "sidebarHint": {
+    "message": "Clique: abrir aqui · Ctrl+clique: nova aba"
+  },
+  "emailSend": {
+    "message": "Enviar por e-mail"
+  },
+  "emailAttach": {
+    "message": "Anexo: o artigo salvo, {file}"
+  },
+  "emailFileSaved": {
+    "message": "Um novo e-mail foi aberto. Anexe o arquivo “$FILE$” (a pasta dele abre quando estiver salvo).",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "emailLinkOnly": {
+    "message": "Um novo e-mail foi aberto com o link (este artigo não tem texto salvo)"
+  },
+  "triage": {
+    "message": "Modo faxina"
+  },
+  "triageTitle": {
+    "message": "Passar pelos itens um a um: manter, arquivar ou excluir (tecla R)"
+  },
+  "triageKeep": {
+    "message": "Manter"
+  },
+  "triageProgress": {
+    "message": "$N$ de $TOTAL$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "triageNothing": {
+    "message": "Nenhum item com esses filtros"
+  },
+  "triageDone": {
+    "message": "Tudo pronto"
+  },
+  "triageSummary": {
+    "message": "Mantidos: $KEPT$ · Arquivados: $ARCHIVED$ · Excluídos: $DELETED$",
+    "placeholders": {
+      "kept": {
+        "content": "$1"
+      },
+      "archived": {
+        "content": "$2"
+      },
+      "deleted": {
+        "content": "$3"
+      }
+    }
+  },
+  "menuSaveClose": {
+    "message": "Salvar e fechar a aba"
+  },
+  "menuSaveAllTabs": {
+    "message": "Salvar todas as abas da janela"
+  },
+  "menuSaveTabs": {
+    "message": "Salvar para ler depois"
+  },
+  "listenTitle": {
+    "message": "Ouvir o artigo"
+  },
+  "ttsPlay": {
+    "message": "Reproduzir"
+  },
+  "ttsPause": {
+    "message": "Pausar"
+  },
+  "ttsPrev": {
+    "message": "Parágrafo anterior"
+  },
+  "ttsNext": {
+    "message": "Próximo parágrafo"
+  },
+  "ttsStop": {
+    "message": "Parar de ouvir"
+  },
+  "ttsSpeed": {
+    "message": "Velocidade"
+  },
+  "ttsVoice": {
+    "message": "Voz"
+  },
+  "ttsNoVoices": {
+    "message": "O Firefox não encontrou vozes neste computador. No Windows: Configurações → Hora e idioma → Fala."
+  },
+  "copyMarkdown": {
+    "message": "Copiar como Markdown"
+  },
+  "markdownCopied": {
+    "message": "Link copiado como Markdown"
+  },
+  "saveMarkdown": {
+    "message": "Salvar como Markdown (Obsidian…)"
+  },
+  "markdownSaved": {
+    "message": "Salvo como $FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportMarkdown": {
+    "message": "Markdown (lista de links)"
+  },
+  "autoArchive": {
+    "message": "Arquivar ao chegar ao fim"
+  },
+  "finishedArchived": {
+    "message": "Concluído: arquivado"
+  },
+  "finishedArchivedImages": {
+    "message": "Concluído: arquivado (as imagens offline dele foram excluídas)"
+  },
+  "ttsError": {
+    "message": "Não foi possível ler o artigo em voz alta. Verifique o som e as vozes instaladas no sistema."
+  },
+  "exportDone_one": {
+    "message": "$COUNT$ item exportado",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount_one": {
+    "message": "$COUNT$ item",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "freedArticles_one": {
+    "message": "$N$ artigo excluído",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchPending_one": {
+    "message": "$N$ item pendente",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmDeleteAll_one": {
+    "message": "Tem certeza? $N$ item será excluído e isso não pode ser desfeito.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectedCount_one": {
+    "message": "$N$ selecionado",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDone_one": {
+    "message": "$N$ item atualizado",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted_one": {
+    "message": "$N$ item movido para a lixeira",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle_one": {
+    "message": "Adicionar etiquetas a $N$ item",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchAsk_one": {
+    "message": "$N$ item não tem texto, título real ou miniatura. Ativar o download em segundo plano? O Firefox vai pedir permissão para acessar sites.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "rulesApplied_one": {
+    "message": "$N$ item atualizado",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffects_one": {
+    "message": "Se você ativá-la, ela moveria agora $N$ item para a lixeira.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupConfirm_one": {
+    "message": "Ao ativá-la, $N$ item vai agora para a lixeira. Lá ficam só o título e o endereço, por 30 dias.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone_one": {
+    "message": "$N$ item movido para a lixeira pela limpeza automática",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "emptyTrashConfirm_one": {
+    "message": "$N$ item será excluído definitivamente da lixeira.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft_one": {
+    "message": "excluído em $N$ dia",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle_one": {
+    "message": "Excluir $N$ item automaticamente",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "hlCount_one": {
+    "message": "$N$ destaque",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesUsage_one": {
+    "message": "Agora: $N$ imagem, $SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved_one": {
+    "message": "$N$ imagem salva ($SIZE$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairPending_one": {
+    "message": "$N$ artigo foi salvo com caracteres estranhos (� no lugar de acentos).",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairDone_one": {
+    "message": "$N$ artigo reparado",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  }
+}

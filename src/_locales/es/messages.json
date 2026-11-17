@@ -1,0 +1,1638 @@
+{
+  "extName": {
+    "message": "Read Later Local"
+  },
+  "extDescription": {
+    "message": "Guarda páginas para leerlas más tarde. Todo se queda en tu ordenador: sin cuentas ni servidores."
+  },
+  "actionTitle": {
+    "message": "Últimas guardadas (Read Later Local)"
+  },
+  "commandSave": {
+    "message": "Guardar la página actual"
+  },
+  "menuSaveLink": {
+    "message": "Guardar enlace para leer luego"
+  },
+  "menuSavePage": {
+    "message": "Guardar página para leer luego"
+  },
+  "saved": {
+    "message": "Guardada"
+  },
+  "undo": {
+    "message": "Deshacer"
+  },
+  "alreadySaved": {
+    "message": "Ya estaba guardada"
+  },
+  "cantSave": {
+    "message": "Esta página no se puede guardar"
+  },
+  "saveRemoved": {
+    "message": "Quitada"
+  },
+  "recent": {
+    "message": "Últimas guardadas"
+  },
+  "viewAll": {
+    "message": "Ver todos"
+  },
+  "export": {
+    "message": "Exportar CSV"
+  },
+  "import": {
+    "message": "Importar"
+  },
+  "open": {
+    "message": "Abrir"
+  },
+  "archive": {
+    "message": "Archivar"
+  },
+  "unarchive": {
+    "message": "Pasar a sin leer"
+  },
+  "delete": {
+    "message": "Borrar"
+  },
+  "deleted": {
+    "message": "Movida a la papelera"
+  },
+  "archived": {
+    "message": "Archivada"
+  },
+  "movedToUnread": {
+    "message": "Pasada a sin leer"
+  },
+  "emptyRecentTitle": {
+    "message": "Guarda tu primera página"
+  },
+  "emptyRecentBody": {
+    "message": "Pulsa el botón de la barra en cualquier página para tenerla aquí."
+  },
+  "searchPlaceholder": {
+    "message": "Buscar en título, URL, notas o texto"
+  },
+  "filterUnread": {
+    "message": "Sin leer"
+  },
+  "filterArchive": {
+    "message": "Archivadas"
+  },
+  "filterAll": {
+    "message": "Todas"
+  },
+  "gridView": {
+    "message": "Vista de cuadrícula"
+  },
+  "listView": {
+    "message": "Vista de lista"
+  },
+  "loadingMore": {
+    "message": "Cargando más…"
+  },
+  "noResults": {
+    "message": "Nada coincide con tu búsqueda."
+  },
+  "emptyListTitle": {
+    "message": "Aquí aún no hay nada"
+  },
+  "emptyListBody": {
+    "message": "Guarda páginas con el botón de la barra o importa un backup CSV."
+  },
+  "importChoose": {
+    "message": "Elige un fichero CSV para importar"
+  },
+  "importing": {
+    "message": "Importando…"
+  },
+  "importResult": {
+    "message": "$ADDED$ importados, $DUP$ ya estaban, $BAD$ inválidos",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "dup": {
+        "content": "$2"
+      },
+      "bad": {
+        "content": "$3"
+      }
+    }
+  },
+  "importError": {
+    "message": "No se ha podido leer el fichero. Comprueba que es un CSV con columna url."
+  },
+  "exportDone": {
+    "message": "$COUNT$ registros exportados",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount": {
+    "message": "$COUNT$ registros",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "filterFavorite": {
+    "message": "Favoritas"
+  },
+  "favorite": {
+    "message": "Marcar como favorita"
+  },
+  "unfavorite": {
+    "message": "Quitar de favoritas"
+  },
+  "addedToFavorites": {
+    "message": "Añadida a favoritas"
+  },
+  "removedFromFavorites": {
+    "message": "Quitada de favoritas"
+  },
+  "editTags": {
+    "message": "Etiquetas"
+  },
+  "tagsPlaceholder": {
+    "message": "css, linux, para leer"
+  },
+  "tagsHelp": {
+    "message": "Separa con comas. Enter guarda, Esc cancela."
+  },
+  "tagsSaved": {
+    "message": "Etiquetas guardadas"
+  },
+  "reader": {
+    "message": "Leer sin conexión"
+  },
+  "openOriginal": {
+    "message": "Abrir la web original"
+  },
+  "dataPage": {
+    "message": "Datos y copias"
+  },
+  "exportCsv": {
+    "message": "CSV (compatible con Pocket)"
+  },
+  "exportHtml": {
+    "message": "Marcadores HTML (cualquier navegador)"
+  },
+  "exportFull": {
+    "message": "Copia completa (.json.gz)"
+  },
+  "shortcuts": {
+    "message": "Atajos de teclado"
+  },
+  "kbSearch": {
+    "message": "Buscar (admite tag:nombre)"
+  },
+  "kbMove": {
+    "message": "Moverse por la lista"
+  },
+  "kbOpen": {
+    "message": "Abrir la web"
+  },
+  "kbReader": {
+    "message": "Abrir el lector"
+  },
+  "kbArchive": {
+    "message": "Archivar / pasar a sin leer"
+  },
+  "kbFavorite": {
+    "message": "Favorita"
+  },
+  "kbTags": {
+    "message": "Editar etiquetas"
+  },
+  "kbDelete": {
+    "message": "Borrar (con deshacer)"
+  },
+  "kbHelp": {
+    "message": "Mostrar esta ayuda"
+  },
+  "close": {
+    "message": "Cerrar"
+  },
+  "readerBack": {
+    "message": "Ver todos"
+  },
+  "readerSettings": {
+    "message": "Ajustes de lectura"
+  },
+  "theme": {
+    "message": "Tema"
+  },
+  "themeLight": {
+    "message": "Claro"
+  },
+  "themeDark": {
+    "message": "Oscuro"
+  },
+  "themeSepia": {
+    "message": "Sepia"
+  },
+  "themeSystem": {
+    "message": "Sistema"
+  },
+  "fontSize": {
+    "message": "Tamaño de letra"
+  },
+  "width": {
+    "message": "Ancho de columna"
+  },
+  "widthNarrow": {
+    "message": "Estrecho"
+  },
+  "widthMedium": {
+    "message": "Medio"
+  },
+  "widthWide": {
+    "message": "Ancho"
+  },
+  "font": {
+    "message": "Fuente"
+  },
+  "fontSerif": {
+    "message": "Con serifa"
+  },
+  "fontSans": {
+    "message": "Sin serifa"
+  },
+  "readingTime": {
+    "message": "$MIN$ min de lectura",
+    "placeholders": {
+      "min": {
+        "content": "$1"
+      }
+    }
+  },
+  "noArticle": {
+    "message": "Este registro no tiene el artículo guardado."
+  },
+  "storageTitle": {
+    "message": "Espacio usado"
+  },
+  "statItems": {
+    "message": "Registros"
+  },
+  "statArticles": {
+    "message": "Artículos guardados"
+  },
+  "statThumbs": {
+    "message": "Miniaturas"
+  },
+  "statFavicons": {
+    "message": "Iconos de sitios"
+  },
+  "statTotal": {
+    "message": "Total en disco (aprox.)"
+  },
+  "freeSpace": {
+    "message": "Borrar artículos de archivadas"
+  },
+  "freeSpaceHelp": {
+    "message": "Libera espacio: borra el texto guardado de las archivadas. Los enlaces se quedan."
+  },
+  "freedArticles": {
+    "message": "$N$ artículos borrados",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupTitle": {
+    "message": "Copias automáticas"
+  },
+  "backupEnable": {
+    "message": "Hacer copias automáticas"
+  },
+  "backupHelp": {
+    "message": "Guarda una copia completa (registros, etiquetas, favoritas, miniaturas y artículos) en Descargas/ReadLaterLocal. Se comprueba al abrir Firefox y cuando guardas algo."
+  },
+  "backupFrequency": {
+    "message": "Frecuencia"
+  },
+  "daily": {
+    "message": "Diaria"
+  },
+  "weekly": {
+    "message": "Semanal"
+  },
+  "monthly": {
+    "message": "Mensual"
+  },
+  "backupKeep": {
+    "message": "Copias a conservar"
+  },
+  "backupNow": {
+    "message": "Hacer copia ahora"
+  },
+  "backupLast": {
+    "message": "Última copia: $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupNever": {
+    "message": "Aún no se ha hecho ninguna copia"
+  },
+  "backupDone": {
+    "message": "Copia guardada en Descargas/$FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupFailed": {
+    "message": "No se ha podido hacer la copia."
+  },
+  "exportTitle": {
+    "message": "Exportar"
+  },
+  "exportHelp": {
+    "message": "El CSV y los marcadores solo llevan los enlaces. La copia completa lleva también artículos y miniaturas."
+  },
+  "importTitle": {
+    "message": "Importar"
+  },
+  "importHelp": {
+    "message": "CSV de Pocket o de esta extensión, o una copia completa (.json.gz). Nunca borra ni sobrescribe lo que ya tienes."
+  },
+  "chooseFile": {
+    "message": "Elegir fichero"
+  },
+  "fetchTitle": {
+    "message": "Descarga en segundo plano"
+  },
+  "fetchHelp": {
+    "message": "También puedes descargarlo todo ahora, más rápido, con esta pestaña abierta:"
+  },
+  "fetchPending": {
+    "message": "$N$ registros pendientes",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchStart": {
+    "message": "Descargar artículos"
+  },
+  "fetchRetry": {
+    "message": "Incluir los que fallaron antes"
+  },
+  "fetchCancel": {
+    "message": "Cancelar"
+  },
+  "fetchProgress": {
+    "message": "$DONE$ de $TOTAL$ · $OK$ con artículo · $PARTIAL$ sin artículo · $FAILED$ fallidos",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "ok": {
+        "content": "$3"
+      },
+      "partial": {
+        "content": "$4"
+      },
+      "failed": {
+        "content": "$5"
+      }
+    }
+  },
+  "fetchKeepOpen": {
+    "message": "Mantén esta pestaña abierta mientras descarga."
+  },
+  "fetchDenied": {
+    "message": "Sin ese permiso no se pueden descargar."
+  },
+  "fetchFinished": {
+    "message": "Terminado."
+  },
+  "revokePermission": {
+    "message": "Quitar el permiso de acceso a webs"
+  },
+  "permissionRevoked": {
+    "message": "Permiso quitado"
+  },
+  "dangerTitle": {
+    "message": "Borrar todo"
+  },
+  "dangerHelp": {
+    "message": "Borra registros, artículos, miniaturas e iconos. No se puede deshacer: exporta antes una copia."
+  },
+  "deleteAll": {
+    "message": "Borrar todos los datos"
+  },
+  "confirmDeleteAll": {
+    "message": "¿Seguro? Se borrarán $N$ registros y no se puede deshacer.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allDeleted": {
+    "message": "Datos borrados"
+  },
+  "exportMenu": {
+    "message": "Exportar"
+  },
+  "commandShowList": {
+    "message": "Mostrar últimas guardadas"
+  },
+  "seeRecent": {
+    "message": "Ver últimas"
+  },
+  "languageTitle": {
+    "message": "Idioma"
+  },
+  "languageHelp": {
+    "message": "Idioma de la extensión. «Automático» usa el idioma de Firefox; si la extensión no lo tiene, se muestra en inglés."
+  },
+  "languageAuto": {
+    "message": "Automático (idioma de Firefox)"
+  },
+  "pageActionTitle": {
+    "message": "Guardar para leer luego"
+  },
+  "saveThisPage": {
+    "message": "Guardar esta página"
+  },
+  "menuSaveCurrent": {
+    "message": "Guardar esta página"
+  },
+  "fetchingArticle": {
+    "message": "Descargando el artículo…"
+  },
+  "fetchArticle": {
+    "message": "Descargar artículo"
+  },
+  "articleFailed": {
+    "message": "No se ha podido sacar el artículo de esta página. Puedes abrirla en la web."
+  },
+  "articleNeedsPermission": {
+    "message": "Este registro aún no tiene el texto guardado. Para descargarlo, Firefox te pedirá permiso para acceder a las webs (se puede quitar en Datos y copias)."
+  },
+  "surprise": {
+    "message": "Sorpréndeme"
+  },
+  "surpriseNone": {
+    "message": "No hay nada que abrir con estos filtros."
+  },
+  "select": {
+    "message": "Seleccionar"
+  },
+  "selectAll": {
+    "message": "Seleccionar todo ($N$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectedCount": {
+    "message": "$N$ seleccionadas",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "apply": {
+    "message": "Aplicar"
+  },
+  "kindAll": {
+    "message": "Todos los tipos"
+  },
+  "kindArticle": {
+    "message": "Artículos"
+  },
+  "kindVideo": {
+    "message": "Vídeos"
+  },
+  "kindImage": {
+    "message": "Imágenes"
+  },
+  "kindOther": {
+    "message": "Otros"
+  },
+  "collectionAll": {
+    "message": "Todas las colecciones"
+  },
+  "collectionNone": {
+    "message": "Sin colección"
+  },
+  "collectionNew": {
+    "message": "Nueva colección…"
+  },
+  "collectionNamePrompt": {
+    "message": "Nombre de la colección"
+  },
+  "orderNewest": {
+    "message": "Más recientes primero"
+  },
+  "orderOldest": {
+    "message": "Más antiguos primero"
+  },
+  "shortReads": {
+    "message": "Cortas (<5 min)"
+  },
+  "tabTags": {
+    "message": "Etiquetas"
+  },
+  "tabSites": {
+    "message": "Webs"
+  },
+  "showMore": {
+    "message": "Ver más"
+  },
+  "showLess": {
+    "message": "Ver menos"
+  },
+  "minutes": {
+    "message": "$N$ min",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "more": {
+    "message": "Más acciones"
+  },
+  "editNote": {
+    "message": "Nota personal"
+  },
+  "notePlaceholder": {
+    "message": "¿Por qué lo guardaste?"
+  },
+  "noteHelp": {
+    "message": "Ctrl+Enter guarda, Esc cancela."
+  },
+  "noteSaved": {
+    "message": "Nota guardada"
+  },
+  "moveToCollection": {
+    "message": "Mover a colección"
+  },
+  "movedToCollection": {
+    "message": "Movida a $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "removedFromCollection": {
+    "message": "Quitada de la colección"
+  },
+  "copyLink": {
+    "message": "Copiar enlace"
+  },
+  "linkCopied": {
+    "message": "Enlace copiado"
+  },
+  "suggested": {
+    "message": "Sugeridas:"
+  },
+  "bulkArchive": {
+    "message": "Archivar"
+  },
+  "bulkUnread": {
+    "message": "Sin leer"
+  },
+  "bulkFavorite": {
+    "message": "Favorita"
+  },
+  "bulkTag": {
+    "message": "Etiquetar…"
+  },
+  "bulkCollection": {
+    "message": "Colección…"
+  },
+  "bulkDelete": {
+    "message": "Borrar"
+  },
+  "bulkDone": {
+    "message": "$N$ entradas actualizadas",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted": {
+    "message": "$N$ entradas movidas a la papelera",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle": {
+    "message": "Añadir etiquetas a $N$ entradas",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allow": {
+    "message": "Permitir"
+  },
+  "notNow": {
+    "message": "Ahora no"
+  },
+  "bgFetchAsk": {
+    "message": "$N$ entradas no tienen texto, título real ni miniatura. ¿Activar la descarga en segundo plano? Firefox te pedirá permiso para acceder a las webs.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchProgress": {
+    "message": "Descargando en segundo plano: $DONE$ de $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "bgFetchEnable": {
+    "message": "Activar la descarga en segundo plano (Firefox te pedirá permiso para acceder a las webs)"
+  },
+  "bgFetchHelp": {
+    "message": "Descarga poco a poco el texto, el título real y la miniatura de las entradas que no los tienen (por ejemplo, las importadas). Para no restar rendimiento a Firefox, solo trabaja mientras tengas abierta «Ver todos» o esta página, y de una en una."
+  },
+  "kbNote": {
+    "message": "Nota personal"
+  },
+  "kbCollection": {
+    "message": "Mover a colección"
+  },
+  "kbSelect": {
+    "message": "Seleccionar (Mayús+clic: un rango)"
+  },
+  "appearanceTitle": {
+    "message": "Apariencia"
+  },
+  "themeHelp": {
+    "message": "Se aplica a toda la extensión, también al lector."
+  },
+  "badgeEnable": {
+    "message": "Mostrar en el botón de la barra el número de entradas sin leer"
+  },
+  "collectionsTitle": {
+    "message": "Colecciones"
+  },
+  "collectionsHelp": {
+    "message": "Como carpetas: cada entrada puede estar en una sola colección."
+  },
+  "collectionsEmpty": {
+    "message": "Aún no hay colecciones."
+  },
+  "addCollection": {
+    "message": "Crear colección"
+  },
+  "collectionDeleted": {
+    "message": "Colección borrada (sus entradas se conservan)"
+  },
+  "rename": {
+    "message": "Renombrar"
+  },
+  "rulesTitle": {
+    "message": "Reglas automáticas"
+  },
+  "rulesHelp": {
+    "message": "Se aplican al guardar o importar. Nunca quitan etiquetas ni cambian una colección ya elegida."
+  },
+  "rulesEmpty": {
+    "message": "Aún no hay reglas."
+  },
+  "ruleIf": {
+    "message": "Si"
+  },
+  "ruleFieldSite": {
+    "message": "la web es"
+  },
+  "ruleFieldUrl": {
+    "message": "la URL contiene"
+  },
+  "ruleFieldTitle": {
+    "message": "el título contiene"
+  },
+  "ruleValue": {
+    "message": "Valor"
+  },
+  "ruleThen": {
+    "message": "→"
+  },
+  "ruleAddTags": {
+    "message": "etiquetas"
+  },
+  "ruleCollection": {
+    "message": "Mover a la colección"
+  },
+  "ruleFavorite": {
+    "message": "Añadir a favoritas"
+  },
+  "addRule": {
+    "message": "Añadir regla"
+  },
+  "applyRulesNow": {
+    "message": "Aplicar a las entradas existentes"
+  },
+  "rulesApplied": {
+    "message": "$N$ entradas actualizadas",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchActivate": {
+    "message": "Activar"
+  },
+  "iconStyleTitle": {
+    "message": "Iconos de la barra"
+  },
+  "iconStyleHelp": {
+    "message": "El del botón con el contador y el de la barra de direcciones."
+  },
+  "iconStyleBookmark": {
+    "message": "Marcador"
+  },
+  "iconStyleBook": {
+    "message": "Libro"
+  },
+  "iconStyleMinimal": {
+    "message": "Discreto"
+  },
+  "iconStyleLegend": {
+    "message": "En cada uno: botón de la barra · página sin guardar · página ya guardada."
+  },
+  "ruleTitlePlaceholder": {
+    "message": "una palabra"
+  },
+  "ruleErrSiteEmpty": {
+    "message": "Escribe una web, por ejemplo youtube.com"
+  },
+  "ruleErrTextEmpty": {
+    "message": "Escribe el texto que debe contener"
+  },
+  "ruleErrSite": {
+    "message": "No parece una web válida. Escribe solo el dominio, por ejemplo youtube.com o es.wikipedia.org"
+  },
+  "ruleErrUrlSpaces": {
+    "message": "Una dirección no puede tener espacios"
+  },
+  "cleanupTitle": {
+    "message": "Limpieza automática"
+  },
+  "cleanupHelp": {
+    "message": "Manda a la papelera lo que cumpla cada regla activa. En la papelera solo se guardan el título y la dirección (el texto, la miniatura, las etiquetas y la nota se borran para liberar espacio); desde allí se puede recuperar durante 30 días. Se aplica al abrir Firefox, «Ver todos» o esta página."
+  },
+  "cleanupEmpty": {
+    "message": "Aún no hay reglas de limpieza."
+  },
+  "addCleanup": {
+    "message": "Añadir regla de limpieza"
+  },
+  "runCleanupNow": {
+    "message": "Limpiar ahora"
+  },
+  "openTrash": {
+    "message": "Ver la papelera"
+  },
+  "cleanupMove": {
+    "message": "Mover a la papelera"
+  },
+  "cleanupScope": {
+    "message": "Qué entradas"
+  },
+  "cleanupScopeCollection": {
+    "message": "las de la colección"
+  },
+  "cleanupScopeTag": {
+    "message": "las que tienen la etiqueta"
+  },
+  "cleanupScopeSite": {
+    "message": "las de la web"
+  },
+  "cleanupScopeAll": {
+    "message": "todas las entradas"
+  },
+  "chooseCollection": {
+    "message": "Elige una colección"
+  },
+  "cleanupTagPlaceholder": {
+    "message": "etiqueta"
+  },
+  "cleanupStatus": {
+    "message": "Estado"
+  },
+  "cleanupStatusAny": {
+    "message": "en cualquier estado"
+  },
+  "cleanupStatusUnread": {
+    "message": "solo sin leer"
+  },
+  "cleanupStatusArchive": {
+    "message": "solo archivadas"
+  },
+  "cleanupOlderThan": {
+    "message": "con más de"
+  },
+  "cleanupAgo": {
+    "message": "de antigüedad"
+  },
+  "cleanupAmount": {
+    "message": "Cantidad"
+  },
+  "cleanupUnit": {
+    "message": "Unidad"
+  },
+  "unit_day": {
+    "message": "días"
+  },
+  "unit_day1": {
+    "message": "día"
+  },
+  "unit_week": {
+    "message": "semanas"
+  },
+  "unit_week1": {
+    "message": "semana"
+  },
+  "unit_month": {
+    "message": "meses"
+  },
+  "unit_month1": {
+    "message": "mes"
+  },
+  "unit_year": {
+    "message": "años"
+  },
+  "unit_year1": {
+    "message": "año"
+  },
+  "cleanupActive": {
+    "message": "Activa"
+  },
+  "cleanupAffects": {
+    "message": "Si la activas, ahora mismo mandaría $N$ entradas a la papelera.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffectsActive": {
+    "message": "Para cambiarla, desactívala primero."
+  },
+  "cleanupIncomplete": {
+    "message": "Completa la regla para poder activarla."
+  },
+  "cleanupActivate": {
+    "message": "Activar"
+  },
+  "cleanupConfirm": {
+    "message": "Al activarla, $N$ entradas irán ahora a la papelera. Allí solo se conservan el título y la dirección durante 30 días.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone": {
+    "message": "$N$ entradas movidas a la papelera por la limpieza automática",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupRan": {
+    "message": "Limpieza hecha: $N$ a la papelera, $M$ borradas del todo",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "m": {
+        "content": "$2"
+      }
+    }
+  },
+  "filterTrash": {
+    "message": "Papelera"
+  },
+  "trashInfo": {
+    "message": "Aquí está lo que borraste o quitó la limpieza automática. Solo se guardan el título y la dirección; al recuperar una entrada vuelve como sin leer y con la fecha de hoy (las reglas de limpieza cuentan desde ahí). Se borran del todo a los 30 días."
+  },
+  "emptyTrash": {
+    "message": "Vaciar papelera"
+  },
+  "emptyTrashConfirm": {
+    "message": "Se borrarán para siempre $N$ entradas de la papelera.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDeletedOn": {
+    "message": "a la papelera el $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft": {
+    "message": "se borra en $N$ días",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashToday": {
+    "message": "se borra hoy"
+  },
+  "restore": {
+    "message": "Recuperar"
+  },
+  "deleteForever": {
+    "message": "Borrar para siempre"
+  },
+  "trashRestored": {
+    "message": "Recuperada en «Sin leer» con la fecha de hoy"
+  },
+  "trashEmpty": {
+    "message": "La papelera está vacía"
+  },
+  "trashEmptyBody": {
+    "message": "Aquí aparecerá lo que borres y lo que quite la limpieza automática."
+  },
+  "expireSet": {
+    "message": "Borrar automáticamente…"
+  },
+  "expireChange": {
+    "message": "Cambiar el borrado automático…"
+  },
+  "expireNever": {
+    "message": "No borrar automáticamente"
+  },
+  "expireHelp": {
+    "message": "Pasado ese tiempo irá a la papelera, donde se conservan el título y la dirección 30 días más."
+  },
+  "expire1d": {
+    "message": "Dentro de 1 día"
+  },
+  "expire1w": {
+    "message": "Dentro de 1 semana"
+  },
+  "expire1m": {
+    "message": "Dentro de 1 mes"
+  },
+  "expire3m": {
+    "message": "Dentro de 3 meses"
+  },
+  "expire6m": {
+    "message": "Dentro de 6 meses"
+  },
+  "expire1y": {
+    "message": "Dentro de 1 año"
+  },
+  "expireScheduled": {
+    "message": "Irá a la papelera el $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireCancelled": {
+    "message": "Borrado automático cancelado"
+  },
+  "expiresOn": {
+    "message": "Va a la papelera el $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle": {
+    "message": "Borrar automáticamente $N$ entradas",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkExpire": {
+    "message": "Borrar en…"
+  },
+  "kbExpire": {
+    "message": "Borrar automáticamente…"
+  },
+  "collectionFilterBy": {
+    "message": "Ver solo esta colección"
+  },
+  "shortReadsHelp": {
+    "message": "Muestra solo las lecturas de menos de 5 minutos (las que ya tienen su texto descargado)."
+  },
+  "thumbSmall": {
+    "message": "Miniaturas pequeñas"
+  },
+  "thumbMedium": {
+    "message": "Miniaturas medianas"
+  },
+  "thumbLarge": {
+    "message": "Miniaturas grandes"
+  },
+  "matchInText": {
+    "message": "en el texto"
+  },
+  "matchInTextTitle": {
+    "message": "La búsqueda aparece en el texto del artículo"
+  },
+  "readerWithImages": {
+    "message": "Leer sin conexión (con imágenes)"
+  },
+  "hlCount": {
+    "message": "$N$ subrayados",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "statImages": {
+    "message": "Imágenes sin conexión"
+  },
+  "statTexts": {
+    "message": "Texto para buscar"
+  },
+  "exportWithImages": {
+    "message": "Incluir las imágenes sin conexión en la copia completa"
+  },
+  "exportWithImagesHelp": {
+    "message": "Pueden hacer el archivo mucho más grande. Las copias automáticas nunca las incluyen."
+  },
+  "imagesTitle": {
+    "message": "Imágenes sin conexión"
+  },
+  "imagesHelp": {
+    "message": "Guarda también las imágenes de los artículos para verlas en el lector sin conexión. Se borran solas al archivar la entrada. En el lector, el botón de la imagen las guarda o borra para un artículo concreto."
+  },
+  "imagesEnable": {
+    "message": "Guardar las imágenes de los artículos nuevos (Firefox te pedirá permiso para acceder a las webs)"
+  },
+  "imagesWarning": {
+    "message": "Ocupan mucho más que el texto: un artículo con fotos suele necesitar entre 0,5 y 3 MB, frente a unos 10–30 KB solo con texto."
+  },
+  "imagesUsage": {
+    "message": "Ahora: $N$ imágenes, $SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesClear": {
+    "message": "Borrar todas las imágenes"
+  },
+  "imagesClearConfirm": {
+    "message": "Se borrarán todas las imágenes guardadas sin conexión. Los artículos y su texto se quedan."
+  },
+  "imagesCleared": {
+    "message": "Imágenes borradas"
+  },
+  "imagesEnabledToast": {
+    "message": "Desde ahora se guardarán las imágenes de los artículos nuevos"
+  },
+  "imagesOffTitle": {
+    "message": "Guardar las imágenes sin conexión (ocupan más espacio)"
+  },
+  "imagesOnTitle": {
+    "message": "Imágenes guardadas sin conexión ($SIZE$). Pulsa para borrarlas",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesArchived": {
+    "message": "Las archivadas no guardan imágenes: se borran al archivar"
+  },
+  "imagesSaving": {
+    "message": "Guardando imágenes…"
+  },
+  "imagesProgress": {
+    "message": "Guardando imágenes: $DONE$ de $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved": {
+    "message": "$N$ imágenes guardadas ($SIZE$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSavedSome": {
+    "message": "$N$ de $TOTAL$ imágenes guardadas ($SIZE$); las demás no se pudieron descargar",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      }
+    }
+  },
+  "imagesNone": {
+    "message": "Este artículo no tiene imágenes"
+  },
+  "imagesFailed": {
+    "message": "No se pudo descargar ninguna imagen"
+  },
+  "imagesRemoved": {
+    "message": "Imágenes sin conexión borradas"
+  },
+  "archivedImagesGone": {
+    "message": "Archivada (sus imágenes sin conexión se han borrado)"
+  },
+  "print": {
+    "message": "Imprimir o guardar como PDF"
+  },
+  "hlPanel": {
+    "message": "Subrayados y notas"
+  },
+  "hlHint": {
+    "message": "Activa el modo subrayado (botón del rotulador o tecla H) y cada texto que selecciones se subraya con el color elegido aquí o en Aa. Sin el modo, al seleccionar aparece el botón «Subrayar»."
+  },
+  "hlEmpty": {
+    "message": "Aún no hay subrayados en este artículo."
+  },
+  "hlExport": {
+    "message": "Copiar todo como Markdown"
+  },
+  "hlExported": {
+    "message": "Subrayados copiados al portapapeles"
+  },
+  "hlColor_yellow": {
+    "message": "Amarillo"
+  },
+  "hlColor_green": {
+    "message": "Verde"
+  },
+  "hlColor_blue": {
+    "message": "Azul"
+  },
+  "hlColor_pink": {
+    "message": "Rosa"
+  },
+  "hlAddNote": {
+    "message": "Añadir nota"
+  },
+  "hlEditNote": {
+    "message": "Editar nota"
+  },
+  "hlCopy": {
+    "message": "Copiar texto"
+  },
+  "hlCopied": {
+    "message": "Texto copiado"
+  },
+  "hlDelete": {
+    "message": "Quitar subrayado"
+  },
+  "hlDeleted": {
+    "message": "Subrayado quitado"
+  },
+  "hlNotePlaceholder": {
+    "message": "Escribe tu nota…"
+  },
+  "hlGoTo": {
+    "message": "Ir al subrayado"
+  },
+  "hlLost": {
+    "message": "No se encuentra en el texto actual del artículo"
+  },
+  "save": {
+    "message": "Guardar"
+  },
+  "repairPending": {
+    "message": "$N$ artículos se guardaron con caracteres extraños (� en lugar de acentos).",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairStart": {
+    "message": "Volver a descargarlos"
+  },
+  "repairProgress": {
+    "message": "Reparando: $DONE$ de $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairDone": {
+    "message": "$N$ artículos reparados",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairReader": {
+    "message": "Este artículo se guardó con caracteres extraños (� en lugar de acentos). Volver a descargarlo lo arregla; tus subrayados se conservan."
+  },
+  "repairReaderBtn": {
+    "message": "Volver a descargar"
+  },
+  "hlColorLabel": {
+    "message": "Color del subrayado"
+  },
+  "hlDo": {
+    "message": "Subrayar"
+  },
+  "hlDoTitle": {
+    "message": "Subrayar (tecla H). El color se cambia en Aa o en el panel de subrayados"
+  },
+  "hlModeTitle": {
+    "message": "Modo subrayado: al seleccionar texto se subraya solo (tecla H)"
+  },
+  "hlModeOn": {
+    "message": "Modo subrayado activado: selecciona texto para subrayarlo"
+  },
+  "hlModeOff": {
+    "message": "Modo subrayado desactivado"
+  },
+  "sidebarTitle": {
+    "message": "Read Later Local"
+  },
+  "commandSidebar": {
+    "message": "Abrir o cerrar el panel lateral"
+  },
+  "menuSidebar": {
+    "message": "Panel lateral"
+  },
+  "sidebarHint": {
+    "message": "Clic: abrir aquí · Ctrl+clic: pestaña nueva"
+  },
+  "emailSend": {
+    "message": "Enviar por correo"
+  },
+  "emailAttach": {
+    "message": "Adjunto el artículo guardado: {file}"
+  },
+  "emailFileSaved": {
+    "message": "Se abrió un correo nuevo. Adjunta el archivo «$FILE$» (se abre su carpeta al terminar de guardarse).",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "emailLinkOnly": {
+    "message": "Se abrió un correo nuevo con el enlace (este artículo no tiene texto guardado)"
+  },
+  "triage": {
+    "message": "Modo limpieza"
+  },
+  "triageTitle": {
+    "message": "Revisa las entradas de una en una: conservar, archivar o borrar (tecla R)"
+  },
+  "triageKeep": {
+    "message": "Conservar"
+  },
+  "triageProgress": {
+    "message": "$N$ de $TOTAL$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "triageNothing": {
+    "message": "No hay entradas con estos filtros"
+  },
+  "triageDone": {
+    "message": "Revisión terminada"
+  },
+  "triageSummary": {
+    "message": "Conservadas: $KEPT$ · Archivadas: $ARCHIVED$ · Borradas: $DELETED$",
+    "placeholders": {
+      "kept": {
+        "content": "$1"
+      },
+      "archived": {
+        "content": "$2"
+      },
+      "deleted": {
+        "content": "$3"
+      }
+    }
+  },
+  "menuSaveClose": {
+    "message": "Guardar y cerrar la pestaña"
+  },
+  "menuSaveAllTabs": {
+    "message": "Guardar todas las pestañas de la ventana"
+  },
+  "menuSaveTabs": {
+    "message": "Guardar para leer después"
+  },
+  "listenTitle": {
+    "message": "Escuchar el artículo"
+  },
+  "ttsPlay": {
+    "message": "Reproducir"
+  },
+  "ttsPause": {
+    "message": "Pausa"
+  },
+  "ttsPrev": {
+    "message": "Párrafo anterior"
+  },
+  "ttsNext": {
+    "message": "Párrafo siguiente"
+  },
+  "ttsStop": {
+    "message": "Dejar de escuchar"
+  },
+  "ttsSpeed": {
+    "message": "Velocidad"
+  },
+  "ttsVoice": {
+    "message": "Voz"
+  },
+  "ttsNoVoices": {
+    "message": "Firefox no encuentra voces en este ordenador. En Windows: Configuración → Hora e idioma → Voz."
+  },
+  "copyMarkdown": {
+    "message": "Copiar como Markdown"
+  },
+  "markdownCopied": {
+    "message": "Enlace copiado como Markdown"
+  },
+  "saveMarkdown": {
+    "message": "Guardar como Markdown (Obsidian…)"
+  },
+  "markdownSaved": {
+    "message": "Guardado como $FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportMarkdown": {
+    "message": "Markdown (lista de enlaces)"
+  },
+  "autoArchive": {
+    "message": "Archivar al llegar al final"
+  },
+  "finishedArchived": {
+    "message": "Terminado: archivado"
+  },
+  "finishedArchivedImages": {
+    "message": "Terminado: archivado (se han borrado sus imágenes sin conexión)"
+  },
+  "ttsError": {
+    "message": "No se ha podido leer en voz alta. Comprueba el sonido y las voces instaladas en el sistema."
+  },
+  "exportDone_one": {
+    "message": "$COUNT$ registro exportado",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount_one": {
+    "message": "$COUNT$ registro",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "freedArticles_one": {
+    "message": "$N$ artículo borrado",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchPending_one": {
+    "message": "$N$ registro pendiente",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "confirmDeleteAll_one": {
+    "message": "¿Seguro? Se borrará $N$ registro y no se puede deshacer.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectedCount_one": {
+    "message": "$N$ seleccionada",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDone_one": {
+    "message": "$N$ entrada actualizada",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted_one": {
+    "message": "$N$ entrada movida a la papelera",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle_one": {
+    "message": "Añadir etiquetas a $N$ entrada",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchAsk_one": {
+    "message": "$N$ entrada no tiene texto, título real ni miniatura. ¿Activar la descarga en segundo plano? Firefox te pedirá permiso para acceder a las webs.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "rulesApplied_one": {
+    "message": "$N$ entrada actualizada",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffects_one": {
+    "message": "Si la activas, ahora mismo mandaría $N$ entrada a la papelera.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupConfirm_one": {
+    "message": "Al activarla, $N$ entrada irá ahora a la papelera. Allí solo se conservan el título y la dirección durante 30 días.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone_one": {
+    "message": "$N$ entrada movida a la papelera por la limpieza automática",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "emptyTrashConfirm_one": {
+    "message": "Se borrará para siempre $N$ entrada de la papelera.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft_one": {
+    "message": "se borra en $N$ día",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle_one": {
+    "message": "Borrar automáticamente $N$ entrada",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "hlCount_one": {
+    "message": "$N$ subrayado",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesUsage_one": {
+    "message": "Ahora: $N$ imagen, $SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved_one": {
+    "message": "$N$ imagen guardada ($SIZE$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairPending_one": {
+    "message": "$N$ artículo se guardó con caracteres extraños (� en lugar de acentos).",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairDone_one": {
+    "message": "$N$ artículo reparado",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  }
+}

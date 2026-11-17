@@ -1,0 +1,1456 @@
+{
+  "extName": {
+    "message": "Read Later Local"
+  },
+  "extDescription": {
+    "message": "احفظ الصفحات لقراءتها لاحقًا. كل شيء يبقى على حاسوبك: بلا حساب وبلا خوادم."
+  },
+  "actionTitle": {
+    "message": "آخر ما حُفظ (Read Later Local)"
+  },
+  "commandSave": {
+    "message": "احفظ الصفحة الحالية"
+  },
+  "menuSaveLink": {
+    "message": "احفظ الرابط للقراءة لاحقًا"
+  },
+  "menuSavePage": {
+    "message": "احفظ الصفحة للقراءة لاحقًا"
+  },
+  "saved": {
+    "message": "حُفظ"
+  },
+  "undo": {
+    "message": "تراجع"
+  },
+  "alreadySaved": {
+    "message": "محفوظ مسبقًا"
+  },
+  "cantSave": {
+    "message": "لا يمكن حفظ هذه الصفحة"
+  },
+  "saveRemoved": {
+    "message": "أُزيل"
+  },
+  "recent": {
+    "message": "آخر ما حُفظ"
+  },
+  "viewAll": {
+    "message": "عرض الكل"
+  },
+  "export": {
+    "message": "تصدير CSV"
+  },
+  "import": {
+    "message": "استيراد"
+  },
+  "open": {
+    "message": "فتح"
+  },
+  "archive": {
+    "message": "أرشفة"
+  },
+  "unarchive": {
+    "message": "نقل إلى غير المقروءة"
+  },
+  "delete": {
+    "message": "حذف"
+  },
+  "deleted": {
+    "message": "نُقل إلى المهملات"
+  },
+  "archived": {
+    "message": "أُرشف"
+  },
+  "movedToUnread": {
+    "message": "نُقل إلى غير المقروءة"
+  },
+  "emptyRecentTitle": {
+    "message": "احفظ صفحتك الأولى"
+  },
+  "emptyRecentBody": {
+    "message": "انقر زر شريط الأدوات في أي صفحة لتحتفظ بها هنا."
+  },
+  "searchPlaceholder": {
+    "message": "ابحث في العناوين أو الروابط أو الملاحظات أو النص"
+  },
+  "filterUnread": {
+    "message": "غير المقروءة"
+  },
+  "filterArchive": {
+    "message": "المؤرشفة"
+  },
+  "filterAll": {
+    "message": "الكل"
+  },
+  "gridView": {
+    "message": "عرض شبكي"
+  },
+  "listView": {
+    "message": "عرض قائمة"
+  },
+  "loadingMore": {
+    "message": "جارٍ تحميل المزيد…"
+  },
+  "noResults": {
+    "message": "لا شيء يطابق بحثك."
+  },
+  "emptyListTitle": {
+    "message": "لا شيء هنا بعد"
+  },
+  "emptyListBody": {
+    "message": "احفظ الصفحات بزر شريط الأدوات أو استورد نسخة احتياطية بصيغة CSV."
+  },
+  "importChoose": {
+    "message": "اختر ملف CSV لاستيراده"
+  },
+  "importing": {
+    "message": "جارٍ الاستيراد…"
+  },
+  "importResult": {
+    "message": "استُورد: $ADDED$، محفوظ مسبقًا: $DUP$، غير صالح: $BAD$",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "dup": {
+        "content": "$2"
+      },
+      "bad": {
+        "content": "$3"
+      }
+    }
+  },
+  "importError": {
+    "message": "تعذرت قراءة الملف. تأكد أنه ملف CSV يحتوي على عمود url."
+  },
+  "exportDone": {
+    "message": "العناصر المُصدَّرة: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount": {
+    "message": "العناصر: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "filterFavorite": {
+    "message": "المفضلة"
+  },
+  "favorite": {
+    "message": "أضف إلى المفضلة"
+  },
+  "unfavorite": {
+    "message": "أزل من المفضلة"
+  },
+  "addedToFavorites": {
+    "message": "أُضيف إلى المفضلة"
+  },
+  "removedFromFavorites": {
+    "message": "أُزيل من المفضلة"
+  },
+  "editTags": {
+    "message": "الوسوم"
+  },
+  "tagsPlaceholder": {
+    "message": "css, linux, يومًا ما"
+  },
+  "tagsHelp": {
+    "message": "افصل بفواصل. Enter للحفظ، Esc للإلغاء."
+  },
+  "tagsSaved": {
+    "message": "حُفظت الوسوم"
+  },
+  "reader": {
+    "message": "اقرأ دون اتصال"
+  },
+  "openOriginal": {
+    "message": "افتح الصفحة الأصلية"
+  },
+  "dataPage": {
+    "message": "البيانات والنسخ الاحتياطية"
+  },
+  "exportCsv": {
+    "message": "CSV (متوافق مع Pocket)"
+  },
+  "exportHtml": {
+    "message": "علامات HTML (أي متصفح)"
+  },
+  "exportFull": {
+    "message": "نسخة احتياطية كاملة (.json.gz)"
+  },
+  "shortcuts": {
+    "message": "اختصارات لوحة المفاتيح"
+  },
+  "kbSearch": {
+    "message": "بحث (يدعم tag:الاسم)"
+  },
+  "kbMove": {
+    "message": "التنقل في القائمة"
+  },
+  "kbOpen": {
+    "message": "فتح الصفحة"
+  },
+  "kbReader": {
+    "message": "فتح القارئ"
+  },
+  "kbArchive": {
+    "message": "أرشفة / نقل إلى غير المقروءة"
+  },
+  "kbFavorite": {
+    "message": "مفضلة"
+  },
+  "kbTags": {
+    "message": "تعديل الوسوم"
+  },
+  "kbDelete": {
+    "message": "حذف (مع إمكانية التراجع)"
+  },
+  "kbHelp": {
+    "message": "عرض هذه المساعدة"
+  },
+  "close": {
+    "message": "إغلاق"
+  },
+  "readerBack": {
+    "message": "عرض الكل"
+  },
+  "readerSettings": {
+    "message": "إعدادات القراءة"
+  },
+  "theme": {
+    "message": "السمة"
+  },
+  "themeLight": {
+    "message": "فاتحة"
+  },
+  "themeDark": {
+    "message": "داكنة"
+  },
+  "themeSepia": {
+    "message": "بنية"
+  },
+  "themeSystem": {
+    "message": "النظام"
+  },
+  "fontSize": {
+    "message": "حجم النص"
+  },
+  "width": {
+    "message": "عرض العمود"
+  },
+  "widthNarrow": {
+    "message": "ضيق"
+  },
+  "widthMedium": {
+    "message": "متوسط"
+  },
+  "widthWide": {
+    "message": "واسع"
+  },
+  "font": {
+    "message": "الخط"
+  },
+  "fontSerif": {
+    "message": "مذيّل"
+  },
+  "fontSans": {
+    "message": "غير مذيّل"
+  },
+  "readingTime": {
+    "message": "قراءة في $MIN$ د",
+    "placeholders": {
+      "min": {
+        "content": "$1"
+      }
+    }
+  },
+  "noArticle": {
+    "message": "لا يوجد مقال محفوظ لهذا العنصر."
+  },
+  "storageTitle": {
+    "message": "المساحة المستخدمة"
+  },
+  "statItems": {
+    "message": "العناصر"
+  },
+  "statArticles": {
+    "message": "المقالات المحفوظة"
+  },
+  "statThumbs": {
+    "message": "الصور المصغرة"
+  },
+  "statFavicons": {
+    "message": "أيقونات المواقع"
+  },
+  "statTotal": {
+    "message": "الإجمالي على القرص (تقريبًا)"
+  },
+  "freeSpace": {
+    "message": "احذف مقالات العناصر المؤرشفة"
+  },
+  "freeSpaceHelp": {
+    "message": "يحرر مساحة: يزيل النص المحفوظ للعناصر المؤرشفة. تبقى الروابط."
+  },
+  "freedArticles": {
+    "message": "المقالات المحذوفة: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupTitle": {
+    "message": "النسخ الاحتياطية التلقائية"
+  },
+  "backupEnable": {
+    "message": "أنشئ نسخًا احتياطية تلقائية"
+  },
+  "backupHelp": {
+    "message": "يحفظ نسخة احتياطية كاملة (العناصر والوسوم والمفضلة والصور المصغرة والمقالات) في Downloads/ReadLaterLocal. يُفحص عند بدء Firefox وعند حفظ أي شيء."
+  },
+  "backupFrequency": {
+    "message": "التكرار"
+  },
+  "daily": {
+    "message": "يوميًا"
+  },
+  "weekly": {
+    "message": "أسبوعيًا"
+  },
+  "monthly": {
+    "message": "شهريًا"
+  },
+  "backupKeep": {
+    "message": "عدد النسخ المحفوظة"
+  },
+  "backupNow": {
+    "message": "انسخ احتياطيًا الآن"
+  },
+  "backupLast": {
+    "message": "آخر نسخة: $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupNever": {
+    "message": "لم تُنشأ أي نسخة بعد"
+  },
+  "backupDone": {
+    "message": "حُفظت النسخة في Downloads/$FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupFailed": {
+    "message": "تعذر إنشاء النسخة الاحتياطية."
+  },
+  "exportTitle": {
+    "message": "تصدير"
+  },
+  "exportHelp": {
+    "message": "ملف CSV والعلامات تحتوي على الروابط فقط. النسخة الكاملة تحتوي أيضًا على المقالات والصور المصغرة."
+  },
+  "importTitle": {
+    "message": "استيراد"
+  },
+  "importHelp": {
+    "message": "ملف CSV من Pocket أو Read Later Local، أو نسخة احتياطية كاملة (.json.gz). لا يحذف ما لديك ولا يكتب فوقه أبدًا."
+  },
+  "chooseFile": {
+    "message": "اختر ملفًا"
+  },
+  "fetchTitle": {
+    "message": "التنزيل في الخلفية"
+  },
+  "fetchHelp": {
+    "message": "يمكنك أيضًا تنزيل كل شيء الآن وبسرعة أكبر ما دام هذا التبويب مفتوحًا:"
+  },
+  "fetchPending": {
+    "message": "عناصر في الانتظار: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchStart": {
+    "message": "نزّل المقالات"
+  },
+  "fetchRetry": {
+    "message": "ضمّن ما فشل سابقًا"
+  },
+  "fetchCancel": {
+    "message": "إلغاء"
+  },
+  "fetchProgress": {
+    "message": "$DONE$ من $TOTAL$ · مع مقال: $OK$ · دون مقال: $PARTIAL$ · فشل: $FAILED$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "ok": {
+        "content": "$3"
+      },
+      "partial": {
+        "content": "$4"
+      },
+      "failed": {
+        "content": "$5"
+      }
+    }
+  },
+  "fetchKeepOpen": {
+    "message": "أبقِ هذا التبويب مفتوحًا أثناء التنزيل."
+  },
+  "fetchDenied": {
+    "message": "لا يمكن تنزيلها دون هذا الإذن."
+  },
+  "fetchFinished": {
+    "message": "انتهى."
+  },
+  "revokePermission": {
+    "message": "أزل إذن الوصول إلى المواقع"
+  },
+  "permissionRevoked": {
+    "message": "أُزيل الإذن"
+  },
+  "dangerTitle": {
+    "message": "حذف كل شيء"
+  },
+  "dangerHelp": {
+    "message": "يحذف العناصر والمقالات والصور المصغرة والأيقونات. لا يمكن التراجع: صدّر نسخة احتياطية أولًا."
+  },
+  "deleteAll": {
+    "message": "احذف كل البيانات"
+  },
+  "confirmDeleteAll": {
+    "message": "هل أنت متأكد؟ عدد العناصر التي ستُحذف: $N$. لا يمكن التراجع.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allDeleted": {
+    "message": "حُذفت البيانات"
+  },
+  "exportMenu": {
+    "message": "تصدير"
+  },
+  "commandShowList": {
+    "message": "اعرض آخر ما حُفظ"
+  },
+  "seeRecent": {
+    "message": "شاهد آخر ما حُفظ"
+  },
+  "languageTitle": {
+    "message": "اللغة"
+  },
+  "languageHelp": {
+    "message": "لغة الإضافة. «تلقائي» يتبع لغة Firefox، أو الإنجليزية إن لم تكن لغته متوفرة في الإضافة."
+  },
+  "languageAuto": {
+    "message": "تلقائي (لغة Firefox)"
+  },
+  "pageActionTitle": {
+    "message": "احفظ للقراءة لاحقًا"
+  },
+  "saveThisPage": {
+    "message": "احفظ هذه الصفحة"
+  },
+  "menuSaveCurrent": {
+    "message": "احفظ هذه الصفحة"
+  },
+  "fetchingArticle": {
+    "message": "جارٍ تنزيل المقال…"
+  },
+  "fetchArticle": {
+    "message": "نزّل المقال"
+  },
+  "articleFailed": {
+    "message": "تعذر استخراج المقال من هذه الصفحة. يمكنك فتحها على الويب."
+  },
+  "articleNeedsPermission": {
+    "message": "لا يوجد نص محفوظ لهذا العنصر بعد. لتنزيله سيطلب Firefox إذن الوصول إلى المواقع (يمكنك إزالته من البيانات والنسخ الاحتياطية)."
+  },
+  "surprise": {
+    "message": "فاجئني"
+  },
+  "surpriseNone": {
+    "message": "لا شيء لفتحه بهذه المرشحات."
+  },
+  "select": {
+    "message": "تحديد"
+  },
+  "selectAll": {
+    "message": "تحديد الكل ($N$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectedCount": {
+    "message": "المحدد: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "إلغاء"
+  },
+  "apply": {
+    "message": "تطبيق"
+  },
+  "kindAll": {
+    "message": "كل الأنواع"
+  },
+  "kindArticle": {
+    "message": "مقالات"
+  },
+  "kindVideo": {
+    "message": "فيديوهات"
+  },
+  "kindImage": {
+    "message": "صور"
+  },
+  "kindOther": {
+    "message": "أخرى"
+  },
+  "collectionAll": {
+    "message": "كل المجموعات"
+  },
+  "collectionNone": {
+    "message": "بلا مجموعة"
+  },
+  "collectionNew": {
+    "message": "مجموعة جديدة…"
+  },
+  "collectionNamePrompt": {
+    "message": "اسم المجموعة"
+  },
+  "orderNewest": {
+    "message": "الأحدث أولًا"
+  },
+  "orderOldest": {
+    "message": "الأقدم أولًا"
+  },
+  "shortReads": {
+    "message": "قصيرة (<5 د)"
+  },
+  "tabTags": {
+    "message": "الوسوم"
+  },
+  "tabSites": {
+    "message": "المواقع"
+  },
+  "showMore": {
+    "message": "عرض المزيد"
+  },
+  "showLess": {
+    "message": "عرض أقل"
+  },
+  "minutes": {
+    "message": "$N$ د",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "more": {
+    "message": "إجراءات أخرى"
+  },
+  "editNote": {
+    "message": "ملاحظة شخصية"
+  },
+  "notePlaceholder": {
+    "message": "لماذا حفظته؟"
+  },
+  "noteHelp": {
+    "message": "Ctrl+Enter للحفظ، Esc للإلغاء."
+  },
+  "noteSaved": {
+    "message": "حُفظت الملاحظة"
+  },
+  "moveToCollection": {
+    "message": "انقل إلى مجموعة"
+  },
+  "movedToCollection": {
+    "message": "نُقل إلى $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "removedFromCollection": {
+    "message": "أُزيل من المجموعة"
+  },
+  "copyLink": {
+    "message": "انسخ الرابط"
+  },
+  "linkCopied": {
+    "message": "نُسخ الرابط"
+  },
+  "suggested": {
+    "message": "مقترحات:"
+  },
+  "bulkArchive": {
+    "message": "أرشفة"
+  },
+  "bulkUnread": {
+    "message": "غير مقروء"
+  },
+  "bulkFavorite": {
+    "message": "مفضلة"
+  },
+  "bulkTag": {
+    "message": "وسم…"
+  },
+  "bulkCollection": {
+    "message": "مجموعة…"
+  },
+  "bulkDelete": {
+    "message": "حذف"
+  },
+  "bulkDone": {
+    "message": "العناصر المحدَّثة: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted": {
+    "message": "العناصر المنقولة إلى المهملات: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle": {
+    "message": "أضف وسومًا إلى العناصر المحددة ($N$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allow": {
+    "message": "سماح"
+  },
+  "notNow": {
+    "message": "ليس الآن"
+  },
+  "bgFetchAsk": {
+    "message": "عناصر بلا نص أو عنوان حقيقي أو صورة مصغرة: $N$. هل تريد تشغيل التنزيل في الخلفية؟ سيطلب Firefox إذن الوصول إلى المواقع.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchProgress": {
+    "message": "جارٍ التنزيل في الخلفية: $DONE$ من $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "bgFetchEnable": {
+    "message": "شغّل التنزيل في الخلفية (سيطلب Firefox إذن الوصول إلى المواقع)"
+  },
+  "bgFetchHelp": {
+    "message": "ينزّل ببطء النص والعنوان الحقيقي والصورة المصغرة للعناصر التي تفتقدها (المستوردة مثلًا). كي لا يبطئ Firefox، يعمل فقط عندما تكون «عرض الكل» أو هذه الصفحة مفتوحة، عنصرًا تلو الآخر."
+  },
+  "kbNote": {
+    "message": "ملاحظة شخصية"
+  },
+  "kbCollection": {
+    "message": "انقل إلى مجموعة"
+  },
+  "kbSelect": {
+    "message": "تحديد (Shift+نقر: نطاق)"
+  },
+  "appearanceTitle": {
+    "message": "المظهر"
+  },
+  "themeHelp": {
+    "message": "ينطبق على الإضافة كلها، بما فيها القارئ."
+  },
+  "badgeEnable": {
+    "message": "اعرض عدد غير المقروءة على زر شريط الأدوات"
+  },
+  "collectionsTitle": {
+    "message": "المجموعات"
+  },
+  "collectionsHelp": {
+    "message": "مثل المجلدات: يمكن أن يكون كل عنصر في مجموعة واحدة فقط."
+  },
+  "collectionsEmpty": {
+    "message": "لا توجد مجموعات بعد."
+  },
+  "addCollection": {
+    "message": "أنشئ مجموعة"
+  },
+  "collectionDeleted": {
+    "message": "حُذفت المجموعة (تبقى عناصرها)"
+  },
+  "rename": {
+    "message": "إعادة تسمية"
+  },
+  "rulesTitle": {
+    "message": "القواعد التلقائية"
+  },
+  "rulesHelp": {
+    "message": "تُطبّق عند الحفظ أو الاستيراد. لا تزيل الوسوم أبدًا ولا تغيّر مجموعة مختارة مسبقًا."
+  },
+  "rulesEmpty": {
+    "message": "لا توجد قواعد بعد."
+  },
+  "ruleIf": {
+    "message": "إذا"
+  },
+  "ruleFieldSite": {
+    "message": "كان الموقع"
+  },
+  "ruleFieldUrl": {
+    "message": "احتوى الرابط على"
+  },
+  "ruleFieldTitle": {
+    "message": "احتوى العنوان على"
+  },
+  "ruleValue": {
+    "message": "القيمة"
+  },
+  "ruleThen": {
+    "message": "←"
+  },
+  "ruleAddTags": {
+    "message": "الوسوم"
+  },
+  "ruleCollection": {
+    "message": "انقل إلى المجموعة"
+  },
+  "ruleFavorite": {
+    "message": "أضف إلى المفضلة"
+  },
+  "addRule": {
+    "message": "أضف قاعدة"
+  },
+  "applyRulesNow": {
+    "message": "طبّق على العناصر الموجودة"
+  },
+  "rulesApplied": {
+    "message": "العناصر المحدَّثة: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchActivate": {
+    "message": "تشغيل"
+  },
+  "iconStyleTitle": {
+    "message": "أيقونات شريط الأدوات"
+  },
+  "iconStyleHelp": {
+    "message": "الزر الذي يحمل العدّاد وأيقونة شريط العنوان."
+  },
+  "iconStyleBookmark": {
+    "message": "علامة"
+  },
+  "iconStyleBook": {
+    "message": "كتاب"
+  },
+  "iconStyleMinimal": {
+    "message": "بسيط"
+  },
+  "iconStyleLegend": {
+    "message": "في كل منها: زر شريط الأدوات · صفحة غير محفوظة · صفحة محفوظة."
+  },
+  "ruleTitlePlaceholder": {
+    "message": "كلمة"
+  },
+  "ruleErrSiteEmpty": {
+    "message": "اكتب موقعًا، مثل youtube.com"
+  },
+  "ruleErrTextEmpty": {
+    "message": "اكتب النص الذي يجب أن يحتويه"
+  },
+  "ruleErrSite": {
+    "message": "لا يبدو هذا موقعًا صالحًا. اكتب النطاق فقط، مثل youtube.com أو ar.wikipedia.org"
+  },
+  "ruleErrUrlSpaces": {
+    "message": "لا يمكن أن يحتوي العنوان على مسافات"
+  },
+  "cleanupTitle": {
+    "message": "التنظيف التلقائي"
+  },
+  "cleanupHelp": {
+    "message": "ينقل إلى المهملات كل ما يطابق كل قاعدة مفعّلة. تحتفظ المهملات بالعنوان والرابط فقط (يُحذف النص والصورة المصغرة والوسوم والملاحظة لتحرير المساحة)؛ ويمكن استعادة العناصر منها خلال 30 يومًا. يعمل عند فتح Firefox أو «عرض الكل» أو هذه الصفحة."
+  },
+  "cleanupEmpty": {
+    "message": "لا توجد قواعد تنظيف بعد."
+  },
+  "addCleanup": {
+    "message": "أضف قاعدة تنظيف"
+  },
+  "runCleanupNow": {
+    "message": "نظّف الآن"
+  },
+  "openTrash": {
+    "message": "افتح المهملات"
+  },
+  "cleanupMove": {
+    "message": "انقل إلى المهملات"
+  },
+  "cleanupScope": {
+    "message": "أي العناصر"
+  },
+  "cleanupScopeCollection": {
+    "message": "التي في المجموعة"
+  },
+  "cleanupScopeTag": {
+    "message": "التي تحمل الوسم"
+  },
+  "cleanupScopeSite": {
+    "message": "التي من الموقع"
+  },
+  "cleanupScopeAll": {
+    "message": "كل العناصر"
+  },
+  "chooseCollection": {
+    "message": "اختر مجموعة"
+  },
+  "cleanupTagPlaceholder": {
+    "message": "وسم"
+  },
+  "cleanupStatus": {
+    "message": "الحالة"
+  },
+  "cleanupStatusAny": {
+    "message": "بأي حالة"
+  },
+  "cleanupStatusUnread": {
+    "message": "غير المقروءة فقط"
+  },
+  "cleanupStatusArchive": {
+    "message": "المؤرشفة فقط"
+  },
+  "cleanupOlderThan": {
+    "message": "المحفوظة منذ أكثر من"
+  },
+  "cleanupAgo": {
+    "message": "(منذ الحفظ)"
+  },
+  "cleanupAmount": {
+    "message": "المقدار"
+  },
+  "cleanupUnit": {
+    "message": "الوحدة"
+  },
+  "unit_day": {
+    "message": "أيام"
+  },
+  "unit_day1": {
+    "message": "يوم"
+  },
+  "unit_week": {
+    "message": "أسابيع"
+  },
+  "unit_week1": {
+    "message": "أسبوع"
+  },
+  "unit_month": {
+    "message": "أشهر"
+  },
+  "unit_month1": {
+    "message": "شهر"
+  },
+  "unit_year": {
+    "message": "سنوات"
+  },
+  "unit_year1": {
+    "message": "سنة"
+  },
+  "cleanupActive": {
+    "message": "مفعّلة"
+  },
+  "cleanupAffects": {
+    "message": "إن فعّلتها، فعدد العناصر التي ستنتقل الآن إلى المهملات: $N$.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffectsActive": {
+    "message": "لتعديلها، عطّلها أولًا."
+  },
+  "cleanupIncomplete": {
+    "message": "أكمل القاعدة لتتمكن من تفعيلها."
+  },
+  "cleanupActivate": {
+    "message": "تفعيل"
+  },
+  "cleanupConfirm": {
+    "message": "عند تفعيلها، عدد العناصر التي ستنتقل الآن إلى المهملات: $N$. يُحتفظ هناك بالعنوان والرابط فقط لمدة 30 يومًا.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone": {
+    "message": "العناصر التي نقلها التنظيف التلقائي إلى المهملات: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupRan": {
+    "message": "تم التنظيف: $N$ إلى المهملات، و$M$ حُذف نهائيًا",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "m": {
+        "content": "$2"
+      }
+    }
+  },
+  "filterTrash": {
+    "message": "المهملات"
+  },
+  "trashInfo": {
+    "message": "هنا ما حذفته أو ما أزاله التنظيف التلقائي. يُحتفظ بالعنوان والرابط فقط؛ والعنصر المستعاد يعود غير مقروء بتاريخ اليوم (وتحسب قواعد التنظيف منه). تُحذف نهائيًا بعد 30 يومًا."
+  },
+  "emptyTrash": {
+    "message": "أفرغ المهملات"
+  },
+  "emptyTrashConfirm": {
+    "message": "عدد العناصر التي ستُحذف نهائيًا من المهملات: $N$.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDeletedOn": {
+    "message": "حُذف في $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft": {
+    "message": "الأيام المتبقية قبل المحو: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashToday": {
+    "message": "يُمحى اليوم"
+  },
+  "restore": {
+    "message": "استعادة"
+  },
+  "deleteForever": {
+    "message": "احذف نهائيًا"
+  },
+  "trashRestored": {
+    "message": "استُعيد إلى «غير المقروءة» بتاريخ اليوم"
+  },
+  "trashEmpty": {
+    "message": "المهملات فارغة"
+  },
+  "trashEmptyBody": {
+    "message": "سيظهر هنا ما تحذفه وما يزيله التنظيف التلقائي."
+  },
+  "expireSet": {
+    "message": "احذف تلقائيًا…"
+  },
+  "expireChange": {
+    "message": "غيّر الحذف التلقائي…"
+  },
+  "expireNever": {
+    "message": "لا تحذف تلقائيًا"
+  },
+  "expireHelp": {
+    "message": "بعد تلك المدة ينتقل إلى المهملات، حيث يُحتفظ بعنوانه ورابطه 30 يومًا أخرى."
+  },
+  "expire1d": {
+    "message": "بعد يوم واحد"
+  },
+  "expire1w": {
+    "message": "بعد أسبوع"
+  },
+  "expire1m": {
+    "message": "بعد شهر"
+  },
+  "expire3m": {
+    "message": "بعد 3 أشهر"
+  },
+  "expire6m": {
+    "message": "بعد 6 أشهر"
+  },
+  "expire1y": {
+    "message": "بعد سنة"
+  },
+  "expireScheduled": {
+    "message": "سينتقل إلى المهملات في $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireCancelled": {
+    "message": "أُلغي الحذف التلقائي"
+  },
+  "expiresOn": {
+    "message": "ينتقل إلى المهملات في $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle": {
+    "message": "احذف العناصر المحددة تلقائيًا ($N$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkExpire": {
+    "message": "احذف بعد…"
+  },
+  "kbExpire": {
+    "message": "احذف تلقائيًا…"
+  },
+  "collectionFilterBy": {
+    "message": "اعرض هذه المجموعة فقط"
+  },
+  "shortReadsHelp": {
+    "message": "يعرض فقط ما تقل قراءته عن 5 دقائق (ما نُزّل نصه)."
+  },
+  "thumbSmall": {
+    "message": "صور مصغرة صغيرة"
+  },
+  "thumbMedium": {
+    "message": "صور مصغرة متوسطة"
+  },
+  "thumbLarge": {
+    "message": "صور مصغرة كبيرة"
+  },
+  "matchInText": {
+    "message": "في النص"
+  },
+  "matchInTextTitle": {
+    "message": "البحث يطابق نص المقال"
+  },
+  "readerWithImages": {
+    "message": "اقرأ دون اتصال (مع الصور)"
+  },
+  "hlCount": {
+    "message": "التظليلات: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "statImages": {
+    "message": "الصور دون اتصال"
+  },
+  "statTexts": {
+    "message": "نص قابل للبحث"
+  },
+  "exportWithImages": {
+    "message": "ضمّن الصور المحفوظة في النسخة الاحتياطية الكاملة"
+  },
+  "exportWithImagesHelp": {
+    "message": "قد تجعل الملف أكبر بكثير. النسخ التلقائية لا تتضمنها أبدًا."
+  },
+  "imagesTitle": {
+    "message": "الصور دون اتصال"
+  },
+  "imagesHelp": {
+    "message": "يحفظ أيضًا صور المقالات لتراها دون اتصال في القارئ. تُحذف تلقائيًا عند أرشفة العنصر. في القارئ، يحفظها زر الصور أو يحذفها لمقال واحد."
+  },
+  "imagesEnable": {
+    "message": "احفظ صور المقالات الجديدة (سيطلب Firefox إذن الوصول إلى المواقع)"
+  },
+  "imagesWarning": {
+    "message": "تشغل مساحة أكبر بكثير من النص: المقال الذي يحوي صورًا يحتاج عادةً 0.5–3 MB، مقابل نحو 10–30 KB للنص وحده."
+  },
+  "imagesUsage": {
+    "message": "الآن: الصور $N$، $SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesClear": {
+    "message": "احذف كل الصور"
+  },
+  "imagesClearConfirm": {
+    "message": "ستُحذف كل الصور المحفوظة. تبقى المقالات ونصوصها."
+  },
+  "imagesCleared": {
+    "message": "حُذفت الصور"
+  },
+  "imagesEnabledToast": {
+    "message": "من الآن ستُحفظ صور المقالات الجديدة"
+  },
+  "imagesOffTitle": {
+    "message": "احفظ الصور دون اتصال (تشغل مساحة أكبر)"
+  },
+  "imagesOnTitle": {
+    "message": "الصور محفوظة دون اتصال ($SIZE$). انقر لحذفها",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesArchived": {
+    "message": "العناصر المؤرشفة لا تحتفظ بالصور: تُحذف عند الأرشفة"
+  },
+  "imagesSaving": {
+    "message": "جارٍ حفظ الصور…"
+  },
+  "imagesProgress": {
+    "message": "جارٍ حفظ الصور: $DONE$ من $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved": {
+    "message": "الصور المحفوظة: $N$ ($SIZE$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSavedSome": {
+    "message": "حُفظت $N$ من $TOTAL$ صورة ($SIZE$)؛ وتعذر تنزيل الباقي",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      }
+    }
+  },
+  "imagesNone": {
+    "message": "لا توجد صور في هذا المقال"
+  },
+  "imagesFailed": {
+    "message": "تعذر تنزيل أي صورة"
+  },
+  "imagesRemoved": {
+    "message": "حُذفت الصور المحفوظة"
+  },
+  "archivedImagesGone": {
+    "message": "أُرشف (حُذفت صوره المحفوظة)"
+  },
+  "print": {
+    "message": "اطبع أو احفظ كملف PDF"
+  },
+  "hlPanel": {
+    "message": "التظليلات والملاحظات"
+  },
+  "hlHint": {
+    "message": "فعّل وضع التظليل (زر القلم أو المفتاح H) وسيُظلَّل أي نص تحدده باللون المختار هنا أو في Aa. بدونه، يُظهر التحديد زر «ظلّل»."
+  },
+  "hlEmpty": {
+    "message": "لا توجد تظليلات في هذا المقال بعد."
+  },
+  "hlExport": {
+    "message": "انسخ الكل بصيغة Markdown"
+  },
+  "hlExported": {
+    "message": "نُسخت التظليلات إلى الحافظة"
+  },
+  "hlColor_yellow": {
+    "message": "أصفر"
+  },
+  "hlColor_green": {
+    "message": "أخضر"
+  },
+  "hlColor_blue": {
+    "message": "أزرق"
+  },
+  "hlColor_pink": {
+    "message": "وردي"
+  },
+  "hlAddNote": {
+    "message": "أضف ملاحظة"
+  },
+  "hlEditNote": {
+    "message": "عدّل الملاحظة"
+  },
+  "hlCopy": {
+    "message": "انسخ النص"
+  },
+  "hlCopied": {
+    "message": "نُسخ النص"
+  },
+  "hlDelete": {
+    "message": "أزل التظليل"
+  },
+  "hlDeleted": {
+    "message": "أُزيل التظليل"
+  },
+  "hlNotePlaceholder": {
+    "message": "اكتب ملاحظتك…"
+  },
+  "hlGoTo": {
+    "message": "انتقل إلى التظليل"
+  },
+  "hlLost": {
+    "message": "غير موجود في نص المقال الحالي"
+  },
+  "save": {
+    "message": "حفظ"
+  },
+  "repairPending": {
+    "message": "مقالات حُفظت برموز غريبة (� بدل الحروف): $N$.",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairStart": {
+    "message": "نزّلها من جديد"
+  },
+  "repairProgress": {
+    "message": "جارٍ الإصلاح: $DONE$ من $TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairDone": {
+    "message": "المقالات المُصلَحة: $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairReader": {
+    "message": "حُفظ هذا المقال برموز غريبة (� بدل الحروف). تنزيله من جديد يصلحه، وتبقى تظليلاتك."
+  },
+  "repairReaderBtn": {
+    "message": "نزّله من جديد"
+  },
+  "hlColorLabel": {
+    "message": "لون التظليل"
+  },
+  "hlDo": {
+    "message": "ظلّل"
+  },
+  "hlDoTitle": {
+    "message": "ظلّل (المفتاح H). غيّر اللون في Aa أو في لوحة التظليلات"
+  },
+  "hlModeTitle": {
+    "message": "وضع التظليل: تحديد النص يظلّله فورًا (المفتاح H)"
+  },
+  "hlModeOn": {
+    "message": "وضع التظليل مفعّل: حدد نصًا لتظليله"
+  },
+  "hlModeOff": {
+    "message": "وضع التظليل معطّل"
+  },
+  "sidebarTitle": {
+    "message": "Read Later Local"
+  },
+  "commandSidebar": {
+    "message": "افتح الشريط الجانبي أو أغلقه"
+  },
+  "menuSidebar": {
+    "message": "الشريط الجانبي"
+  },
+  "sidebarHint": {
+    "message": "نقر: افتح هنا · Ctrl+نقر: تبويب جديد"
+  },
+  "emailSend": {
+    "message": "أرسل بالبريد الإلكتروني"
+  },
+  "emailAttach": {
+    "message": "مرفق: المقال المحفوظ، {file}"
+  },
+  "emailFileSaved": {
+    "message": "فُتحت رسالة جديدة. أرفق الملف «$FILE$» (سيُفتح مجلده بعد حفظه).",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "emailLinkOnly": {
+    "message": "فُتحت رسالة جديدة تحتوي على الرابط (لا يوجد نص محفوظ لهذا المقال)"
+  },
+  "triage": {
+    "message": "وضع الترتيب"
+  },
+  "triageTitle": {
+    "message": "راجع العناصر واحدًا تلو الآخر: احتفظ أو أرشف أو احذف (المفتاح R)"
+  },
+  "triageKeep": {
+    "message": "احتفظ"
+  },
+  "triageProgress": {
+    "message": "$N$ من $TOTAL$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "triageNothing": {
+    "message": "لا عناصر بهذه المرشحات"
+  },
+  "triageDone": {
+    "message": "انتهى كل شيء"
+  },
+  "triageSummary": {
+    "message": "محتفظ بها: $KEPT$ · مؤرشفة: $ARCHIVED$ · محذوفة: $DELETED$",
+    "placeholders": {
+      "kept": {
+        "content": "$1"
+      },
+      "archived": {
+        "content": "$2"
+      },
+      "deleted": {
+        "content": "$3"
+      }
+    }
+  },
+  "menuSaveClose": {
+    "message": "احفظ وأغلق التبويب"
+  },
+  "menuSaveAllTabs": {
+    "message": "احفظ كل تبويبات النافذة"
+  },
+  "menuSaveTabs": {
+    "message": "احفظ للقراءة لاحقًا"
+  },
+  "listenTitle": {
+    "message": "استمع إلى المقال"
+  },
+  "ttsPlay": {
+    "message": "تشغيل"
+  },
+  "ttsPause": {
+    "message": "إيقاف مؤقت"
+  },
+  "ttsPrev": {
+    "message": "الفقرة السابقة"
+  },
+  "ttsNext": {
+    "message": "الفقرة التالية"
+  },
+  "ttsStop": {
+    "message": "أوقف الاستماع"
+  },
+  "ttsSpeed": {
+    "message": "السرعة"
+  },
+  "ttsVoice": {
+    "message": "الصوت"
+  },
+  "ttsNoVoices": {
+    "message": "لم يجد Firefox أي أصوات على هذا الحاسوب. في Windows: الإعدادات ← الوقت واللغة ← الكلام."
+  },
+  "copyMarkdown": {
+    "message": "انسخ بصيغة Markdown"
+  },
+  "markdownCopied": {
+    "message": "نُسخ الرابط بصيغة Markdown"
+  },
+  "saveMarkdown": {
+    "message": "احفظ بصيغة Markdown (Obsidian…)"
+  },
+  "markdownSaved": {
+    "message": "حُفظ باسم $FILE$",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportMarkdown": {
+    "message": "Markdown (قائمة الروابط)"
+  },
+  "autoArchive": {
+    "message": "أرشف عند الوصول إلى النهاية"
+  },
+  "finishedArchived": {
+    "message": "انتهى: أُرشف"
+  },
+  "finishedArchivedImages": {
+    "message": "انتهى: أُرشف (حُذفت صوره المحفوظة)"
+  },
+  "ttsError": {
+    "message": "تعذرت قراءة المقال بصوت عالٍ. تحقق من الصوت ومن الأصوات المثبتة في النظام."
+  }
+}

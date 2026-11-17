@@ -1,0 +1,1478 @@
+{
+  "extName": {
+    "message": "Read Later Local"
+  },
+  "extDescription": {
+    "message": "पेज बाद में पढ़ने के लिए सहेजें। सब कुछ आपके कंप्यूटर पर ही रहता है: न खाता, न सर्वर।"
+  },
+  "actionTitle": {
+    "message": "हाल में सहेजे गए (Read Later Local)"
+  },
+  "commandSave": {
+    "message": "मौजूदा पेज सहेजें"
+  },
+  "menuSaveLink": {
+    "message": "लिंक बाद में पढ़ने के लिए सहेजें"
+  },
+  "menuSavePage": {
+    "message": "पेज बाद में पढ़ने के लिए सहेजें"
+  },
+  "saved": {
+    "message": "सहेजा गया"
+  },
+  "undo": {
+    "message": "पूर्ववत करें"
+  },
+  "alreadySaved": {
+    "message": "पहले से सहेजा हुआ"
+  },
+  "cantSave": {
+    "message": "यह पेज सहेजा नहीं जा सकता"
+  },
+  "saveRemoved": {
+    "message": "हटाया गया"
+  },
+  "recent": {
+    "message": "हाल में सहेजे गए"
+  },
+  "viewAll": {
+    "message": "सभी देखें"
+  },
+  "export": {
+    "message": "CSV निर्यात करें"
+  },
+  "import": {
+    "message": "आयात करें"
+  },
+  "open": {
+    "message": "खोलें"
+  },
+  "archive": {
+    "message": "संग्रहित करें"
+  },
+  "unarchive": {
+    "message": "अपठित में ले जाएँ"
+  },
+  "delete": {
+    "message": "हटाएँ"
+  },
+  "deleted": {
+    "message": "रद्दी में ले जाया गया"
+  },
+  "archived": {
+    "message": "संग्रहित किया गया"
+  },
+  "movedToUnread": {
+    "message": "अपठित में ले जाया गया"
+  },
+  "emptyRecentTitle": {
+    "message": "अपना पहला पेज सहेजें"
+  },
+  "emptyRecentBody": {
+    "message": "किसी भी पेज पर टूलबार बटन पर क्लिक करें ताकि वह यहाँ रहे।"
+  },
+  "searchPlaceholder": {
+    "message": "शीर्षक, URL, नोट या टेक्स्ट में खोजें"
+  },
+  "filterUnread": {
+    "message": "अपठित"
+  },
+  "filterArchive": {
+    "message": "संग्रहित"
+  },
+  "filterAll": {
+    "message": "सभी"
+  },
+  "gridView": {
+    "message": "ग्रिड दृश्य"
+  },
+  "listView": {
+    "message": "सूची दृश्य"
+  },
+  "loadingMore": {
+    "message": "और लोड हो रहा है…"
+  },
+  "noResults": {
+    "message": "आपकी खोज से कुछ मेल नहीं खाता।"
+  },
+  "emptyListTitle": {
+    "message": "यहाँ अभी कुछ नहीं है"
+  },
+  "emptyListBody": {
+    "message": "टूलबार बटन से पेज सहेजें या CSV बैकअप आयात करें।"
+  },
+  "importChoose": {
+    "message": "आयात करने के लिए CSV फ़ाइल चुनें"
+  },
+  "importing": {
+    "message": "आयात हो रहा है…"
+  },
+  "importResult": {
+    "message": "$ADDED$ आयात हुए, $DUP$ पहले से सहेजे हुए, $BAD$ अमान्य",
+    "placeholders": {
+      "added": {
+        "content": "$1"
+      },
+      "dup": {
+        "content": "$2"
+      },
+      "bad": {
+        "content": "$3"
+      }
+    }
+  },
+  "importError": {
+    "message": "वह फ़ाइल पढ़ी नहीं जा सकी। जाँचें कि यह url कॉलम वाली CSV फ़ाइल है।"
+  },
+  "exportDone": {
+    "message": "$COUNT$ आइटम निर्यात हुए",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "itemCount": {
+    "message": "$COUNT$ आइटम",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "filterFavorite": {
+    "message": "पसंदीदा"
+  },
+  "favorite": {
+    "message": "पसंदीदा में जोड़ें"
+  },
+  "unfavorite": {
+    "message": "पसंदीदा से हटाएँ"
+  },
+  "addedToFavorites": {
+    "message": "पसंदीदा में जोड़ा गया"
+  },
+  "removedFromFavorites": {
+    "message": "पसंदीदा से हटाया गया"
+  },
+  "editTags": {
+    "message": "टैग"
+  },
+  "tagsPlaceholder": {
+    "message": "css, linux, कभी-कभी"
+  },
+  "tagsHelp": {
+    "message": "अल्पविराम से अलग करें। Enter सहेजता है, Esc रद्द करता है।"
+  },
+  "tagsSaved": {
+    "message": "टैग सहेजे गए"
+  },
+  "reader": {
+    "message": "ऑफ़लाइन पढ़ें"
+  },
+  "openOriginal": {
+    "message": "मूल पेज खोलें"
+  },
+  "dataPage": {
+    "message": "डेटा और बैकअप"
+  },
+  "exportCsv": {
+    "message": "CSV (Pocket के अनुकूल)"
+  },
+  "exportHtml": {
+    "message": "HTML बुकमार्क (कोई भी ब्राउज़र)"
+  },
+  "exportFull": {
+    "message": "पूरा बैकअप (.json.gz)"
+  },
+  "shortcuts": {
+    "message": "कीबोर्ड शॉर्टकट"
+  },
+  "kbSearch": {
+    "message": "खोजें (tag:नाम समर्थित)"
+  },
+  "kbMove": {
+    "message": "सूची में आगे-पीछे जाएँ"
+  },
+  "kbOpen": {
+    "message": "पेज खोलें"
+  },
+  "kbReader": {
+    "message": "रीडर खोलें"
+  },
+  "kbArchive": {
+    "message": "संग्रहित करें / अपठित में ले जाएँ"
+  },
+  "kbFavorite": {
+    "message": "पसंदीदा"
+  },
+  "kbTags": {
+    "message": "टैग संपादित करें"
+  },
+  "kbDelete": {
+    "message": "हटाएँ (पूर्ववत के साथ)"
+  },
+  "kbHelp": {
+    "message": "यह सहायता दिखाएँ"
+  },
+  "close": {
+    "message": "बंद करें"
+  },
+  "readerBack": {
+    "message": "सभी देखें"
+  },
+  "readerSettings": {
+    "message": "पढ़ने की सेटिंग"
+  },
+  "theme": {
+    "message": "थीम"
+  },
+  "themeLight": {
+    "message": "हल्की"
+  },
+  "themeDark": {
+    "message": "गहरी"
+  },
+  "themeSepia": {
+    "message": "सीपिया"
+  },
+  "themeSystem": {
+    "message": "सिस्टम"
+  },
+  "fontSize": {
+    "message": "टेक्स्ट का आकार"
+  },
+  "width": {
+    "message": "कॉलम की चौड़ाई"
+  },
+  "widthNarrow": {
+    "message": "संकरी"
+  },
+  "widthMedium": {
+    "message": "मध्यम"
+  },
+  "widthWide": {
+    "message": "चौड़ी"
+  },
+  "font": {
+    "message": "फ़ॉन्ट"
+  },
+  "fontSerif": {
+    "message": "सेरिफ़"
+  },
+  "fontSans": {
+    "message": "सैन्स सेरिफ़"
+  },
+  "readingTime": {
+    "message": "$MIN$ मिनट में पढ़ें",
+    "placeholders": {
+      "min": {
+        "content": "$1"
+      }
+    }
+  },
+  "noArticle": {
+    "message": "इस आइटम का कोई सहेजा हुआ लेख नहीं है।"
+  },
+  "storageTitle": {
+    "message": "उपयोग की गई जगह"
+  },
+  "statItems": {
+    "message": "आइटम"
+  },
+  "statArticles": {
+    "message": "सहेजे गए लेख"
+  },
+  "statThumbs": {
+    "message": "थंबनेल"
+  },
+  "statFavicons": {
+    "message": "साइट आइकन"
+  },
+  "statTotal": {
+    "message": "डिस्क पर कुल (लगभग)"
+  },
+  "freeSpace": {
+    "message": "संग्रहित आइटम के लेख हटाएँ"
+  },
+  "freeSpaceHelp": {
+    "message": "जगह खाली करता है: संग्रहित आइटम का सहेजा टेक्स्ट हटाता है। लिंक बने रहते हैं।"
+  },
+  "freedArticles": {
+    "message": "$N$ लेख हटाए गए",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupTitle": {
+    "message": "स्वचालित बैकअप"
+  },
+  "backupEnable": {
+    "message": "स्वचालित बैकअप बनाएँ"
+  },
+  "backupHelp": {
+    "message": "पूरा बैकअप (आइटम, टैग, पसंदीदा, थंबनेल और लेख) Downloads/ReadLaterLocal में सहेजता है। Firefox शुरू होने पर और कुछ सहेजने पर जाँचा जाता है।"
+  },
+  "backupFrequency": {
+    "message": "आवृत्ति"
+  },
+  "daily": {
+    "message": "रोज़"
+  },
+  "weekly": {
+    "message": "साप्ताहिक"
+  },
+  "monthly": {
+    "message": "मासिक"
+  },
+  "backupKeep": {
+    "message": "रखे जाने वाले बैकअप"
+  },
+  "backupNow": {
+    "message": "अभी बैकअप लें"
+  },
+  "backupLast": {
+    "message": "पिछला बैकअप: $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupNever": {
+    "message": "अभी तक कोई बैकअप नहीं"
+  },
+  "backupDone": {
+    "message": "बैकअप Downloads/$FILE$ में सहेजा गया",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "backupFailed": {
+    "message": "बैकअप नहीं बन सका।"
+  },
+  "exportTitle": {
+    "message": "निर्यात"
+  },
+  "exportHelp": {
+    "message": "CSV और बुकमार्क में सिर्फ़ लिंक होते हैं। पूरे बैकअप में लेख और थंबनेल भी होते हैं।"
+  },
+  "importTitle": {
+    "message": "आयात"
+  },
+  "importHelp": {
+    "message": "Pocket या Read Later Local की CSV फ़ाइल, या पूरा बैकअप (.json.gz)। यह आपका मौजूदा डेटा कभी नहीं हटाता या बदलता।"
+  },
+  "chooseFile": {
+    "message": "फ़ाइल चुनें"
+  },
+  "fetchTitle": {
+    "message": "बैकग्राउंड डाउनलोड"
+  },
+  "fetchHelp": {
+    "message": "जब तक यह टैब खुला है, आप अभी सब कुछ तेज़ी से भी डाउनलोड कर सकते हैं:"
+  },
+  "fetchPending": {
+    "message": "$N$ आइटम बाकी",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "fetchStart": {
+    "message": "लेख डाउनलोड करें"
+  },
+  "fetchRetry": {
+    "message": "पहले विफल हुए आइटम भी शामिल करें"
+  },
+  "fetchCancel": {
+    "message": "रद्द करें"
+  },
+  "fetchProgress": {
+    "message": "$TOTAL$ में से $DONE$ · $OK$ लेख सहित · $PARTIAL$ बिना लेख · $FAILED$ विफल",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      },
+      "ok": {
+        "content": "$3"
+      },
+      "partial": {
+        "content": "$4"
+      },
+      "failed": {
+        "content": "$5"
+      }
+    }
+  },
+  "fetchKeepOpen": {
+    "message": "डाउनलोड के दौरान यह टैब खुला रखें।"
+  },
+  "fetchDenied": {
+    "message": "उस अनुमति के बिना उन्हें डाउनलोड नहीं किया जा सकता।"
+  },
+  "fetchFinished": {
+    "message": "पूरा हुआ।"
+  },
+  "revokePermission": {
+    "message": "वेबसाइटों तक पहुँच की अनुमति हटाएँ"
+  },
+  "permissionRevoked": {
+    "message": "अनुमति हटा दी गई"
+  },
+  "dangerTitle": {
+    "message": "सब कुछ हटाएँ"
+  },
+  "dangerHelp": {
+    "message": "आइटम, लेख, थंबनेल और आइकन हटाता है। इसे पूर्ववत नहीं किया जा सकता: पहले बैकअप निर्यात करें।"
+  },
+  "deleteAll": {
+    "message": "सारा डेटा हटाएँ"
+  },
+  "confirmDeleteAll": {
+    "message": "क्या आप सुनिश्चित हैं? $N$ आइटम हटाए जाएँगे और इसे पूर्ववत नहीं किया जा सकता।",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allDeleted": {
+    "message": "डेटा हटा दिया गया"
+  },
+  "exportMenu": {
+    "message": "निर्यात करें"
+  },
+  "commandShowList": {
+    "message": "हाल में सहेजे गए दिखाएँ"
+  },
+  "seeRecent": {
+    "message": "हाल में सहेजे गए देखें"
+  },
+  "languageTitle": {
+    "message": "भाषा"
+  },
+  "languageHelp": {
+    "message": "एक्सटेंशन की भाषा। “स्वचालित” Firefox की भाषा अपनाता है; अगर एक्सटेंशन में वह भाषा नहीं है, तो अंग्रेज़ी।"
+  },
+  "languageAuto": {
+    "message": "स्वचालित (Firefox की भाषा)"
+  },
+  "pageActionTitle": {
+    "message": "बाद में पढ़ने के लिए सहेजें"
+  },
+  "saveThisPage": {
+    "message": "यह पेज सहेजें"
+  },
+  "menuSaveCurrent": {
+    "message": "यह पेज सहेजें"
+  },
+  "fetchingArticle": {
+    "message": "लेख डाउनलोड हो रहा है…"
+  },
+  "fetchArticle": {
+    "message": "लेख डाउनलोड करें"
+  },
+  "articleFailed": {
+    "message": "इस पेज से लेख नहीं निकाला जा सका। आप इसे वेब पर खोल सकते हैं।"
+  },
+  "articleNeedsPermission": {
+    "message": "इस आइटम का अभी कोई सहेजा हुआ टेक्स्ट नहीं है। इसे डाउनलोड करने के लिए Firefox वेबसाइटों तक पहुँच की अनुमति माँगेगा (आप इसे डेटा और बैकअप में हटा सकते हैं)।"
+  },
+  "surprise": {
+    "message": "कुछ भी खोलें"
+  },
+  "surpriseNone": {
+    "message": "इन फ़िल्टर के साथ खोलने को कुछ नहीं है।"
+  },
+  "select": {
+    "message": "चुनें"
+  },
+  "selectAll": {
+    "message": "सभी चुनें ($N$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "selectedCount": {
+    "message": "$N$ चुने गए",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cancel": {
+    "message": "रद्द करें"
+  },
+  "apply": {
+    "message": "लागू करें"
+  },
+  "kindAll": {
+    "message": "सभी प्रकार"
+  },
+  "kindArticle": {
+    "message": "लेख"
+  },
+  "kindVideo": {
+    "message": "वीडियो"
+  },
+  "kindImage": {
+    "message": "छवियाँ"
+  },
+  "kindOther": {
+    "message": "अन्य"
+  },
+  "collectionAll": {
+    "message": "सभी संग्रह"
+  },
+  "collectionNone": {
+    "message": "कोई संग्रह नहीं"
+  },
+  "collectionNew": {
+    "message": "नया संग्रह…"
+  },
+  "collectionNamePrompt": {
+    "message": "संग्रह का नाम"
+  },
+  "orderNewest": {
+    "message": "नए पहले"
+  },
+  "orderOldest": {
+    "message": "पुराने पहले"
+  },
+  "shortReads": {
+    "message": "छोटे (<5 मिनट)"
+  },
+  "tabTags": {
+    "message": "टैग"
+  },
+  "tabSites": {
+    "message": "साइटें"
+  },
+  "showMore": {
+    "message": "और दिखाएँ"
+  },
+  "showLess": {
+    "message": "कम दिखाएँ"
+  },
+  "minutes": {
+    "message": "$N$ मिनट",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "more": {
+    "message": "और कार्रवाइयाँ"
+  },
+  "editNote": {
+    "message": "निजी नोट"
+  },
+  "notePlaceholder": {
+    "message": "आपने इसे क्यों सहेजा?"
+  },
+  "noteHelp": {
+    "message": "Ctrl+Enter सहेजता है, Esc रद्द करता है।"
+  },
+  "noteSaved": {
+    "message": "नोट सहेजा गया"
+  },
+  "moveToCollection": {
+    "message": "संग्रह में ले जाएँ"
+  },
+  "movedToCollection": {
+    "message": "$NAME$ में ले जाया गया",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "removedFromCollection": {
+    "message": "संग्रह से हटाया गया"
+  },
+  "copyLink": {
+    "message": "लिंक कॉपी करें"
+  },
+  "linkCopied": {
+    "message": "लिंक कॉपी हुआ"
+  },
+  "suggested": {
+    "message": "सुझाव:"
+  },
+  "bulkArchive": {
+    "message": "संग्रहित करें"
+  },
+  "bulkUnread": {
+    "message": "अपठित"
+  },
+  "bulkFavorite": {
+    "message": "पसंदीदा"
+  },
+  "bulkTag": {
+    "message": "टैग…"
+  },
+  "bulkCollection": {
+    "message": "संग्रह…"
+  },
+  "bulkDelete": {
+    "message": "हटाएँ"
+  },
+  "bulkDone": {
+    "message": "$N$ आइटम अपडेट हुए",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkDeleted": {
+    "message": "$N$ आइटम रद्दी में ले जाए गए",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "addTagsTitle": {
+    "message": "$N$ आइटम में टैग जोड़ें",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "allow": {
+    "message": "अनुमति दें"
+  },
+  "notNow": {
+    "message": "अभी नहीं"
+  },
+  "bgFetchAsk": {
+    "message": "$N$ आइटम में टेक्स्ट, असली शीर्षक या थंबनेल नहीं है। बैकग्राउंड डाउनलोड चालू करें? Firefox वेबसाइटों तक पहुँच की अनुमति माँगेगा।",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchProgress": {
+    "message": "बैकग्राउंड में डाउनलोड हो रहा है: $TOTAL$ में से $DONE$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "bgFetchEnable": {
+    "message": "बैकग्राउंड डाउनलोड चालू करें (Firefox वेबसाइटों तक पहुँच की अनुमति माँगेगा)"
+  },
+  "bgFetchHelp": {
+    "message": "जिन आइटम में टेक्स्ट, असली शीर्षक और थंबनेल नहीं हैं (जैसे आयात किए गए), उनके लिए धीरे-धीरे ये डाउनलोड करता है। Firefox को धीमा न करने के लिए, यह सिर्फ़ तब चलता है जब “सभी देखें” या यह पेज खुला हो, एक बार में एक आइटम।"
+  },
+  "kbNote": {
+    "message": "निजी नोट"
+  },
+  "kbCollection": {
+    "message": "संग्रह में ले जाएँ"
+  },
+  "kbSelect": {
+    "message": "चुनें (Shift+क्लिक: एक श्रेणी)"
+  },
+  "appearanceTitle": {
+    "message": "रूप-रंग"
+  },
+  "themeHelp": {
+    "message": "रीडर सहित पूरे एक्सटेंशन पर लागू होता है।"
+  },
+  "badgeEnable": {
+    "message": "टूलबार बटन पर अपठित आइटम की संख्या दिखाएँ"
+  },
+  "collectionsTitle": {
+    "message": "संग्रह"
+  },
+  "collectionsHelp": {
+    "message": "फ़ोल्डर की तरह: हर आइटम सिर्फ़ एक संग्रह में हो सकता है।"
+  },
+  "collectionsEmpty": {
+    "message": "अभी कोई संग्रह नहीं।"
+  },
+  "addCollection": {
+    "message": "संग्रह बनाएँ"
+  },
+  "collectionDeleted": {
+    "message": "संग्रह हटाया गया (उसके आइटम बने रहते हैं)"
+  },
+  "rename": {
+    "message": "नाम बदलें"
+  },
+  "rulesTitle": {
+    "message": "स्वचालित नियम"
+  },
+  "rulesHelp": {
+    "message": "सहेजते या आयात करते समय लागू होते हैं। ये कभी टैग नहीं हटाते और पहले से चुना संग्रह नहीं बदलते।"
+  },
+  "rulesEmpty": {
+    "message": "अभी कोई नियम नहीं।"
+  },
+  "ruleIf": {
+    "message": "अगर"
+  },
+  "ruleFieldSite": {
+    "message": "साइट है"
+  },
+  "ruleFieldUrl": {
+    "message": "URL में है"
+  },
+  "ruleFieldTitle": {
+    "message": "शीर्षक में है"
+  },
+  "ruleValue": {
+    "message": "मान"
+  },
+  "ruleThen": {
+    "message": "→"
+  },
+  "ruleAddTags": {
+    "message": "टैग"
+  },
+  "ruleCollection": {
+    "message": "संग्रह में ले जाएँ"
+  },
+  "ruleFavorite": {
+    "message": "पसंदीदा में जोड़ें"
+  },
+  "addRule": {
+    "message": "नियम जोड़ें"
+  },
+  "applyRulesNow": {
+    "message": "मौजूदा आइटम पर लागू करें"
+  },
+  "rulesApplied": {
+    "message": "$N$ आइटम अपडेट हुए",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bgFetchActivate": {
+    "message": "चालू करें"
+  },
+  "iconStyleTitle": {
+    "message": "टूलबार आइकन"
+  },
+  "iconStyleHelp": {
+    "message": "गिनती वाला बटन और एड्रेस बार का आइकन।"
+  },
+  "iconStyleBookmark": {
+    "message": "बुकमार्क"
+  },
+  "iconStyleBook": {
+    "message": "किताब"
+  },
+  "iconStyleMinimal": {
+    "message": "सादा"
+  },
+  "iconStyleLegend": {
+    "message": "हर एक में: टूलबार बटन · पेज सहेजा नहीं गया · पेज पहले से सहेजा हुआ।"
+  },
+  "ruleTitlePlaceholder": {
+    "message": "एक शब्द"
+  },
+  "ruleErrSiteEmpty": {
+    "message": "कोई वेबसाइट लिखें, जैसे youtube.com"
+  },
+  "ruleErrTextEmpty": {
+    "message": "वह टेक्स्ट लिखें जो इसमें होना चाहिए"
+  },
+  "ruleErrSite": {
+    "message": "यह मान्य वेबसाइट नहीं लगती। सिर्फ़ डोमेन लिखें, जैसे youtube.com या hi.wikipedia.org"
+  },
+  "ruleErrUrlSpaces": {
+    "message": "पते में स्पेस नहीं हो सकते"
+  },
+  "cleanupTitle": {
+    "message": "स्वचालित सफ़ाई"
+  },
+  "cleanupHelp": {
+    "message": "हर सक्रिय नियम से मेल खाने वाली चीज़ें रद्दी में ले जाता है। रद्दी में सिर्फ़ शीर्षक और पता रहता है (जगह खाली करने के लिए टेक्स्ट, थंबनेल, टैग और नोट हटा दिए जाते हैं); वहाँ से आइटम 30 दिन तक वापस लाए जा सकते हैं। यह Firefox, “सभी देखें” या यह पेज खुलने पर चलता है।"
+  },
+  "cleanupEmpty": {
+    "message": "अभी कोई सफ़ाई नियम नहीं।"
+  },
+  "addCleanup": {
+    "message": "सफ़ाई नियम जोड़ें"
+  },
+  "runCleanupNow": {
+    "message": "अभी सफ़ाई करें"
+  },
+  "openTrash": {
+    "message": "रद्दी खोलें"
+  },
+  "cleanupMove": {
+    "message": "रद्दी में ले जाएँ:"
+  },
+  "cleanupScope": {
+    "message": "कौन-से आइटम"
+  },
+  "cleanupScopeCollection": {
+    "message": "इस संग्रह वाले"
+  },
+  "cleanupScopeTag": {
+    "message": "इस टैग वाले"
+  },
+  "cleanupScopeSite": {
+    "message": "इस साइट वाले"
+  },
+  "cleanupScopeAll": {
+    "message": "सभी आइटम"
+  },
+  "chooseCollection": {
+    "message": "संग्रह चुनें"
+  },
+  "cleanupTagPlaceholder": {
+    "message": "टैग"
+  },
+  "cleanupStatus": {
+    "message": "स्थिति"
+  },
+  "cleanupStatusAny": {
+    "message": "किसी भी स्थिति में"
+  },
+  "cleanupStatusUnread": {
+    "message": "सिर्फ़ अपठित"
+  },
+  "cleanupStatusArchive": {
+    "message": "सिर्फ़ संग्रहित"
+  },
+  "cleanupOlderThan": {
+    "message": "जिन्हें सहेजे"
+  },
+  "cleanupAgo": {
+    "message": "से ज़्यादा हो गए"
+  },
+  "cleanupAmount": {
+    "message": "मात्रा"
+  },
+  "cleanupUnit": {
+    "message": "इकाई"
+  },
+  "unit_day": {
+    "message": "दिन"
+  },
+  "unit_day1": {
+    "message": "दिन"
+  },
+  "unit_week": {
+    "message": "हफ़्ते"
+  },
+  "unit_week1": {
+    "message": "हफ़्ता"
+  },
+  "unit_month": {
+    "message": "महीने"
+  },
+  "unit_month1": {
+    "message": "महीना"
+  },
+  "unit_year": {
+    "message": "साल"
+  },
+  "unit_year1": {
+    "message": "साल"
+  },
+  "cleanupActive": {
+    "message": "सक्रिय"
+  },
+  "cleanupAffects": {
+    "message": "अगर आप इसे चालू करते हैं, तो अभी $N$ आइटम रद्दी में चले जाएँगे।",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupAffectsActive": {
+    "message": "इसे बदलने के लिए पहले बंद करें।"
+  },
+  "cleanupIncomplete": {
+    "message": "चालू करने के लिए नियम पूरा करें।"
+  },
+  "cleanupActivate": {
+    "message": "चालू करें"
+  },
+  "cleanupConfirm": {
+    "message": "इसे चालू करने पर अभी $N$ आइटम रद्दी में चले जाएँगे। वहाँ सिर्फ़ उनका शीर्षक और पता 30 दिन तक रहेगा।",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupDone": {
+    "message": "स्वचालित सफ़ाई ने $N$ आइटम रद्दी में भेजे",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "cleanupRan": {
+    "message": "सफ़ाई हो गई: $N$ रद्दी में, $M$ हमेशा के लिए हटाए गए",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "m": {
+        "content": "$2"
+      }
+    }
+  },
+  "filterTrash": {
+    "message": "रद्दी"
+  },
+  "trashInfo": {
+    "message": "यहाँ वह है जो आपने हटाया या स्वचालित सफ़ाई ने हटाया। सिर्फ़ शीर्षक और पता रखा जाता है; वापस लाया गया आइटम आज की तारीख के साथ अपठित में लौटता है (सफ़ाई नियम वहीं से गिनते हैं)। 30 दिन बाद ये हमेशा के लिए हट जाते हैं।"
+  },
+  "emptyTrash": {
+    "message": "रद्दी खाली करें"
+  },
+  "emptyTrashConfirm": {
+    "message": "$N$ आइटम रद्दी से हमेशा के लिए हटा दिए जाएँगे।",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDeletedOn": {
+    "message": "$DATE$ को हटाया गया",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashDaysLeft": {
+    "message": "$N$ दिन में मिट जाएगा",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "trashToday": {
+    "message": "आज मिट जाएगा"
+  },
+  "restore": {
+    "message": "वापस लाएँ"
+  },
+  "deleteForever": {
+    "message": "हमेशा के लिए हटाएँ"
+  },
+  "trashRestored": {
+    "message": "आज की तारीख के साथ “अपठित” में वापस लाया गया"
+  },
+  "trashEmpty": {
+    "message": "रद्दी खाली है"
+  },
+  "trashEmptyBody": {
+    "message": "आप जो हटाएँगे और स्वचालित सफ़ाई जो हटाएगी, वह यहाँ दिखेगा।"
+  },
+  "expireSet": {
+    "message": "अपने-आप हटाएँ…"
+  },
+  "expireChange": {
+    "message": "अपने-आप हटाना बदलें…"
+  },
+  "expireNever": {
+    "message": "अपने-आप न हटाएँ"
+  },
+  "expireHelp": {
+    "message": "उस समय के बाद यह रद्दी में जाता है, जहाँ इसका शीर्षक और पता 30 दिन और रखा जाता है।"
+  },
+  "expire1d": {
+    "message": "1 दिन में"
+  },
+  "expire1w": {
+    "message": "1 हफ़्ते में"
+  },
+  "expire1m": {
+    "message": "1 महीने में"
+  },
+  "expire3m": {
+    "message": "3 महीने में"
+  },
+  "expire6m": {
+    "message": "6 महीने में"
+  },
+  "expire1y": {
+    "message": "1 साल में"
+  },
+  "expireScheduled": {
+    "message": "$DATE$ को रद्दी में जाएगा",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireCancelled": {
+    "message": "अपने-आप हटाना रद्द किया गया"
+  },
+  "expiresOn": {
+    "message": "$DATE$ को रद्दी में जाएगा",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "expireBulkTitle": {
+    "message": "$N$ आइटम अपने-आप हटाएँ",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "bulkExpire": {
+    "message": "इतने समय बाद हटाएँ…"
+  },
+  "kbExpire": {
+    "message": "अपने-आप हटाएँ…"
+  },
+  "collectionFilterBy": {
+    "message": "सिर्फ़ यह संग्रह दिखाएँ"
+  },
+  "shortReadsHelp": {
+    "message": "सिर्फ़ 5 मिनट से कम में पढ़ी जा सकने वाली चीज़ें दिखाता है (जिनका टेक्स्ट डाउनलोड हो चुका है)।"
+  },
+  "thumbSmall": {
+    "message": "छोटे थंबनेल"
+  },
+  "thumbMedium": {
+    "message": "मध्यम थंबनेल"
+  },
+  "thumbLarge": {
+    "message": "बड़े थंबनेल"
+  },
+  "matchInText": {
+    "message": "टेक्स्ट में"
+  },
+  "matchInTextTitle": {
+    "message": "खोज लेख के टेक्स्ट से मेल खाती है"
+  },
+  "readerWithImages": {
+    "message": "ऑफ़लाइन पढ़ें (छवियों सहित)"
+  },
+  "hlCount": {
+    "message": "$N$ हाइलाइट",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "statImages": {
+    "message": "ऑफ़लाइन छवियाँ"
+  },
+  "statTexts": {
+    "message": "खोजने योग्य टेक्स्ट"
+  },
+  "exportWithImages": {
+    "message": "पूरे बैकअप में ऑफ़लाइन छवियाँ शामिल करें"
+  },
+  "exportWithImagesHelp": {
+    "message": "इनसे फ़ाइल काफ़ी बड़ी हो सकती है। स्वचालित बैकअप में ये कभी शामिल नहीं होतीं।"
+  },
+  "imagesTitle": {
+    "message": "ऑफ़लाइन छवियाँ"
+  },
+  "imagesHelp": {
+    "message": "लेखों की छवियाँ भी सहेजता है ताकि उन्हें रीडर में ऑफ़लाइन देखा जा सके। किसी आइटम को संग्रहित करने पर ये अपने-आप हट जाती हैं। रीडर में छवि बटन एक लेख के लिए इन्हें सहेजता या हटाता है।"
+  },
+  "imagesEnable": {
+    "message": "नए लेखों की छवियाँ सहेजें (Firefox वेबसाइटों तक पहुँच की अनुमति माँगेगा)"
+  },
+  "imagesWarning": {
+    "message": "ये टेक्स्ट से कहीं ज़्यादा जगह लेती हैं: फ़ोटो वाला लेख आमतौर पर 0.5–3 MB लेता है, जबकि सिर्फ़ टेक्स्ट लगभग 10–30 KB।"
+  },
+  "imagesUsage": {
+    "message": "अभी: $N$ छवियाँ, $SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesClear": {
+    "message": "सभी छवियाँ हटाएँ"
+  },
+  "imagesClearConfirm": {
+    "message": "सभी ऑफ़लाइन छवियाँ हटा दी जाएँगी। लेख और उनका टेक्स्ट बने रहेंगे।"
+  },
+  "imagesCleared": {
+    "message": "छवियाँ हटाई गईं"
+  },
+  "imagesEnabledToast": {
+    "message": "अब से नए लेखों की छवियाँ सहेजी जाएँगी"
+  },
+  "imagesOffTitle": {
+    "message": "छवियाँ ऑफ़लाइन सहेजें (ज़्यादा जगह लेती हैं)"
+  },
+  "imagesOnTitle": {
+    "message": "छवियाँ ऑफ़लाइन सहेजी गईं ($SIZE$)। हटाने के लिए क्लिक करें",
+    "placeholders": {
+      "size": {
+        "content": "$1"
+      }
+    }
+  },
+  "imagesArchived": {
+    "message": "संग्रहित आइटम छवियाँ नहीं रखते: संग्रहित करते समय ये हटा दी जाती हैं"
+  },
+  "imagesSaving": {
+    "message": "छवियाँ सहेजी जा रही हैं…"
+  },
+  "imagesProgress": {
+    "message": "छवियाँ सहेजी जा रही हैं: $TOTAL$ में से $DONE$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved": {
+    "message": "$N$ छवियाँ सहेजी गईं ($SIZE$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSavedSome": {
+    "message": "$TOTAL$ में से $N$ छवियाँ सहेजी गईं ($SIZE$); बाकी डाउनलोड नहीं हो सकीं",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      },
+      "total": {
+        "content": "$3"
+      }
+    }
+  },
+  "imagesNone": {
+    "message": "इस लेख में कोई छवि नहीं है"
+  },
+  "imagesFailed": {
+    "message": "कोई भी छवि डाउनलोड नहीं हो सकी"
+  },
+  "imagesRemoved": {
+    "message": "ऑफ़लाइन छवियाँ हटाई गईं"
+  },
+  "archivedImagesGone": {
+    "message": "संग्रहित किया गया (इसकी ऑफ़लाइन छवियाँ हटा दी गईं)"
+  },
+  "print": {
+    "message": "प्रिंट करें या PDF के रूप में सहेजें"
+  },
+  "hlPanel": {
+    "message": "हाइलाइट और नोट"
+  },
+  "hlHint": {
+    "message": "हाइलाइटर मोड चालू करें (हाइलाइटर बटन या H कुंजी), फिर आप जो भी टेक्स्ट चुनेंगे वह यहाँ या Aa में चुने रंग से हाइलाइट होगा। इसके बिना, चुनने पर “हाइलाइट करें” बटन दिखता है।"
+  },
+  "hlEmpty": {
+    "message": "इस लेख में अभी कोई हाइलाइट नहीं है।"
+  },
+  "hlExport": {
+    "message": "सब Markdown के रूप में कॉपी करें"
+  },
+  "hlExported": {
+    "message": "हाइलाइट क्लिपबोर्ड पर कॉपी हुए"
+  },
+  "hlColor_yellow": {
+    "message": "पीला"
+  },
+  "hlColor_green": {
+    "message": "हरा"
+  },
+  "hlColor_blue": {
+    "message": "नीला"
+  },
+  "hlColor_pink": {
+    "message": "गुलाबी"
+  },
+  "hlAddNote": {
+    "message": "नोट जोड़ें"
+  },
+  "hlEditNote": {
+    "message": "नोट संपादित करें"
+  },
+  "hlCopy": {
+    "message": "टेक्स्ट कॉपी करें"
+  },
+  "hlCopied": {
+    "message": "टेक्स्ट कॉपी हुआ"
+  },
+  "hlDelete": {
+    "message": "हाइलाइट हटाएँ"
+  },
+  "hlDeleted": {
+    "message": "हाइलाइट हटाया गया"
+  },
+  "hlNotePlaceholder": {
+    "message": "अपना नोट लिखें…"
+  },
+  "hlGoTo": {
+    "message": "हाइलाइट पर जाएँ"
+  },
+  "hlLost": {
+    "message": "लेख के मौजूदा टेक्स्ट में नहीं मिला"
+  },
+  "save": {
+    "message": "सहेजें"
+  },
+  "repairPending": {
+    "message": "$N$ लेख अजीब अक्षरों के साथ सहेजे गए (अक्षरों की जगह �)।",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairStart": {
+    "message": "फिर से डाउनलोड करें"
+  },
+  "repairProgress": {
+    "message": "ठीक किया जा रहा है: $TOTAL$ में से $DONE$",
+    "placeholders": {
+      "done": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "repairDone": {
+    "message": "$N$ लेख ठीक किए गए",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      }
+    }
+  },
+  "repairReader": {
+    "message": "यह लेख अजीब अक्षरों के साथ सहेजा गया (अक्षरों की जगह �)। फिर से डाउनलोड करने से यह ठीक हो जाता है; आपके हाइलाइट बने रहेंगे।"
+  },
+  "repairReaderBtn": {
+    "message": "फिर से डाउनलोड करें"
+  },
+  "hlColorLabel": {
+    "message": "हाइलाइट का रंग"
+  },
+  "hlDo": {
+    "message": "हाइलाइट करें"
+  },
+  "hlDoTitle": {
+    "message": "हाइलाइट करें (H कुंजी)। रंग Aa में या हाइलाइट पैनल में बदलें"
+  },
+  "hlModeTitle": {
+    "message": "हाइलाइटर मोड: टेक्स्ट चुनते ही हाइलाइट हो जाता है (H कुंजी)"
+  },
+  "hlModeOn": {
+    "message": "हाइलाइटर मोड चालू: हाइलाइट करने के लिए टेक्स्ट चुनें"
+  },
+  "hlModeOff": {
+    "message": "हाइलाइटर मोड बंद"
+  },
+  "sidebarTitle": {
+    "message": "Read Later Local"
+  },
+  "commandSidebar": {
+    "message": "साइडबार खोलें या बंद करें"
+  },
+  "menuSidebar": {
+    "message": "साइडबार"
+  },
+  "sidebarHint": {
+    "message": "क्लिक: यहीं खोलें · Ctrl+क्लिक: नया टैब"
+  },
+  "emailSend": {
+    "message": "ईमेल से भेजें"
+  },
+  "emailAttach": {
+    "message": "संलग्न: सहेजा गया लेख, {file}"
+  },
+  "emailFileSaved": {
+    "message": "एक नया ईमेल खुला है। फ़ाइल “$FILE$” संलग्न करें (सहेजे जाने पर इसका फ़ोल्डर खुलेगा)।",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "emailLinkOnly": {
+    "message": "लिंक के साथ एक नया ईमेल खुला है (इस लेख का कोई सहेजा टेक्स्ट नहीं है)"
+  },
+  "triage": {
+    "message": "सफ़ाई मोड"
+  },
+  "triageTitle": {
+    "message": "आइटम एक-एक करके देखें: रखें, संग्रहित करें या हटाएँ (R कुंजी)"
+  },
+  "triageKeep": {
+    "message": "रखें"
+  },
+  "triageProgress": {
+    "message": "$TOTAL$ में से $N$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "triageNothing": {
+    "message": "इन फ़िल्टर के साथ कोई आइटम नहीं"
+  },
+  "triageDone": {
+    "message": "सब हो गया"
+  },
+  "triageSummary": {
+    "message": "रखे: $KEPT$ · संग्रहित: $ARCHIVED$ · हटाए: $DELETED$",
+    "placeholders": {
+      "kept": {
+        "content": "$1"
+      },
+      "archived": {
+        "content": "$2"
+      },
+      "deleted": {
+        "content": "$3"
+      }
+    }
+  },
+  "menuSaveClose": {
+    "message": "सहेजें और टैब बंद करें"
+  },
+  "menuSaveAllTabs": {
+    "message": "विंडो के सभी टैब सहेजें"
+  },
+  "menuSaveTabs": {
+    "message": "बाद में पढ़ने के लिए सहेजें"
+  },
+  "listenTitle": {
+    "message": "लेख सुनें"
+  },
+  "ttsPlay": {
+    "message": "चलाएँ"
+  },
+  "ttsPause": {
+    "message": "रोकें"
+  },
+  "ttsPrev": {
+    "message": "पिछला अनुच्छेद"
+  },
+  "ttsNext": {
+    "message": "अगला अनुच्छेद"
+  },
+  "ttsStop": {
+    "message": "सुनना बंद करें"
+  },
+  "ttsSpeed": {
+    "message": "गति"
+  },
+  "ttsVoice": {
+    "message": "आवाज़"
+  },
+  "ttsNoVoices": {
+    "message": "Firefox को इस कंप्यूटर पर कोई आवाज़ नहीं मिली। Windows में: सेटिंग्स → समय और भाषा → वाक्।"
+  },
+  "copyMarkdown": {
+    "message": "Markdown के रूप में कॉपी करें"
+  },
+  "markdownCopied": {
+    "message": "लिंक Markdown के रूप में कॉपी हुआ"
+  },
+  "saveMarkdown": {
+    "message": "Markdown के रूप में सहेजें (Obsidian…)"
+  },
+  "markdownSaved": {
+    "message": "$FILE$ के रूप में सहेजा गया",
+    "placeholders": {
+      "file": {
+        "content": "$1"
+      }
+    }
+  },
+  "exportMarkdown": {
+    "message": "Markdown (लिंक की सूची)"
+  },
+  "autoArchive": {
+    "message": "अंत तक पहुँचने पर संग्रहित करें"
+  },
+  "finishedArchived": {
+    "message": "पूरा हुआ: संग्रहित किया गया"
+  },
+  "finishedArchivedImages": {
+    "message": "पूरा हुआ: संग्रहित किया गया (इसकी ऑफ़लाइन छवियाँ हटा दी गईं)"
+  },
+  "ttsError": {
+    "message": "लेख को पढ़कर नहीं सुनाया जा सका। आवाज़ और सिस्टम में इंस्टॉल की गई आवाज़ें जाँचें।"
+  },
+  "imagesUsage_one": {
+    "message": "अभी: $N$ छवि, $SIZE$",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "imagesSaved_one": {
+    "message": "$N$ छवि सहेजी गई ($SIZE$)",
+    "placeholders": {
+      "n": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  }
+}
